@@ -1,0 +1,994 @@
+{
+    "orderId": "1160410539607-01",
+    "sequence": "500043",
+    "marketplaceOrderId": "",
+    "marketplaceServicesEndpoint": null,
+    "sellerOrderId": "CLH-1160410539607-01",
+    "origin": "Marketplace",
+    "affiliateId": "",
+    "salesChannel": "1",
+    "merchantName": null,
+    "status": "payment-approved",
+    "statusDescription": "Pagamento Aprovado",
+    "value": 1403268,
+    "creationDate": "2021-09-09T17:08:58.2365879+00:00",
+    "lastChange": "2021-09-09T17:09:11.5573012+00:00",
+    "orderGroup": "1160410539607",
+    "totals": [
+        {
+            "id": "Items",
+            "name": "Total de los items",
+            "value": 1403268
+        },
+        {
+            "id": "Discounts",
+            "name": "Total de descuentos",
+            "value": 0
+        },
+        {
+            "id": "Shipping",
+            "name": "Costo total del envío",
+            "value": 0
+        },
+        {
+            "id": "Tax",
+            "name": "Costo total del cambio",
+            "value": 0
+        }
+    ],
+    "items": [
+        {
+            "uniqueId": "95EFEF8E55A94C92A9468576127E0789",
+            "id": "117353",
+            "productId": "117353",
+            "ean": "7795933000298",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalcomiqalh",
+            "name": "Atun BAHIA desmenuzado al natural x170gr",
+            "refId": "0117353",
+            "price": 11199,
+            "listPrice": 11199,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvitalcomiqa.vteximg.com.br/arquivos/ids/161758-55-55/117353.jpg?v=637655471212430000",
+            "detailUrl": "/atun-bahia-desmenuzado-al-natural-x170gr-117353/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "117353",
+            "priceValidUntil": "2022-09-09T17:08:40.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "CRUP",
+                "brandId": "2000116",
+                "categoriesIds": "/20002/30012/40061/",
+                "categories": [
+                    {
+                        "id": 40061,
+                        "name": "Conservas De Pescado"
+                    },
+                    {
+                        "id": 30012,
+                        "name": "Enlatados  Y Conservas"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 0.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "un",
+            "unitMultiplier": 48.0000,
+            "sellingPrice": 537552,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 537552,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 537552,
+                "total": 537552
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "007B9887E211424FB6E414C184247F74",
+            "id": "117350",
+            "productId": "117350",
+            "ean": "7795933000281",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalcomiqalh",
+            "name": "Atun BAHIA desmenuzado en aceite x170gr",
+            "refId": "0117350",
+            "price": 11199,
+            "listPrice": 11199,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvitalcomiqa.vteximg.com.br/arquivos/ids/163332-55-55/117350.jpg?v=637656172595070000",
+            "detailUrl": "/atun-bahia-desmenuzado-en-aceite-x170gr-117350/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "117350",
+            "priceValidUntil": "2022-09-09T17:08:40.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "CRUP",
+                "brandId": "2000116",
+                "categoriesIds": "/20002/30012/40061/",
+                "categories": [
+                    {
+                        "id": 40061,
+                        "name": "Conservas De Pescado"
+                    },
+                    {
+                        "id": 30012,
+                        "name": "Enlatados  Y Conservas"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 0.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "un",
+            "unitMultiplier": 48.0000,
+            "sellingPrice": 537552,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 537552,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 537552,
+                "total": 537552
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "209FC183084B4E7993F802365CB7AC09",
+            "id": "151380",
+            "productId": "151380",
+            "ean": "7790070411549",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalcomiqalh",
+            "name": "Rebozador Preferido x500gr",
+            "refId": "0151380",
+            "price": 8178,
+            "listPrice": 8178,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvitalcomiqa.vteximg.com.br/arquivos/ids/253807-55-55/151380.jpg?v=637660150376870000",
+            "detailUrl": "/rebozador-preferido-x500gr-151380/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "151380",
+            "priceValidUntil": "2022-09-09T17:08:40.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "PREFERIDO",
+                "brandId": "2001022",
+                "categoriesIds": "/20002/30014/40069/",
+                "categories": [
+                    {
+                        "id": 40069,
+                        "name": "Rebozador"
+                    },
+                    {
+                        "id": 30014,
+                        "name": "Pan Rallado Y Rebozador"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "139",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 0.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "un",
+            "unitMultiplier": 20.0000,
+            "sellingPrice": 163560,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 163560,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 163560,
+                "total": 163560
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "4188BBDFDA95462F8E4D946ADDE65F8C",
+            "id": "151376",
+            "productId": "151376",
+            "ean": "7790070411495",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalcomiqalh",
+            "name": "Pan rallado Preferido x1kg",
+            "refId": "0151376",
+            "price": 13717,
+            "listPrice": 13717,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvitalcomiqa.vteximg.com.br/arquivos/ids/255607-55-55/151376.jpg?v=637660173860030000",
+            "detailUrl": "/pan-rallado-preferido-x1kg-151376/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "151376",
+            "priceValidUntil": "2022-09-09T17:08:40.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "PREFERIDO",
+                "brandId": "2001022",
+                "categoriesIds": "/20002/30014/40068/",
+                "categories": [
+                    {
+                        "id": 40068,
+                        "name": "Pan Rallado"
+                    },
+                    {
+                        "id": 30014,
+                        "name": "Pan Rallado Y Rebozador"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 0.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "un",
+            "unitMultiplier": 12.0000,
+            "sellingPrice": 164604,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 164604,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 164604,
+                "total": 164604
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        }
+    ],
+    "marketplaceItems": [],
+    "clientProfileData": {
+        "id": "clientProfileData",
+        "email": "2a8262d423c04cb7a32458613e946e4c@ct.vtex.com.br",
+        "firstName": "Alejandra",
+        "lastName": "Perez",
+        "documentType": "dni",
+        "document": "12345678",
+        "phone": "+541111111444",
+        "corporateName": null,
+        "tradeName": null,
+        "corporateDocument": null,
+        "stateInscription": null,
+        "corporatePhone": null,
+        "isCorporate": false,
+        "userProfileId": "fa2163d4-79eb-4d2e-9e29-1dd1531d6fa4",
+        "customerClass": null
+    },
+    "giftRegistryData": null,
+    "marketingData": null,
+    "ratesAndBenefitsData": {
+        "id": "ratesAndBenefitsData",
+        "rateAndBenefitsIdentifiers": []
+    },
+    "shippingData": {
+        "id": "shippingData",
+        "address": {
+            "addressType": "residential",
+            "receiverName": "Alejandra Perez",
+            "addressId": "LOMA HERMOSA BUENOS AIRES JUAN B JUSTO 365",
+            "postalCode": "1657",
+            "city": "LOMA HERMOSA",
+            "state": "BUENOS AIRES",
+            "country": "ARG",
+            "street": "JUAN B JUSTO",
+            "number": "365",
+            "neighborhood": "BUENOS AIRES, JUNIN",
+            "complement": "PB",
+            "reference": "2        1",
+            "geoCoordinates": [
+                -58.617446899414063,
+                -34.566440582275391
+            ]
+        },
+        "logisticsInfo": [
+            {
+                "itemIndex": 0,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-09-13T17:09:07.3432433+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1657)",
+                        "name": "Retiro en Sucursal (1657)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1657",
+                                "postalCode": "1657",
+                                "city": "Loma Hermosa",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Avenida Bernabé Márquez",
+                                "number": "969",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.5938,
+                                    -34.5708
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Loma Hermosa",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalcomiqalh_1657",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1401",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "LOMA HERMOSA BUENOS AIRES JUAN B JUSTO 365",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 1,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-09-13T17:09:07.3432433+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1657)",
+                        "name": "Retiro en Sucursal (1657)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1657",
+                                "postalCode": "1657",
+                                "city": "Loma Hermosa",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Avenida Bernabé Márquez",
+                                "number": "969",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.5938,
+                                    -34.5708
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Loma Hermosa",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalcomiqalh_1657",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1401",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "LOMA HERMOSA BUENOS AIRES JUAN B JUSTO 365",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 2,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-09-13T17:09:07.3432433+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1657)",
+                        "name": "Retiro en Sucursal (1657)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1657",
+                                "postalCode": "1657",
+                                "city": "Loma Hermosa",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Avenida Bernabé Márquez",
+                                "number": "969",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.5938,
+                                    -34.5708
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Loma Hermosa",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalcomiqalh_1657",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1401",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "LOMA HERMOSA BUENOS AIRES JUAN B JUSTO 365",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 3,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-09-13T17:09:07.3432433+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1657)",
+                        "name": "Retiro en Sucursal (1657)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1657",
+                                "postalCode": "1657",
+                                "city": "Loma Hermosa",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Avenida Bernabé Márquez",
+                                "number": "969",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.5938,
+                                    -34.5708
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Loma Hermosa",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalcomiqalh_1657",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1401",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "LOMA HERMOSA BUENOS AIRES JUAN B JUSTO 365",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            }
+        ],
+        "trackingHints": null,
+        "selectedAddresses": [
+            {
+                "addressId": "LOMA HERMOSA BUENOS AIRES JUAN B JUSTO 365",
+                "addressType": "residential",
+                "receiverName": "Alejandra Perez",
+                "street": "JUAN B JUSTO",
+                "number": "365",
+                "complement": "PB",
+                "neighborhood": "BUENOS AIRES, JUNIN",
+                "postalCode": "1657",
+                "city": "LOMA HERMOSA",
+                "state": "BUENOS AIRES",
+                "country": "ARG",
+                "reference": "2        1",
+                "geoCoordinates": [
+                    -58.617446899414063,
+                    -34.566440582275391
+                ]
+            }
+        ]
+    },
+    "paymentData": {
+        "giftCards": [],
+        "transactions": [
+            {
+                "isActive": true,
+                "transactionId": "26ACBA82DEE843678AD653FBE031EDED",
+                "merchantName": "ARVITALCOMIQA",
+                "payments": [
+                    {
+                        "id": "220BABBB89E44D1AA015432A0524FD2A",
+                        "paymentSystem": "201",
+                        "paymentSystemName": "Pago a convenir",
+                        "value": 1403268,
+                        "installments": 1,
+                        "referenceValue": 1403268,
+                        "cardHolder": null,
+                        "cardNumber": null,
+                        "firstDigits": null,
+                        "lastDigits": null,
+                        "cvv2": null,
+                        "expireMonth": null,
+                        "expireYear": null,
+                        "url": null,
+                        "giftCardId": null,
+                        "giftCardName": null,
+                        "giftCardCaption": null,
+                        "redemptionCode": null,
+                        "group": "promissory",
+                        "tid": null,
+                        "dueDate": null,
+                        "connectorResponses": {},
+                        "giftCardProvider": null,
+                        "giftCardAsDiscount": null,
+                        "koinUrl": null,
+                        "accountId": null,
+                        "parentAccountId": null,
+                        "bankIssuedInvoiceIdentificationNumber": null,
+                        "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                        "bankIssuedInvoiceBarCodeNumber": null,
+                        "bankIssuedInvoiceBarCodeType": null,
+                        "billingAddress": null
+                    }
+                ]
+            }
+        ]
+    },
+    "packageAttachment": {
+        "packages": []
+    },
+    "sellers": [
+        {
+            "id": "arvitalcomiqalh",
+            "name": "arvitalcomiqalh",
+            "logo": null,
+            "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?affiliateid=CLH&sc=1&an=arvitalcomiqalh"
+        }
+    ],
+    "callCenterOperatorData": null,
+    "followUpEmail": "74b24f415ddf4ff48f82df5598f60702@ct.vtex.com.br",
+    "lastMessage": null,
+    "hostname": "arvitalcomiqa",
+    "invoiceData": null,
+    "changesAttachment": null,
+    "openTextField": null,
+    "roundingError": 0,
+    "orderFormId": "a6f3021917d94ce89ebd84aca162c62c",
+    "commercialConditionData": null,
+    "isCompleted": true,
+    "customData": {
+        "customApps": [
+            {
+                "fields": {
+                    "value": "CA68D81B157F775FE053100210AC45BB"
+                },
+                "id": "id_cuenta",
+                "major": 1
+            },
+            {
+                "fields": {
+                    "lista": "0.7500",
+                    "tapa": "0.2500",
+                    "oferta": "0.0000"
+                },
+                "id": "semaforo",
+                "major": 1
+            }
+        ]
+    },
+    "storePreferencesData": {
+        "countryCode": "ARG",
+        "currencyCode": "ARS",
+        "currencyFormatInfo": {
+            "CurrencyDecimalDigits": 2,
+            "CurrencyDecimalSeparator": ",",
+            "CurrencyGroupSeparator": ".",
+            "CurrencyGroupSize": 3,
+            "StartsWithCurrencySymbol": true
+        },
+        "currencyLocale": 11274,
+        "currencySymbol": "$",
+        "timeZone": "Argentina Standard Time"
+    },
+    "allowCancellation": true,
+    "allowEdition": false,
+    "isCheckedIn": false,
+    "marketplace": null,
+    "authorizedDate": "2021-09-09T17:09:05.3772083+00:00",
+    "invoicedDate": null,
+    "cancelReason": null,
+    "itemMetadata": {
+        "Items": [
+            {
+                "Id": "117353",
+                "Seller": "1",
+                "Name": "Atun BAHIA desmenuzado al natural x170gr",
+                "SkuName": "Atun BAHIA desmenuzado al natural x170gr",
+                "ProductId": "117353",
+                "RefId": "0117353",
+                "Ean": "7795933000298",
+                "ImageUrl": "http://arvitalcomiqa.vteximg.com.br/arquivos/ids/161758-55-55/117353.jpg?v=637655471212430000",
+                "DetailUrl": "/atun-bahia-desmenuzado-al-natural-x170gr-117353/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "117350",
+                "Seller": "1",
+                "Name": "Atun BAHIA desmenuzado en aceite x170gr",
+                "SkuName": "Atun BAHIA desmenuzado en aceite x170gr",
+                "ProductId": "117350",
+                "RefId": "0117350",
+                "Ean": "7795933000281",
+                "ImageUrl": "http://arvitalcomiqa.vteximg.com.br/arquivos/ids/163332-55-55/117350.jpg?v=637656172595070000",
+                "DetailUrl": "/atun-bahia-desmenuzado-en-aceite-x170gr-117350/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "151380",
+                "Seller": "1",
+                "Name": "Rebozador Preferido x500gr",
+                "SkuName": "Rebozador Preferido x500gr",
+                "ProductId": "151380",
+                "RefId": "0151380",
+                "Ean": "7790070411549",
+                "ImageUrl": "http://arvitalcomiqa.vteximg.com.br/arquivos/ids/253807-55-55/151380.jpg?v=637660150376870000",
+                "DetailUrl": "/rebozador-preferido-x500gr-151380/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "151376",
+                "Seller": "1",
+                "Name": "Pan rallado Preferido x1kg",
+                "SkuName": "Pan rallado Preferido x1kg",
+                "ProductId": "151376",
+                "RefId": "0151376",
+                "Ean": "7790070411495",
+                "ImageUrl": "http://arvitalcomiqa.vteximg.com.br/arquivos/ids/255607-55-55/151376.jpg?v=637660173860030000",
+                "DetailUrl": "/pan-rallado-preferido-x1kg-151376/p",
+                "AssemblyOptions": []
+            }
+        ]
+    },
+    "subscriptionData": null,
+    "taxData": null,
+    "checkedInPickupPointId": null,
+    "cancellationData": null
+}

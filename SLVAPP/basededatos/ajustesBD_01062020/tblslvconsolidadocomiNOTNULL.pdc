@@ -1,0 +1,2 @@
+-- Add/modify columns 
+alter table TBLSLVCONSOLIDADOCOMI modify idcomisionista not null;

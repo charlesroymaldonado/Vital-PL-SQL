@@ -1,0 +1,10 @@
+tablas:
+
+tblslvControlRemito
+tblslvControlRemitoDet
+tblslvconteo;
+tblslvconteodet;
+
+paquetes:
+
+PKG_SLV_CONTROL

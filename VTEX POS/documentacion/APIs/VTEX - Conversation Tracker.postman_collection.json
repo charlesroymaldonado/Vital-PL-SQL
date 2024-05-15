@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "078a49eb-af43-4d09-bb3b-cbc55e6780c2",
+		"name": "VTEX - Conversation Tracker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Email Mapping",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-VTEX-API-AppToken",
+						"value": "{{X-VTEX-API-AppToken}}",
+						"type": "text"
+					},
+					{
+						"key": "X-VTEX-API-AppKe",
+						"value": "{{X-VTEX-API-AppKe}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://conversationtracker.vtex.com.br/api/pvt/emailMapping?alias={{hashEmail}}&an={{accounName}}",
+					"protocol": "http",
+					"host": [
+						"conversationtracker",
+						"vtex",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"pvt",
+						"emailMapping"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "alias",
+							"value": "{{hashEmail}}"
+						},
+						{
+							"key": "an",
+							"value": "{{accounName}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

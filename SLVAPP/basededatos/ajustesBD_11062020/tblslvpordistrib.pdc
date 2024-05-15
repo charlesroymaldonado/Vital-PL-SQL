@@ -1,0 +1,50 @@
+-- Create table
+create table TBLSLVPORDISTRIB
+(
+  idpedido           CHAR(40) not null,
+  idconsolidado      INTEGER not null,
+  cdtipo             INTEGER not null
+  cdarticulo         CHAR(8) not null,
+  qtunidadmedidabase NUMBER(10,2) not null,
+  totalconsolidado   NUMBER(10,2) not null,
+  porcdist           NUMBER(5,2),
+  dtinsert           DATE
+)
+tablespace DATA
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table TBLSLVPORDISTRIB
+  add constraint PK_PORCDISTB primary key (IDCONSOLIDADO, CDTIPO, CDARTICULO, IDPEDIDO)
+  using index 
+  tablespace DATA
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );
+alter table TBLSLVPORDISTRIB
+  add constraint FK_PORCDIST_ARTICULOS foreign key (CDARTICULO)
+  references POSAPP.ARTICULOS (CDARTICULO);
+alter table TBLSLVPORDISTRIB
+  add constraint FK_PORCDIST_TIPOTAREA foreign key (CDTIPO)
+  references TBLSLVTIPOTAREA (CDTIPO);
+alter table TBLSLVPORDISTRIB
+  add constraint FK_PORCDIST_CONSOLIDADOPEDIDO foreign key (IDCONSOLIDADO)
+  references TBLSLVCONSOLIDADOPEDIDO (IDCONSOLIDADOPEDIDO);
+alter table TBLSLVPORDISTRIB
+  add constraint FK_PORCDIST_PEDIDOS foreign key (IDPEDIDO)
+  references POSAPP.PEDIDOS (IDPEDIDO);

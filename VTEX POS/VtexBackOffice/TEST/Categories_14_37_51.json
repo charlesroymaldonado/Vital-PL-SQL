@@ -1,0 +1,21 @@
+﻿    [
+	{
+        "id": 40900,
+        "name": "Leches",
+        "fatherCategoryId": 30011,
+        "title": "Leches",
+        "description": "Leches",
+        "keywords": "Leches,40900",
+        "isActive": true,
+        "lomadeeCampaignCode": null,
+        "adWordsRemarketingCode": null,
+        "showInStoreFront": true,
+        "showBrandFilter": true,
+        "activeStoreFrontLink": true,
+        "globalCategoryId": 2271,
+        "stockKeepingUnitSelectionMode": "SPECIFICATION",
+        "score": 38400,
+        "linkId": "Leches",
+        "hasChildren": false
+      }
+	  ]

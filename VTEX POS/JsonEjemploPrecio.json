@@ -1,0 +1,45 @@
+{
+  "itemId": "93",
+  "listPrice": null,
+  "costPrice": 100,
+  "markup": 50,
+  "basePrice": 150,
+  "fixedPrices": [
+    {
+      "tradePolicyId": "1",
+      "value": 130,
+      "listPrice": 140,
+      "minQuantity": 1,
+      "dateRange": {
+        "from": "2020-12-01T19:00:00Z",
+        "to": "2020-12-08T19:00:00Z"
+      }
+    },
+    {
+      "tradePolicyId": "2",
+      "value": 130,
+      "listPrice": 140,
+      "minQuantity": 1,
+      "dateRange": {
+        "from": "2020-12-01T14:30:00Z",
+        "to": "2020-12-01T19:00:00Z"
+      }
+    },
+    {
+      "tradePolicyId": "3",
+      "value": 180,
+      "listPrice": 160,
+      "minQuantity": 1
+    },
+    {
+      "tradePolicyId": "3",
+      "value": 14.35,
+      "listPrice": 160,
+      "minQuantity": 1,
+      "dateRange": {
+        "from": "2020-12-01T20:00:00Z",
+        "to": "2020-12-01T22:30:00Z"
+      }
+    }
+  ]
+}

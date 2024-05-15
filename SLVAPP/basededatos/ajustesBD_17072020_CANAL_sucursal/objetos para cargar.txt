@@ -1,0 +1,27 @@
+ tablas:
+
+
+select * from tblslvpedidogeneradoxfaltante;
+
+select * from tblslvconsolidadopedido;
+select * from tblslvconsolidadopedidodet;
+select * from tblslvconsolidadom;
+select * from tblslvconsolidadomdet;
+select * from tblslvtarea;
+select * from tblslvtareadet;
+select * from tblslvremito;
+select * from tblslvremitodet;
+select * from tblslvControlRemito;
+select * from tblslvControlRemitoDet;
+
+paquetes:
+
+PKG_SLV_CONSOLIDADOS
+PKG_SLV_CONSOLIDAM
+PKG_SLV_TAREAS
+PKG_SLV_ARTICULO
+PKG_SLV_REMITOS
+
+PKG_SLV_REPORTE
+PKG_SLV_DISTRIBUCION
+

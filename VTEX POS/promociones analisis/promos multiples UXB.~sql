@@ -1,0 +1,84 @@
+   SELECT distinct 
+                R.ID_PROMO,
+                r.cdpromo,                
+                R.NOMBRE,
+                SUC.CDSUCURSAL,
+                r.id_promo_estado,
+                R.ID_PROMO_TIPO TIPO,
+                r.multiproducto,
+                CP.VALOR ValorCond,
+                VP1.NOMBRE UnidadCond,
+                AP.VALOR ValorAcc,
+                R.vigencia_desde,
+                R.vigencia_hasta,
+                canal.id_canal,
+                r.fecha_ultima_modificacion
+                --,        
+              --  PKG_CLD_DATOS.LeyendasPromoCucarda(r.id_promo) cucarda,
+                --PKG_CLD_DATOS.FNLeyendaPromoCorta(r.id_promo) leyenda
+           FROM TBLPROMO                     R,
+                TBLPROMO_CONDICION           C,
+                TBLPROMO_CONDICION_PARAMETRO CP,
+                TBLPROMO_CONDICION_PARAMETRO CP2,
+                TBLPROMO_CONDICION_PARAMETRO CP3,
+                TBLPROMO_TIPO_CONDICION      TC,
+                TBLPROMO_TIPO_ACCION         TA,
+                TBLPROMO_ACCION              A,
+                TBLPROMO_ACCION_PARAMETRO    AP,
+                TBLPROMO_ACCION_PARAMETRO    AP2,
+                TBLPROMO_SUCURSAL            SUC,
+                TBLPROMO_CANAL               CANAL,
+                TBLPROMO_VALOR_PERMITIDO     VP1,
+                TBLPROMO_VALOR_PERMITIDO     VP2
+          WHERE 1 = 1
+            AND C.ID_PROMO = R.ID_PROMO
+            AND TC.ID_PROMO_TIPO_CONDICION = C.ID_PROMO_TIPO_CONDICION
+            AND SUC.ID_PROMO = C.ID_PROMO
+            AND CANAL.ID_PROMO = C.ID_PROMO
+            AND CP.ID_PROMO_CONDICION = C.ID_PROMO_CONDICION
+            AND CP.ID_PROMO_PARAMETRO = 6 --Parametro Cantidad
+            AND CP2.ID_PROMO_CONDICION = C.ID_PROMO_CONDICION
+            AND CP2.ID_PROMO_PARAMETRO = 10 --Parametro Fidelizacion
+            AND CP3.ID_PROMO_CONDICION = C.ID_PROMO_CONDICION
+            AND CP3.ID_PROMO_PARAMETRO = 7 --Parametro Tipo Unidad
+            AND VP1.ID_PROMO_VALOR_PERMITIDO = CP3.VALOR
+            AND A.ID_PROMO = R.ID_PROMO
+            AND TA.ID_PROMO_TIPO_ACCION = A.ID_PROMO_TIPO_ACCION
+            AND AP.ID_PROMO_ACCION = A.ID_PROMO_ACCION
+            AND AP.ID_PROMO_PARAMETRO IN (6, 8) --Acción 6=Cantidad , 8=Porcentaje Descuento (Si cambia esto hay que controlar la interfaz de stock)
+            AND AP2.ID_PROMO_ACCION(+) = A.ID_PROMO_ACCION
+            AND AP2.ID_PROMO_PARAMETRO(+) = 7 --Parametro Tipo Unidad
+            AND VP2.ID_PROMO_VALOR_PERMITIDO(+) = AP2.VALOR
+          --  AND &p_fecha between r.VIGENCIA_DESDE AND r.VIGENCIA_HASTA
+          --  AND SUC.CDSUCURSAL in (select distinct vs.cdsucursal from vtexsellers vs) --Sucursales activas en VTEX
+        --    AND trim(CANAL.ID_CANAL) in (select distinct vs.id_canal from vtexsellers vs) --Canales activos en VTEX
+            AND R.ID_PROMO_TIPO in (1,7)
+            and VP1.NOMBRE ='Bulto'
+            and R.ID_PROMO in ('A60744B4A9700BC5E05310C8A8C04135','AA5A4829A61167D1E05310C8A8C0AE88')
+            ;
+            
+            
+            select distinct  
+                       p.id_promo,
+                       p.cdpromo, 
+                       aa.cdarticulo,                
+                       n_pkg_vitalpos_materiales.getuxb(aa.cdarticulo) uxb
+                  from tblpromo                 p, 
+                       tblpromo_accion          a, 
+                       tblpromo_accion_articulo aa, 
+                       tblpromo_canal           c, 
+                       tblpromo_sucursal        S
+                  where p.id_promo = s.id_promo
+                  and p.id_promo = c.id_promo
+                  and p.id_promo = a.id_promo
+                  and a.id_promo_accion = aa.id_promo_accion             
+                  and p.id_promo in ('A60744B4A9700BC5E05310C8A8C04135','AA5A4829A61167D1E05310C8A8C0AE88')
+                  order by 2;
+            
+            
+            
+ /*           
+            '"'||( select distinct LISTAGG(vps.skuid, '","') WITHIN GROUP (ORDER BY vps.skuid) 
+                      from Vtexpromotionsku vps
+                     where vps.id_promo_pos=vp.id_promo_pos)||'"' listSku1BuyTogether, 
+            */

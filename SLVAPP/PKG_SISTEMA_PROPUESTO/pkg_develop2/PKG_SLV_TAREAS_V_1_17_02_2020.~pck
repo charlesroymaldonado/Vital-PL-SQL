@@ -1,0 +1,390 @@
+create or replace package PKG_SLV_TAREAS is
+/**********************************************************************************************************
+ * Author  : CMALDONADO_C
+ * Created : 13/02/2020 01:45:03 P.m.
+ * %v Paquete para gestión y asignación de tareas SLV
+ **********************************************************************************************************/
+ -- Tipos de datos
+ 
+      TYPE CURSOR_TYPE IS REF CURSOR;
+      
+     TYPE arr_cdarticulo IS TABLE OF CHAR(8) INDEX BY PLS_INTEGER;
+
+  --Procedimientos y Funciones
+    PROCEDURE GetListaConsolidadoM(p_Cursor     OUT CURSOR_TYPE);
+    
+    PROCEDURE GetListaArmadores(p_Cursor     OUT CURSOR_TYPE);
+    
+    PROCEDURE GetArticulosConsolidadoM(p_idConsolidadoM  IN  Tblslvconsolidadom.Idconsolidadom%type,
+                                       p_Cursor          OUT CURSOR_TYPE);
+                                       
+    PROCEDURE GetArticulosConsolidadoComi(p_Idconsolidadocomi  IN  Tblslvconsolidadocomi.Idconsolidadocomi%type,
+                                          p_Cursor             OUT CURSOR_TYPE);                                     
+                                       
+    PROCEDURE SetAsignaArticulosArmador(p_cdArticulos    IN  arr_cdarticulo,
+                                      p_idConsolidado  IN  integer,
+                                      p_TipoTarea      IN  tblslvtipotarea.cdtipo%type,                         
+                                      p_IdPersona      IN  personas.idpersona%type,
+                                      p_IdArmador      IN  personas.idpersona%type,
+                                      p_Ok             OUT number,
+                                      p_error          OUT varchar2);                                      
+
+end PKG_SLV_TAREAS;
+/
+create or replace package body PKG_SLV_TAREAS is
+/***************************************************************************************************
+*  %v 13/02/2020  ChM - Parametros globales del PKG
+****************************************************************************************************/
+--c_qtDecimales                                  CONSTANT number := 2; -- cantidad de decimales para redondeo
+ g_cdSucursal      sucursales.cdsucursal%type := trim(getvlparametro('CDSucursal',
+                                                                      'General'));
+ /****************************************************************************************************
+  * %v 13/02/2020 - ChM  Versión inicial GetListaConsolidadoM
+  * %v 13/02/2020 - ChM  lista los consolidados Multicanal distintos de estado 3 (finalizado)
+  *****************************************************************************************************/
+  PROCEDURE GetListaConsolidadoM(p_Cursor     OUT CURSOR_TYPE) IS
+   
+   v_modulo varchar2(100) := 'PKG_SLV_TAREAS.GetListaConsolidadoM';
+  
+    BEGIN             
+      OPEN p_Cursor FOR 
+             select m.idconsolidadom,
+                    to_char(m.dtinsert,'dd/mm/yyyy')||' - '||m.idconsolidadom NroConsolidado                               
+               from tblslvconsolidadom m
+              where m.cdestado <> 3;
+    EXCEPTION
+    WHEN OTHERS THEN
+      n_pkg_vitalpos_log_general.write(2,
+                                       'Modulo: ' || v_modulo ||
+                                       '  Error: ' || SQLERRM);                           
+    END GetListaConsolidadoM;
+    
+ /****************************************************************************************************
+  * %v 13/02/2020 - ChM  Versión inicial GetListaArmadores
+  * %v 13/02/2020 - ChM  lista todas las personas del grupo Armadores
+  *****************************************************************************************************/
+  PROCEDURE GetListaArmadores(p_Cursor     OUT CURSOR_TYPE) IS
+   
+   v_modulo varchar2(100) := 'PKG_SLV_TAREAS.GETlistaArmadores';
+  
+    BEGIN             
+      OPEN p_Cursor FOR 
+             Select pe.Idpersona,
+                    upper(pe.dsnombre) || ' ' || upper(pe.dsapellido) Armador 
+               from permisos p, 
+                    personas pe
+              where p.idpersona = pe.idpersona
+                and upper(p.nmgrupotarea)='EXPEDICION' ;
+
+    EXCEPTION
+    WHEN OTHERS THEN
+      n_pkg_vitalpos_log_general.write(2,
+                                       'Modulo: ' || v_modulo ||
+                                       '  Error: ' || SQLERRM);                           
+  END GetListaArmadores;    
+    
+ /****************************************************************************************************
+  * %v 13/02/2020 - ChM  Versión inicial GetArticulosConsolidadoM
+  * %v 13/02/2020 - ChM  lista los articulos que conforman un IdConsolidadoM
+  *****************************************************************************************************/
+  PROCEDURE GetArticulosConsolidadoM(p_idConsolidadoM  IN  Tblslvconsolidadom.Idconsolidadom%type,
+                                     p_Cursor          OUT CURSOR_TYPE) IS
+   
+   v_modulo varchar2(100) := 'PKG_SLV_TAREAS.GetArticulosConsolidadoM';
+  
+    BEGIN             
+      OPEN p_Cursor FOR 
+             Select m.idconsolidadom, 
+                    gs.cdgrupo||' - ' ||gs.dsgruposector||' ('||sec.dssector || ')' Sector,
+                    det.cdarticulo cdArticulo,
+                    art.cdarticulo || '- ' || des.vldescripcion Articulo,
+                    PKG_SLV_Articulos.SetFormatoArticulos(art.cdarticulo,det.qtunidadmedidabase) Cantidad
+               from tblslvconsolidadom m,
+                    tblslvconsolidadomdet det,
+                    tblslv_grupo_sector gs,
+                    sectores sec,
+                    descripcionesarticulos des,
+                    articulos art
+              where m.idconsolidadom = det.idconsolidadom
+                and det.cdarticulo = art.cdarticulo
+                and det.idgrupo_sector = gs.idgrupo_sector
+                and m.cdestado <> 3 --estado consolidado multicanal no finalizado 
+                and sec.cdsector = gs.cdsector
+                and art.cdarticulo = des.cdarticulo
+                and gs.cdsucursal =  g_cdSucursal
+                and m.idconsolidadom = p_idConsolidadoM
+                --valida no listar articulos ya asignados al armador
+                and det.cdarticulo not in(select td.cdarticulo  
+                                            from tblslvtarea ta, 
+                                                 tblslvtareadet td
+                                           where ta.idtarea=td.idtarea
+                                             and ta.idconsolidadom=m.idconsolidadom
+                                             and ta.idpersona= m.idpersona
+                                             and ta.cdtipo=1); --tblslvtipotarea  1 ConsolidadoM
+    EXCEPTION
+    WHEN OTHERS THEN
+      n_pkg_vitalpos_log_general.write(2,
+                                       'Modulo: ' || v_modulo ||
+                                       '  Error: ' || SQLERRM);                           
+  END GetArticulosConsolidadoM;   
+       
+ /****************************************************************************************************
+  * %v 14/02/2020 - ChM  Versión inicial GetArticulosConsolidadoComi
+  * %v 14/02/2020 - ChM  lista los articulos que conforman un IdConsolidadoComi
+  *****************************************************************************************************/
+  PROCEDURE GetArticulosConsolidadoComi(p_IdconsolidadoComi  IN  Tblslvconsolidadocomi.Idconsolidadocomi%type,
+                                        p_Cursor             OUT CURSOR_TYPE) IS
+   
+   v_modulo varchar2(100) := 'PKG_SLV_TAREAS.GetArticulosConsolidadoComi';
+  
+    BEGIN             
+      OPEN p_Cursor FOR 
+             Select cm.idconsolidadocomi, 
+                    gs.cdgrupo||' - ' ||gs.dsgruposector||' ('||sec.dssector || ')' Sector,
+                    cdet.cdarticulo cdArticulo,
+                    art.cdarticulo || '- ' || des.vldescripcion Articulo,
+                    PKG_SLV_Articulos.SetFormatoArticulos(art.cdarticulo,cdet.qtunidadmedidabase) Cantidad
+               from tblslvconsolidadocomi cm,
+                    tblslvconsolidadocomidet cdet,
+                    tblslv_grupo_sector gs,
+                    sectores sec,
+                    descripcionesarticulos des,
+                    articulos art
+              where cm.idconsolidadocomi = cdet.idconsolidadocomi
+                and cdet.cdarticulo = art.cdarticulo
+                and cdet.idgrupo_sector = gs.idgrupo_sector
+                and cm.cdestado <> 27 --estado de consolidado comisionista no finalizado 
+                and sec.cdsector = gs.cdsector
+                and art.cdarticulo = des.cdarticulo
+                and gs.cdsucursal =  g_cdSucursal
+                and cm.idconsolidadocomi = p_IdconsolidadoComi 
+                --valida no listar articulos ya asignados al armador
+                and cdet.cdarticulo not in(select td.cdarticulo  
+                                            from tblslvtarea ta, 
+                                                 tblslvtareadet td
+                                           where ta.idtarea=td.idtarea
+                                             and ta.idconsolidadocomi=cm.idconsolidadocomi
+                                             and ta.idpersona= cm.idpersona
+                                             and ta.cdtipo=5); --tblslvtipotarea  5 ConsolidadoComi
+    EXCEPTION
+    WHEN OTHERS THEN
+      n_pkg_vitalpos_log_general.write(2,
+                                       'Modulo: ' || v_modulo ||
+                                       '  Error: ' || SQLERRM);                           
+  END GetArticulosConsolidadoComi;  
+  
+  /****************************************************************************************************
+  * %v 14/02/2020 - ChM  Versión inicial SetAsignaArtConsolidadoM
+  * %v 14/02/2020 - ChM  crea las tareas de picking por armador solo para tblslvconsolidadoM
+  *****************************************************************************************************/
+  PROCEDURE SetAsignaArtConsolidadoM (p_cdArticulos    IN  arr_cdarticulo,
+                                      p_idConsolidado  IN  integer,
+                                      p_IdPersona      IN  personas.idpersona%type,
+                                      p_IdArmador      IN  personas.idpersona%type,
+                                      p_Ok             OUT number) IS
+                                      
+    v_modulo  varchar2(100) := 'PKG_SLV_TAREAS.SetAsignaArtConsolidadoM';
+    v_error   varchar2(200);
+    
+  BEGIN
+      --inserta la cabezera de la tarea
+      insert into tblslvtarea 
+             values (seq_tarea.nextval,
+                     null, --idfaltante
+                     p_idConsolidado, --idconsolidadoM
+                     null, --idconsolidadopedido
+                     null, --idconsolidadocomi
+                     1,    --TipoTarea 1 ConsolidadoM
+                     p_IdPersona, 
+                     p_IdArmador, 
+                     null,  --dtinicio   
+                     null,  --dtfin
+                     0,  --prioridad
+                     4,    -- cdestado TareaConsolidadoM
+                     sysdate, --dtinsert
+                     null   --dtupdate
+                     );
+    --itera cada articulo del arreglo            
+    FOR i IN 1 .. p_cdArticulos.count LOOP 
+         --inserta el detalle de la tarea asignada por Armador por articulo 
+         v_error := 'Falla INSERT tblslvtareadet IdPersona: ' ||
+                 p_IdPersona||' Armador: '||p_IdArmador||
+                 ' Articulo: ' ||p_cdArticulos(i);
+         insert into tblslvtareadet  
+                select seq_tareadet.nextval,
+                       seq_tarea.currval,
+                       null,   --idremito
+                       det.cdarticulo,
+                       det.qtunidadmedidabase,
+                       null,   --qtunidadmedidabasepicking
+                       null,   --qtpiezas
+                       null,   --qtpiezaspicking
+                       sysdate,--dtinsert
+                       null    --dtupdate 
+                  from tblslvconsolidadomdet det,
+                       tblslvconsolidadom m
+                 where det.idconsolidadom=m.idconsolidadom
+                   and m.idpersona=p_IdPersona
+                   and det.idconsolidadom=p_idConsolidado
+                   and det.cdarticulo=p_cdArticulos(i);
+        IF SQL%ROWCOUNT = 0  THEN      --valida insert de la tabla tblslvtareadet 
+           n_pkg_vitalpos_log_general.write(2,
+                                       'Modulo: ' || v_modulo ||
+                                       ' Detalle Error: ' || v_error);
+   	       p_Ok:=0;  
+           ROLLBACK;                                
+           RETURN;
+        END IF;             
+    END LOOP;
+     p_Ok:=1;
+     COMMIT;
+  EXCEPTION
+    WHEN OTHERS THEN
+      n_pkg_vitalpos_log_general.write(2,
+                                       'Modulo: ' || v_modulo ||
+                                       ' Detalle Error: ' || v_error||                                     
+                                       ' Error: ' || SQLERRM);
+      p_Ok    := 0;
+      ROLLBACK;
+  END SetAsignaArtConsolidadoM;    
+  
+  /****************************************************************************************************
+  * %v 14/02/2020 - ChM  Versión inicial SetAsignaArtConsolidadoComi
+  * %v 14/02/2020 - ChM  crea las tareas de picking por armador solo para tblslvconsolidadoComi
+  *****************************************************************************************************/
+  PROCEDURE SetAsignaArtConsolidadoComi (p_cdArticulos    IN  arr_cdarticulo,
+                                         p_idConsolidado  IN  integer,
+                                         p_IdPersona      IN  personas.idpersona%type,
+                                         p_IdArmador      IN  personas.idpersona%type,
+                                         p_Ok             OUT number) IS
+                                      
+    v_modulo  varchar2(100) := 'PKG_SLV_TAREAS.SetAsignaArtConsolidadoComi';
+    v_error   varchar2(200);
+    
+  BEGIN
+    
+      --inserta la cabezera de la tarea
+      insert into tblslvtarea 
+             values (seq_tarea.nextval,
+                     null, --idfaltante
+                     null, --idconsolidadoM
+                     null, --idconsolidadopedido
+                     p_idConsolidado, --idconsolidadocomi
+                     5,    --TipoTarea 5 ConsolidadoComi de la tabla tblslvtarea
+                     p_IdPersona, 
+                     p_IdArmador, 
+                     null,  --dtinicio   
+                     null,  --dtfin
+                     0,  --prioridad
+                     33,    -- cdestado 33 asignado TareaConsolidadoComi de la tabla tblslvestado
+                     sysdate, --dtinsert
+                     null   --dtupdate
+                     );
+    --itera cada articulo del arreglo            
+    FOR i IN 1 .. p_cdArticulos.count LOOP 
+         --inserta el detalle de la tarea asignada por Armador por articulo 
+         v_error := 'Falla INSERT tblslvtareadet IdPersona: ' ||
+                 p_IdPersona||' Armador: '||p_IdArmador||
+                 ' Articulo: ' ||p_cdArticulos(i);
+         insert into tblslvtareadet  
+                select seq_tareadet.nextval,
+                       seq_tarea.currval,
+                       null,   --idremito
+                       det.cdarticulo,
+                       det.qtunidadmedidabase,
+                       null,   --qtunidadmedidabasepicking
+                       null,   --qtpiezas
+                       null,   --qtpiezaspicking
+                       sysdate,--dtinsert
+                       null    --dtupdate 
+                  from tblslvconsolidadocomidet det,
+                       tblslvconsolidadocomi m
+                 where det.idconsolidadocomi=m.idconsolidadocomi
+                   and m.idpersona=p_IdPersona
+                   and det.idconsolidadocomi=p_idConsolidado
+                   and det.cdarticulo=p_cdArticulos(i);
+        IF SQL%ROWCOUNT = 0  THEN      --valida insert de la tabla tblslvtareadet 
+           n_pkg_vitalpos_log_general.write(2,
+                                       'Modulo: ' || v_modulo ||
+                                       ' Detalle Error: ' || v_error);
+   	       p_Ok:=0;  
+           ROLLBACK;                                
+           RETURN;
+        END IF;             
+    END LOOP;
+     p_Ok:=1;
+     COMMIT;
+  EXCEPTION
+    WHEN OTHERS THEN
+      n_pkg_vitalpos_log_general.write(2,
+                                       'Modulo: ' || v_modulo ||
+                                       ' Detalle Error: ' || v_error||                                     
+                                       '  Error: ' || SQLERRM);
+      p_Ok    := 0;
+      ROLLBACK;
+  END SetAsignaArtConsolidadoComi;   
+   
+  /****************************************************************************************************
+  * %v 14/02/2020 - ChM  Versión inicial SetAsignaArticulosArmador
+  * %v 14/02/2020 - ChM  crea las tareas de picking por armador con la lista de articulos
+  *****************************************************************************************************/
+  PROCEDURE SetAsignaArticulosArmador(p_cdArticulos    IN  arr_cdarticulo,
+                                      p_idConsolidado  IN  integer,
+                                      p_TipoTarea      IN  tblslvtipotarea.cdtipo%type,                         
+                                      p_IdPersona      IN  personas.idpersona%type,
+                                      p_IdArmador      IN  personas.idpersona%type,
+                                      p_Ok             OUT number,
+                                      p_error          OUT varchar2) IS
+    
+  BEGIN
+    
+    --TipoTarea 1 ConsolidadoM
+    if p_TipoTarea = 1 then
+      SetAsignaArtConsolidadoM(p_cdArticulos,p_idConsolidado,p_IdPersona,p_IdArmador,p_Ok);
+      if p_Ok <> 1 then
+        p_Ok    := 0;
+        p_error := 'Error Asignando Armadores. Comuniquese con Sistemas!';
+        RETURN;
+       end if;
+     end if;   
+    --TipoTarea 5 ConsolidadoComi
+    if p_TipoTarea = 5 then
+      SetAsignaArtConsolidadoComi(p_cdArticulos,p_idConsolidado,p_IdPersona,p_IdArmador,p_Ok);
+      if p_Ok <> 1 then
+        p_Ok    := 0;
+        p_error := 'Error Asignando Armadores. Comuniquese con Sistemas!';
+        RETURN;
+       end if;          
+    end if;   
+ 
+  END SetAsignaArticulosArmador;    
+    
+  /****************************************************************************************************
+  * %v 17/02/2020 - ChM  Versión inicial GetIngresoArmador
+  * %v 17/02/2020 - ChM  valida que el armador este autorizado para ingresar al sistema
+  *****************************************************************************************************/
+  PROCEDURE GetIngresoArmador(p_login      IN  cuentasusuarios.dsloginname%type
+                              p_password   IN  cuentasusuarios.vlpassword%type
+                              p_idpersona  OUT personas.idpersona%type) IS
+                              
+   v_modulo  varchar2(100) := 'PKG_SLV_TAREAS.GetIngresoArmador';  
+  
+  BEGIN
+  select cu.idpersona 
+    from cuentasusuarios cu
+    into p_idpersona
+   where cu.dsloginname = p_login
+     and cu.vlpassword = p_password
+     and rownum = 1;
+  EXCEPTION
+    WHEN OTHERS THEN
+      n_pkg_vitalpos_log_general.write(2,
+                                       'Modulo: ' || v_modulo ||
+                                       ' Error: ' || SQLERRM);
+      p_Ok    := 0;
+      
+  END GetIngresoArmador;      
+    
+    
+end PKG_SLV_TAREAS;
+/

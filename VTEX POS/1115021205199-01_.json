@@ -1,0 +1,1473 @@
+{
+  "orderId": "1115021205199-01",
+  "sequence": "500143",
+  "marketplaceOrderId": "",
+  "marketplaceServicesEndpoint": null,
+  "sellerOrderId": "VLH-1115021205199-01",
+  "origin": "Marketplace",
+  "affiliateId": "",
+  "salesChannel": "1",
+  "merchantName": null,
+  "status": "payment-approved",
+  "statusDescription": "Pagamento Aprovado",
+  "value": 377940,
+  "creationDate": "2021-03-04T14:20:11.4945054+00:00",
+  "lastChange": "2021-03-04T14:29:54.5127367+00:00",
+  "orderGroup": "1115021205199",
+  "totals": [
+    {
+      "id": "Items",
+      "name": "Total de los items",
+      "value": 553376
+    },
+    {
+      "id": "Discounts",
+      "name": "Total de descuentos",
+      "value": 0
+    },
+    {
+      "id": "Shipping",
+      "name": "Costo total del envío",
+      "value": 0
+    },
+    {
+      "id": "Tax",
+      "name": "Costo total del cambio",
+      "value": 0
+    },
+    {
+      "id": "Change",
+      "name": "Total de las modificacións",
+      "value": -175436
+    }
+  ],
+  "items": [
+    {
+      "uniqueId": "B40A106156A84B878F3686D769457EDD",
+      "id": "144768",
+      "productId": "144768",
+      "ean": "7798049540337",
+      "lockId": null,
+      "itemAttachment": {
+        "content": {},
+        "name": null
+      },
+      "attachments": [],
+      "quantity": 2,
+      "seller": "arvitalqalh",
+      "name": "Lentejon LA ABADIA x400gr",
+      "refId": "0144768",
+      "price": 0,
+      "listPrice": 9578,
+      "manualPrice": null,
+      "priceTags": [],
+      "imageUrl": "https://arvitalqa.vteximg.com.br/arquivos/ids/182432-55-55/144768.jpg?v=637504094182600000",
+      "detailUrl": "/lentejon-la-abadia-x400gr-144768/p",
+      "components": [],
+      "bundleItems": [],
+      "params": [],
+      "offerings": [],
+      "sellerSku": "144768",
+      "priceValidUntil": "2021-03-07T03:00:00.0000000+00:00",
+      "commission": 0,
+      "tax": 0,
+      "preSaleDate": null,
+      "additionalInfo": {
+        "brandName": "LA ABADIA",
+        "brandId": "2000658",
+        "categoriesIds": "/20002/30009/40041/",
+        "categories": [
+          {
+            "id": 40041,
+            "name": "Legumbres"
+          },
+          {
+            "id": 30009,
+            "name": "Arroz Y Legumbres"
+          },
+          {
+            "id": 20002,
+            "name": "Almacen"
+          }
+        ],
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 0.02,
+          "length": 0.02,
+          "weight": 0.02,
+          "width": 0.02
+        },
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "measurementUnit": "UN",
+      "unitMultiplier": 1,
+      "sellingPrice": 0,
+      "isGift": false,
+      "shippingPrice": null,
+      "rewardValue": 0,
+      "freightCommission": 0,
+      "priceDefinitions": null,
+      "taxCode": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "callCenterOperator": null,
+      "serialNumbers": null,
+      "assemblies": [],
+      "costPrice": null
+    },
+    {
+      "uniqueId": "B40A106156A84B878F3686D769457EDD",
+      "id": "144768",
+      "productId": "144768",
+      "ean": "7798049540337",
+      "lockId": null,
+      "itemAttachment": {
+        "content": {},
+        "name": null
+      },
+      "attachments": [],
+      "quantity": 8,
+      "seller": "arvitalqalh",
+      "name": "Lentejon LA ABADIA x400gr",
+      "refId": "0144768",
+      "price": 9578,
+      "listPrice": 9578,
+      "manualPrice": null,
+      "priceTags": [],
+      "imageUrl": "https://arvitalqa.vteximg.com.br/arquivos/ids/182432-55-55/144768.jpg?v=637504094182600000",
+      "detailUrl": "/lentejon-la-abadia-x400gr-144768/p",
+      "components": [],
+      "bundleItems": [],
+      "params": [],
+      "offerings": [],
+      "sellerSku": "144768",
+      "priceValidUntil": "2021-03-07T03:00:00.0000000+00:00",
+      "commission": 0,
+      "tax": 0,
+      "preSaleDate": null,
+      "additionalInfo": {
+        "brandName": "LA ABADIA",
+        "brandId": "2000658",
+        "categoriesIds": "/20002/30009/40041/",
+        "categories": [
+          {
+            "id": 40041,
+            "name": "Legumbres"
+          },
+          {
+            "id": 30009,
+            "name": "Arroz Y Legumbres"
+          },
+          {
+            "id": 20002,
+            "name": "Almacen"
+          }
+        ],
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 0.02,
+          "length": 0.02,
+          "weight": 0.02,
+          "width": 0.02
+        },
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "measurementUnit": "UN",
+      "unitMultiplier": 1,
+      "sellingPrice": 9578,
+      "isGift": false,
+      "shippingPrice": null,
+      "rewardValue": 0,
+      "freightCommission": 0,
+      "priceDefinitions": null,
+      "taxCode": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "callCenterOperator": null,
+      "serialNumbers": null,
+      "assemblies": [],
+      "costPrice": null
+    },
+    {
+      "uniqueId": "B3C23207392F49F09E5EC6AE1E1DFA9A",
+      "id": "130138",
+      "productId": "130138",
+      "ean": "7798049540375",
+      "lockId": null,
+      "itemAttachment": {
+        "content": {},
+        "name": null
+      },
+      "attachments": [],
+      "quantity": 2,
+      "seller": "arvitalqalh",
+      "name": "Poroto LA ABADIA alubia x400gr",
+      "refId": "0130138",
+      "price": 0,
+      "listPrice": 6047,
+      "manualPrice": null,
+      "priceTags": [],
+      "imageUrl": "https://arvitalqa.vteximg.com.br/arquivos/ids/186728-55-55/130138.jpg?v=637504219808370000",
+      "detailUrl": "/poroto-la-abadia-alubia-x400gr-130138/p",
+      "components": [],
+      "bundleItems": [],
+      "params": [],
+      "offerings": [],
+      "sellerSku": "130138",
+      "priceValidUntil": "2021-03-07T03:00:00.0000000+00:00",
+      "commission": 0,
+      "tax": 0,
+      "preSaleDate": null,
+      "additionalInfo": {
+        "brandName": "LA ABADIA",
+        "brandId": "2000658",
+        "categoriesIds": "/20002/30009/40041/",
+        "categories": [
+          {
+            "id": 40041,
+            "name": "Legumbres"
+          },
+          {
+            "id": 30009,
+            "name": "Arroz Y Legumbres"
+          },
+          {
+            "id": 20002,
+            "name": "Almacen"
+          }
+        ],
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 0.02,
+          "length": 0.02,
+          "weight": 0.02,
+          "width": 0.02
+        },
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "measurementUnit": "UN",
+      "unitMultiplier": 1,
+      "sellingPrice": 0,
+      "isGift": false,
+      "shippingPrice": null,
+      "rewardValue": 0,
+      "freightCommission": 0,
+      "priceDefinitions": null,
+      "taxCode": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "callCenterOperator": null,
+      "serialNumbers": null,
+      "assemblies": [],
+      "costPrice": null
+    },
+    {
+      "uniqueId": "B3C23207392F49F09E5EC6AE1E1DFA9A",
+      "id": "130138",
+      "productId": "130138",
+      "ean": "7798049540375",
+      "lockId": null,
+      "itemAttachment": {
+        "content": {},
+        "name": null
+      },
+      "attachments": [],
+      "quantity": 8,
+      "seller": "arvitalqalh",
+      "name": "Poroto LA ABADIA alubia x400gr",
+      "refId": "0130138",
+      "price": 6047,
+      "listPrice": 6047,
+      "manualPrice": null,
+      "priceTags": [],
+      "imageUrl": "https://arvitalqa.vteximg.com.br/arquivos/ids/186728-55-55/130138.jpg?v=637504219808370000",
+      "detailUrl": "/poroto-la-abadia-alubia-x400gr-130138/p",
+      "components": [],
+      "bundleItems": [],
+      "params": [],
+      "offerings": [],
+      "sellerSku": "130138",
+      "priceValidUntil": "2021-03-07T03:00:00.0000000+00:00",
+      "commission": 0,
+      "tax": 0,
+      "preSaleDate": null,
+      "additionalInfo": {
+        "brandName": "LA ABADIA",
+        "brandId": "2000658",
+        "categoriesIds": "/20002/30009/40041/",
+        "categories": [
+          {
+            "id": 40041,
+            "name": "Legumbres"
+          },
+          {
+            "id": 30009,
+            "name": "Arroz Y Legumbres"
+          },
+          {
+            "id": 20002,
+            "name": "Almacen"
+          }
+        ],
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 0.02,
+          "length": 0.02,
+          "weight": 0.02,
+          "width": 0.02
+        },
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "measurementUnit": "UN",
+      "unitMultiplier": 1,
+      "sellingPrice": 6047,
+      "isGift": false,
+      "shippingPrice": null,
+      "rewardValue": 0,
+      "freightCommission": 0,
+      "priceDefinitions": null,
+      "taxCode": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "callCenterOperator": null,
+      "serialNumbers": null,
+      "assemblies": [],
+      "costPrice": null
+    },
+    {
+      "uniqueId": "74DAEA3C1260463A9D40CBFE0DF94061",
+      "id": "112178",
+      "productId": "112178",
+      "ean": "7790895000430",
+      "lockId": null,
+      "itemAttachment": {
+        "content": {},
+        "name": null
+      },
+      "attachments": [],
+      "quantity": 24,
+      "seller": "arvitalqalh",
+      "name": "Gaseosa COCA COLA pet x1.5lt",
+      "refId": "0112178",
+      "price": 9922,
+      "listPrice": 9922,
+      "manualPrice": null,
+      "priceTags": [],
+      "imageUrl": "https://arvitalqa.vteximg.com.br/arquivos/ids/175952-55-55/112178.jpg?v=637498947661470000",
+      "detailUrl": "/gaseosa-coca-cola-pet-x1-5lt-112178/p",
+      "components": [],
+      "bundleItems": [],
+      "params": [],
+      "offerings": [],
+      "sellerSku": "112178",
+      "priceValidUntil": "2022-03-04T14:17:35.0000000+00:00",
+      "commission": 0,
+      "tax": 0,
+      "preSaleDate": null,
+      "additionalInfo": {
+        "brandName": "COCA COLA",
+        "brandId": "2000278",
+        "categoriesIds": "/20005/30034/40182/",
+        "categories": [
+          {
+            "id": 40182,
+            "name": "Gaseosas"
+          },
+          {
+            "id": 30034,
+            "name": "Bebidas Sin Alcohol"
+          },
+          {
+            "id": 20005,
+            "name": "Bebidas"
+          }
+        ],
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 0.02,
+          "length": 0.02,
+          "weight": 0.02,
+          "width": 0.02
+        },
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "measurementUnit": "UN",
+      "unitMultiplier": 1,
+      "sellingPrice": 9922,
+      "isGift": false,
+      "shippingPrice": null,
+      "rewardValue": 0,
+      "freightCommission": 0,
+      "priceDefinitions": null,
+      "taxCode": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "callCenterOperator": null,
+      "serialNumbers": null,
+      "assemblies": [],
+      "costPrice": null
+    },
+    {
+      "uniqueId": "0142EC1FEA2B4A73807AB7B6EBE8F856",
+      "id": "103405",
+      "productId": "103405",
+      "ean": "47790036046325",
+      "lockId": null,
+      "itemAttachment": {
+        "content": {},
+        "name": null
+      },
+      "attachments": [],
+      "quantity": 24,
+      "seller": "arvitalqalh",
+      "name": "Vino UVITA tinto tetrabrik x1lt",
+      "refId": "0103405",
+      "price": 7927,
+      "listPrice": 7927,
+      "manualPrice": null,
+      "priceTags": [],
+      "imageUrl": "https://arvitalqa.vteximg.com.br/arquivos/ids/184233-55-55/103405.jpg?v=637504139136100000",
+      "detailUrl": "/vino-uvita-tinto-tetrabrik-x1lt-103405/p",
+      "components": [],
+      "bundleItems": [],
+      "params": [],
+      "offerings": [],
+      "sellerSku": "103405",
+      "priceValidUntil": "2022-03-04T14:17:47.0000000+00:00",
+      "commission": 0,
+      "tax": 0,
+      "preSaleDate": null,
+      "additionalInfo": {
+        "brandName": "UVITA",
+        "brandId": "2001310",
+        "categoriesIds": "/20005/30033/40177/",
+        "categories": [
+          {
+            "id": 40177,
+            "name": "Vinos"
+          },
+          {
+            "id": 30033,
+            "name": "Bebidas Con Alcohol"
+          },
+          {
+            "id": 20005,
+            "name": "Bebidas"
+          }
+        ],
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 0.02,
+          "length": 0.02,
+          "weight": 0.02,
+          "width": 0.02
+        },
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "measurementUnit": "UN",
+      "unitMultiplier": 1,
+      "sellingPrice": 7927,
+      "isGift": false,
+      "shippingPrice": null,
+      "rewardValue": 0,
+      "freightCommission": 0,
+      "priceDefinitions": null,
+      "taxCode": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "callCenterOperator": null,
+      "serialNumbers": null,
+      "assemblies": [],
+      "costPrice": null
+    }
+  ],
+  "marketplaceItems": [],
+  "clientProfileData": {
+    "id": "clientProfileData",
+    "email": "a6c0ba248d7b492c9a18849c6a066001@ct.vtex.com.br",
+    "firstName": "Alejandra",
+    "lastName": "Perez Weiss",
+    "documentType": "dni",
+    "document": "11111111",
+    "phone": "+541112345678",
+    "corporateName": "Almacen de Ale",
+    "tradeName": "nombre de la empresa",
+    "corporateDocument": "27123456789",
+    "stateInscription": null,
+    "corporatePhone": "+54 11 1234 5678",
+    "isCorporate": true,
+    "userProfileId": "fa2163d4-79eb-4d2e-9e29-1dd1531d6fa4",
+    "customerClass": "idclienteVital"
+  },
+  "giftRegistryData": null,
+  "marketingData": {
+    "id": "marketingData",
+    "utmSource": null,
+    "utmPartner": null,
+    "utmMedium": null,
+    "utmCampaign": null,
+    "coupon": null,
+    "utmiCampaign": null,
+    "utmipage": null,
+    "utmiPart": null,
+    "marketingTags": [
+      "vtexSocialSelling"
+    ]
+  },
+  "ratesAndBenefitsData": {
+    "id": "ratesAndBenefitsData",
+    "rateAndBenefitsIdentifiers": []
+  },
+  "shippingData": {
+    "id": "shippingData",
+    "address": {
+      "addressType": "pickup",
+      "receiverName": "Alejandra Perez Weiss",
+      "addressId": "1657",
+      "postalCode": "1657",
+      "city": "Loma Hermosa",
+      "state": "Buenos Aires",
+      "country": "ARG",
+      "street": "Avenida Bernabé Márquez",
+      "number": "969",
+      "neighborhood": null,
+      "complement": null,
+      "reference": null,
+      "geoCoordinates": [
+        -58.5938,
+        -34.5708
+      ]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "Retiro en Sucursal (1657)",
+        "lockTTL": "13d",
+        "price": 0,
+        "listPrice": 0,
+        "sellingPrice": 0,
+        "deliveryWindow": null,
+        "deliveryCompany": "Retiro en Sucursal",
+        "shippingEstimate": "3bd",
+        "shippingEstimateDate": "2021-03-09T14:20:25.6970362+00:00",
+        "slas": [
+          {
+            "id": "Retiro en Sucursal (1657)",
+            "name": "Retiro en Sucursal (1657)",
+            "shippingEstimate": "3bd",
+            "deliveryWindow": null,
+            "price": 0,
+            "deliveryChannel": "pickup-in-point",
+            "pickupStoreInfo": {
+              "additionalInfo": "",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "1657",
+                "postalCode": "1657",
+                "city": "Loma Hermosa",
+                "state": "Buenos Aires",
+                "country": "ARG",
+                "street": "Avenida Bernabé Márquez",
+                "number": "969",
+                "neighborhood": null,
+                "complement": null,
+                "reference": null,
+                "geoCoordinates": [
+                  -58.5938,
+                  -34.5708
+                ]
+              },
+              "dockId": null,
+              "friendlyName": "Loma Hermosa",
+              "isPickupStore": true
+            },
+            "polygonName": null,
+            "lockTTL": "13d",
+            "pickupPointId": "arvitalqalh_1657",
+            "transitTime": "3bd"
+          },
+          {
+            "id": "Normal",
+            "name": "Normal",
+            "shippingEstimate": "3bd",
+            "deliveryWindow": null,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": null,
+            "lockTTL": "13d",
+            "pickupPointId": null,
+            "transitTime": "3bd"
+          }
+        ],
+        "shipsTo": [
+          "ARG"
+        ],
+        "deliveryIds": [
+          {
+            "courierId": "1657",
+            "courierName": "Retiro en Sucursal",
+            "dockId": "1",
+            "quantity": 2,
+            "warehouseId": "1401",
+            "accountCarrierName": null
+          }
+        ],
+        "deliveryChannel": "pickup-in-point",
+        "pickupStoreInfo": {
+          "additionalInfo": "",
+          "address": {
+            "addressType": "pickup",
+            "receiverName": null,
+            "addressId": "1657",
+            "postalCode": "1657",
+            "city": "Loma Hermosa",
+            "state": "Buenos Aires",
+            "country": "ARG",
+            "street": "Avenida Bernabé Márquez",
+            "number": "969",
+            "neighborhood": null,
+            "complement": null,
+            "reference": null,
+            "geoCoordinates": [
+              -58.5938,
+              -34.5708
+            ]
+          },
+          "dockId": null,
+          "friendlyName": "Loma Hermosa",
+          "isPickupStore": true
+        },
+        "addressId": "1657",
+        "polygonName": null,
+        "pickupPointId": "arvitalqalh_1657",
+        "transitTime": "3bd"
+      },
+      {
+        "itemIndex": 1,
+        "selectedSla": "Retiro en Sucursal (1657)",
+        "lockTTL": "13d",
+        "price": 0,
+        "listPrice": 0,
+        "sellingPrice": 0,
+        "deliveryWindow": null,
+        "deliveryCompany": "Retiro en Sucursal",
+        "shippingEstimate": "3bd",
+        "shippingEstimateDate": "2021-03-09T14:20:25.6970362+00:00",
+        "slas": [
+          {
+            "id": "Retiro en Sucursal (1657)",
+            "name": "Retiro en Sucursal (1657)",
+            "shippingEstimate": "3bd",
+            "deliveryWindow": null,
+            "price": 0,
+            "deliveryChannel": "pickup-in-point",
+            "pickupStoreInfo": {
+              "additionalInfo": "",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "1657",
+                "postalCode": "1657",
+                "city": "Loma Hermosa",
+                "state": "Buenos Aires",
+                "country": "ARG",
+                "street": "Avenida Bernabé Márquez",
+                "number": "969",
+                "neighborhood": null,
+                "complement": null,
+                "reference": null,
+                "geoCoordinates": [
+                  -58.5938,
+                  -34.5708
+                ]
+              },
+              "dockId": null,
+              "friendlyName": "Loma Hermosa",
+              "isPickupStore": true
+            },
+            "polygonName": null,
+            "lockTTL": "13d",
+            "pickupPointId": "arvitalqalh_1657",
+            "transitTime": "3bd"
+          },
+          {
+            "id": "Normal",
+            "name": "Normal",
+            "shippingEstimate": "3bd",
+            "deliveryWindow": null,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": null,
+            "lockTTL": "13d",
+            "pickupPointId": null,
+            "transitTime": "3bd"
+          }
+        ],
+        "shipsTo": [
+          "ARG"
+        ],
+        "deliveryIds": [
+          {
+            "courierId": "1657",
+            "courierName": "Retiro en Sucursal",
+            "dockId": "1",
+            "quantity": 8,
+            "warehouseId": "1401",
+            "accountCarrierName": null
+          }
+        ],
+        "deliveryChannel": "pickup-in-point",
+        "pickupStoreInfo": {
+          "additionalInfo": "",
+          "address": {
+            "addressType": "pickup",
+            "receiverName": null,
+            "addressId": "1657",
+            "postalCode": "1657",
+            "city": "Loma Hermosa",
+            "state": "Buenos Aires",
+            "country": "ARG",
+            "street": "Avenida Bernabé Márquez",
+            "number": "969",
+            "neighborhood": null,
+            "complement": null,
+            "reference": null,
+            "geoCoordinates": [
+              -58.5938,
+              -34.5708
+            ]
+          },
+          "dockId": null,
+          "friendlyName": "Loma Hermosa",
+          "isPickupStore": true
+        },
+        "addressId": "1657",
+        "polygonName": null,
+        "pickupPointId": "arvitalqalh_1657",
+        "transitTime": "3bd"
+      },
+      {
+        "itemIndex": 2,
+        "selectedSla": "Retiro en Sucursal (1657)",
+        "lockTTL": "13d",
+        "price": 0,
+        "listPrice": 0,
+        "sellingPrice": 0,
+        "deliveryWindow": null,
+        "deliveryCompany": "Retiro en Sucursal",
+        "shippingEstimate": "3bd",
+        "shippingEstimateDate": "2021-03-09T14:20:25.6970362+00:00",
+        "slas": [
+          {
+            "id": "Retiro en Sucursal (1657)",
+            "name": "Retiro en Sucursal (1657)",
+            "shippingEstimate": "3bd",
+            "deliveryWindow": null,
+            "price": 0,
+            "deliveryChannel": "pickup-in-point",
+            "pickupStoreInfo": {
+              "additionalInfo": "",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "1657",
+                "postalCode": "1657",
+                "city": "Loma Hermosa",
+                "state": "Buenos Aires",
+                "country": "ARG",
+                "street": "Avenida Bernabé Márquez",
+                "number": "969",
+                "neighborhood": null,
+                "complement": null,
+                "reference": null,
+                "geoCoordinates": [
+                  -58.5938,
+                  -34.5708
+                ]
+              },
+              "dockId": null,
+              "friendlyName": "Loma Hermosa",
+              "isPickupStore": true
+            },
+            "polygonName": null,
+            "lockTTL": "13d",
+            "pickupPointId": "arvitalqalh_1657",
+            "transitTime": "3bd"
+          },
+          {
+            "id": "Normal",
+            "name": "Normal",
+            "shippingEstimate": "3bd",
+            "deliveryWindow": null,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": null,
+            "lockTTL": "13d",
+            "pickupPointId": null,
+            "transitTime": "3bd"
+          }
+        ],
+        "shipsTo": [
+          "ARG"
+        ],
+        "deliveryIds": [
+          {
+            "courierId": "1657",
+            "courierName": "Retiro en Sucursal",
+            "dockId": "1",
+            "quantity": 2,
+            "warehouseId": "1401",
+            "accountCarrierName": null
+          }
+        ],
+        "deliveryChannel": "pickup-in-point",
+        "pickupStoreInfo": {
+          "additionalInfo": "",
+          "address": {
+            "addressType": "pickup",
+            "receiverName": null,
+            "addressId": "1657",
+            "postalCode": "1657",
+            "city": "Loma Hermosa",
+            "state": "Buenos Aires",
+            "country": "ARG",
+            "street": "Avenida Bernabé Márquez",
+            "number": "969",
+            "neighborhood": null,
+            "complement": null,
+            "reference": null,
+            "geoCoordinates": [
+              -58.5938,
+              -34.5708
+            ]
+          },
+          "dockId": null,
+          "friendlyName": "Loma Hermosa",
+          "isPickupStore": true
+        },
+        "addressId": "1657",
+        "polygonName": null,
+        "pickupPointId": "arvitalqalh_1657",
+        "transitTime": "3bd"
+      },
+      {
+        "itemIndex": 3,
+        "selectedSla": "Retiro en Sucursal (1657)",
+        "lockTTL": "13d",
+        "price": 0,
+        "listPrice": 0,
+        "sellingPrice": 0,
+        "deliveryWindow": null,
+        "deliveryCompany": "Retiro en Sucursal",
+        "shippingEstimate": "3bd",
+        "shippingEstimateDate": "2021-03-09T14:20:25.6970362+00:00",
+        "slas": [
+          {
+            "id": "Retiro en Sucursal (1657)",
+            "name": "Retiro en Sucursal (1657)",
+            "shippingEstimate": "3bd",
+            "deliveryWindow": null,
+            "price": 0,
+            "deliveryChannel": "pickup-in-point",
+            "pickupStoreInfo": {
+              "additionalInfo": "",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "1657",
+                "postalCode": "1657",
+                "city": "Loma Hermosa",
+                "state": "Buenos Aires",
+                "country": "ARG",
+                "street": "Avenida Bernabé Márquez",
+                "number": "969",
+                "neighborhood": null,
+                "complement": null,
+                "reference": null,
+                "geoCoordinates": [
+                  -58.5938,
+                  -34.5708
+                ]
+              },
+              "dockId": null,
+              "friendlyName": "Loma Hermosa",
+              "isPickupStore": true
+            },
+            "polygonName": null,
+            "lockTTL": "13d",
+            "pickupPointId": "arvitalqalh_1657",
+            "transitTime": "3bd"
+          },
+          {
+            "id": "Normal",
+            "name": "Normal",
+            "shippingEstimate": "3bd",
+            "deliveryWindow": null,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": null,
+            "lockTTL": "13d",
+            "pickupPointId": null,
+            "transitTime": "3bd"
+          }
+        ],
+        "shipsTo": [
+          "ARG"
+        ],
+        "deliveryIds": [
+          {
+            "courierId": "1657",
+            "courierName": "Retiro en Sucursal",
+            "dockId": "1",
+            "quantity": 8,
+            "warehouseId": "1401",
+            "accountCarrierName": null
+          }
+        ],
+        "deliveryChannel": "pickup-in-point",
+        "pickupStoreInfo": {
+          "additionalInfo": "",
+          "address": {
+            "addressType": "pickup",
+            "receiverName": null,
+            "addressId": "1657",
+            "postalCode": "1657",
+            "city": "Loma Hermosa",
+            "state": "Buenos Aires",
+            "country": "ARG",
+            "street": "Avenida Bernabé Márquez",
+            "number": "969",
+            "neighborhood": null,
+            "complement": null,
+            "reference": null,
+            "geoCoordinates": [
+              -58.5938,
+              -34.5708
+            ]
+          },
+          "dockId": null,
+          "friendlyName": "Loma Hermosa",
+          "isPickupStore": true
+        },
+        "addressId": "1657",
+        "polygonName": null,
+        "pickupPointId": "arvitalqalh_1657",
+        "transitTime": "3bd"
+      },
+      {
+        "itemIndex": 4,
+        "selectedSla": "Retiro en Sucursal (1657)",
+        "lockTTL": "13d",
+        "price": 0,
+        "listPrice": 0,
+        "sellingPrice": 0,
+        "deliveryWindow": null,
+        "deliveryCompany": "Retiro en Sucursal",
+        "shippingEstimate": "3bd",
+        "shippingEstimateDate": "2021-03-09T14:20:25.6970362+00:00",
+        "slas": [
+          {
+            "id": "Retiro en Sucursal (1657)",
+            "name": "Retiro en Sucursal (1657)",
+            "shippingEstimate": "3bd",
+            "deliveryWindow": null,
+            "price": 0,
+            "deliveryChannel": "pickup-in-point",
+            "pickupStoreInfo": {
+              "additionalInfo": "",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "1657",
+                "postalCode": "1657",
+                "city": "Loma Hermosa",
+                "state": "Buenos Aires",
+                "country": "ARG",
+                "street": "Avenida Bernabé Márquez",
+                "number": "969",
+                "neighborhood": null,
+                "complement": null,
+                "reference": null,
+                "geoCoordinates": [
+                  -58.5938,
+                  -34.5708
+                ]
+              },
+              "dockId": null,
+              "friendlyName": "Loma Hermosa",
+              "isPickupStore": true
+            },
+            "polygonName": null,
+            "lockTTL": "13d",
+            "pickupPointId": "arvitalqalh_1657",
+            "transitTime": "3bd"
+          },
+          {
+            "id": "Normal",
+            "name": "Normal",
+            "shippingEstimate": "3bd",
+            "deliveryWindow": null,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": null,
+            "lockTTL": "13d",
+            "pickupPointId": null,
+            "transitTime": "3bd"
+          }
+        ],
+        "shipsTo": [
+          "ARG"
+        ],
+        "deliveryIds": [
+          {
+            "courierId": "1657",
+            "courierName": "Retiro en Sucursal",
+            "dockId": "1",
+            "quantity": 24,
+            "warehouseId": "1401",
+            "accountCarrierName": null
+          }
+        ],
+        "deliveryChannel": "pickup-in-point",
+        "pickupStoreInfo": {
+          "additionalInfo": "",
+          "address": {
+            "addressType": "pickup",
+            "receiverName": null,
+            "addressId": "1657",
+            "postalCode": "1657",
+            "city": "Loma Hermosa",
+            "state": "Buenos Aires",
+            "country": "ARG",
+            "street": "Avenida Bernabé Márquez",
+            "number": "969",
+            "neighborhood": null,
+            "complement": null,
+            "reference": null,
+            "geoCoordinates": [
+              -58.5938,
+              -34.5708
+            ]
+          },
+          "dockId": null,
+          "friendlyName": "Loma Hermosa",
+          "isPickupStore": true
+        },
+        "addressId": "1657",
+        "polygonName": null,
+        "pickupPointId": "arvitalqalh_1657",
+        "transitTime": "3bd"
+      },
+      {
+        "itemIndex": 5,
+        "selectedSla": "Retiro en Sucursal (1657)",
+        "lockTTL": "13d",
+        "price": 0,
+        "listPrice": 0,
+        "sellingPrice": 0,
+        "deliveryWindow": null,
+        "deliveryCompany": "Retiro en Sucursal",
+        "shippingEstimate": "3bd",
+        "shippingEstimateDate": "2021-03-09T14:20:25.6970362+00:00",
+        "slas": [
+          {
+            "id": "Retiro en Sucursal (1657)",
+            "name": "Retiro en Sucursal (1657)",
+            "shippingEstimate": "3bd",
+            "deliveryWindow": null,
+            "price": 0,
+            "deliveryChannel": "pickup-in-point",
+            "pickupStoreInfo": {
+              "additionalInfo": "",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "1657",
+                "postalCode": "1657",
+                "city": "Loma Hermosa",
+                "state": "Buenos Aires",
+                "country": "ARG",
+                "street": "Avenida Bernabé Márquez",
+                "number": "969",
+                "neighborhood": null,
+                "complement": null,
+                "reference": null,
+                "geoCoordinates": [
+                  -58.5938,
+                  -34.5708
+                ]
+              },
+              "dockId": null,
+              "friendlyName": "Loma Hermosa",
+              "isPickupStore": true
+            },
+            "polygonName": null,
+            "lockTTL": "13d",
+            "pickupPointId": "arvitalqalh_1657",
+            "transitTime": "3bd"
+          },
+          {
+            "id": "Normal",
+            "name": "Normal",
+            "shippingEstimate": "3bd",
+            "deliveryWindow": null,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": null,
+            "lockTTL": "13d",
+            "pickupPointId": null,
+            "transitTime": "3bd"
+          }
+        ],
+        "shipsTo": [
+          "ARG"
+        ],
+        "deliveryIds": [
+          {
+            "courierId": "1657",
+            "courierName": "Retiro en Sucursal",
+            "dockId": "1",
+            "quantity": 24,
+            "warehouseId": "1401",
+            "accountCarrierName": null
+          }
+        ],
+        "deliveryChannel": "pickup-in-point",
+        "pickupStoreInfo": {
+          "additionalInfo": "",
+          "address": {
+            "addressType": "pickup",
+            "receiverName": null,
+            "addressId": "1657",
+            "postalCode": "1657",
+            "city": "Loma Hermosa",
+            "state": "Buenos Aires",
+            "country": "ARG",
+            "street": "Avenida Bernabé Márquez",
+            "number": "969",
+            "neighborhood": null,
+            "complement": null,
+            "reference": null,
+            "geoCoordinates": [
+              -58.5938,
+              -34.5708
+            ]
+          },
+          "dockId": null,
+          "friendlyName": "Loma Hermosa",
+          "isPickupStore": true
+        },
+        "addressId": "1657",
+        "polygonName": null,
+        "pickupPointId": "arvitalqalh_1657",
+        "transitTime": "3bd"
+      }
+    ],
+    "trackingHints": null,
+    "selectedAddresses": [
+      {
+        "addressId": "1657",
+        "addressType": "pickup",
+        "receiverName": "Alejandra Perez Weiss",
+        "street": "Avenida Bernabé Márquez",
+        "number": "969",
+        "complement": null,
+        "neighborhood": null,
+        "postalCode": "1657",
+        "city": "Loma Hermosa",
+        "state": "Buenos Aires",
+        "country": "ARG",
+        "reference": null,
+        "geoCoordinates": [
+          -58.5938,
+          -34.5708
+        ]
+      }
+    ]
+  },
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "D625835B862C4AC0852919F254FE4E88",
+        "merchantName": "ARVITALQA",
+        "payments": [
+          {
+            "id": "0E017515DEC440A9BF042D906B5022F1",
+            "paymentSystem": "201",
+            "paymentSystemName": "Efectivo  Personalizado",
+            "value": 553376,
+            "installments": 1,
+            "referenceValue": 553376,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "giftCardId": null,
+            "giftCardName": null,
+            "giftCardCaption": null,
+            "redemptionCode": null,
+            "group": "promissory",
+            "tid": null,
+            "dueDate": null,
+            "connectorResponses": {},
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "koinUrl": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": null
+          }
+        ]
+      }
+    ]
+  },
+  "packageAttachment": {
+    "packages": []
+  },
+  "sellers": [
+    {
+      "id": "arvitalqalh",
+      "name": "arvitalqalhv",
+      "logo": null,
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?affiliateid=VLH&sc=1&an=arvitalqalh"
+    }
+  ],
+  "callCenterOperatorData": null,
+  "followUpEmail": "c856af2b61db41e89b6ac9955dd6c76b@ct.vtex.com.br",
+  "lastMessage": null,
+  "hostname": "arvitalqa",
+  "invoiceData": null,
+  "changesAttachment": {
+    "id": "changeAttachment",
+    "changesData": [
+      {
+        "reason": "xxx",
+        "discountValue": 175436,
+        "incrementValue": 0,
+        "itemsAdded": [
+          {
+            "id": "144768",
+            "name": "Lentejon LA ABADIA x400gr",
+            "quantity": 2,
+            "price": 9578,
+            "unitMultiplier": 1
+          },
+          {
+            "id": "112178",
+            "name": "Gaseosa COCA COLA pet x1.5lt",
+            "quantity": 2,
+            "price": 9922,
+            "unitMultiplier": 1
+          }
+        ],
+        "itemsRemoved": [
+          {
+            "id": "130138",
+            "name": "Poroto LA ABADIA alubia x400gr",
+            "quantity": 2,
+            "price": 6047,
+            "unitMultiplier": 1
+          },
+          {
+            "id": "130138",
+            "name": "Poroto LA ABADIA alubia x400gr",
+            "quantity": 2,
+            "price": 6047,
+            "unitMultiplier": 1
+          },
+          {
+            "id": "103405",
+            "name": "Vino UVITA tinto tetrabrik x1lt",
+            "quantity": 24,
+            "price": 7927,
+            "unitMultiplier": 1
+          }
+        ],
+        "receipt": {
+          "date": "2021-03-04T14:29:53.6689894+00:00",
+          "orderId": "1115021205199-01",
+          "receipt": "6d29b029-b121-4fb7-b9bb-207c5b99a503"
+        }
+      }
+    ]
+  },
+  "openTextField": null,
+  "roundingError": 0,
+  "orderFormId": "f3bc753a9e4947c881ca5601342962f0",
+  "commercialConditionData": null,
+  "isCompleted": true,
+  "customData": {
+    "customApps": [
+      {
+        "fields": {
+          "lista": "1.0000",
+          "tapa": "0.0000",
+          "oferta": "0.0000"
+        },
+        "id": "semaforo",
+        "major": 1
+      },
+      {
+        "fields": {
+          "value": "idclienteVital"
+        },
+        "id": "customerclass",
+        "major": 1
+      }
+    ]
+  },
+  "storePreferencesData": {
+    "countryCode": "ARG",
+    "currencyCode": "ARS",
+    "currencyFormatInfo": {
+      "CurrencyDecimalDigits": 2,
+      "CurrencyDecimalSeparator": ",",
+      "CurrencyGroupSeparator": ".",
+      "CurrencyGroupSize": 3,
+      "StartsWithCurrencySymbol": true
+    },
+    "currencyLocale": 11274,
+    "currencySymbol": "$",
+    "timeZone": "Argentina Standard Time"
+  },
+  "allowCancellation": true,
+  "allowEdition": false,
+  "isCheckedIn": false,
+  "marketplace": null,
+  "authorizedDate": "2021-03-04T14:20:16.1084416+00:00",
+  "invoicedDate": null,
+  "cancelReason": null,
+  "itemMetadata": {
+    "Items": [
+      {
+        "Id": "144768",
+        "Seller": "1",
+        "Name": "Lentejon LA ABADIA x400gr",
+        "SkuName": "Lentejon LA ABADIA x400gr",
+        "ProductId": "144768",
+        "RefId": "0144768",
+        "Ean": "7798049540337",
+        "ImageUrl": "http://arvitalqa.vteximg.com.br/arquivos/ids/182432-55-55/144768.jpg?v=637504094182600000",
+        "DetailUrl": "/lentejon-la-abadia-x400gr-144768/p",
+        "AssemblyOptions": []
+      },
+      {
+        "Id": "130138",
+        "Seller": "1",
+        "Name": "Poroto LA ABADIA alubia x400gr",
+        "SkuName": "Poroto LA ABADIA alubia x400gr",
+        "ProductId": "130138",
+        "RefId": "0130138",
+        "Ean": "7798049540375",
+        "ImageUrl": "http://arvitalqa.vteximg.com.br/arquivos/ids/186728-55-55/130138.jpg?v=637504219808370000",
+        "DetailUrl": "/poroto-la-abadia-alubia-x400gr-130138/p",
+        "AssemblyOptions": []
+      },
+      {
+        "Id": "112178",
+        "Seller": "1",
+        "Name": "Gaseosa COCA COLA pet x1.5lt",
+        "SkuName": "Gaseosa COCA COLA pet x1.5lt",
+        "ProductId": "112178",
+        "RefId": "0112178",
+        "Ean": "7790895000430",
+        "ImageUrl": "http://arvitalqa.vteximg.com.br/arquivos/ids/175952-55-55/112178.jpg?v=637498947661470000",
+        "DetailUrl": "/gaseosa-coca-cola-pet-x1-5lt-112178/p",
+        "AssemblyOptions": []
+      },
+      {
+        "Id": "103405",
+        "Seller": "1",
+        "Name": "Vino UVITA tinto tetrabrik x1lt",
+        "SkuName": "Vino UVITA tinto tetrabrik x1lt",
+        "ProductId": "103405",
+        "RefId": "0103405",
+        "Ean": "47790036046325",
+        "ImageUrl": "http://arvitalqa.vteximg.com.br/arquivos/ids/184233-55-55/103405.jpg?v=637504139136100000",
+        "DetailUrl": "/vino-uvita-tinto-tetrabrik-x1lt-103405/p",
+        "AssemblyOptions": []
+      }
+    ]
+  },
+  "subscriptionData": null,
+  "taxData": null,
+  "checkedInPickupPointId": null,
+  "cancellationData": null
+}

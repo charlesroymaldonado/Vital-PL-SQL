@@ -1,0 +1,651 @@
+CREATE OR REPLACE PACKAGE PKG_SLV_REVERSOS is
+/**********************************************************************************************************
+ * Author  : CHARLES MALDONADO
+ * Created : 09/09/2020 8:17:03 a.m.
+ * %v Paquete para reverso de los distintos procesos SLVM
+ **********************************************************************************************************/
+ -- Tipos de datos
+ TYPE cursor_type IS REF CURSOR;
+
+  --Procedimientos y Funciones
+  PROCEDURE ReversaControlRemito (p_idremito        IN  tblslvremito.idremito%type,
+                                  p_Ok              OUT number,
+                                  p_error           OUT varchar2);                                
+                                      
+  PROCEDURE ReversaDistribFaltante (p_idfaltante      IN  tblslvpedfaltante.idpedfaltante%type,
+                                    p_Ok              OUT number,
+                                    p_error           OUT varchar2);
+
+  PROCEDURE ReversaPedFaltante (p_idfaltante      IN  tblslvpedfaltante.idpedfaltante%type,
+                                p_Ok              OUT number,
+                                p_error           OUT varchar2);   
+                                
+  -- uso delicado solo para DEV
+  PROCEDURE  ReversaTareaNoFinalizada(p_idTarea         IN  Tblslvtarea.Idtarea%type,
+                                      p_Ok              OUT number,
+                                      p_error           OUT varchar2);                                                                                                                                      
+                                                                  
+end PKG_SLV_REVERSOS;
+/
+CREATE OR REPLACE PACKAGE BODY PKG_SLV_REVERSOS is
+/***************************************************************************************************
+*  %v 10/09/2020  ChM - Parametros globales del PKG
+****************************************************************************************************/
+
+  c_TareaConsolidadoMulti            CONSTANT tblslvtipotarea.cdtipo%type := 10;
+  c_TareaConsolidaMultiFaltante      CONSTANT tblslvtipotarea.cdtipo%type := 20;
+  c_TareaConsolidadoPedido           CONSTANT tblslvtipotarea.cdtipo%type := 25;
+  c_TareaConsolidaPedidoFaltante     CONSTANT tblslvtipotarea.cdtipo%type := 40;
+  c_TareaFaltanteConsolFaltante      CONSTANT tblslvtipotarea.cdtipo%type := 44;
+  c_TareaConsolidadoComi             CONSTANT tblslvtipotarea.cdtipo%type := 50;
+  c_TareaConsolidadoComiFaltante     CONSTANT tblslvtipotarea.cdtipo%type := 60;
+
+  C_DistribFaltanteConsolidaPed      CONSTANT tblslvestado.cdestado%type := 21;
+  
+  C_EnCursoRemito                    CONSTANT tblslvestado.cdestado%type := 36;
+
+   
+/**************************************************************************************************
+* %v 09/09/2020  ChM - reversa el control del remito enviado por parametro
+***************************************************************************************************/
+  PROCEDURE ReversaControlRemito (p_idremito        IN  tblslvremito.idremito%type,
+                                  p_Ok              OUT number,
+                                  p_error           OUT varchar2)
+                                      IS
+                                                
+     v_modulo               varchar2(100) := 'PKG_SLV_REVERSOS.ReversaControlRemito. Remito: '||p_idremito;    
+        
+    BEGIN
+        --borrar el conteo detalle
+        delete tblslvconteodet cond 
+         where cond.idconteo in ( select co.idconteo
+                                    from tblslvconteo co
+                                   where co.idcontrolremito in  (select cr.idcontrolremito
+                                                                   from tblslvcontrolremito cr
+                                                                  where cr.idremito = p_idremito));                          
+                                            
+        --borrar el conteo 
+        delete tblslvconteo co 
+         where co.idcontrolremito in (select cr.idcontrolremito
+                                        from tblslvcontrolremito cr
+                                       where cr.idremito  = p_idremito);                          
+                                  
+        --borrar el control remito detalle
+        delete tblslvcontrolremitodet crd
+         where crd.idcontrolremito in (select cr.idcontrolremito
+                                         from tblslvcontrolremito cr
+                                        where cr.idremito = p_idremito);                                            
+        --borrar el control remito
+        delete tblslvcontrolremito cr
+         where cr.idremito = p_idremito;  
+
+        p_Ok:=1;
+        p_error:='';
+        commit;
+        exception
+          when others then
+            n_pkg_vitalpos_log_general.write(2,
+                                       'Modulo: ' || v_modulo ||
+                                       ' Error: ' || SQLERRM);
+           ROLLBACK;                                       
+           p_Ok:=0;
+           p_error:='Error. Comuniquese con sistemas.';
+    END ReversaControlRemito;  
+    
+/**************************************************************************************************
+* %v 10/09/2020  ChM - Reactiva tareas finalizadas para seguir el picking    
+***************************************************************************************************/
+  PROCEDURE ReactivaTarea(p_idTarea         IN  Tblslvtarea.Idtarea%type,
+                          p_Ok              OUT number,
+                          p_error           OUT varchar2)
+                          IS
+                                                
+     v_modulo               varchar2(100) := 'PKG_SLV_REVERSOS.ReActivaTarea. idTarea: '||p_idTarea;    
+     v_idtarea              Tblslvtarea.Idtarea%type:=null;   
+     v_cdtipo               tblslvtipotarea.cdtipo%type:=null;
+     v_pedfal               tblslvpedfaltante.idpedfaltante%type:=null;
+  
+    BEGIN
+     
+      --valida si la tarea no esta finalizada
+        begin
+            select ta.idtarea,
+                   ta.cdtipo
+              into v_idtarea,
+                   v_cdtipo       
+              from tblslvtarea ta
+             where ta.idtarea = p_idTarea
+               and ta.cdestado in (select e.cdestado 
+                                    from tblslvestado e 
+                                   where e.tipo like '%Tarea%' 
+                                     and e.dsestado='Finalizado');
+           if v_idtarea is null then 
+              p_Ok:=0;
+              p_error:='Tarea no finalizada no es necesario el reverso'; 
+              return; 
+           end if;                          
+      exception
+        when others then
+            null; 
+      end;
+      for tarea in
+       (select ta.idpedfaltante,
+               ta.idconsolidadom,
+               ta.idconsolidadopedido,
+               ta.idconsolidadocomi,
+               ta.cdtipo,
+               ta.idpersona,
+               nvl(dta.qtunidadmedidabasepicking,0) qtunidadmedidabasepicking,
+               nvl(dta.qtpiezaspicking,0) qtpiezaspicking,
+               dta.cdarticulo
+          from tblslvtarea ta,
+               tblslvtareadet dta
+         where ta.idtarea = dta.idtarea
+           and ta.idtarea = p_IdTarea        
+        )
+        loop
+           --actualiza la cantidad picking en consolidadoM y FaltantesconsolidadoM
+           if tarea.cdtipo in(c_TareaConsolidadoMulti,c_TareaConsolidaMultiFaltante) and tarea.idconsolidadom is not null then
+             
+             update tblslvconsolidadomdet dm
+                set (qtunidadmedidabasepicking,
+                    qtpiezaspicking) =
+                    (select nvl(dm.qtunidadmedidabasepicking,0)-tarea.qtunidadmedidabasepicking unidad,
+                           nvl(dm.qtpiezaspicking,0)-tarea.qtpiezaspicking pieza
+                      from tblslvconsolidadomdet dm
+                     where dm.idconsolidadom = tarea.idconsolidadom
+                       and dm.cdarticulo = tarea.cdarticulo)
+              where dm.idconsolidadom = tarea.idconsolidadom
+                and dm.cdarticulo = tarea.cdarticulo;
+
+              if SQL%ROWCOUNT = 0  then
+                n_pkg_vitalpos_log_general.write(2,
+                        'Modulo: ' || v_modulo ||
+                        ' imposible actualizar ConsolidadoM: '||tarea.idconsolidadom);
+                p_Ok:=0;
+                p_error:=' imposible actualizar ConsolidadoM: '||tarea.idconsolidadom;     
+                rollback;
+                return; 
+             end if;
+            end if;
+           --actualiza la cantidad picking en consolidadocomi y FaltanteConsolidadocomi
+           if tarea.cdtipo in(c_TareaConsolidadoComi,c_TareaConsolidadoComiFaltante) and tarea.idconsolidadocomi is not null then
+             
+             --select para validar que el pedido no esta en tblslvpedidoconformado
+              begin
+              select count(*)
+                  into v_pedfal
+                  from tblslvpedidoconformado       pc,
+                       tblslvconsolidadopedido      cp,
+                       tblslvconsolidadopedidorel   cprel,
+                       pedidos                      pe
+                 where pe.idpedido = cprel.idpedido
+                   and cprel.idconsolidadopedido = cp.idconsolidadopedido
+                   and pc.idpedido = pe.idpedido
+                   and cp.idconsolidadocomi = tarea.idconsolidadocomi;
+              if v_pedfal > 0 then
+                  p_Ok    := 0;
+                  p_error := 'Pedido comisionista '||to_char(tarea.idconsolidadocomi)||' ya distribuido';
+                  return;
+              end if;
+              exception
+                when no_data_found then
+                 null;
+              end;
+             update tblslvconsolidadocomidet dc
+                set (qtunidadmedidabasepicking,
+                    qtpiezaspicking) =
+                    (select nvl(dc.qtunidadmedidabasepicking,0)-tarea.qtunidadmedidabasepicking unidad,
+                           nvl(dc.qtpiezaspicking,0)-tarea.qtpiezaspicking pieza
+                      from tblslvconsolidadocomidet dc
+                     where dc.idconsolidadocomi = tarea.idconsolidadocomi
+                       and dc.cdarticulo = tarea.cdarticulo)
+              where dc.idconsolidadocomi = tarea.idconsolidadocomi
+                and dc.cdarticulo = tarea.cdarticulo;
+
+              if SQL%ROWCOUNT = 0  then
+                n_pkg_vitalpos_log_general.write(2,
+                        'Modulo: ' || v_modulo ||
+                        ' imposible actualizar Consolidadocomi: '||tarea.idconsolidadocomi);
+                p_Ok:=0;
+                p_error:=' imposible actualizar Consolidadocomi: '||tarea.idconsolidadocomi;
+                rollback;
+                return; 
+             end if;
+            end if;
+             --actualiza la cantidad picking en consolidado pedido
+           if tarea.cdtipo = c_TareaConsolidadoPedido and tarea.idconsolidadopedido is not null then
+             
+             --select para validar que el pedido no esta en tblslvpedidoconformado
+                begin
+                select count(*)
+                    into v_pedfal
+                    from tblslvpedidoconformado       pc,
+                         tblslvconsolidadopedido      cp,
+                         tblslvconsolidadopedidorel   cprel,
+                         pedidos                      pe
+                   where pe.idpedido = cprel.idpedido
+                     and cprel.idconsolidadopedido = cp.idconsolidadopedido
+                     and pc.idpedido = pe.idpedido
+                     and cp.idconsolidadopedido =tarea.idconsolidadopedido;
+                if v_pedfal > 0 then
+                    p_Ok    := 0;
+                    p_error := 'Pedido '||to_char(tarea.idconsolidadopedido)||' ya distribuido';
+                    return;
+                end if;
+                exception
+                  when no_data_found then
+                   null;
+                end;
+                
+             update tblslvconsolidadopedidodet dp
+                set (qtunidadmedidabasepicking,
+                    qtpiezaspicking) =
+                    (select nvl(dp.qtunidadmedidabasepicking,0)-tarea.qtunidadmedidabasepicking unidad,
+                           nvl(dp.qtpiezaspicking,0)-tarea.qtpiezaspicking pieza
+                      from tblslvconsolidadopedidodet dp
+                     where dp.idconsolidadopedido = tarea.idconsolidadopedido
+                       and dp.cdarticulo = tarea.cdarticulo)
+              where dp.idconsolidadopedido = tarea.idconsolidadopedido
+                and dp.cdarticulo = tarea.cdarticulo;
+
+              if SQL%ROWCOUNT = 0  then
+                n_pkg_vitalpos_log_general.write(2,
+                        'Modulo: ' || v_modulo ||
+                        ' imposible actualizar Consolidado pedido: '||tarea.idconsolidadopedido);
+                p_Ok:=0;
+                p_error:=' imposible actualizar Consolidado pedido: '||tarea.idconsolidadopedido;
+                rollback;
+                return; 
+             end if;
+            end if;
+            --actualiza la cantidad picking en faltante de pedido
+           if tarea.cdtipo in(c_TareaConsolidaPedidoFaltante,c_TareaFaltanteConsolFaltante) and tarea.idpedfaltante is not null then
+             --valida estado del pedfaltante
+             begin
+               select f.cdestado
+                 into v_pedfal
+                 from tblslvpedfaltante f
+                where f.idpedfaltante = tarea.idpedfaltante;
+             exception
+               when no_data_found then
+                 p_Ok    := 0;
+                 p_error := 'Pedido faltante no existe.';
+                 RETURN;
+             end;
+             --verifico si el faltante esta distribuido
+              if v_pedfal = C_DistribFaltanteConsolidaPed then
+                 p_Ok    := 0;
+                 p_error := 'Pedido faltante ya distribuido.';
+                 RETURN;
+              end if;
+            
+             update tblslvpedfaltantedet df
+                set (df.qtunidadmedidabasepicking,
+                    df.qtpiezaspicking) =
+                    (select nvl(df.qtunidadmedidabasepicking,0)-tarea.qtunidadmedidabasepicking unidad,
+                           nvl(df.qtpiezaspicking,0)-tarea.qtpiezaspicking pieza
+                      from tblslvpedfaltantedet df
+                     where df.idpedfaltante = tarea.idpedfaltante
+                       and df.cdarticulo = tarea.cdarticulo)
+              where df.idpedfaltante = tarea.idpedfaltante
+                and df.cdarticulo = tarea.cdarticulo;
+
+              if SQL%ROWCOUNT = 0  then
+                n_pkg_vitalpos_log_general.write(2,
+                        'Modulo: ' || v_modulo ||
+                        ' imposible actualizar Faltantes de Pedido: '||tarea.idpedfaltante);
+                p_Ok:=0;
+                p_error:=' imposible actualizar Faltantes de Pedido: '||tarea.idpedfaltante;
+                rollback;
+                return; 
+             end if;
+            end if;
+
+        end loop;
+        
+        -- pone la tarea EN CURSO 1 en el parametro
+        if PKG_SLV_TAREAS.SetEstadoTarea(p_IdTarea,1)<>1 then
+           p_Ok:=0;
+           p_error:=' imposible actualizar Estado Tarea: '||p_idTarea;
+           rollback;
+           return; 
+        end if;
+        
+        --pone el ultimo remito EN CURSO 
+        update tblslvremito r
+           set r.cdestado=C_EnCursoRemito, 
+               r.dtupdate = sysdate
+         where r.idtarea = p_idTarea
+           and r.dtremito = (select max(re2.dtremito) 
+                               from tblslvremito re2
+                              where re2.idtarea = p_idTarea);
+         
+        if SQL%ROWCOUNT = 0  then
+           n_pkg_vitalpos_log_general.write(2,
+                        'Modulo: ' || v_modulo ||
+                        ' imposible actualizar estado del remito de la tarea: '||p_idTarea);
+           p_Ok:=0;
+           p_error:=' imposible actualizar estado del remito de la tarea: '||p_idTarea;
+           rollback;
+           return; 
+        end if;
+        
+        p_Ok:=1;
+        p_error:='';
+        commit;
+        exception
+          when others then
+            n_pkg_vitalpos_log_general.write(2,
+                                       'Modulo: ' || v_modulo ||
+                                       ' Error: ' || SQLERRM);
+           ROLLBACK;                                       
+           p_Ok:=0;
+           p_error:='Error. Comuniquese con sistemas.';
+    END ReactivaTarea;    
+    
+/**************************************************************************************************
+* %v 09/09/2020  ChM - reversa la tarea NO FINALIZADA y libera los articulos para nueva asignación 
+
+                 --------------------------ALERTA------------------------ALERTA---------------                 
+                 OJO no mover estado para forzar finalizar esto daña el picking del consolidado
+                 este procedimiento no actualiza los pick del consolidado solo elimina la tarea.
+                 este proceso puede borrar tareas de consolidados ya facturados o distribuidos                     
+***************************************************************************************************/
+  PROCEDURE  ReversaTareaNoFinalizada(p_idTarea         IN  Tblslvtarea.Idtarea%type,
+                                      p_Ok              OUT number,
+                                      p_error           OUT varchar2)
+                                      IS
+                                                
+     v_modulo               varchar2(100) := 'PKG_SLV_REVERSOS.ReversaTareaNoFinalizada. Tarea: '||p_idTarea;    
+     v_idtarea              Tblslvtarea.Idtarea%type:=null;   
+    BEGIN
+     --verifica si la tarea esta finalizada no se puede reversar!!  
+     begin
+        select ta.idtarea
+          into v_idtarea       
+          from tblslvtarea ta
+         where ta.idtarea = p_idTarea
+           and ta.cdestado in (select e.cdestado 
+                                from tblslvestado e 
+                               where e.tipo like '%Tarea%' 
+                                 and e.dsestado='Finalizado');
+       if v_idtarea is not null then 
+          p_Ok:=0;
+          p_error:='No se puede reversar una tarea finalizada!!'; 
+          return; 
+       end if;                          
+    exception
+      when others then
+          null; 
+    end;
+        --borrar el conteo detalle
+        delete tblslvconteodet cond 
+         where cond.idconteo in ( select co.idconteo
+                                    from tblslvconteo co
+                                   where co.idcontrolremito in  (select cr.idcontrolremito
+                                                                   from tblslvcontrolremito cr
+                                                                  where cr.idremito in (select re.idremito
+                                                                                          from tblslvremito re 
+                                                                                         where re.idtarea = p_idTarea)));                                                                    
+        --borrar el conteo 
+        delete tblslvconteo co 
+         where co.idcontrolremito in (select cr.idcontrolremito
+                                        from tblslvcontrolremito cr
+                                       where cr.idremito  in (select re.idremito
+                                                                from tblslvremito re 
+                                                               where re.idtarea = p_idTarea));                   
+                                                
+        --borrar el control remito detalle
+        delete tblslvcontrolremitodet crd
+         where crd.idcontrolremito in (select cr.idcontrolremito
+                                         from tblslvcontrolremito cr
+                                        where cr.idremito in (select re.idremito
+                                                                from tblslvremito re 
+                                                               where re.idtarea = p_idTarea));                                            
+        --borrar el control remito
+        delete tblslvcontrolremito cr
+         where cr.idremito in (select re.idremito
+                                 from tblslvremito re 
+                                where re.idtarea = p_idTarea);  
+
+        --borra remito detalle
+        delete tblslvremitodet rd
+         where rd.idremito in (select re.idremito
+                                 from tblslvremito re 
+                                where re.idtarea = p_idTarea);
+        --borra remito
+        delete tblslvremito r
+         where r.idtarea = p_idTarea;
+               
+        --borrar tarea detalle
+        delete tblslvtareadet td
+         where td.idtarea = p_idTarea;
+               
+        --borrar tarea 
+        delete tblslvtarea t
+         where t.idtarea = p_idTarea;                          
+
+        p_Ok:=1;
+        p_error:='';
+        commit;
+        exception
+          when others then
+            n_pkg_vitalpos_log_general.write(2,
+                                       'Modulo: ' || v_modulo ||
+                                       ' Error: ' || SQLERRM);
+           ROLLBACK;                                       
+           p_Ok:=0;
+           p_error:='Error. Comuniquese con sistemas.';
+    END ReversaTareaNoFinalizada;    
+ 
+/**************************************************************************************************
+* %v 09/09/2020  ChM - Reversa distribución de Faltantes de Consolidado Pedido
+                       no elimina tarea ni ped faltante para permitir nueva distribución
+***************************************************************************************************/
+  PROCEDURE ReversaDistribFaltante (p_idfaltante      IN  tblslvpedfaltante.idpedfaltante%type,
+                                    p_Ok              OUT number,
+                                    p_error           OUT varchar2)
+                                      IS
+                                                
+     v_modulo               varchar2(100) := 'PKG_SLV_REVERSOS.ReversaDistribFaltante. idFaltante: '||p_idfaltante;    
+     v_error                varchar2(200);   
+     v_pedfal               tblslvpedfaltante.idpedfaltante%type:=null;
+     
+    BEGIN
+      
+    --valida estado del pedfaltante
+     begin
+       select f.cdestado
+         into v_pedfal
+         from tblslvpedfaltante f
+        where f.idpedfaltante = p_idfaltante;
+     exception
+       when no_data_found then
+         p_Ok    := 0;
+         p_error := 'Pedido faltante no existe.';
+         RETURN;
+     end;
+     --verifico si el faltante esta distribuido
+      if v_pedfal <> C_DistribFaltanteConsolidaPed then
+         p_Ok    := 0;
+         p_error := 'Pedido faltante no distribuido no es necesario el reverso.';
+         RETURN;
+      end if;
+       
+      for detpedido in
+             (select frel.idconsolidadopedido                     
+                from tblslvpedfaltanterel               frel
+               where frel.idpedfaltante = p_IdFaltante)
+      loop
+        --select para validar que el pedido no esta en tblslvpedidoconformado ya facturado!!
+        begin
+        v_pedfal:=null;
+        select count(*)
+            into v_pedfal
+            from tblslvpedidoconformado       pc,
+                 tblslvconsolidadopedido      cp,
+                 tblslvconsolidadopedidorel   cprel,
+                 pedidos                      pe
+           where pe.idpedido = cprel.idpedido
+             and cprel.idconsolidadopedido = cp.idconsolidadopedido
+             and pc.idpedido = pe.idpedido
+             and cp.idconsolidadopedido =detpedido.idconsolidadopedido;
+        if v_pedfal > 0 then
+            p_Ok    := 0;
+            p_error := 'Pedido '||to_char(detpedido.idconsolidadopedido)||' ya distribuido';
+            rollback;
+            return;
+        end if;
+        exception
+          when no_data_found then
+           null;
+        end;
+         --actualiza picking consolidado pedido con valores de las tareas 
+          for dettarea in
+             (Select ta.idconsolidadopedido,       
+                     td.cdarticulo,
+                     td.qtunidadmedidabasepicking,
+                     td.qtpiezaspicking
+                from tblslvtarea      ta,
+                     tblslvtareadet   td
+               where ta.idtarea = td.idtarea
+                 and ta.idconsolidadopedido =  detpedido.idconsolidadopedido)
+          loop           
+          v_error:= 'Error en update tblslvconsolidadopedidodet';
+          update tblslvconsolidadopedidodet c
+             set c.qtunidadmedidabasepicking = dettarea.qtunidadmedidabasepicking,
+                 c.qtpiezaspicking = dettarea.qtpiezaspicking
+           where c.idconsolidadopedido = detpedido.idconsolidadopedido
+             and c.cdarticulo = dettarea.cdarticulo;
+          IF SQL%ROWCOUNT = 0 THEN
+           n_pkg_vitalpos_log_general.write(2,
+                                            'Modulo: ' || v_modulo ||
+                                            '  Detalle Error: ' || v_error);
+           p_Ok    := 0;
+           p_error:='Error. Comuniquese con Sistemas!';
+           ROLLBACK;
+           RETURN;
+           END IF;          
+           end loop;
+        end loop;
+        --borrar detalle remitos
+        delete tblslvremitodet rd
+         where rd.idremito in (select re.idremito 
+                                 from tblslvremito re
+                                 where re.idpedfaltanterel in (select pfrel.idpedfaltanterel 
+                                                                 from tblslvpedfaltanterel pfrel
+                                                                where pfrel.idpedfaltante = p_idfaltante));
+        --borrar remitos
+        delete tblslvremito re
+         where re.idpedfaltanterel in (select pfrel.idpedfaltanterel 
+                                         from tblslvpedfaltanterel pfrel
+                                        where pfrel.idpedfaltante = p_idfaltante);
+                                        
+        --borrar tabla tblslvajustedistribucion
+        delete tblslvajustedistribucion aj 
+         where aj.iddistribucionpedfaltante in (select dpf.iddistribucionpedfaltante 
+                                                  from tblslvdistribucionpedfaltante dpf
+                                                 where dpf.idpedfaltanterel in (select pfrel.idpedfaltanterel 
+                                                                                  from tblslvpedfaltanterel pfrel
+                                                                                 where pfrel.idpedfaltante = p_idfaltante));
+        --borrar distribucion involucrada
+        delete tblslvdistribucionpedfaltante dpf
+        where dpf.idpedfaltanterel in (select pfrel.idpedfaltanterel 
+                                         from tblslvpedfaltanterel pfrel
+                                        where pfrel.idpedfaltante = p_idfaltante); 
+                                        
+        --borrar la distribucion porcentual de los faltantes distribuidos
+        delete tblslvpordistribfaltantes podf 
+         where podf.idpedfaltante = p_idfaltante;                                                
+                
+        -- actualizo tblslvpedfaltante a estado finalizado así es posible volver a distribuir
+        v_error:= 'Error en update tblslvpedfaltante';
+        update tblslvpedfaltante pf
+           set pf.cdestado = 20
+           where pf.idpedfaltante= p_idfaltante;
+        IF SQL%ROWCOUNT = 0 THEN
+           n_pkg_vitalpos_log_general.write(2,
+                                            'Modulo: ' || v_modulo ||
+                                            '  Detalle Error: ' || v_error);
+           p_Ok    := 0;
+           p_error:='Error. Comuniquese con Sistemas!';
+           ROLLBACK;
+           RETURN;
+         END IF; 
+        p_Ok:=1;
+        p_error:='';
+        commit;
+        exception
+          when others then
+            n_pkg_vitalpos_log_general.write(2,
+                                       'Modulo: ' || v_modulo ||
+                                       ' Error: ' || SQLERRM);
+           ROLLBACK;                                       
+           p_Ok:=0;
+           p_error:='Error. Comuniquese con sistemas.';
+    END ReversaDistribFaltante;   
+ 
+/*****************************************************************************************************************
+* %v 09/09/2020  ChM - ReversaPedFaltante PRIMERO SE DEBE ELIMINAR LA TAREA del pedfaltante asi no falla!
+* %v 09/09/2020  ChM - elimina faltantes y actualiza estado consodolidados pedidos  para crear nuevo ped faltante     
+******************************************************************************************************************/
+  PROCEDURE ReversaPedFaltante (p_idfaltante      IN  tblslvpedfaltante.idpedfaltante%type,
+                                p_Ok              OUT number,
+                                p_error           OUT varchar2)
+                                      IS
+                                                
+     v_modulo               varchar2(100) := 'PKG_SLV_REVERSOS.ReversaPedFaltante. idFaltante: '||p_idfaltante;    
+     v_pedfal               tblslvpedfaltante.idpedfaltante%type:=null;
+        
+    BEGIN
+       --valida estado del pedfaltante
+       begin
+         select f.cdestado
+           into v_pedfal
+           from tblslvpedfaltante f
+          where f.idpedfaltante = p_idfaltante;
+       exception
+         when no_data_found then
+           p_Ok    := 0;
+           p_error := 'Pedido faltante no existe.';
+           RETURN;
+       end;
+       --verifico si el faltante esta distribuido
+        if v_pedfal = C_DistribFaltanteConsolidaPed then
+           p_Ok    := 0;
+           p_error := 'Pedido faltante ya distribuido imposible eliminar!!';
+           RETURN;
+        end if;
+        
+        --borrar detalle de los faltantes del consolidadoM
+        delete tblslvpedfaltantedet pfd 
+         where pfd.idpedfaltante = p_idfaltante;
+                                                                          
+         --borrar la distribucion porcentual de los faltantes distribuidos
+        delete tblslvpordistribfaltantes podf 
+         where podf.idpedfaltante = p_idfaltante;                                                           
+                                                                                                       
+        --borrar la relacion de pedidos con faltantes
+        delete tblslvpedfaltanterel pfr 
+         where pfr.idpedfaltante = p_idfaltante;                                            
+
+         --borrar pedidos con faltantes                                     
+         delete tblslvpedfaltante pf 
+          where pf.idpedfaltante = p_idfaltante; 
+          
+        p_Ok:=1;
+        p_error:='';
+        commit;
+        exception
+          when others then
+            n_pkg_vitalpos_log_general.write(2,
+                                       'Modulo: ' || v_modulo ||
+                                       ' Error: ' || SQLERRM);
+           ROLLBACK;                                       
+           p_Ok:=0;
+           p_error:='Error. Comuniquese con sistemas.';
+    END ReversaPedFaltante;
+
+end PKG_SLV_REVERSOS;
+/

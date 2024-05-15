@@ -1,0 +1,2919 @@
+{
+    "orderId": "1152452222809-01",
+    "sequence": "500826",
+    "marketplaceOrderId": "",
+    "marketplaceServicesEndpoint": null,
+    "sellerOrderId": "VTL-1152452222809-01",
+    "origin": "Marketplace",
+    "affiliateId": "",
+    "salesChannel": "1",
+    "merchantName": null,
+    "status": "payment-approved",
+    "statusDescription": "Pagamento Aprovado",
+    "value": 10225222,
+    "creationDate": "2021-08-07T12:37:01.9128458+00:00",
+    "lastChange": "2021-08-07T12:37:13.4649854+00:00",
+    "orderGroup": "1152452222809",
+    "totals": [
+        {
+            "id": "Items",
+            "name": "Total de los items",
+            "value": 10457177
+        },
+        {
+            "id": "Discounts",
+            "name": "Total de descuentos",
+            "value": -231955
+        },
+        {
+            "id": "Shipping",
+            "name": "Costo total del envío",
+            "value": 0
+        },
+        {
+            "id": "Tax",
+            "name": "Costo total del cambio",
+            "value": 0
+        }
+    ],
+    "items": [
+        {
+            "uniqueId": "3718D7DF81DE4EF4ABBB46A1AAF0A016",
+            "id": "174988",
+            "productId": "174988",
+            "ean": "7793704000928",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 20,
+            "seller": "arvitaltet",
+            "name": "Yerba Playadito suave x1kg",
+            "refId": "0174988",
+            "price": 31899,
+            "listPrice": 31899,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/252576-55-55/174988.jpg?v=637630488634900000",
+            "detailUrl": "/yerba-playadito-suave-x1kg-174988/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "174988",
+            "priceValidUntil": "2021-08-08T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "PLAYADITO",
+                "brandId": "21021",
+                "categoriesIds": "/20002/30011/40057/",
+                "categories": [
+                    {
+                        "id": 40057,
+                        "name": "Yerbas"
+                    },
+                    {
+                        "id": 30011,
+                        "name": "Desayuno Y Merienda"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "148,154",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 5.0000,
+            "sellingPrice": 159495,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 159495,
+                        "quantity": 20
+                    }
+                ],
+                "calculatedSellingPrice": 159495,
+                "total": 3189900
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "F93C0F158C784F12A615A5BED0C0C18A",
+            "id": "100455",
+            "productId": "100455",
+            "ean": "7790070936479",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 5,
+            "seller": "arvitaltet",
+            "name": "Cafe instantaneo Arlistan frasco x170gr",
+            "refId": "0100455",
+            "price": 25773,
+            "listPrice": 25773,
+            "manualPrice": null,
+            "priceTags": [
+                {
+                    "name": "discount@price-5015043a-abb7-46c8-82af-5d20878ca6e4#aeb9ff16-eb1c-4b38-89cb-f0ca01e0b1d0",
+                    "value": -231955,
+                    "isPercentual": false,
+                    "identifier": "5015043a-abb7-46c8-82af-5d20878ca6e4",
+                    "rawValue": -2319.55,
+                    "rate": null,
+                    "jurisCode": null,
+                    "jurisType": null,
+                    "jurisName": null
+                }
+            ],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/245887-55-55/100455.jpg?v=637601474153670000",
+            "detailUrl": "/cafe-instantaneo-arlistan-frasco-x170gr-100455/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "100455",
+            "priceValidUntil": "2022-08-07T12:36:35.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "ARLISTAN",
+                "brandId": "20080",
+                "categoriesIds": "/20002/30011/40052/",
+                "categories": [
+                    {
+                        "id": 40052,
+                        "name": "Café"
+                    },
+                    {
+                        "id": 30011,
+                        "name": "Desayuno Y Merienda"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "138,152,154,155,170,175",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 12.0000,
+            "sellingPrice": 262885,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 262885,
+                        "quantity": 5
+                    }
+                ],
+                "calculatedSellingPrice": 262885,
+                "total": 1314425
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "5E72E2D13B53430F81CB4650138E6B39",
+            "id": "176431",
+            "productId": "176431",
+            "ean": "7791120099816",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 5,
+            "seller": "arvitaltet",
+            "name": "Arroz largo fino Molinos Ala estuche x1kg",
+            "refId": "0176431",
+            "price": 8999,
+            "listPrice": 8999,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/253339-55-55/176431.jpg?v=637636501357930000",
+            "detailUrl": "/arroz-largo-fino-molinos-ala-estuche-x1kg-176431/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "176431",
+            "priceValidUntil": "2021-08-08T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "MOLINOS ALA",
+                "brandId": "20862",
+                "categoriesIds": "/20002/30009/40040/",
+                "categories": [
+                    {
+                        "id": 40040,
+                        "name": "Arroz"
+                    },
+                    {
+                        "id": 30009,
+                        "name": "Arroz Y Legumbres"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "137,154",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 5.0000,
+            "sellingPrice": 44995,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 44995,
+                        "quantity": 5
+                    }
+                ],
+                "calculatedSellingPrice": 44995,
+                "total": 224975
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "A31E34E7BE18428AB8F5F41FEB7C744C",
+            "id": "103468",
+            "productId": "103468",
+            "ean": "7798131200613",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 2,
+            "seller": "arvitaltet",
+            "name": "Whisky Old Smuggler x1lt",
+            "refId": "0103468",
+            "price": 38899,
+            "listPrice": 38899,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/251858-55-55/103468.jpg?v=637620814905130000",
+            "detailUrl": "/whisky-old-smuggler-x1lt-103468/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "103468",
+            "priceValidUntil": "2021-08-08T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "OLD SMUGGLER",
+                "brandId": "20936",
+                "categoriesIds": "/20005/30033/40178/",
+                "categories": [
+                    {
+                        "id": 40178,
+                        "name": "Whisky"
+                    },
+                    {
+                        "id": 30033,
+                        "name": "Bebidas Con Alcohol"
+                    },
+                    {
+                        "id": 20005,
+                        "name": "Bebidas"
+                    }
+                ],
+                "productClusterId": "137,154",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 6.0000,
+            "sellingPrice": 233394,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 233394,
+                        "quantity": 2
+                    }
+                ],
+                "calculatedSellingPrice": 233394,
+                "total": 466788
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "0C3E0685CF86490F83D7D9BAD7B6EF8C",
+            "id": "100911",
+            "productId": "100911",
+            "ean": "7790490998200",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 5,
+            "seller": "arvitaltet",
+            "name": "Edulcorante Hileret Sweet liquido x200cc",
+            "refId": "0100911",
+            "price": 8699,
+            "listPrice": 8699,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/251303-55-55/100911.jpg?v=637620808978700000",
+            "detailUrl": "/edulcorante-hileret-sweet-liquido-x200cc-100911/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "100911",
+            "priceValidUntil": "2021-08-08T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "HILERET",
+                "brandId": "20590",
+                "categoriesIds": "/20002/30011/40049/",
+                "categories": [
+                    {
+                        "id": 40049,
+                        "name": "Azucar Y Edulcorante"
+                    },
+                    {
+                        "id": 30011,
+                        "name": "Desayuno Y Merienda"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "138",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 9.0000,
+            "sellingPrice": 78291,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 78291,
+                        "quantity": 5
+                    }
+                ],
+                "calculatedSellingPrice": 78291,
+                "total": 391455
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "5F30746E619F448CB878D01A82606B14",
+            "id": "101368",
+            "productId": "101368",
+            "ean": "7790040111004",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 5,
+            "seller": "arvitaltet",
+            "name": "Galletitas Chocolinas x250gr",
+            "refId": "0101368",
+            "price": 8799,
+            "listPrice": 8799,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/240360-55-55/101368.jpg?v=637601430639130000",
+            "detailUrl": "/galletitas-chocolinas-x250gr-101368/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "101368",
+            "priceValidUntil": "2021-08-08T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "CHOCOLINAS",
+                "brandId": "20248",
+                "categoriesIds": "/20002/30011/40054/",
+                "categories": [
+                    {
+                        "id": 40054,
+                        "name": "Galletitas Tostadas Y Grisines"
+                    },
+                    {
+                        "id": 30011,
+                        "name": "Desayuno Y Merienda"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "138,148,152,155",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 25.0000,
+            "sellingPrice": 219975,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 219975,
+                        "quantity": 5
+                    }
+                ],
+                "calculatedSellingPrice": 219975,
+                "total": 1099875
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "D193999772AF49E59625927A3E245EDC",
+            "id": "106988",
+            "productId": "106988",
+            "ean": "7790070012050",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 10,
+            "seller": "arvitaltet",
+            "name": "Aceite girasol Cocinero x900cc",
+            "refId": "0106988",
+            "price": 15398,
+            "listPrice": 15398,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/235422-55-55/106988.jpg?v=637601392089600000",
+            "detailUrl": "/aceite-girasol-cocinero-x900cc-106988/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "106988",
+            "priceValidUntil": "2022-08-07T12:36:35.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "COCINERO",
+                "brandId": "20275",
+                "categoriesIds": "/20002/30007/40033/",
+                "categories": [
+                    {
+                        "id": 40033,
+                        "name": "Aceites"
+                    },
+                    {
+                        "id": 30007,
+                        "name": "Aceites Y Condimentos"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 15.0000,
+            "sellingPrice": 230970,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 230970,
+                        "quantity": 10
+                    }
+                ],
+                "calculatedSellingPrice": 230970,
+                "total": 2309700
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "438F5899220240EF82F93EBCBCE378F2",
+            "id": "142484",
+            "productId": "142484",
+            "ean": "7790590000841",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 4,
+            "seller": "arvitaltet",
+            "name": "Fosforos Tres Patitos ecologicos unicef x222u",
+            "refId": "0142484",
+            "price": 5034,
+            "listPrice": 5034,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/238419-55-55/142484.jpg?v=637601415457300000",
+            "detailUrl": "/fosforos-tres-patitos-ecologicos-unicef-x222u-142484/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "142484",
+            "priceValidUntil": "2022-08-07T12:36:35.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "TRES PATITOS",
+                "brandId": "21329",
+                "categoriesIds": "/20012/30064/40337/",
+                "categories": [
+                    {
+                        "id": 40337,
+                        "name": "Fosforos"
+                    },
+                    {
+                        "id": 30064,
+                        "name": "Fosforos Y Velas"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 20.0000,
+            "sellingPrice": 100680,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 100680,
+                        "quantity": 4
+                    }
+                ],
+                "calculatedSellingPrice": 100680,
+                "total": 402720
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "376A18900ADB41058F6A5BA1CB781A3C",
+            "id": "161831",
+            "productId": "161831",
+            "ean": "7793253002657",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 2,
+            "seller": "arvitaltet",
+            "name": "Esponja Ayudin cocina",
+            "refId": "0161831",
+            "price": 6921,
+            "listPrice": 6921,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/239559-55-55/161831.jpg?v=637601424569770000",
+            "detailUrl": "/esponja-ayudin-cocina-161831/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "161831",
+            "priceValidUntil": "2022-08-07T12:36:35.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "AYUDIN",
+                "brandId": "20095",
+                "categoriesIds": "/20012/30060/40314/",
+                "categories": [
+                    {
+                        "id": 40314,
+                        "name": "Cepillos Esponjas Y Guantes"
+                    },
+                    {
+                        "id": 30060,
+                        "name": "Accesorios De Limpieza"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 12.0000,
+            "sellingPrice": 83052,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 83052,
+                        "quantity": 2
+                    }
+                ],
+                "calculatedSellingPrice": 83052,
+                "total": 166104
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "1459549FE2794FE6B5EE83DC6D09A52B",
+            "id": "174805",
+            "productId": "174805",
+            "ean": "7500435155830",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitaltet",
+            "name": "Shampoo Pantene bambu x200ml",
+            "refId": "0174805",
+            "price": 13900,
+            "listPrice": 13900,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/243291-55-55/174805.jpg?v=637601453710070000",
+            "detailUrl": "/shampoo-pantene-bambu-x200ml-174805/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "174805",
+            "priceValidUntil": "2021-08-08T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "PANTENE",
+                "brandId": "20973",
+                "categoriesIds": "/20014/30077/40389/",
+                "categories": [
+                    {
+                        "id": 40389,
+                        "name": "Shampoo"
+                    },
+                    {
+                        "id": 30077,
+                        "name": "Cuidado Del Cabello"
+                    },
+                    {
+                        "id": 20014,
+                        "name": "Perfumeria"
+                    }
+                ],
+                "productClusterId": "138",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 6.0000,
+            "sellingPrice": 83400,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 83400,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 83400,
+                "total": 83400
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "15F80FD4B9D64C2389415E3C08F49FF2",
+            "id": "157060",
+            "productId": "157060",
+            "ean": "7500435181624",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitaltet",
+            "name": "Shampoo Pantene Max Pro-V liso extremo x200ml",
+            "refId": "0157060",
+            "price": 13900,
+            "listPrice": 13900,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/252200-55-55/157060.jpg?v=637625952792930000",
+            "detailUrl": "/shampoo-pantene-max-pro-v-liso-extremo-x200ml-157060/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "157060",
+            "priceValidUntil": "2021-08-08T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "PANTENE",
+                "brandId": "20973",
+                "categoriesIds": "/20014/30077/40389/",
+                "categories": [
+                    {
+                        "id": 40389,
+                        "name": "Shampoo"
+                    },
+                    {
+                        "id": 30077,
+                        "name": "Cuidado Del Cabello"
+                    },
+                    {
+                        "id": 20014,
+                        "name": "Perfumeria"
+                    }
+                ],
+                "productClusterId": "138,151",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 6.0000,
+            "sellingPrice": 83400,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 83400,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 83400,
+                "total": 83400
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "564AD782E00244539AAA8543417CC28E",
+            "id": "168463",
+            "productId": "168463",
+            "ean": "7500435175999",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitaltet",
+            "name": "Shampoo Pantene Pro-V purifica hidrata x200ml",
+            "refId": "0168463",
+            "price": 13900,
+            "listPrice": 13900,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/244178-55-55/168463.jpg?v=637601460693800000",
+            "detailUrl": "/shampoo-pantene-pro-v-purifica-hidrata-x200ml-168463/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "168463",
+            "priceValidUntil": "2021-08-08T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "PANTENE",
+                "brandId": "20973",
+                "categoriesIds": "/20014/30077/40389/",
+                "categories": [
+                    {
+                        "id": 40389,
+                        "name": "Shampoo"
+                    },
+                    {
+                        "id": 30077,
+                        "name": "Cuidado Del Cabello"
+                    },
+                    {
+                        "id": 20014,
+                        "name": "Perfumeria"
+                    }
+                ],
+                "productClusterId": "138",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 6.0000,
+            "sellingPrice": 83400,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 83400,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 83400,
+                "total": 83400
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "432E805CBFA84F62BCC662345CF0CD37",
+            "id": "174811",
+            "productId": "174811",
+            "ean": "7500435155939",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitaltet",
+            "name": "Acondicionador Pantene bambu x200ml",
+            "refId": "0174811",
+            "price": 13900,
+            "listPrice": 13900,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/246471-55-55/174811.jpg?v=637601478525100000",
+            "detailUrl": "/acondicionador-pantene-bambu-x200ml-174811/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "174811",
+            "priceValidUntil": "2021-08-08T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "PANTENE",
+                "brandId": "20973",
+                "categoriesIds": "/20014/30077/40386/",
+                "categories": [
+                    {
+                        "id": 40386,
+                        "name": "Acondicionador"
+                    },
+                    {
+                        "id": 30077,
+                        "name": "Cuidado Del Cabello"
+                    },
+                    {
+                        "id": 20014,
+                        "name": "Perfumeria"
+                    }
+                ],
+                "productClusterId": "138",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 6.0000,
+            "sellingPrice": 83400,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 83400,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 83400,
+                "total": 83400
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "4406AF4C879C4D0387BEE4FB9EF73518",
+            "id": "157055",
+            "productId": "157055",
+            "ean": "7500435181556",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitaltet",
+            "name": "Acondicionador Pantene Max Pro-V hidratacion x200ml",
+            "refId": "0157055",
+            "price": 13900,
+            "listPrice": 13900,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/252205-55-55/157055.jpg?v=637625952815470000",
+            "detailUrl": "/acondicionador-pantene-max-pro-v-hidratacion-x200ml-157055/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "157055",
+            "priceValidUntil": "2021-08-08T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "PANTENE",
+                "brandId": "20973",
+                "categoriesIds": "/20014/30077/40386/",
+                "categories": [
+                    {
+                        "id": 40386,
+                        "name": "Acondicionador"
+                    },
+                    {
+                        "id": 30077,
+                        "name": "Cuidado Del Cabello"
+                    },
+                    {
+                        "id": 20014,
+                        "name": "Perfumeria"
+                    }
+                ],
+                "productClusterId": "138",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 6.0000,
+            "sellingPrice": 83400,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 83400,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 83400,
+                "total": 83400
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "92312D196295473385FF3A8FC7827723",
+            "id": "157059",
+            "productId": "157059",
+            "ean": "7500435181532",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitaltet",
+            "name": "Acondicionador Pantene Max Pro-V liso extremo x200ml",
+            "refId": "0157059",
+            "price": 13900,
+            "listPrice": 13900,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/252252-55-55/157059.jpg?v=637626816718000000",
+            "detailUrl": "/acondicionador-pantene-max-pro-v-liso-extremo-x200ml-157059/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "157059",
+            "priceValidUntil": "2021-08-08T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "PANTENE",
+                "brandId": "20973",
+                "categoriesIds": "/20014/30077/40386/",
+                "categories": [
+                    {
+                        "id": 40386,
+                        "name": "Acondicionador"
+                    },
+                    {
+                        "id": 30077,
+                        "name": "Cuidado Del Cabello"
+                    },
+                    {
+                        "id": 20014,
+                        "name": "Perfumeria"
+                    }
+                ],
+                "productClusterId": "138,151",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 6.0000,
+            "sellingPrice": 83400,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 83400,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 83400,
+                "total": 83400
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "61C91BC066034BA290D79D14B13CF70D",
+            "id": "168465",
+            "productId": "168465",
+            "ean": "7500435175951",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitaltet",
+            "name": "Acondicionador Pantene Pro-V micellar x200ml",
+            "refId": "0168465",
+            "price": 13900,
+            "listPrice": 13900,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/238453-55-55/168465.jpg?v=637601415767830000",
+            "detailUrl": "/acondicionador-pantene-pro-v-micellar-x200ml-168465/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "168465",
+            "priceValidUntil": "2021-08-08T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "PANTENE",
+                "brandId": "20973",
+                "categoriesIds": "/20014/30077/40386/",
+                "categories": [
+                    {
+                        "id": 40386,
+                        "name": "Acondicionador"
+                    },
+                    {
+                        "id": 30077,
+                        "name": "Cuidado Del Cabello"
+                    },
+                    {
+                        "id": 20014,
+                        "name": "Perfumeria"
+                    }
+                ],
+                "productClusterId": "138",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 6.0000,
+            "sellingPrice": 83400,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 83400,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 83400,
+                "total": 83400
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "9450B01F5B4E4771BEF941295306D489",
+            "id": "111000",
+            "productId": "111000",
+            "ean": "7794440003303",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 2,
+            "seller": "arvitaltet",
+            "name": "Esponja Virulana fibra cuadraditos",
+            "refId": "0111000",
+            "price": 3145,
+            "listPrice": 3145,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/238130-55-55/111000.jpg?v=637601413214900000",
+            "detailUrl": "/esponja-virulana-fibra-cuadraditos-111000/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "111000",
+            "priceValidUntil": "2022-08-07T12:36:35.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "VIRULANA",
+                "brandId": "21390",
+                "categoriesIds": "/20012/30060/40314/",
+                "categories": [
+                    {
+                        "id": 40314,
+                        "name": "Cepillos Esponjas Y Guantes"
+                    },
+                    {
+                        "id": 30060,
+                        "name": "Accesorios De Limpieza"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 12.0000,
+            "sellingPrice": 37740,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 37740,
+                        "quantity": 2
+                    }
+                ],
+                "calculatedSellingPrice": 37740,
+                "total": 75480
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        }
+    ],
+    "marketplaceItems": [],
+    "clientProfileData": {
+        "id": "clientProfileData",
+        "email": "daec7e64e96d4a05ace8b5be0cd6b821@ct.vtex.com.br",
+        "firstName": "Carolina",
+        "lastName": "Rozas",
+        "documentType": "dni",
+        "document": "25678067",
+        "phone": "+5491131853579",
+        "corporateName": null,
+        "tradeName": null,
+        "corporateDocument": null,
+        "stateInscription": null,
+        "corporatePhone": null,
+        "isCorporate": false,
+        "userProfileId": "6a0acd82-1250-4de5-9dd6-4f3a3e1c582c",
+        "customerClass": null
+    },
+    "giftRegistryData": null,
+    "marketingData": {
+        "id": "marketingData",
+        "utmSource": null,
+        "utmPartner": null,
+        "utmMedium": null,
+        "utmCampaign": null,
+        "coupon": null,
+        "utmiCampaign": null,
+        "utmipage": null,
+        "utmiPart": null,
+        "marketingTags": [
+            "vtexSocialSelling"
+        ]
+    },
+    "ratesAndBenefitsData": {
+        "id": "ratesAndBenefitsData",
+        "rateAndBenefitsIdentifiers": [
+            {
+                "description": "desde 36  UNIDADES",
+                "featured": false,
+                "id": "5015043a-abb7-46c8-82af-5d20878ca6e4",
+                "name": "ARLISTAN cafe instantaneo X170gr D3B15",
+                "matchedParameters": {
+                    "progressiveDiscount@Marketing": "100455",
+                    "zipCode@Shipping": "1618"
+                },
+                "additionalInfo": {
+                    "Cucarda": "-15% ",
+                    "CdPromo": "181124",
+                    "Skus": "100455"
+                }
+            }
+        ]
+    },
+    "shippingData": {
+        "id": "shippingData",
+        "address": {
+            "addressType": "residential",
+            "receiverName": "Carolina Rozas",
+            "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+            "postalCode": "1618",
+            "city": "EL TALAR",
+            "state": "BUENOS AIRES",
+            "country": "ARG",
+            "street": "AVENIDA 25 DE MAYO",
+            "number": "364",
+            "neighborhood": "BUENOS AIRES, GENERAL RODRIGUEZ",
+            "complement": "PB",
+            "reference": "2        1",
+            "geoCoordinates": [
+                -58.680671691894531,
+                -34.45501708984375
+            ]
+        },
+        "logisticsInfo": [
+            {
+                "itemIndex": 0,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-08-11T12:37:12.4074188+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 20,
+                        "warehouseId": "1501",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 1,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-08-11T12:37:12.4074188+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 5,
+                        "warehouseId": "1501",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 2,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-08-11T12:37:12.4074188+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 5,
+                        "warehouseId": "1501",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 3,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-08-11T12:37:12.4074188+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 2,
+                        "warehouseId": "1501",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 4,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-08-11T12:37:12.4074188+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 5,
+                        "warehouseId": "1501",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 5,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-08-11T12:37:12.4074188+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 5,
+                        "warehouseId": "1501",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 6,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-08-11T12:37:12.4074188+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 10,
+                        "warehouseId": "1501",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 7,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-08-11T12:37:12.4074188+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 4,
+                        "warehouseId": "1501",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 8,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-08-11T12:37:12.4074188+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 2,
+                        "warehouseId": "1501",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 9,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-08-11T12:37:12.4074188+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1501",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 10,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-08-11T12:37:12.4074188+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1501",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 11,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-08-11T12:37:12.4074188+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1501",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 12,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-08-11T12:37:12.4074188+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1501",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 13,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-08-11T12:37:12.4074188+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1501",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 14,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-08-11T12:37:12.4074188+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1501",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 15,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-08-11T12:37:12.4074188+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1501",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 16,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-08-11T12:37:12.4074188+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 2,
+                        "warehouseId": "1501",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            }
+        ],
+        "trackingHints": null,
+        "selectedAddresses": [
+            {
+                "addressId": "EL TALAR BUENOS AIRES AVENIDA 25 DE MAYO 364",
+                "addressType": "residential",
+                "receiverName": "Carolina Rozas",
+                "street": "AVENIDA 25 DE MAYO",
+                "number": "364",
+                "complement": "PB",
+                "neighborhood": "BUENOS AIRES, GENERAL RODRIGUEZ",
+                "postalCode": "1618",
+                "city": "EL TALAR",
+                "state": "BUENOS AIRES",
+                "country": "ARG",
+                "reference": "2        1",
+                "geoCoordinates": [
+                    -58.680671691894531,
+                    -34.45501708984375
+                ]
+            }
+        ]
+    },
+    "paymentData": {
+        "giftCards": [],
+        "transactions": [
+            {
+                "isActive": true,
+                "transactionId": "2C11FED41F64472D8B21AAADD86D27B0",
+                "merchantName": "ARVITAL",
+                "payments": [
+                    {
+                        "id": "1D68776A8F954EE1BB83CCCAA662662B",
+                        "paymentSystem": "201",
+                        "paymentSystemName": "Pago a convenir",
+                        "value": 10225222,
+                        "installments": 1,
+                        "referenceValue": 10225222,
+                        "cardHolder": null,
+                        "cardNumber": null,
+                        "firstDigits": null,
+                        "lastDigits": null,
+                        "cvv2": null,
+                        "expireMonth": null,
+                        "expireYear": null,
+                        "url": null,
+                        "giftCardId": null,
+                        "giftCardName": null,
+                        "giftCardCaption": null,
+                        "redemptionCode": null,
+                        "group": "promissory",
+                        "tid": null,
+                        "dueDate": null,
+                        "connectorResponses": {},
+                        "giftCardProvider": null,
+                        "giftCardAsDiscount": null,
+                        "koinUrl": null,
+                        "accountId": null,
+                        "parentAccountId": null,
+                        "bankIssuedInvoiceIdentificationNumber": null,
+                        "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                        "bankIssuedInvoiceBarCodeNumber": null,
+                        "bankIssuedInvoiceBarCodeType": null,
+                        "billingAddress": null
+                    }
+                ]
+            }
+        ]
+    },
+    "packageAttachment": {
+        "packages": []
+    },
+    "sellers": [
+        {
+            "id": "arvitaltet",
+            "name": "arvitaltetv",
+            "logo": null,
+            "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?affiliateid=VTL&sc=1&an=arvitaltet"
+        }
+    ],
+    "callCenterOperatorData": null,
+    "followUpEmail": "f4947f1785d341f48c9da631978c643b@ct.vtex.com.br",
+    "lastMessage": null,
+    "hostname": "arvital",
+    "invoiceData": null,
+    "changesAttachment": null,
+    "openTextField": null,
+    "roundingError": 0,
+    "orderFormId": "07e613f3b45c4247a96043509d028b68",
+    "commercialConditionData": null,
+    "isCompleted": true,
+    "customData": {
+        "customApps": [
+            {
+                "fields": {
+                    "value": "BD83970DEEBB7669E053100000D724D7"
+                },
+                "id": "id_cuenta",
+                "major": 1
+            },
+            {
+                "fields": {
+                    "lista": "0.5671",
+                    "tapa": "0.1045",
+                    "oferta": "0.3284"
+                },
+                "id": "semaforo",
+                "major": 1
+            }
+        ]
+    },
+    "storePreferencesData": {
+        "countryCode": "ARG",
+        "currencyCode": "ARS",
+        "currencyFormatInfo": {
+            "CurrencyDecimalDigits": 2,
+            "CurrencyDecimalSeparator": ",",
+            "CurrencyGroupSeparator": ".",
+            "CurrencyGroupSize": 3,
+            "StartsWithCurrencySymbol": true
+        },
+        "currencyLocale": 11274,
+        "currencySymbol": "$",
+        "timeZone": "Argentina Standard Time"
+    },
+    "allowCancellation": true,
+    "allowEdition": false,
+    "isCheckedIn": false,
+    "marketplace": null,
+    "authorizedDate": "2021-08-07T12:37:09.0641287+00:00",
+    "invoicedDate": null,
+    "cancelReason": null,
+    "itemMetadata": {
+        "Items": [
+            {
+                "Id": "174988",
+                "Seller": "1",
+                "Name": "Yerba Playadito suave x1kg",
+                "SkuName": "Yerba Playadito suave x1kg",
+                "ProductId": "174988",
+                "RefId": "0174988",
+                "Ean": "7793704000928",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/252576-55-55/174988.jpg?v=637630488634900000",
+                "DetailUrl": "/yerba-playadito-suave-x1kg-174988/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "100455",
+                "Seller": "1",
+                "Name": "Cafe instantaneo Arlistan frasco x170gr",
+                "SkuName": "Cafe instantaneo Arlistan frasco x170gr",
+                "ProductId": "100455",
+                "RefId": "0100455",
+                "Ean": "7790070936479",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/245887-55-55/100455.jpg?v=637601474153670000",
+                "DetailUrl": "/cafe-instantaneo-arlistan-frasco-x170gr-100455/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "176431",
+                "Seller": "1",
+                "Name": "Arroz largo fino Molinos Ala estuche x1kg",
+                "SkuName": "Arroz largo fino Molinos Ala estuche x1kg",
+                "ProductId": "176431",
+                "RefId": "0176431",
+                "Ean": "7791120099816",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/253339-55-55/176431.jpg?v=637636501357930000",
+                "DetailUrl": "/arroz-largo-fino-molinos-ala-estuche-x1kg-176431/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "103468",
+                "Seller": "1",
+                "Name": "Whisky Old Smuggler x1lt",
+                "SkuName": "Whisky Old Smuggler x1lt",
+                "ProductId": "103468",
+                "RefId": "0103468",
+                "Ean": "7798131200613",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/251858-55-55/103468.jpg?v=637620814905130000",
+                "DetailUrl": "/whisky-old-smuggler-x1lt-103468/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "100911",
+                "Seller": "1",
+                "Name": "Edulcorante Hileret Sweet liquido x200cc",
+                "SkuName": "Edulcorante Hileret Sweet liquido x200cc",
+                "ProductId": "100911",
+                "RefId": "0100911",
+                "Ean": "7790490998200",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/251303-55-55/100911.jpg?v=637620808978700000",
+                "DetailUrl": "/edulcorante-hileret-sweet-liquido-x200cc-100911/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "101368",
+                "Seller": "1",
+                "Name": "Galletitas Chocolinas x250gr",
+                "SkuName": "Galletitas Chocolinas x250gr",
+                "ProductId": "101368",
+                "RefId": "0101368",
+                "Ean": "7790040111004",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/240360-55-55/101368.jpg?v=637601430639130000",
+                "DetailUrl": "/galletitas-chocolinas-x250gr-101368/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "106988",
+                "Seller": "1",
+                "Name": "Aceite girasol Cocinero x900cc",
+                "SkuName": "Aceite girasol Cocinero x900cc",
+                "ProductId": "106988",
+                "RefId": "0106988",
+                "Ean": "7790070012050",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/235422-55-55/106988.jpg?v=637601392089600000",
+                "DetailUrl": "/aceite-girasol-cocinero-x900cc-106988/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "142484",
+                "Seller": "1",
+                "Name": "Fosforos Tres Patitos ecologicos unicef x222u",
+                "SkuName": "Fosforos Tres Patitos ecologicos unicef x222u",
+                "ProductId": "142484",
+                "RefId": "0142484",
+                "Ean": "7790590000841",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/238419-55-55/142484.jpg?v=637601415457300000",
+                "DetailUrl": "/fosforos-tres-patitos-ecologicos-unicef-x222u-142484/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "161831",
+                "Seller": "1",
+                "Name": "Esponja Ayudin cocina",
+                "SkuName": "Esponja Ayudin cocina",
+                "ProductId": "161831",
+                "RefId": "0161831",
+                "Ean": "7793253002657",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/239559-55-55/161831.jpg?v=637601424569770000",
+                "DetailUrl": "/esponja-ayudin-cocina-161831/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "174805",
+                "Seller": "1",
+                "Name": "Shampoo Pantene bambu x200ml",
+                "SkuName": "Shampoo Pantene bambu x200ml",
+                "ProductId": "174805",
+                "RefId": "0174805",
+                "Ean": "7500435155830",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/243291-55-55/174805.jpg?v=637601453710070000",
+                "DetailUrl": "/shampoo-pantene-bambu-x200ml-174805/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "157060",
+                "Seller": "1",
+                "Name": "Shampoo Pantene Max Pro-V liso extremo x200ml",
+                "SkuName": "Shampoo Pantene Max Pro-V liso extremo x200ml",
+                "ProductId": "157060",
+                "RefId": "0157060",
+                "Ean": "7500435181624",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/252200-55-55/157060.jpg?v=637625952792930000",
+                "DetailUrl": "/shampoo-pantene-max-pro-v-liso-extremo-x200ml-157060/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "168463",
+                "Seller": "1",
+                "Name": "Shampoo Pantene Pro-V purifica hidrata x200ml",
+                "SkuName": "Shampoo Pantene Pro-V purifica hidrata x200ml",
+                "ProductId": "168463",
+                "RefId": "0168463",
+                "Ean": "7500435175999",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/244178-55-55/168463.jpg?v=637601460693800000",
+                "DetailUrl": "/shampoo-pantene-pro-v-purifica-hidrata-x200ml-168463/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "174811",
+                "Seller": "1",
+                "Name": "Acondicionador Pantene bambu x200ml",
+                "SkuName": "Acondicionador Pantene bambu x200ml",
+                "ProductId": "174811",
+                "RefId": "0174811",
+                "Ean": "7500435155939",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/246471-55-55/174811.jpg?v=637601478525100000",
+                "DetailUrl": "/acondicionador-pantene-bambu-x200ml-174811/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "157055",
+                "Seller": "1",
+                "Name": "Acondicionador Pantene Max Pro-V hidratacion x200ml",
+                "SkuName": "Acondicionador Pantene Max Pro-V hidratacion x200ml",
+                "ProductId": "157055",
+                "RefId": "0157055",
+                "Ean": "7500435181556",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/252205-55-55/157055.jpg?v=637625952815470000",
+                "DetailUrl": "/acondicionador-pantene-max-pro-v-hidratacion-x200ml-157055/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "157059",
+                "Seller": "1",
+                "Name": "Acondicionador Pantene Max Pro-V liso extremo x200ml",
+                "SkuName": "Acondicionador Pantene Max Pro-V liso extremo x200ml",
+                "ProductId": "157059",
+                "RefId": "0157059",
+                "Ean": "7500435181532",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/252252-55-55/157059.jpg?v=637626816718000000",
+                "DetailUrl": "/acondicionador-pantene-max-pro-v-liso-extremo-x200ml-157059/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "168465",
+                "Seller": "1",
+                "Name": "Acondicionador Pantene Pro-V micellar x200ml",
+                "SkuName": "Acondicionador Pantene Pro-V micellar x200ml",
+                "ProductId": "168465",
+                "RefId": "0168465",
+                "Ean": "7500435175951",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/238453-55-55/168465.jpg?v=637601415767830000",
+                "DetailUrl": "/acondicionador-pantene-pro-v-micellar-x200ml-168465/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "111000",
+                "Seller": "1",
+                "Name": "Esponja Virulana fibra cuadraditos",
+                "SkuName": "Esponja Virulana fibra cuadraditos",
+                "ProductId": "111000",
+                "RefId": "0111000",
+                "Ean": "7794440003303",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/238130-55-55/111000.jpg?v=637601413214900000",
+                "DetailUrl": "/esponja-virulana-fibra-cuadraditos-111000/p",
+                "AssemblyOptions": []
+            }
+        ]
+    },
+    "subscriptionData": null,
+    "taxData": null,
+    "checkedInPickupPointId": null,
+    "cancellationData": null
+}

@@ -1,0 +1,21 @@
+select * from vtexpricespecial p where p.icestado=0
+;
+select distinct t.cdsucursal,t.politica_comercial from VTEXSELLERS t where t.icactivo=1 and t.id_canal='VE'
+order by 1;
+
+insert into vtexpricespecial es
+ select s.cdsucursal,
+        p.skuid,
+        p.refid,
+        p.id_canal,
+        p.priceof,
+        p.dtfromof,
+        p.dttoof,
+        p.dtinsert,
+        null,
+        0   
+  from vtexpricespecial p, vtexsellers s 
+ where s.icactivo=1 and s.id_canal='VE' and p.icestado=0 and s.cdsucursal<>'9999'
+  order by 1;
+  
+

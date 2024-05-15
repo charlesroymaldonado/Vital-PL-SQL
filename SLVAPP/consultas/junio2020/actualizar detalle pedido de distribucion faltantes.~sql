@@ -1,0 +1,32 @@
+        select * from tblslvdistribucionpedfaltante f,
+                      tblslvpedfaltanterel rel
+           where f.idpedfaltanterel=rel.idpedfaltanterel;
+        select dfa.cdarticulo,
+               cpd.idconsolidadopedido,
+               cpd.idconsolidadopedidodet,
+               sum(cpd.qtunidadmedidabasepicking) basepick,
+               sum(cpd.qtpiezaspicking) piezapick,
+               sum(dfa.qtunidadmedidabase) base,
+               sum(dfa.qtpiezas) piezas   
+          from tblslvconsolidadopedido            cp,
+               tblslvconsolidadopedidodet         cpd,
+               tblslvdistribucionpedfaltante      dfa,
+               tblslvpedfaltanterel               frel
+         where cp.idconsolidadopedido = cpd.idconsolidadopedido
+           and cp.idconsolidadopedido = frel.idconsolidadopedido
+           and dfa.idpedfaltanterel = frel.idpedfaltanterel
+           and dfa.cdarticulo = cpd.cdarticulo          
+           and frel.idpedfaltante = &p_IdPedFaltante
+      group by dfa.cdarticulo,
+               cpd.idconsolidadopedido,
+               cpd.idconsolidadopedidodet;
+
+       select * from tblslvconsolidadopedidodet d
+               where d.idconsolidadopedido=9;
+               
+        select * from  tblslvdistribucionpedfaltante      dfa
+        where   dfa.cdarticulo='0105095 ';
+        
+        select * from tblslvpedfaltantedet df
+        where df.cdarticulo='0105095 ';  
+               

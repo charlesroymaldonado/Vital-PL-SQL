@@ -1,0 +1,410 @@
+﻿20001;Aire Libre;20004;Parrilla;20024;Carbon, Leña Y Encendido
+20002;Almacen;20009;Arroz Y Legumbres;20042;Semillas
+20002;Almacen;20011;Desayuno Y Merienda;20048;Avenas
+20003;Bazar Y Hogar;20020;Cocina;20096;Cuchillas  Y Tablas
+20003;Bazar Y Hogar;20021;Decoración;20113;Decoracion Pared
+20003;Bazar Y Hogar;20022;Dormitorio;20118;Almohadas Y Almohadones
+20003;Bazar Y Hogar;20022;Dormitorio;20122;Sabanas
+20002;Almacen;20013;Harinas;20065;Almidon
+20002;Almacen;20014;Pan Rallado Y Rebozador;20069;Rebozador
+20004;Bebes Y Niños;20029;Cuidado Del Bebe Y La Mamá;20144;Colonias Bebe
+20004;Bebes Y Niños;20029;Cuidado Del Bebe Y La Mamá;20148;Oleo Calcareo
+20004;Bebes Y Niños;20030;Jugueteria;20152;Autos Y Vehículos
+20004;Bebes Y Niños;20030;Jugueteria;20159;Muñecos Y Muñecas
+20004;Bebes Y Niños;20031;Librería;20165;Elementos Escolares
+20001;Aire Libre;20001;Camping;20006;Muebles De Camping
+20001;Aire Libre;20002;Deportes Y Fitnes;20007;Banco Fitnes
+20001;Aire Libre;20002;Deportes Y Fitnes;20008;Banda Elastica Fitnes
+20001;Aire Libre;20002;Deportes Y Fitnes;20013;Disco Fitnes
+20005;Bebidas;20033;Bebidas Con Alcohol;20173;Cervezas
+20005;Bebidas;20033;Bebidas Con Alcohol;20178;Whisky
+20005;Bebidas;20034;Bebidas Sin Alcohol;20184;Jugos De Fruta
+20014;Perfumeria;20073;Colonias Y Perfumes;20376;Perfumes
+20014;Perfumeria;20077;Cuidado Del Cabello;20387;Coloracion
+20014;Perfumeria;20078;Cuidado Oral;20391;Cepillos Dentales
+20014;Perfumeria;20078;Cuidado Oral;20392;Cremas Dentales
+20014;Perfumeria;20079;Cuidado Personal;20398;Desodorantes Y Antitranspirantes
+20014;Perfumeria;20078;Cuidado Oral;20394;Hilos Dentales
+20014;Perfumeria;20079;Cuidado Personal;20401;Proteccion Femenina
+20012;Limpieza;20060;Accesorios De Limpieza;20312;Broches Y Sopapas
+20014;Perfumeria;20074;Cosmetica;20378;Cuidado De Uñas
+20012;Limpieza;20065;Insecticidas;20341;Cucarachas
+20012;Limpieza;20070;Papeles;20362;Pañuelos Descartables
+20012;Limpieza;20067;Limpieza De Baño;20349;Desinfectantes De Baño
+20012;Limpieza;20070;Papeles;20367;Rollos De Cocina
+20012;Limpieza;20070;Papeles;20368;Servilletas De Papel
+20013;Mascotas;20071;Accesorios;20369;Comederos
+20012;Limpieza;20062;Cuidado Del Calzado;20327;Limpiadores De Gamuza
+20012;Limpieza;20062;Cuidado Del Calzado;20328;Pomadas
+20007;Electro;20044;Tv, Audio Y Video;20248;Audio
+20010;Frescos;20054;Lacteos;20289;Leches
+20010;Frescos;20054;Lacteos;20293;Quesos Crema Y Untables
+20011;Kiosco;20059;Golosinas;20304;Chupetines
+20006;Congelados;20035;Congelados;20192;Rebozados Congelados
+20008;Ferreteria Y Automotor;20046;Electricidad;20255;Pilas  Y Cargadores
+20006;Congelados;20036;Helados;20198;Helado Palito
+20007;Electro;20039;Cuidado Personal Y Salud;20207;Cortadores De Cabello
+20007;Electro;20040;Heladeras, Cocinas, Lavarropas Y Lavavajillas;20214;Freezers
+20007;Electro;20041;Informatica;20224;Teclados
+20008;Ferreteria Y Automotor;20047;Ferreteria;20260;Lubricantes
+20010;Frescos;20050;Carniceria;20275;Grasas Animales
+20010;Frescos;20050;Carniceria;20276;Huevos
+20007;Electro;20042;Pequeños Electrodomesticos;20234;Jugueras
+20008;Ferreteria Y Automotor;20048;Iluminación;20263;Linternas Y Luces De Emergencia
+20007;Electro;20042;Pequeños Electrodomesticos;20239;Pavas Electricas
+20007;Electro;20042;Pequeños Electrodomesticos;20240;Picadoras
+20014;Perfumeria;20080;Farmacia;20403;Accesorios Farmacia
+20014;Perfumeria;20080;Farmacia;20405;Algodones E Hisopos
+20002;Almacen;20011;Desayuno Y Merienda;20049;Azucar Y Edulcorante
+20001;Aire Libre;20005;Piletas;20029;Piletas
+20002;Almacen;20009;Arroz Y Legumbres;20041;Legumbres
+20003;Bazar Y Hogar;20020;Cocina;20097;Descartables
+20003;Bazar Y Hogar;20020;Cocina;20107;Repasadores
+20003;Bazar Y Hogar;20021;Decoración;20116;Velas Y Aromaterapia
+20002;Almacen;20012;Enlatados  Y Conservas;20063;Encurtidos
+20002;Almacen;20015;Panificados;20072;Pre-Pizza
+20002;Almacen;20016;Pastas;20076;Pastas Rellenas
+20002;Almacen;20017;Postres Y Reposteria;20078;Premezclas De Postres
+20002;Almacen;20012;Enlatados  Y Conservas;20059;Conservas De Carne
+20002;Almacen;20011;Desayuno Y Merienda;20052;Café
+20002;Almacen;20011;Desayuno Y Merienda;20056;Tes
+20002;Almacen;20011;Desayuno Y Merienda;20050;Budines Y Bizcochuelos
+20004;Bebes Y Niños;20027;Cochecitos, Butacas Y Sillitas;20137;Cochecitos De Bebe
+20004;Bebes Y Niños;20029;Cuidado Del Bebe Y La Mamá;20149;Shampoo Para Bebe
+20004;Bebes Y Niños;20030;Jugueteria;20162;Vehiculos Infantiles
+20004;Bebes Y Niños;20031;Librería;20164;Cuadernos Y Carpetas
+20001;Aire Libre;20001;Camping;20002;Bolsas De Dormir
+20001;Aire Libre;20001;Camping;20004;Colchones Inflables
+20004;Bebes Y Niños;20031;Librería;20168;Papeleria
+20014;Perfumeria;20077;Cuidado Del Cabello;20389;Shampoo
+20012;Limpieza;20060;Accesorios De Limpieza;20313;Cabos
+20012;Limpieza;20063;Desodorantes De Ambiente;20333;Concentrados
+20012;Limpieza;20064;Fosforos Y Velas;20335;Encendedores
+20012;Limpieza;20065;Insecticidas;20344;Polillas
+20012;Limpieza;20069;Limpieza De Pisos Y Superficies;20359;Lustramuebles
+20012;Limpieza;20069;Limpieza De Pisos Y Superficies;20361;Toalla Desinfectante
+20012;Limpieza;20061;Cuidado De La Ropa;20318;Aprestos
+20012;Limpieza;20065;Insecticidas;20346;Repelentes
+20012;Limpieza;20066;Lavandinas;20348;Lavandinas Liquidas
+20012;Limpieza;20070;Papeles;20365;Papel Higienico
+20012;Limpieza;20068;Limpieza De Cocina;20352;Detergentes
+20013;Mascotas;20072;Alimentos Para Mascotas;20372;Alimento  Para Perro
+20013;Mascotas;20072;Alimentos Para Mascotas;20373;Alimento Para Gato
+20012;Limpieza;20061;Cuidado De La Ropa;20322;Suavizantes
+20010;Frescos;20054;Lacteos;20291;Mantecas Y Margarinas
+20011;Kiosco;20059;Golosinas;20303;Chicles
+20011;Kiosco;20059;Golosinas;20305;Gomitas
+20011;Kiosco;20058;Cigarrillos;20301;Cigarrillos
+20011;Kiosco;20059;Golosinas;20308;Obleas Y Galletitas Bañadas
+20011;Kiosco;20059;Golosinas;20309;Pastillas
+20006;Congelados;20035;Congelados;20190;Papas Congeladas
+20006;Congelados;20035;Congelados;20191;Pescados Y Mariscos Congelados
+20008;Ferreteria Y Automotor;20045;Automotor;20251;Accesorios Automotor
+20009;Fiestas;20049;Navidad;20268;Fiestas
+20008;Ferreteria Y Automotor;20046;Electricidad;20254;Alargues Y Zapatillas
+20008;Ferreteria Y Automotor;20046;Electricidad;20256;Tubos Y Lamparitas
+20009;Fiestas;20049;Navidad;20270;Pascuas
+20007;Electro;20039;Cuidado Personal Y Salud;20206;Balanzas
+20007;Electro;20040;Heladeras, Cocinas, Lavarropas Y Lavavajillas;20215;Heladeras
+20008;Ferreteria Y Automotor;20047;Ferreteria;20261;Seguridad
+20007;Electro;20042;Pequeños Electrodomesticos;20229;Cortadoras De Fiambre
+20010;Frescos;20050;Carniceria;20278;Sustitutos Carnicos
+20001;Aire Libre;20005;Piletas;20027;Juegos Y Accesorios
+20001;Aire Libre;20005;Piletas;20030;Textil Pileta
+20002;Almacen;20007;Aceites Y Condimentos;20035;Jugos De Limon
+20002;Almacen;20008;Aderezos Y Salsas;20039;Salsas Frias
+20002;Almacen;20010;Caldos,Sopas Y Puré;20046;Salsas Preparadas
+20003;Bazar Y Hogar;20020;Cocina;20100;Horno Y Reposteria
+20003;Bazar Y Hogar;20020;Cocina;20109;Utensilios De Cocina
+20003;Bazar Y Hogar;20022;Dormitorio;20119;Almohadones Silla
+20002;Almacen;20012;Enlatados  Y Conservas;20061;Conservas De Pescado
+20002;Almacen;20018;Snacks;20086;Palitos De Maiz
+20002;Almacen;20016;Pastas;20075;Pastas Listas
+20002;Almacen;20017;Postres Y Reposteria;20079;Premezclas Horneables
+20002;Almacen;20018;Snacks;20083;Mani
+20002;Almacen;20011;Desayuno Y Merienda;20053;Cereales Y Granola
+20002;Almacen;20011;Desayuno Y Merienda;20054;Galletitas, Tostadas Y Grisines
+20002;Almacen;20011;Desayuno Y Merienda;20055;Mermeladas Y Dulces
+20004;Bebes Y Niños;20028;Comida Para Bebe;20138;Cereal Infantil
+20004;Bebes Y Niños;20028;Comida Para Bebe;20139;Leches Infantiles
+20003;Bazar Y Hogar;20025;Organización Del Hogar;20131;Cestos De Residuos
+20001;Aire Libre;20002;Deportes Y Fitnes;20017;Pelotas
+20001;Aire Libre;20001;Camping;20001;Almohadas De Viaje
+20001;Aire Libre;20001;Camping;20005;Conservadoras Y Luncheras
+20001;Aire Libre;20002;Deportes Y Fitnes;20011;Caminadora
+20005;Bebidas;20033;Bebidas Con Alcohol;20177;Vinos
+20005;Bebidas;20034;Bebidas Sin Alcohol;20179;Aguas Y Sodas
+20012;Limpieza;20063;Desodorantes De Ambiente;20332;Aromatizantes
+20014;Perfumeria;20078;Cuidado Oral;20393;Enjuagues Bucales
+20014;Perfumeria;20079;Cuidado Personal;20397;Desodorantes Corporales
+20014;Perfumeria;20074;Cosmetica;20379;Maquillaje
+20014;Perfumeria;20075;Cuidado De La Piel;20382;Proteccion Solar
+20011;Kiosco;20059;Golosinas;20307;Masticables
+20006;Congelados;20036;Helados;20195;Barritas
+20006;Congelados;20036;Helados;20200;Potes
+20007;Electro;20037;Celulares;20201;Celulares
+20007;Electro;20038;Climatizacion;20203;Calefacción
+20007;Electro;20038;Climatizacion;20204;Ventilacion
+20008;Ferreteria Y Automotor;20047;Ferreteria;20257;Adhesivos
+20007;Electro;20041;Informatica;20219;Cargadores
+20007;Electro;20041;Informatica;20221;Mouse
+20007;Electro;20042;Pequeños Electrodomesticos;20226;Aspiradoras
+20008;Ferreteria Y Automotor;20048;Iluminación;20262;Artefactos De Iluminacion
+20007;Electro;20042;Pequeños Electrodomesticos;20231;Freidoras
+20007;Electro;20042;Pequeños Electrodomesticos;20238;Multiprocesadoras
+20007;Electro;20042;Pequeños Electrodomesticos;20244;Sartenes Electricas
+20014;Perfumeria;20080;Farmacia;20410;Toallas Antibacteriales
+20001;Aire Libre;20004;Parrilla;20026;Utensilios De Parrilla
+20002;Almacen;20007;Aceites Y Condimentos;20033;Aceites
+20002;Almacen;20008;Aderezos Y Salsas;20038;Aderezos
+20003;Bazar Y Hogar;20020;Cocina;20095;Bandejas Y Copetineros
+20003;Bazar Y Hogar;20020;Cocina;20098;Frascos, Tarros Y Latas
+20003;Bazar Y Hogar;20020;Cocina;20103;Ollas, Cacerolas Y Sartenes
+20003;Bazar Y Hogar;20020;Cocina;20106;Pavas,Jarros Y Cafeteras
+20003;Bazar Y Hogar;20019;Baño;20090;Alfombras De Baño
+20003;Bazar Y Hogar;20024;Muebles;20128;Muebles De Interior
+20003;Bazar Y Hogar;20023;Indumentaria;20124;Medias Y Ropa Interior
+20002;Almacen;20016;Pastas;20077;Pastas Secas
+20002;Almacen;20017;Postres Y Reposteria;20080;Reposteria
+20002;Almacen;20018;Snacks;20085;Palitos
+20002;Almacen;20011;Desayuno Y Merienda;20057;Yerbas
+20002;Almacen;20011;Desayuno Y Merienda;20051;Cacaos
+20003;Bazar Y Hogar;20026;Valijas;20136;Tela
+20004;Bebes Y Niños;20029;Cuidado Del Bebe Y La Mamá;20140;Accesorios Bebes
+20004;Bebes Y Niños;20029;Cuidado Del Bebe Y La Mamá;20145;Cremas Y Aceites De Bebe
+20004;Bebes Y Niños;20029;Cuidado Del Bebe Y La Mamá;20146;Hisopos
+20004;Bebes Y Niños;20029;Cuidado Del Bebe Y La Mamá;20150;Talcos Y Fécula
+20004;Bebes Y Niños;20031;Librería;20163;Adhesivos Libreria
+20003;Bazar Y Hogar;20025;Organización Del Hogar;20130;Carros De Compras
+20001;Aire Libre;20003;Jardineria;20021;Maquinarias De Jardin
+20001;Aire Libre;20002;Deportes Y Fitnes;20014;Eliptico
+20001;Aire Libre;20002;Deportes Y Fitnes;20015;Infladores
+20005;Bebidas;20033;Bebidas Con Alcohol;20172;Bebidas Blancas
+20006;Congelados;20035;Congelados;20188;Hamburguesas Y Medallones
+20014;Perfumeria;20077;Cuidado Del Cabello;20388;Geles Y Fijadores
+20014;Perfumeria;20079;Cuidado Personal;20399;Jabones Y Geles De Ducha
+20014;Perfumeria;20079;Cuidado Personal;20395;Barbijos Y Mascaras
+20012;Limpieza;20063;Desodorantes De Ambiente;20334;Desinfectantes
+20014;Perfumeria;20075;Cuidado De La Piel;20380;Cremas Corporales
+20012;Limpieza;20069;Limpieza De Pisos Y Superficies;20360;Superficies Delicadas
+20012;Limpieza;20066;Lavandinas;20347;Lavandinas En Gel
+20013;Mascotas;20071;Accesorios;20370;Paseo Y Recreacion
+20013;Mascotas;20071;Accesorios;20371;Piedras Sanitarias
+20012;Limpieza;20068;Limpieza De Cocina;20351;Destapacañerias
+20014;Perfumeria;20076;Cuidado Del Adulto;20385;Toallas Incontinencia
+20012;Limpieza;20061;Cuidado De La Ropa;20320;Perfumantes
+20012;Limpieza;20068;Limpieza De Cocina;20353;Limpiadores De Cocina
+20012;Limpieza;20062;Cuidado Del Calzado;20323;Accesorios Calzado
+20012;Limpieza;20062;Cuidado Del Calzado;20325;Cremas Para Calzado
+20012;Limpieza;20062;Cuidado Del Calzado;20326;Lavazapatillas
+20007;Electro;20044;Tv, Audio Y Video;20249;Soportes De Tv
+20009;Fiestas;20049;Navidad;20267;Cajas Navideñas
+20010;Frescos;20052;Fiambreria;20285;Quesos Semiduros
+20010;Frescos;20054;Lacteos;20288;Cremas Lacteas
+20010;Frescos;20054;Lacteos;20290;Levaduras
+20010;Frescos;20054;Lacteos;20292;Postres
+20011;Kiosco;20057;Chocolate Y Alfajores;20299;Alfajores
+20008;Ferreteria Y Automotor;20045;Automotor;20252;Aditivos Y Lubricantes
+20006;Congelados;20036;Helados;20199;Postres Helados
+20007;Electro;20042;Pequeños Electrodomesticos;20227;Batidoras
+20007;Electro;20042;Pequeños Electrodomesticos;20233;Horno De Pan
+20007;Electro;20042;Pequeños Electrodomesticos;20241;Planchas
+20007;Electro;20042;Pequeños Electrodomesticos;20242;Ralladores Electricos
+20014;Perfumeria;20080;Farmacia;20408;Bienestar Sexual
+20001;Aire Libre;20005;Piletas;20028;Mantenimiento
+20001;Aire Libre;20006;Rodados;20031;Bicicletas
+20002;Almacen;20007;Aceites Y Condimentos;20034;Especias
+20002;Almacen;20010;Caldos,Sopas Y Puré;20043;Caldos
+20002;Almacen;20010;Caldos,Sopas Y Puré;20045;Saborizantes
+20002;Almacen;20010;Caldos,Sopas Y Puré;20047;Sopas
+20003;Bazar Y Hogar;20019;Baño;20093;Toallas Y Toallones
+20003;Bazar Y Hogar;20024;Muebles;20127;Muebles De Exterior
+20003;Bazar Y Hogar;20022;Dormitorio;20117;Alfombras Y Felpudos
+20003;Bazar Y Hogar;20023;Indumentaria;20126;Traje De Baño
+20002;Almacen;20012;Enlatados  Y Conservas;20060;Conservas De Frutas
+20002;Almacen;20014;Pan Rallado Y Rebozador;20068;Pan Rallado
+20002;Almacen;20018;Snacks;20084;Nachos
+20002;Almacen;20012;Enlatados  Y Conservas;20058;Aceitunas
+20004;Bebes Y Niños;20029;Cuidado Del Bebe Y La Mamá;20142;Apositos Y Protectores Mamarios
+20004;Bebes Y Niños;20030;Jugueteria;20153;Juegos De Mesa
+20004;Bebes Y Niños;20030;Jugueteria;20157;Juguetes
+20001;Aire Libre;20003;Jardineria;20019;Herramientas De Jardin
+20001;Aire Libre;20002;Deportes Y Fitnes;20016;Mancuernas Fitnes
+20001;Aire Libre;20002;Deportes Y Fitnes;20009;Barra Fitnes
+20001;Aire Libre;20002;Deportes Y Fitnes;20012;Colchoneta Fitnes
+20004;Bebes Y Niños;20032;Pañales;20169;Pañales De Bebe
+20005;Bebidas;20034;Bebidas Sin Alcohol;20181;Energizantes
+20005;Bebidas;20034;Bebidas Sin Alcohol;20182;Gaseosas
+20005;Bebidas;20034;Bebidas Sin Alcohol;20185;Sidras Sin Alcohol
+20006;Congelados;20035;Congelados;20187;Frutas Congeladas
+20012;Limpieza;20069;Limpieza De Pisos Y Superficies;20358;Limpiadores De Piso
+20014;Perfumeria;20077;Cuidado Del Cabello;20386;Acondicionador
+20014;Perfumeria;20079;Cuidado Personal;20396;Depilacion
+20012;Limpieza;20064;Fosforos Y Velas;20338;Palillos
+20012;Limpieza;20060;Accesorios De Limpieza;20316;Secadores Y Limpiavidrios
+20012;Limpieza;20065;Insecticidas;20342;Hormigas
+20012;Limpieza;20070;Papeles;20363;Papel Aluminio
+20012;Limpieza;20070;Papeles;20366;Papel Manteca
+20012;Limpieza;20061;Cuidado De La Ropa;20321;Quitamanchas
+20014;Perfumeria;20073;Colonias Y Perfumes;20374;Bodysplash
+20012;Limpieza;20062;Cuidado Del Calzado;20329;Revividores
+20012;Limpieza;20062;Cuidado Del Calzado;20330;Tintas
+20010;Frescos;20052;Fiambreria;20281;Quesos Blandos
+20010;Frescos;20052;Fiambreria;20286;Salchichas
+20011;Kiosco;20059;Golosinas;20302;Caramelos
+20008;Ferreteria Y Automotor;20045;Automotor;20253;Cosmetica Automotor
+20006;Congelados;20036;Helados;20196;Bombones Helado
+20010;Frescos;20050;Carniceria;20271;Carnes De Cerdo
+20007;Electro;20039;Cuidado Personal Y Salud;20205;Afeitadoras
+20007;Electro;20039;Cuidado Personal Y Salud;20208;Humidificadores
+20007;Electro;20039;Cuidado Personal Y Salud;20209;Planchitas Y Rizadores
+20007;Electro;20040;Heladeras, Cocinas, Lavarropas Y Lavavajillas;20213;Cocina
+20007;Electro;20040;Heladeras, Cocinas, Lavarropas Y Lavavajillas;20216;Lavarropas
+20007;Electro;20042;Pequeños Electrodomesticos;20228;Cafeteras
+20007;Electro;20042;Pequeños Electrodomesticos;20230;Exprimidores
+20009;Fiestas;20049;Navidad;20264;Adornos De Navidad
+20007;Electro;20042;Pequeños Electrodomesticos;20236;Microondas
+20007;Electro;20042;Pequeños Electrodomesticos;20245;Tostadoras
+20014;Perfumeria;20080;Farmacia;20409;Ortopedia
+20001;Aire Libre;20003;Jardineria;20022;Riego
+20002;Almacen;20010;Caldos,Sopas Y Puré;20044;Pures
+20003;Bazar Y Hogar;20020;Cocina;20108;Termos Y Mates
+20003;Bazar Y Hogar;20019;Baño;20092;Cortinas De Baño
+20003;Bazar Y Hogar;20022;Dormitorio;20120;Cubrecamas Y Acolchados
+20003;Bazar Y Hogar;20022;Dormitorio;20121;Frazadas Y Mantas
+20003;Bazar Y Hogar;20023;Indumentaria;20125;Remeras
+20002;Almacen;20012;Enlatados  Y Conservas;20064;Tomates Y Salsas
+20002;Almacen;20013;Harinas;20066;Harinas
+20002;Almacen;20015;Panificados;20071;Pan
+20004;Bebes Y Niños;20031;Librería;20167;Mochilas Y Cartucheras
+20004;Bebes Y Niños;20029;Cuidado Del Bebe Y La Mamá;20143;Chupetes Y Mamaderas
+20004;Bebes Y Niños;20029;Cuidado Del Bebe Y La Mamá;20147;Jabones
+20004;Bebes Y Niños;20030;Jugueteria;20151;Autos Y Vehiculos
+20004;Bebes Y Niños;20030;Jugueteria;20156;Jueguetes
+20004;Bebes Y Niños;20030;Jugueteria;20161;Primera Infancia
+20003;Bazar Y Hogar;20025;Organización Del Hogar;20132;Cestos Y Canastos Para Ropa
+20001;Aire Libre;20002;Deportes Y Fitnes;20010;Botellas Deportivas
+20005;Bebidas;20033;Bebidas Con Alcohol;20176;Sidras
+20006;Congelados;20035;Congelados;20189;Panificados Congelados
+20012;Limpieza;20069;Limpieza De Pisos Y Superficies;20356;Limpia Vidrios Y Multiusos
+20014;Perfumeria;20074;Cosmetica;20377;Accesorios De Belleza
+20014;Perfumeria;20077;Cuidado Del Cabello;20390;Tratamientos
+20014;Perfumeria;20079;Cuidado Personal;20400;Maquinas De Afeitar
+20012;Limpieza;20065;Insecticidas;20343;Moscas Y Mosquitos
+20012;Limpieza;20065;Insecticidas;20345;Pulgas
+20014;Perfumeria;20076;Cuidado Del Adulto;20383;Pañales Para Adulto
+20012;Limpieza;20062;Cuidado Del Calzado;20324;Autobrillos
+20012;Limpieza;20069;Limpieza De Pisos Y Superficies;20355;Limpia Metales
+20007;Electro;20044;Tv, Audio Y Video;20250;Televisores
+20010;Frescos;20052;Fiambreria;20280;Fiambres
+20010;Frescos;20052;Fiambreria;20283;Quesos Especiales
+20010;Frescos;20052;Fiambreria;20284;Quesos Rallados
+20010;Frescos;20054;Lacteos;20295;Yogures
+20010;Frescos;20055;Pastas Frescas Y Tapas;20296;Pastas Frescas
+20011;Kiosco;20057;Chocolate Y Alfajores;20300;Chocolates
+20011;Kiosco;20056;Carnaval Y Cotillon;20298;Carnaval Y Cotillon
+20012;Limpieza;20060;Accesorios De Limpieza;20310;Baldes Y Mopas
+20006;Congelados;20035;Congelados;20193;Vegetales Congelados
+20006;Congelados;20036;Helados;20197;Conos
+20008;Ferreteria Y Automotor;20047;Ferreteria;20259;Herramientas
+20010;Frescos;20050;Carniceria;20272;Carnes Especiales
+20007;Electro;20041;Informatica;20220;Computadoras
+20010;Frescos;20050;Carniceria;20277;Pollos
+20007;Electro;20042;Pequeños Electrodomesticos;20232;Hornitos Electricos
+20007;Electro;20042;Pequeños Electrodomesticos;20235;Licuadoras
+20009;Fiestas;20049;Navidad;20265;Arboles De Navidad
+20009;Fiestas;20049;Navidad;20266;Bolsas De Navidad
+20007;Electro;20042;Pequeños Electrodomesticos;20246;Vaporieras
+20007;Electro;20043;Termotanques Y Calefones;20247;Termotanque
+20014;Perfumeria;20079;Cuidado Personal;20402;Talcos Y Desodorantes Pedicos
+20014;Perfumeria;20080;Farmacia;20406;Apositos Adhesivos
+20014;Perfumeria;20080;Farmacia;20407;Azufre
+20001;Aire Libre;20004;Parrilla;20025;Parrillas
+20002;Almacen;20007;Aceites Y Condimentos;20037;Vinagres
+20003;Bazar Y Hogar;20020;Cocina;20110;Vajilla
+20003;Bazar Y Hogar;20020;Cocina;20099;Hermeticos
+20003;Bazar Y Hogar;20020;Cocina;20102;Manteles E Individuales
+20003;Bazar Y Hogar;20019;Baño;20091;Botiquin Primeros Auxilios
+20003;Bazar Y Hogar;20020;Cocina;20094;Accesorios De Cocina
+20003;Bazar Y Hogar;20021;Decoración;20111;Cajas Y Baules
+20003;Bazar Y Hogar;20021;Decoración;20112;Ceramicas
+20003;Bazar Y Hogar;20021;Decoración;20114;Plantas,Flores Y Floreros
+20003;Bazar Y Hogar;20021;Decoración;20115;Varios Deco
+20003;Bazar Y Hogar;20023;Indumentaria;20123;Camperas
+20002;Almacen;20015;Panificados;20070;Facturas
+20002;Almacen;20015;Panificados;20073;Tortillas
+20002;Almacen;20018;Snacks;20081;Frutos Secos
+20004;Bebes Y Niños;20030;Jugueteria;20154;Juegos De Rol
+20005;Bebidas;20033;Bebidas Con Alcohol;20171;Aperitivos
+20005;Bebidas;20034;Bebidas Sin Alcohol;20180;Amargos
+20005;Bebidas;20034;Bebidas Sin Alcohol;20183;Isotonicas
+20012;Limpieza;20060;Accesorios De Limpieza;20311;Bolsas
+20012;Limpieza;20064;Fosforos Y Velas;20337;Fosforos
+20012;Limpieza;20064;Fosforos Y Velas;20339;Velas
+20012;Limpieza;20065;Insecticidas;20340;Casa Y Jardin
+20012;Limpieza;20067;Limpieza De Baño;20350;Limpieza De Inodoro
+20014;Perfumeria;20076;Cuidado Del Adulto;20384;Ropa Interior
+20012;Limpieza;20069;Limpieza De Pisos Y Superficies;20354;Ceras Y Autobrillos
+20010;Frescos;20053;Fruteria;20287;Frutas Frescas
+20011;Kiosco;20059;Golosinas;20306;Malvaviscos
+20010;Frescos;20055;Pastas Frescas Y Tapas;20297;Tapas
+20009;Fiestas;20049;Navidad;20269;Luces Navidad
+20006;Congelados;20036;Helados;20194;Baldes
+20010;Frescos;20050;Carniceria;20273;Carnes Vacunas
+20007;Electro;20039;Cuidado Personal Y Salud;20210;Secadores
+20007;Electro;20039;Cuidado Personal Y Salud;20211;Termometros
+20007;Electro;20040;Heladeras, Cocinas, Lavarropas Y Lavavajillas;20212;Anafe
+20010;Frescos;20050;Carniceria;20274;Embutidos
+20007;Electro;20040;Heladeras, Cocinas, Lavarropas Y Lavavajillas;20217;Lavavajillas
+20007;Electro;20041;Informatica;20222;Parlantes
+20007;Electro;20041;Informatica;20223;Tablets
+20010;Frescos;20051;Comidas Frescas;20279;Comidas Elaboradas
+20007;Electro;20042;Pequeños Electrodomesticos;20243;Sandwicheras
+20014;Perfumeria;20080;Farmacia;20404;Alcoholes
+20001;Aire Libre;20003;Jardineria;20023;Tierra Fertil
+20001;Aire Libre;20006;Rodados;20032;Monopatin
+20002;Almacen;20007;Aceites Y Condimentos;20036;Sales
+20002;Almacen;20009;Arroz Y Legumbres;20040;Arroz
+20003;Bazar Y Hogar;20020;Cocina;20101;Manoplas Y Delantales
+20003;Bazar Y Hogar;20020;Cocina;20104;Ollas,Cacerolas Y Sartenes
+20003;Bazar Y Hogar;20020;Cocina;20105;Pavas, Jarros Y Cafeteras
+20003;Bazar Y Hogar;20019;Baño;20089;Accesorios Para Baño
+20002;Almacen;20012;Enlatados  Y Conservas;20062;Conservas Vegetales
+20002;Almacen;20018;Snacks;20087;Papas Fritas
+20002;Almacen;20018;Snacks;20088;Varios
+20002;Almacen;20013;Harinas;20067;Premezclas
+20002;Almacen;20016;Pastas;20074;Ñoquis Y Lasagna
+20002;Almacen;20018;Snacks;20082;Galletitas Y Tostadas Copetin
+20003;Bazar Y Hogar;20025;Organización Del Hogar;20134;Organizacion Hogar
+20003;Bazar Y Hogar;20026;Valijas;20135;Plastica
+20004;Bebes Y Niños;20031;Librería;20166;Escritura
+20004;Bebes Y Niños;20029;Cuidado Del Bebe Y La Mamá;20141;Acondicionador Para Bebe
+20004;Bebes Y Niños;20030;Jugueteria;20155;Juegos De Salón
+20004;Bebes Y Niños;20030;Jugueteria;20158;Mesas Y Sillas Infantiles
+20004;Bebes Y Niños;20030;Jugueteria;20160;Peluches
+20003;Bazar Y Hogar;20025;Organización Del Hogar;20129;Bolsas De Compras
+20003;Bazar Y Hogar;20025;Organización Del Hogar;20133;Lavarropas Y Planchado
+20001;Aire Libre;20002;Deportes Y Fitnes;20018;Soga De Saltar
+20001;Aire Libre;20003;Jardineria;20020;Jardin Y Macetas
+20001;Aire Libre;20001;Camping;20003;Carpas
+20004;Bebes Y Niños;20032;Pañales;20170;Toallas Humedas
+20005;Bebidas;20033;Bebidas Con Alcohol;20174;Champagne
+20005;Bebidas;20033;Bebidas Con Alcohol;20175;Licores
+20006;Congelados;20035;Congelados;20186;Comidas Congeladas
+20012;Limpieza;20063;Desodorantes De Ambiente;20331;Antihumedad
+20012;Limpieza;20069;Limpieza De Pisos Y Superficies;20357;Limpiadores Cremosos
+20012;Limpieza;20060;Accesorios De Limpieza;20314;Cepillos, Esponjas Y Guantes
+20012;Limpieza;20064;Fosforos Y Velas;20336;Filtros De Cafe
+20012;Limpieza;20060;Accesorios De Limpieza;20315;Escobas Y Palas
+20014;Perfumeria;20075;Cuidado De La Piel;20381;Cremas Faciales
+20012;Limpieza;20060;Accesorios De Limpieza;20317;Trapos
+20012;Limpieza;20061;Cuidado De La Ropa;20319;Jabones Para La Ropa
+20012;Limpieza;20070;Papeles;20364;Papel Film
+20014;Perfumeria;20073;Colonias Y Perfumes;20375;Colonias
+20010;Frescos;20052;Fiambreria;20282;Quesos Duros
+20010;Frescos;20054;Lacteos;20294;Quesos Ricotta
+20007;Electro;20038;Climatizacion;20202;Aires Acondicionados
+20008;Ferreteria Y Automotor;20047;Ferreteria;20258;Escaleras
+20007;Electro;20040;Heladeras, Cocinas, Lavarropas Y Lavavajillas;20218;Secarropas
+20007;Electro;20041;Informatica;20225;Tripodes
+20007;Electro;20042;Pequeños Electrodomesticos;20237;Mixer

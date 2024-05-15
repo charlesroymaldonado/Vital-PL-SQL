@@ -1,0 +1,2 @@
+-- Add/modify columns 
+alter table TBLSLVCONSOLIDADOCOMI add idcomisionista char(40);

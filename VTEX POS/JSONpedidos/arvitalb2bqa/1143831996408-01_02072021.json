@@ -1,0 +1,909 @@
+{
+    "orderId": "1143831996408-01",
+    "sequence": "500700",
+    "marketplaceOrderId": "",
+    "marketplaceServicesEndpoint": null,
+    "sellerOrderId": "VLH-1143831996408-01",
+    "origin": "Marketplace",
+    "affiliateId": "",
+    "salesChannel": "1",
+    "merchantName": null,
+    "status": "invoiced",
+    "statusDescription": "Faturado",
+    "value": 207103,
+    "creationDate": "2021-07-02T14:33:16.2346758+00:00",
+    "lastChange": "2021-07-02T14:40:25.2269989+00:00",
+    "orderGroup": "1143831996408",
+    "totals": [
+        {
+            "id": "Items",
+            "name": "Total de los items",
+            "value": 243650
+        },
+        {
+            "id": "Discounts",
+            "name": "Total de descuentos",
+            "value": -36547
+        },
+        {
+            "id": "Shipping",
+            "name": "Costo total del envío",
+            "value": 0
+        },
+        {
+            "id": "Tax",
+            "name": "Costo total del cambio",
+            "value": 0
+        }
+    ],
+    "items": [
+        {
+            "uniqueId": "8F8BBE762DD54F5C94B70F8DA83F4EFD",
+            "id": "101155",
+            "productId": "101155",
+            "ean": "7790070318336",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalqalh",
+            "name": "Fideos LUCCHETTI mostachol x500gr",
+            "refId": "0101155",
+            "price": 4873,
+            "listPrice": 4873,
+            "manualPrice": null,
+            "priceTags": [
+                {
+                    "name": "discount@price-89b4c8f3-0c9c-40c9-b756-c06a3ebee947#28516dbe-8b2f-4150-b1ef-f5a5108a0188",
+                    "value": -10964,
+                    "isPercentual": false,
+                    "identifier": "89b4c8f3-0c9c-40c9-b756-c06a3ebee947",
+                    "rawValue": -109.64,
+                    "rate": null,
+                    "jurisCode": null,
+                    "jurisType": null,
+                    "jurisName": null
+                }
+            ],
+            "imageUrl": "https://arvitalqa.vteximg.com.br/arquivos/ids/216679-55-55/101155.jpg?v=637589682431600000",
+            "detailUrl": "/fideos-lucchetti-mostachol-x500gr-101155/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "101155",
+            "priceValidUntil": "2022-07-02T14:33:07.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "LUCCHETTI",
+                "brandId": "2000747",
+                "categoriesIds": "/20002/30016/40077/",
+                "categories": [
+                    {
+                        "id": 40077,
+                        "name": "Pastas Secas"
+                    },
+                    {
+                        "id": 30016,
+                        "name": "Pastas"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "162",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 15.0000,
+            "sellingPrice": 62131,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 62131,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 62131,
+                "total": 62131
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "6D4D82526F364D65915D25065EEC5EEE",
+            "id": "101161",
+            "productId": "101161",
+            "ean": "7790070318305",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalqalh",
+            "name": "Fideos LUCCHETTI bucatini x500gr",
+            "refId": "0101161",
+            "price": 4873,
+            "listPrice": 4873,
+            "manualPrice": null,
+            "priceTags": [
+                {
+                    "name": "discount@price-89b4c8f3-0c9c-40c9-b756-c06a3ebee947#28516dbe-8b2f-4150-b1ef-f5a5108a0188",
+                    "value": -14619,
+                    "isPercentual": false,
+                    "identifier": "89b4c8f3-0c9c-40c9-b756-c06a3ebee947",
+                    "rawValue": -146.19,
+                    "rate": null,
+                    "jurisCode": null,
+                    "jurisType": null,
+                    "jurisName": null
+                }
+            ],
+            "imageUrl": "https://arvitalqa.vteximg.com.br/arquivos/ids/213732-55-55/101161.jpg?v=637589636709470000",
+            "detailUrl": "/fideos-lucchetti-bucatini-x500gr-101161/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "101161",
+            "priceValidUntil": "2022-07-02T14:33:07.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "LUCCHETTI",
+                "brandId": "2000747",
+                "categoriesIds": "/20002/30016/40077/",
+                "categories": [
+                    {
+                        "id": 40077,
+                        "name": "Pastas Secas"
+                    },
+                    {
+                        "id": 30016,
+                        "name": "Pastas"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "162",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 20.0000,
+            "sellingPrice": 82841,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 82841,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 82841,
+                "total": 82841
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "939DC6BED4F649148E6676CAD3820C61",
+            "id": "101157",
+            "productId": "101157",
+            "ean": "7790070318329",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalqalh",
+            "name": "Fideos LUCCHETTI tirabuzon x500gr",
+            "refId": "0101157",
+            "price": 4873,
+            "listPrice": 4873,
+            "manualPrice": null,
+            "priceTags": [
+                {
+                    "name": "discount@price-89b4c8f3-0c9c-40c9-b756-c06a3ebee947#28516dbe-8b2f-4150-b1ef-f5a5108a0188",
+                    "value": -10964,
+                    "isPercentual": false,
+                    "identifier": "89b4c8f3-0c9c-40c9-b756-c06a3ebee947",
+                    "rawValue": -109.64,
+                    "rate": null,
+                    "jurisCode": null,
+                    "jurisType": null,
+                    "jurisName": null
+                }
+            ],
+            "imageUrl": "https://arvitalqa.vteximg.com.br/arquivos/ids/217018-55-55/101157.jpg?v=637589687507770000",
+            "detailUrl": "/fideos-lucchetti-tirabuzon-x500gr-101157/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "101157",
+            "priceValidUntil": "2022-07-02T14:33:07.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "LUCCHETTI",
+                "brandId": "2000747",
+                "categoriesIds": "/20002/30016/40077/",
+                "categories": [
+                    {
+                        "id": 40077,
+                        "name": "Pastas Secas"
+                    },
+                    {
+                        "id": 30016,
+                        "name": "Pastas"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "162",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 15.0000,
+            "sellingPrice": 62131,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 62131,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 62131,
+                "total": 62131
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        }
+    ],
+    "marketplaceItems": [],
+    "clientProfileData": {
+        "id": "clientProfileData",
+        "email": "f350ad12455941f1add7ccdd40750c5b@ct.vtex.com.br",
+        "firstName": "LIN XIUMEI",
+        "lastName": "LIN XIUMEI",
+        "documentType": "dni",
+        "document": "12345678",
+        "phone": "+541112345678",
+        "corporateName": "LIN XIUMEI",
+        "tradeName": "ANTES WENG ZIXIAN",
+        "corporateDocument": "27954556447",
+        "stateInscription": null,
+        "corporatePhone": null,
+        "isCorporate": true,
+        "userProfileId": "515b3ffb-6d5a-4f51-b1ba-458bbec8a127",
+        "customerClass": "idVendedorLH2"
+    },
+    "giftRegistryData": null,
+    "marketingData": {
+        "id": "marketingData",
+        "utmSource": null,
+        "utmPartner": null,
+        "utmMedium": null,
+        "utmCampaign": null,
+        "coupon": null,
+        "utmiCampaign": null,
+        "utmipage": null,
+        "utmiPart": null,
+        "marketingTags": [
+            "vtexSocialSelling"
+        ]
+    },
+    "ratesAndBenefitsData": {
+        "id": "ratesAndBenefitsData",
+        "rateAndBenefitsIdentifiers": [
+            {
+                "description": "desde 3  UNIDADES",
+                "featured": false,
+                "id": "89b4c8f3-0c9c-40c9-b756-c06a3ebee947",
+                "name": "LUCCHETTI fideos x500gr D3B 15%",
+                "matchedParameters": {
+                    "progressiveDiscount@Marketing": "101155,101161,101157"
+                },
+                "additionalInfo": {
+                    "Cucarda": "-15% ",
+                    "CdPromo": "180262",
+                    "Skus": "101154,101155,101157,101161,101162,101163,101164,121694"
+                }
+            }
+        ]
+    },
+    "shippingData": {
+        "id": "shippingData",
+        "address": {
+            "addressType": "residential",
+            "receiverName": "LIN XIUMEI LIN XIUMEI",
+            "addressId": "LOMA HERMOSA BUENOS AIRES hola hola prueba  1254",
+            "postalCode": "1657",
+            "city": "LOMA HERMOSA",
+            "state": "BUENOS AIRES",
+            "country": "ARG",
+            "street": "hola hola prueba",
+            "number": "1254",
+            "neighborhood": "BUENOS AIRES, SAN ISIDRO",
+            "complement": "PB",
+            "reference": "2        3",
+            "geoCoordinates": [
+                -58.617446899414063,
+                -34.566440582275391
+            ]
+        },
+        "logisticsInfo": [
+            {
+                "itemIndex": 0,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-06T14:33:25.8692847+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1657)",
+                        "name": "Retiro en Sucursal (1657)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1657",
+                                "postalCode": "1657",
+                                "city": "Loma Hermosa",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Avenida Bernabé Márquez",
+                                "number": "969",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.5938,
+                                    -34.5708
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Loma Hermosa",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalqalh_1657",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1401",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "LOMA HERMOSA BUENOS AIRES hola hola prueba  1254",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 1,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-06T14:33:25.8692847+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1657)",
+                        "name": "Retiro en Sucursal (1657)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1657",
+                                "postalCode": "1657",
+                                "city": "Loma Hermosa",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Avenida Bernabé Márquez",
+                                "number": "969",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.5938,
+                                    -34.5708
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Loma Hermosa",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalqalh_1657",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1401",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "LOMA HERMOSA BUENOS AIRES hola hola prueba  1254",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 2,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-06T14:33:25.8692847+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1657)",
+                        "name": "Retiro en Sucursal (1657)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1657",
+                                "postalCode": "1657",
+                                "city": "Loma Hermosa",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Avenida Bernabé Márquez",
+                                "number": "969",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.5938,
+                                    -34.5708
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Loma Hermosa",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalqalh_1657",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1401",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "LOMA HERMOSA BUENOS AIRES hola hola prueba  1254",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            }
+        ],
+        "trackingHints": null,
+        "selectedAddresses": [
+            {
+                "addressId": "LOMA HERMOSA BUENOS AIRES hola hola prueba  1254",
+                "addressType": "residential",
+                "receiverName": "LIN XIUMEI LIN XIUMEI",
+                "street": "hola hola prueba",
+                "number": "1254",
+                "complement": "PB",
+                "neighborhood": "BUENOS AIRES, SAN ISIDRO",
+                "postalCode": "1657",
+                "city": "LOMA HERMOSA",
+                "state": "BUENOS AIRES",
+                "country": "ARG",
+                "reference": "2        3",
+                "geoCoordinates": [
+                    -58.617446899414063,
+                    -34.566440582275391
+                ]
+            }
+        ]
+    },
+    "paymentData": {
+        "giftCards": [],
+        "transactions": [
+            {
+                "isActive": true,
+                "transactionId": "6FC77B8A58474DF1B6199C883B2A598D",
+                "merchantName": "ARVITALQA",
+                "payments": [
+                    {
+                        "id": "A1BB11E2D6E341BDAF192F7634E9D904",
+                        "paymentSystem": "201",
+                        "paymentSystemName": "Pago a convenir",
+                        "value": 207103,
+                        "installments": 1,
+                        "referenceValue": 207103,
+                        "cardHolder": null,
+                        "cardNumber": null,
+                        "firstDigits": null,
+                        "lastDigits": null,
+                        "cvv2": null,
+                        "expireMonth": null,
+                        "expireYear": null,
+                        "url": null,
+                        "giftCardId": null,
+                        "giftCardName": null,
+                        "giftCardCaption": null,
+                        "redemptionCode": null,
+                        "group": "promissory",
+                        "tid": null,
+                        "dueDate": null,
+                        "connectorResponses": {},
+                        "giftCardProvider": null,
+                        "giftCardAsDiscount": null,
+                        "koinUrl": null,
+                        "accountId": null,
+                        "parentAccountId": null,
+                        "bankIssuedInvoiceIdentificationNumber": null,
+                        "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                        "bankIssuedInvoiceBarCodeNumber": null,
+                        "bankIssuedInvoiceBarCodeType": null,
+                        "billingAddress": null
+                    }
+                ]
+            }
+        ]
+    },
+    "packageAttachment": {
+        "packages": [
+            {
+                "items": [
+                    {
+                        "itemIndex": 0,
+                        "quantity": 1,
+                        "price": 62131,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    },
+                    {
+                        "itemIndex": 1,
+                        "quantity": 1,
+                        "price": 82841,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    },
+                    {
+                        "itemIndex": 2,
+                        "quantity": 1,
+                        "price": 62131,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    }
+                ],
+                "courier": null,
+                "invoiceNumber": "1143831996408-01",
+                "invoiceValue": 207103,
+                "invoiceUrl": null,
+                "issuanceDate": "2021-07-02T14:34:49.7900000+00:00",
+                "trackingNumber": null,
+                "invoiceKey": "",
+                "trackingUrl": null,
+                "embeddedInvoice": "",
+                "type": "Output",
+                "courierStatus": null,
+                "cfop": null,
+                "restitutions": {},
+                "volumes": null
+            }
+        ]
+    },
+    "sellers": [
+        {
+            "id": "arvitalqalh",
+            "name": "arvitalqalhv",
+            "logo": null,
+            "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?affiliateid=VLH&sc=1&an=arvitalqalh"
+        }
+    ],
+    "callCenterOperatorData": null,
+    "followUpEmail": "3c4dd3dbc9804d4abd2379aaaa5e2f5a@ct.vtex.com.br",
+    "lastMessage": null,
+    "hostname": "arvitalqa",
+    "invoiceData": {
+        "address": null,
+        "userPaymentInfo": null
+    },
+    "changesAttachment": null,
+    "openTextField": null,
+    "roundingError": 0,
+    "orderFormId": "298a2b2065f54972bcd9fab942d12bd1",
+    "commercialConditionData": null,
+    "isCompleted": true,
+    "customData": {
+        "customApps": [
+            {
+                "fields": {
+                    "value": "7D37383D5A9074F6E053100000D6F5BC"
+                },
+                "id": "id_cuenta",
+                "major": 1
+            },
+            {
+                "fields": {
+                    "lista": "0.0000",
+                    "tapa": "0.0000",
+                    "oferta": "1.0000"
+                },
+                "id": "semaforo",
+                "major": 1
+            }
+        ]
+    },
+    "storePreferencesData": {
+        "countryCode": "ARG",
+        "currencyCode": "ARS",
+        "currencyFormatInfo": {
+            "CurrencyDecimalDigits": 2,
+            "CurrencyDecimalSeparator": ",",
+            "CurrencyGroupSeparator": ".",
+            "CurrencyGroupSize": 3,
+            "StartsWithCurrencySymbol": true
+        },
+        "currencyLocale": 11274,
+        "currencySymbol": "$",
+        "timeZone": "Argentina Standard Time"
+    },
+    "allowCancellation": false,
+    "allowEdition": false,
+    "isCheckedIn": false,
+    "marketplace": null,
+    "authorizedDate": "2021-07-02T14:33:21.2829197+00:00",
+    "invoicedDate": "2021-07-02T14:40:19.1701548+00:00",
+    "cancelReason": null,
+    "itemMetadata": {
+        "Items": [
+            {
+                "Id": "101155",
+                "Seller": "1",
+                "Name": "Fideos LUCCHETTI mostachol x500gr",
+                "SkuName": "Fideos LUCCHETTI mostachol x500gr",
+                "ProductId": "101155",
+                "RefId": "0101155",
+                "Ean": "7790070318336",
+                "ImageUrl": "http://arvitalqa.vteximg.com.br/arquivos/ids/216679-55-55/101155.jpg?v=637589682431600000",
+                "DetailUrl": "/fideos-lucchetti-mostachol-x500gr-101155/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "101161",
+                "Seller": "1",
+                "Name": "Fideos LUCCHETTI bucatini x500gr",
+                "SkuName": "Fideos LUCCHETTI bucatini x500gr",
+                "ProductId": "101161",
+                "RefId": "0101161",
+                "Ean": "7790070318305",
+                "ImageUrl": "http://arvitalqa.vteximg.com.br/arquivos/ids/213732-55-55/101161.jpg?v=637589636709470000",
+                "DetailUrl": "/fideos-lucchetti-bucatini-x500gr-101161/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "101157",
+                "Seller": "1",
+                "Name": "Fideos LUCCHETTI tirabuzon x500gr",
+                "SkuName": "Fideos LUCCHETTI tirabuzon x500gr",
+                "ProductId": "101157",
+                "RefId": "0101157",
+                "Ean": "7790070318329",
+                "ImageUrl": "http://arvitalqa.vteximg.com.br/arquivos/ids/217018-55-55/101157.jpg?v=637589687507770000",
+                "DetailUrl": "/fideos-lucchetti-tirabuzon-x500gr-101157/p",
+                "AssemblyOptions": []
+            }
+        ]
+    },
+    "subscriptionData": null,
+    "taxData": null,
+    "checkedInPickupPointId": null,
+    "cancellationData": null
+}

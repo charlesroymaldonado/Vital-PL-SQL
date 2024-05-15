@@ -1,0 +1,2 @@
+ insert into PARAMETROS values ('DirJSONPedidosVTEX','VTEX','indica el directorio en el servidor donde se almacenan los JSON de pedidos generados en VTEX' );
+ insert into ParametrosSistema values ('DirJSONPedidosVTEX','ConfigVTEX','\\acwebdev\Interfaces\pedidos_VTEX','VTEX');

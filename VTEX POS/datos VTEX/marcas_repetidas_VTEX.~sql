@@ -1,0 +1,2 @@
+select * from vtexbrand b where b.name in ('ARCOR','FLECKY','SUIZA','LABRATTO','LE SANSY','MACROBIOTICA')
+select count(*), b.name from vtexbrand b group by b.name having  count(*)>1 ;

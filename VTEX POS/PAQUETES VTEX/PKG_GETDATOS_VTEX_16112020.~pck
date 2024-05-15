@@ -1,0 +1,312 @@
+create or replace package PKG_MERGE_DATOS_VTEX is
+
+  -- Author  : CMALDONADO
+  -- Created : 12/11/2020 7:43:10 a. m.
+  -- Purpose : para manejar los datos de integración con plataforma VTEX
+  
+   type cursor_type Is Ref Cursor;
+
+  type t_product is table of vtexproduct%rowtype index by binary_integer;
+  type t_product_pipe is table of vtexproduct%rowtype;
+
+  Function Pipeproducts Return t_product_pipe pipelined;
+
+end PKG_MERGE_DATOS_VTEX;
+/
+create or replace package body PKG_MERGE_DATOS_VTEX is
+ g_l_product t_product;
+
+ 
+/**************************************************************************************************
+* Carga en una tabla global en memoria los datos de todos los artículos activos en AC
+* %v 16/11/2020 - ChM 
+***************************************************************************************************/
+PROCEDURE CargarTablaProduct IS
+  v_Modulo varchar2(100) := 'PKG_MERGE_DATOS_VTEX.CargarTablaProduct';
+  i        binary_integer := 1;
+
+BEGIN
+
+  for r_product in ( SELECT distinct BB.* FROM
+                      (select distinct null productID, 
+                             da.vldescripcion name,
+                             NVL((select 
+                             distinct nvl(vc.departmentid,-1) -- -1 NO CATALOGADO
+                                 from vtexcatalog vc
+                                where vc.departmentname = upper(trim(d.dsdepartamento))
+                                   and rownum = 1),-1) departmentID, 
+                             NVL((select 
+                             distinct NVL(vc.categoryid,-1) -- -1 NO CATALOGADO
+                                 from vtexcatalog vc
+                                where vc.categoryname = upper(trim(u.dsuniverso))
+                                   and rownum = 1),-1) categoryID,  
+                             NVL((select 
+                                distinct NVL(vc.subcategoryid,-1) -- -1 NO CATALOGADO
+                                 from vtexcatalog vc
+                                where vc.subcategoryname = upper(trim(c.dscategoria))
+                                   and rownum = 1),-1) subcategoryID,             
+                             NVL((select 
+                             distinct NVL(vb.brandid,-1)  -- -1 SIN MARCA
+                                 from vtexbrand vb
+                                where upper(trim(da.VLDESCRIPCION)) LIKE '%'||vb.name||'%'
+                                  and rownum = 1),-1) Brandid,
+                             ar.cdarticulo linkid,
+                             ar.cdarticulo refid,
+                             1 isvisible,  --OJO FALTA la logica de poner visible false baja temporal
+                             da.vldescripcion description,
+                             ar.dtinsertplu releasedate,
+                             1 isactive,  --OJO FALTA la logica de poner active false baja definitiva
+                             1 icnuevo,
+                             sysdate dtinsert,
+                             null dtupdate,
+                             1 factor,
+                             n_pkg_vitalpos_materiales_s.GetUxB(ar.cdarticulo,'BTO') UXB,
+                             null observacion,
+                             0 icprocesado,
+                             null dtprocesado                              
+                       from articulos_s                    ar,
+                            descripcionesarticulos_s       da,
+                            tblctgryarticulocategorizado_s a,
+                            tblctgrydepartamento_s         d,
+                            tblctgryuniverso_s             u,
+                            tblctgrycategoria_s            c,
+                            tblctgrysubcategoria_s         sc,
+                            tblctgrysegmento_s             s,
+                            tblctgrysubsegmento_s          ss,
+                            tblctgrysectorc_S              tse,
+                            tblivaarticulo_s               tiva
+                      where ar.cdarticulo = da.cdarticulo
+                        and ar.cdestadoplu = '00'
+                        and tiva.cdarticulo(+) = ar.cdarticulo
+                        and not exists
+                      (select 1
+                               from articulosnocomerciales_s t
+                              where t.cdarticulo = a.cdarticulo)
+                        and not exists
+                      (select 1
+                               from articulos_excluidos h
+                              where h.cdarticulo = ar.cdarticulo) --agrego tabla articulos excluidos 
+                        and substr(ar.cdarticulo, 1, 1) <> 'A'
+                        and a.cddepartamento = d.cddepartamento(+)
+                        and a.cduniverso = u.cduniverso(+)
+                        and a.cdcategoria = c.cdcategoria(+)
+                        and a.cdsubcategoria = sc.cdsubcategoria(+)
+                        and a.cdsegmento = s.cdsegmento(+)
+                        and a.cdsubsegmento = ss.cdsubsegmento(+)
+                        and a.cdsectorc = tse.cdserctorc
+                        and a.cdarticulo = ar.cdarticulo
+                        and ar.cddrugstore not in ('EX', 'DE', 'CP'))BB,
+                         VTEXCATALOG  VC
+                         -- validacion para listar solo articulos catalogados en VTEX
+                   WHERE BB.DEPARTMENTID||BB.CATEGORYID||BB.SUBCATEGORYID = VC.DEPARTMENTID||VC.CATEGORYID||VC.SUBCATEGORYID 
+                     --excluyo los no catalogados
+                     AND BB.DEPARTMENTID<>-1
+                     AND BB.CATEGORYID<> -1 
+                     AND BB.SUBCATEGORYID<>-1
+                     AND BB.BRANDID <> -1) loop
+                    
+    g_l_product(i).productid := r_product.productid;
+    g_l_product(i).name := r_product.name;
+    g_l_product(i).departmentid := r_product.departmentid;
+    g_l_product(i).categoryid := r_product.categoryid;
+    g_l_product(i).subcategoryid := r_product.subcategoryid;
+    g_l_product(i).brandid := r_product.brandid;
+    g_l_product(i).linkid := r_product.linkid;
+    g_l_product(i).refid := r_product.refid;
+    g_l_product(i).isvisible := r_product.isvisible;
+    g_l_product(i).description := r_product.description;
+    g_l_product(i).releasedate := r_product.releasedate;
+    g_l_product(i).isactive := r_product.isactive;
+    g_l_product(i).icnuevo := r_product.icnuevo;
+    g_l_product(i).dtinsert := r_product.dtinsert;
+    g_l_product(i).dtupdate := r_product.dtupdate;
+    g_l_product(i).factor := r_product.factor;
+    g_l_product(i).uxb := r_product.uxb;
+    g_l_product(i).observacion := r_product.observacion;
+    g_l_product(i).icprocesado := r_product.icprocesado;
+    g_l_product(i).dtprocesado := r_product.dtprocesado;
+    i := i + 1;
+  end loop;
+
+EXCEPTION
+  WHEN OTHERS THEN
+    pkg_log_general.write(1,
+                          'Modulo: ' || v_Modulo || '  Error: ' || SQLERRM);
+END  CargarTablaProduct;
+
+/**************************************************************************************************
+* Devuelve todos los datos de la tabla de VTEXPRODUCT en memoria
+* %v 16/11/2020 - ChM
+***************************************************************************************************/
+FUNCTION Pipeproducts RETURN t_product_pipe
+  PIPELINED IS
+  i binary_integer := 0;
+BEGIN
+  i := g_l_product.FIRST;
+  while i is not null loop
+    pipe row(g_l_product(i));
+    i := g_l_product.NEXT(i);
+  end loop;
+  return;
+EXCEPTION
+  when others then
+    null;
+END Pipeproducts;
+
+/**************************************************************************************************
+* Carga datos de todas los articulos para la carga inicial de productos de VTEXPRODUCT
+* %v 16/11/2020 - ChM
+***************************************************************************************************/
+PROCEDURE CargarProduct IS
+  v_Modulo varchar2(100) := 'PKG_MERGE_DATOS_VTEX.CargarProduct';
+
+BEGIN
+
+  execute immediate 'truncate table vtexproduct';
+  g_l_product.delete;
+  -- llena la tabla en memoria
+  CargarTablaproduct;
+  -- la inserta en la definitiva
+  insert into vtexproduct
+    select * From Table(Pipeproducts);
+
+  commit;
+
+EXCEPTION
+  WHEN OTHERS THEN
+    pkg_log_general.write(1,
+                          'Modulo: ' || v_Modulo || '  Error: ' || SQLERRM);
+END CargarProduct;
+
+/**************************************************************************************************
+* Carga productos nuevos y actualiza los modificados de la tabla VTEXPRODUCT
+* %v 16/11/2020 - ChM
+***************************************************************************************************/
+PROCEDURE RefrescarProduct IS
+  v_Modulo varchar2(100) := 'PKG_MERGE_DATOS_VTEX.RefrescarProduct';
+
+BEGIN
+
+  g_l_product.delete;
+  -- llena la tabla en memoria con los articulos activos de AC
+  CargarTablaProduct;
+  -- la inserta en una temporal para despues comparar
+
+      insert into tmp_vtexproduct
+       select productid,
+              name,
+              departmentid,
+              categoryid,
+              subcategoryid,
+              brandid,
+              linkid,
+              refid,
+              isvisible,
+              description,
+              releasedate,
+              isactive,
+              icnuevo,
+              dtinsert,
+              dtupdate,
+              factor,
+              uxb,
+              observacion,
+              icprocesado,
+              dtprocesado      
+        From Table(Pipeproducts);
+
+  -- no hago commit porque elimina los datos cargados -- commit;
+
+  merge into vtexproduct vp
+  using tmp_vtexproduct tvp
+  on (vp.refid = tvp.refid)
+  when not matched then -- altas
+    insert
+      (productid,
+      name,
+      departmentid,
+      categoryid,
+      subcategoryid,
+      brandid,
+      linkid,
+      refid,
+      isvisible,
+      description,
+      releasedate,
+      isactive,
+      icnuevo,
+      dtinsert,
+      dtupdate,
+      factor,
+      uxb,
+      observacion,
+      icprocesado,
+      dtprocesado)
+    values
+      (tvp.productid,
+      tvp.name,
+      tvp.departmentid,
+      tvp.categoryid,
+      tvp.subcategoryid,
+      tvp.brandid,
+      tvp.linkid,
+      tvp.refid,
+      tvp.isvisible,
+      tvp.description,
+      tvp.releasedate,
+      tvp.isactive,
+      tvp.icnuevo,
+      tvp.dtinsert,
+      tvp.dtupdate,
+      tvp.factor,
+      tvp.uxb,
+      tvp.observacion,
+      tvp.icprocesado,
+      tvp.dtprocesado)
+  when matched then -- modificaciones
+     update 
+        set vp.productid = tvp.productid,
+            vp.name = tvp.name,
+            vp.departmentid = tvp.departmentid,
+            vp.categoryid = tvp.categoryid,
+            vp.subcategoryid = tvp.subcategoryid,
+            vp.brandid = tvp.brandid,
+            vp.linkid = tvp.linkid,
+            vp.refid = tvp.refid,
+            vp.isvisible = tvp.isvisible,
+            vp.description = tvp.description,
+            vp.releasedate = tvp.releasedate,
+            vp.isactive = tvp.isactive,
+            vp.icnuevo = 0, --se setea en 0 porque se esta actualizando            
+            vp.dtupdate = sysdate,
+            vp.factor = tvp.factor,
+            vp.uxb = tvp.uxb,
+            vp.observacion = tvp.observacion,
+            vp.icprocesado = tvp.icprocesado,  
+            vp.dtprocesado = tvp.dtprocesado
+           where -- solo se actualizan si hubo algun cambio     
+                vp.name <> tvp.name
+             or vp.departmentid <> tvp.departmentid
+             or vp.categoryid <> tvp.categoryid
+             or vp.subcategoryid <> tvp.subcategoryid
+             or vp.brandid <> tvp.brandid
+             or vp.linkid <> tvp.linkid
+             or vp.isvisible <> tvp.isvisible
+             or vp.description <> tvp.description
+             or vp.releasedate <> tvp.releasedate
+             or vp.isactive <> tvp.isactive
+             or vp.factor <> tvp.factor
+             or vp.uxb <> tvp.uxb;      
+       
+  commit;
+
+EXCEPTION
+  WHEN OTHERS THEN
+    pkg_log_general.write(1,
+                          'Modulo: ' || v_Modulo || '  Error: ' || SQLERRM);
+END RefrescarProduct;
+
+
+
+end PKG_MERGE_DATOS_VTEX;
+/

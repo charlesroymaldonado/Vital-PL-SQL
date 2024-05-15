@@ -1,0 +1,3450 @@
+{
+    "orderId": "1148642613992-01",
+    "sequence": "500682",
+    "marketplaceOrderId": "",
+    "marketplaceServicesEndpoint": null,
+    "sellerOrderId": "VVN-1148642613992-01",
+    "origin": "Marketplace",
+    "affiliateId": "",
+    "salesChannel": "1",
+    "merchantName": null,
+    "status": "invoiced",
+    "statusDescription": "Faturado",
+    "value": 6291638,
+    "creationDate": "2021-07-22T15:43:33.7454204+00:00",
+    "lastChange": "2021-07-22T15:45:31.5413461+00:00",
+    "orderGroup": "1148642613992",
+    "totals": [
+        {
+            "id": "Items",
+            "name": "Total de los items",
+            "value": 6291638
+        },
+        {
+            "id": "Discounts",
+            "name": "Total de descuentos",
+            "value": 0
+        },
+        {
+            "id": "Shipping",
+            "name": "Costo total del envío",
+            "value": 0
+        },
+        {
+            "id": "Tax",
+            "name": "Costo total del cambio",
+            "value": 0
+        }
+    ],
+    "items": [
+        {
+            "uniqueId": "3931454C585C44DEA6CC61C66C23AF94",
+            "id": "114248",
+            "productId": "114248",
+            "ean": "7791290790407",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalav",
+            "name": "Jabon Drive en polvo rosas y lilas x400gr",
+            "refId": "0114248",
+            "price": 3999,
+            "listPrice": 3999,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/251276-55-55/114248.jpg?v=637620808398500000",
+            "detailUrl": "/jabon-drive-en-polvo-rosas-y-lilas-x400gr-114248/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "114248",
+            "priceValidUntil": "2021-07-25T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "DRIVE",
+                "brandId": "20394",
+                "categoriesIds": "/20012/30061/40319/",
+                "categories": [
+                    {
+                        "id": 40319,
+                        "name": "Jabones Para La Ropa"
+                    },
+                    {
+                        "id": 30061,
+                        "name": "Cuidado De La Ropa"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "137,153",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 24.0000,
+            "sellingPrice": 95976,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 95976,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 95976,
+                "total": 95976
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": "555a5b23-5c7a-450d-b656-effc2fb21265",
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "181093C10B04487FA19AD9EBC912986B",
+            "id": "101368",
+            "productId": "101368",
+            "ean": "7790040111004",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 3,
+            "seller": "arvitalav",
+            "name": "Galletitas Chocolinas x250gr",
+            "refId": "0101368",
+            "price": 7599,
+            "listPrice": 7599,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/240360-55-55/101368.jpg?v=637601430639130000",
+            "detailUrl": "/galletitas-chocolinas-x250gr-101368/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "101368",
+            "priceValidUntil": "2021-07-25T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "CHOCOLINAS",
+                "brandId": "20248",
+                "categoriesIds": "/20002/30011/40054/",
+                "categories": [
+                    {
+                        "id": 40054,
+                        "name": "Galletitas Tostadas Y Grisines"
+                    },
+                    {
+                        "id": 30011,
+                        "name": "Desayuno Y Merienda"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "138,148,152,154,155",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 25.0000,
+            "sellingPrice": 189975,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 189975,
+                        "quantity": 3
+                    }
+                ],
+                "calculatedSellingPrice": 189975,
+                "total": 569925
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": "555a5b23-5c7a-450d-b656-effc2fb21265",
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "0C581968BFF448E1A2253F2B8869F1A8",
+            "id": "100886",
+            "productId": "100886",
+            "ean": "7798023690553",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 11,
+            "seller": "arvitalav",
+            "name": "Durazno S&P en mitad x820gr",
+            "refId": "0100886",
+            "price": 12900,
+            "listPrice": 12900,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/242705-55-55/100886.jpg?v=637601448943400000",
+            "detailUrl": "/durazno-s-p-en-mitad-x820gr-100886/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "100886",
+            "priceValidUntil": "2021-07-25T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "S&P",
+                "brandId": "21152",
+                "categoriesIds": "/20002/30012/40060/",
+                "categories": [
+                    {
+                        "id": 40060,
+                        "name": "Conservas De Frutas"
+                    },
+                    {
+                        "id": 30012,
+                        "name": "Enlatados  Y Conservas"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "137,140,144,152,154,170",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 12.0000,
+            "sellingPrice": 154800,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 154800,
+                        "quantity": 11
+                    }
+                ],
+                "calculatedSellingPrice": 154800,
+                "total": 1702800
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": "555a5b23-5c7a-450d-b656-effc2fb21265",
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "DC5FF54ABDA847E5A3103B382C0F21BD",
+            "id": "174987",
+            "productId": "174987",
+            "ean": "7793704000911",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 16,
+            "seller": "arvitalav",
+            "name": "Yerba Playadito suave x500gr",
+            "refId": "0174987",
+            "price": 16900,
+            "listPrice": 16900,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/238925-55-55/174987.jpg?v=637601419484470000",
+            "detailUrl": "/yerba-playadito-suave-x500gr-174987/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "174987",
+            "priceValidUntil": "2021-07-25T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "PLAYADITO",
+                "brandId": "21021",
+                "categoriesIds": "/20002/30011/40057/",
+                "categories": [
+                    {
+                        "id": 40057,
+                        "name": "Yerbas"
+                    },
+                    {
+                        "id": 30011,
+                        "name": "Desayuno Y Merienda"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "137,148,154",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 10.0000,
+            "sellingPrice": 169000,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 169000,
+                        "quantity": 16
+                    }
+                ],
+                "calculatedSellingPrice": 169000,
+                "total": 2704000
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": "555a5b23-5c7a-450d-b656-effc2fb21265",
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "21E8C513A18048898410717E98681575",
+            "id": "108820",
+            "productId": "108820",
+            "ean": "7790895006951",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 3,
+            "seller": "arvitalav",
+            "name": "Gaseosa Crush naranja pet x2.25lt",
+            "refId": "0108820",
+            "price": 6227,
+            "listPrice": 6227,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/232614-55-55/108820.jpg?v=637601369698800000",
+            "detailUrl": "/gaseosa-crush-naranja-pet-x2-25lt-108820/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "108820",
+            "priceValidUntil": "2022-07-22T15:43:23.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "CRUSH",
+                "brandId": "20318",
+                "categoriesIds": "/20005/30034/40182/",
+                "categories": [
+                    {
+                        "id": 40182,
+                        "name": "Gaseosas"
+                    },
+                    {
+                        "id": 30034,
+                        "name": "Bebidas Sin Alcohol"
+                    },
+                    {
+                        "id": 20005,
+                        "name": "Bebidas"
+                    }
+                ],
+                "productClusterId": "148",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 8.0000,
+            "sellingPrice": 49816,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 49816,
+                        "quantity": 3
+                    }
+                ],
+                "calculatedSellingPrice": 49816,
+                "total": 149448
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": "555a5b23-5c7a-450d-b656-effc2fb21265",
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "2240414111394C569E3EC86D23578C33",
+            "id": "108822",
+            "productId": "108822",
+            "ean": "7790895007392",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 3,
+            "seller": "arvitalav",
+            "name": "Gaseosa Crush pet x2.25lt",
+            "refId": "0108822",
+            "price": 6229,
+            "listPrice": 6229,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/239255-55-55/108822.jpg?v=637601421892830000",
+            "detailUrl": "/gaseosa-crush-pet-x2-25lt-108822/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "108822",
+            "priceValidUntil": "2022-07-22T15:43:23.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "CRUSH",
+                "brandId": "20318",
+                "categoriesIds": "/20005/30034/40182/",
+                "categories": [
+                    {
+                        "id": 40182,
+                        "name": "Gaseosas"
+                    },
+                    {
+                        "id": 30034,
+                        "name": "Bebidas Sin Alcohol"
+                    },
+                    {
+                        "id": 20005,
+                        "name": "Bebidas"
+                    }
+                ],
+                "productClusterId": "148",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 8.0000,
+            "sellingPrice": 49832,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 49832,
+                        "quantity": 3
+                    }
+                ],
+                "calculatedSellingPrice": 49832,
+                "total": 149496
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": "555a5b23-5c7a-450d-b656-effc2fb21265",
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "959388548D614EED84B7162D78D077A3",
+            "id": "157745",
+            "productId": "157745",
+            "ean": "7798023696937",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalav",
+            "name": "Aceite vegetal S&P aerosol x120gr",
+            "refId": "0157745",
+            "price": 11699,
+            "listPrice": 11699,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/251544-55-55/157745.jpg?v=637620811590700000",
+            "detailUrl": "/aceite-vegetal-s-p-aerosol-x120gr-157745/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "157745",
+            "priceValidUntil": "2021-07-25T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "S&P",
+                "brandId": "21152",
+                "categoriesIds": "/20002/30007/40033/",
+                "categories": [
+                    {
+                        "id": 40033,
+                        "name": "Aceites"
+                    },
+                    {
+                        "id": 30007,
+                        "name": "Aceites Y Condimentos"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "138,140,144",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 12.0000,
+            "sellingPrice": 140388,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 140388,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 140388,
+                "total": 140388
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": "555a5b23-5c7a-450d-b656-effc2fb21265",
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "8A1C5273770A40F79E54E64EE4129A5A",
+            "id": "148325",
+            "productId": "148325",
+            "ean": "7791290786394",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalav",
+            "name": "Lavandina Vim en gel original x700cc",
+            "refId": "0148325",
+            "price": 8349,
+            "listPrice": 8349,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/245405-55-55/148325.jpg?v=637601470393930000",
+            "detailUrl": "/lavandina-vim-en-gel-original-x700cc-148325/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "148325",
+            "priceValidUntil": "2021-07-25T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "VIM",
+                "brandId": "21382",
+                "categoriesIds": "/20012/30066/40347/",
+                "categories": [
+                    {
+                        "id": 40347,
+                        "name": "Lavandinas En Gel"
+                    },
+                    {
+                        "id": 30066,
+                        "name": "Lavandinas"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "138,147",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 12.0000,
+            "sellingPrice": 100188,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 100188,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 100188,
+                "total": 100188
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": "555a5b23-5c7a-450d-b656-effc2fb21265",
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "DB3EEDBF25C0429C80ECD06D40CC4F6F",
+            "id": "152550",
+            "productId": "152550",
+            "ean": "7791290786400",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalav",
+            "name": "Lavandina Vim en gel lavanda x700cc",
+            "refId": "0152550",
+            "price": 8349,
+            "listPrice": 8349,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/236033-55-55/152550.jpg?v=637601396974900000",
+            "detailUrl": "/lavandina-vim-en-gel-lavanda-x700cc-152550/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "152550",
+            "priceValidUntil": "2021-07-25T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "VIM",
+                "brandId": "21382",
+                "categoriesIds": "/20012/30066/40347/",
+                "categories": [
+                    {
+                        "id": 40347,
+                        "name": "Lavandinas En Gel"
+                    },
+                    {
+                        "id": 30066,
+                        "name": "Lavandinas"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "138,147",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 12.0000,
+            "sellingPrice": 100188,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 100188,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 100188,
+                "total": 100188
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": "555a5b23-5c7a-450d-b656-effc2fb21265",
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "F54B66F2587E41D9A28239D019C88B90",
+            "id": "103500",
+            "productId": "103500",
+            "ean": "7791290010444",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalav",
+            "name": "Suavizante Comfort Classic doy pack x900cc",
+            "refId": "0103500",
+            "price": 12501,
+            "listPrice": 12501,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/251484-55-55/103500.jpg?v=637620810928130000",
+            "detailUrl": "/suavizante-comfort-classic-doy-pack-x900cc-103500/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "103500",
+            "priceValidUntil": "2021-07-25T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "COMFORT",
+                "brandId": "20285",
+                "categoriesIds": "/20012/30061/40322/",
+                "categories": [
+                    {
+                        "id": 40322,
+                        "name": "Suavizantes"
+                    },
+                    {
+                        "id": 30061,
+                        "name": "Cuidado De La Ropa"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "138,165",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 12.0000,
+            "sellingPrice": 150012,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 150012,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 150012,
+                "total": 150012
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": "555a5b23-5c7a-450d-b656-effc2fb21265",
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "C11DC197E0E94B35BD38DF90BFBFA814",
+            "id": "103840",
+            "productId": "103840",
+            "ean": "7793253038106",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalav",
+            "name": "Esponja Mortimer de fibra cuadriculada",
+            "refId": "0103840",
+            "price": 2149,
+            "listPrice": 2149,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/251144-55-55/103840.jpg?v=637620807062100000",
+            "detailUrl": "/esponja-mortimer-de-fibra-cuadriculada-103840/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "103840",
+            "priceValidUntil": "2021-07-25T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "MORTIMER",
+                "brandId": "20874",
+                "categoriesIds": "/20012/30060/40314/",
+                "categories": [
+                    {
+                        "id": 40314,
+                        "name": "Cepillos Esponjas Y Guantes"
+                    },
+                    {
+                        "id": 30060,
+                        "name": "Accesorios De Limpieza"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "138",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 12.0000,
+            "sellingPrice": 25788,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 25788,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 25788,
+                "total": 25788
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": "555a5b23-5c7a-450d-b656-effc2fb21265",
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "6574688C56774878AE20907DE6FCE3B3",
+            "id": "152561",
+            "productId": "152561",
+            "ean": "7790250056980",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 3,
+            "seller": "arvitalav",
+            "name": "Rollo de cocina Sussex Maxi 100px3u",
+            "refId": "0152561",
+            "price": 14499,
+            "listPrice": 14499,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/245957-55-55/152561.jpg?v=637601474745230000",
+            "detailUrl": "/rollo-de-cocina-sussex-maxi-100px3u-152561/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "152561",
+            "priceValidUntil": "2021-07-25T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "SUSSEX",
+                "brandId": "21273",
+                "categoriesIds": "/20012/30070/40367/",
+                "categories": [
+                    {
+                        "id": 40367,
+                        "name": "Rollos De Cocina"
+                    },
+                    {
+                        "id": 30070,
+                        "name": "Papeles"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "138,147",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 5.0000,
+            "sellingPrice": 72495,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 72495,
+                        "quantity": 3
+                    }
+                ],
+                "calculatedSellingPrice": 72495,
+                "total": 217485
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": "555a5b23-5c7a-450d-b656-effc2fb21265",
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "D78376C07A844E8B8A131AEA0D1F31B3",
+            "id": "152549",
+            "productId": "152549",
+            "ean": "7791290007543",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalav",
+            "name": "Limpiador Cif antibacterial baño/cocina doy pack x450cc",
+            "refId": "0152549",
+            "price": 5948,
+            "listPrice": 5948,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/241481-55-55/152549.jpg?v=637601439519870000",
+            "detailUrl": "/limpiador-cif-antibacterial-ba%C3%B1o-cocina-doy-pack-x450cc-152549/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "152549",
+            "priceValidUntil": "2021-07-25T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "CIF",
+                "brandId": "20258",
+                "categoriesIds": "/20012/30067/40349/",
+                "categories": [
+                    {
+                        "id": 40349,
+                        "name": "Desinfectantes De Baño"
+                    },
+                    {
+                        "id": 30067,
+                        "name": "Limpieza De Baño"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "138",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 5.0000,
+            "sellingPrice": 29740,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 29740,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 29740,
+                "total": 29740
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": "555a5b23-5c7a-450d-b656-effc2fb21265",
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "94416E3C14DA42708097B616A7827878",
+            "id": "168784",
+            "productId": "168784",
+            "ean": "7791130962476",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalav",
+            "name": "Limpiador Procenex fragancia vainilla x900cc",
+            "refId": "0168784",
+            "price": 5619,
+            "listPrice": 5619,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/242346-55-55/168784.jpg?v=637601446387930000",
+            "detailUrl": "/limpiador-procenex-fragancia-vainilla-x900cc-168784/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "168784",
+            "priceValidUntil": "2021-07-25T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "PROCENEX",
+                "brandId": "21065",
+                "categoriesIds": "/20012/30069/40358/",
+                "categories": [
+                    {
+                        "id": 40358,
+                        "name": "Limpiadores De Piso"
+                    },
+                    {
+                        "id": 30069,
+                        "name": "Limpieza De Pisos Y Superficie"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "138",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 12.0000,
+            "sellingPrice": 67428,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 67428,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 67428,
+                "total": 67428
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": "555a5b23-5c7a-450d-b656-effc2fb21265",
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "D58B6B34B56541C7855A95FB1BCCB870",
+            "id": "153093",
+            "productId": "153093",
+            "ean": "7798023696173",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalav",
+            "name": "Limpiador Bonux bosque/pino x900cc",
+            "refId": "0153093",
+            "price": 3699,
+            "listPrice": 3699,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/234278-55-55/153093.jpg?v=637601383326900000",
+            "detailUrl": "/limpiador-bonux-bosque-pino-x900cc-153093/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "153093",
+            "priceValidUntil": "2021-07-25T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "BONUX",
+                "brandId": "20160",
+                "categoriesIds": "/20012/30069/40358/",
+                "categories": [
+                    {
+                        "id": 40358,
+                        "name": "Limpiadores De Piso"
+                    },
+                    {
+                        "id": 30069,
+                        "name": "Limpieza De Pisos Y Superficie"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "138,144",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 12.0000,
+            "sellingPrice": 44388,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 44388,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 44388,
+                "total": 44388
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": "555a5b23-5c7a-450d-b656-effc2fb21265",
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "9B8337C01B734D06B892C403AB5F9A8D",
+            "id": "153091",
+            "productId": "153091",
+            "ean": "7798023696159",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalav",
+            "name": "Limpiador Bonux lavanda x900cc",
+            "refId": "0153091",
+            "price": 3699,
+            "listPrice": 3699,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/243170-55-55/153091.jpg?v=637601452771170000",
+            "detailUrl": "/limpiador-bonux-lavanda-x900cc-153091/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "153091",
+            "priceValidUntil": "2021-07-25T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "BONUX",
+                "brandId": "20160",
+                "categoriesIds": "/20012/30069/40358/",
+                "categories": [
+                    {
+                        "id": 40358,
+                        "name": "Limpiadores De Piso"
+                    },
+                    {
+                        "id": 30069,
+                        "name": "Limpieza De Pisos Y Superficie"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "138,144",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 12.0000,
+            "sellingPrice": 44388,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 44388,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 44388,
+                "total": 44388
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": "555a5b23-5c7a-450d-b656-effc2fb21265",
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        }
+    ],
+    "marketplaceItems": [],
+    "clientProfileData": {
+        "id": "clientProfileData",
+        "email": "1ac540ae6470467a81cd0c73d889216f@ct.vtex.com.br",
+        "firstName": "LI",
+        "lastName": "LINGYU",
+        "documentType": "dni",
+        "document": "95158668",
+        "phone": "+5491123474505",
+        "corporateName": null,
+        "tradeName": null,
+        "corporateDocument": null,
+        "stateInscription": null,
+        "corporatePhone": null,
+        "isCorporate": false,
+        "userProfileId": "555a5b23-5c7a-450d-b656-effc2fb21265",
+        "customerClass": "B1A62C802B6B0CDCE05310C8A8C09D6D"
+    },
+    "giftRegistryData": null,
+    "marketingData": {
+        "id": "marketingData",
+        "utmSource": null,
+        "utmPartner": null,
+        "utmMedium": null,
+        "utmCampaign": null,
+        "coupon": null,
+        "utmiCampaign": null,
+        "utmipage": null,
+        "utmiPart": null,
+        "marketingTags": [
+            "vtexSocialSelling"
+        ]
+    },
+    "ratesAndBenefitsData": {
+        "id": "ratesAndBenefitsData",
+        "rateAndBenefitsIdentifiers": []
+    },
+    "shippingData": {
+        "id": "shippingData",
+        "address": {
+            "addressType": "residential",
+            "receiverName": "LI LINGYU",
+            "addressId": "GRISELDA",
+            "postalCode": "1870",
+            "city": "AVELLANEDA",
+            "state": "BUENOS AIRES",
+            "country": "ARG",
+            "street": "Av. Carlos Fiorito",
+            "number": "920",
+            "neighborhood": null,
+            "complement": null,
+            "reference": null,
+            "geoCoordinates": [
+                -58.351322174072266,
+                -34.667774200439453
+            ]
+        },
+        "logisticsInfo": [
+            {
+                "itemIndex": 0,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-26T15:43:42.8458517+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1870)",
+                        "name": "Retiro en Sucursal (1870)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1870",
+                                "postalCode": "1870",
+                                "city": "Avellaneda",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Carlos Fiorito",
+                                "number": "920",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.39079,
+                                    -34.66279
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Avellaneda",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalav_1870",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "GRISELDA",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 1,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-26T15:43:42.8458517+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1870)",
+                        "name": "Retiro en Sucursal (1870)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1870",
+                                "postalCode": "1870",
+                                "city": "Avellaneda",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Carlos Fiorito",
+                                "number": "920",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.39079,
+                                    -34.66279
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Avellaneda",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalav_1870",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 3,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "GRISELDA",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 2,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-26T15:43:42.8458517+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1870)",
+                        "name": "Retiro en Sucursal (1870)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1870",
+                                "postalCode": "1870",
+                                "city": "Avellaneda",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Carlos Fiorito",
+                                "number": "920",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.39079,
+                                    -34.66279
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Avellaneda",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalav_1870",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 11,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "GRISELDA",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 3,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-26T15:43:42.8458517+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1870)",
+                        "name": "Retiro en Sucursal (1870)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1870",
+                                "postalCode": "1870",
+                                "city": "Avellaneda",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Carlos Fiorito",
+                                "number": "920",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.39079,
+                                    -34.66279
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Avellaneda",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalav_1870",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 16,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "GRISELDA",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 4,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-26T15:43:42.8458517+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1870)",
+                        "name": "Retiro en Sucursal (1870)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1870",
+                                "postalCode": "1870",
+                                "city": "Avellaneda",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Carlos Fiorito",
+                                "number": "920",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.39079,
+                                    -34.66279
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Avellaneda",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalav_1870",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 3,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "GRISELDA",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 5,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-26T15:43:42.8458517+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1870)",
+                        "name": "Retiro en Sucursal (1870)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1870",
+                                "postalCode": "1870",
+                                "city": "Avellaneda",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Carlos Fiorito",
+                                "number": "920",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.39079,
+                                    -34.66279
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Avellaneda",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalav_1870",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 3,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "GRISELDA",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 6,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-26T15:43:42.8458517+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1870)",
+                        "name": "Retiro en Sucursal (1870)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1870",
+                                "postalCode": "1870",
+                                "city": "Avellaneda",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Carlos Fiorito",
+                                "number": "920",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.39079,
+                                    -34.66279
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Avellaneda",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalav_1870",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "GRISELDA",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 7,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-26T15:43:42.8458517+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1870)",
+                        "name": "Retiro en Sucursal (1870)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1870",
+                                "postalCode": "1870",
+                                "city": "Avellaneda",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Carlos Fiorito",
+                                "number": "920",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.39079,
+                                    -34.66279
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Avellaneda",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalav_1870",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "GRISELDA",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 8,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-26T15:43:42.8458517+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1870)",
+                        "name": "Retiro en Sucursal (1870)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1870",
+                                "postalCode": "1870",
+                                "city": "Avellaneda",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Carlos Fiorito",
+                                "number": "920",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.39079,
+                                    -34.66279
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Avellaneda",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalav_1870",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "GRISELDA",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 9,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-26T15:43:42.8458517+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1870)",
+                        "name": "Retiro en Sucursal (1870)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1870",
+                                "postalCode": "1870",
+                                "city": "Avellaneda",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Carlos Fiorito",
+                                "number": "920",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.39079,
+                                    -34.66279
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Avellaneda",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalav_1870",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "GRISELDA",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 10,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-26T15:43:42.8458517+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1870)",
+                        "name": "Retiro en Sucursal (1870)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1870",
+                                "postalCode": "1870",
+                                "city": "Avellaneda",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Carlos Fiorito",
+                                "number": "920",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.39079,
+                                    -34.66279
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Avellaneda",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalav_1870",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "GRISELDA",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 11,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-26T15:43:42.8458517+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1870)",
+                        "name": "Retiro en Sucursal (1870)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1870",
+                                "postalCode": "1870",
+                                "city": "Avellaneda",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Carlos Fiorito",
+                                "number": "920",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.39079,
+                                    -34.66279
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Avellaneda",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalav_1870",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 3,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "GRISELDA",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 12,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-26T15:43:42.8458517+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1870)",
+                        "name": "Retiro en Sucursal (1870)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1870",
+                                "postalCode": "1870",
+                                "city": "Avellaneda",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Carlos Fiorito",
+                                "number": "920",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.39079,
+                                    -34.66279
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Avellaneda",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalav_1870",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "GRISELDA",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 13,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-26T15:43:42.8458517+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1870)",
+                        "name": "Retiro en Sucursal (1870)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1870",
+                                "postalCode": "1870",
+                                "city": "Avellaneda",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Carlos Fiorito",
+                                "number": "920",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.39079,
+                                    -34.66279
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Avellaneda",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalav_1870",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "GRISELDA",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 14,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-26T15:43:42.8458517+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1870)",
+                        "name": "Retiro en Sucursal (1870)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1870",
+                                "postalCode": "1870",
+                                "city": "Avellaneda",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Carlos Fiorito",
+                                "number": "920",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.39079,
+                                    -34.66279
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Avellaneda",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalav_1870",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "GRISELDA",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 15,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-07-26T15:43:42.8458517+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1870)",
+                        "name": "Retiro en Sucursal (1870)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1870",
+                                "postalCode": "1870",
+                                "city": "Avellaneda",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Carlos Fiorito",
+                                "number": "920",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.39079,
+                                    -34.66279
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Avellaneda",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": "arvitalav_1870",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "GRISELDA",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            }
+        ],
+        "trackingHints": null,
+        "selectedAddresses": [
+            {
+                "addressId": "GRISELDA",
+                "addressType": "residential",
+                "receiverName": "LI LINGYU",
+                "street": "Av. Carlos Fiorito",
+                "number": "920",
+                "complement": null,
+                "neighborhood": null,
+                "postalCode": "1870",
+                "city": "AVELLANEDA",
+                "state": "BUENOS AIRES",
+                "country": "ARG",
+                "reference": null,
+                "geoCoordinates": [
+                    -58.351322174072266,
+                    -34.667774200439453
+                ]
+            }
+        ]
+    },
+    "paymentData": {
+        "giftCards": [],
+        "transactions": [
+            {
+                "isActive": true,
+                "transactionId": "E6D5ED4C692747C88C125548A049368B",
+                "merchantName": "ARVITAL",
+                "payments": [
+                    {
+                        "id": "6E96E35457474026B3C1FA700C67EFAD",
+                        "paymentSystem": "201",
+                        "paymentSystemName": "Pago a convenir",
+                        "value": 6291638,
+                        "installments": 1,
+                        "referenceValue": 6291638,
+                        "cardHolder": null,
+                        "cardNumber": null,
+                        "firstDigits": null,
+                        "lastDigits": null,
+                        "cvv2": null,
+                        "expireMonth": null,
+                        "expireYear": null,
+                        "url": null,
+                        "giftCardId": null,
+                        "giftCardName": null,
+                        "giftCardCaption": null,
+                        "redemptionCode": null,
+                        "group": "promissory",
+                        "tid": null,
+                        "dueDate": null,
+                        "connectorResponses": {},
+                        "giftCardProvider": null,
+                        "giftCardAsDiscount": null,
+                        "koinUrl": null,
+                        "accountId": null,
+                        "parentAccountId": null,
+                        "bankIssuedInvoiceIdentificationNumber": null,
+                        "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                        "bankIssuedInvoiceBarCodeNumber": null,
+                        "bankIssuedInvoiceBarCodeType": null,
+                        "billingAddress": null
+                    }
+                ]
+            }
+        ]
+    },
+    "packageAttachment": {
+        "packages": [
+            {
+                "items": [
+                    {
+                        "itemIndex": 0,
+                        "quantity": 1,
+                        "price": 95976,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    },
+                    {
+                        "itemIndex": 1,
+                        "quantity": 3,
+                        "price": 189975,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    },
+                    {
+                        "itemIndex": 2,
+                        "quantity": 11,
+                        "price": 154800,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    },
+                    {
+                        "itemIndex": 3,
+                        "quantity": 16,
+                        "price": 169000,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    },
+                    {
+                        "itemIndex": 4,
+                        "quantity": 3,
+                        "price": 49816,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    },
+                    {
+                        "itemIndex": 5,
+                        "quantity": 3,
+                        "price": 49832,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    },
+                    {
+                        "itemIndex": 6,
+                        "quantity": 1,
+                        "price": 140388,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    },
+                    {
+                        "itemIndex": 7,
+                        "quantity": 1,
+                        "price": 100188,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    },
+                    {
+                        "itemIndex": 8,
+                        "quantity": 1,
+                        "price": 100188,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    },
+                    {
+                        "itemIndex": 9,
+                        "quantity": 1,
+                        "price": 150012,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    },
+                    {
+                        "itemIndex": 10,
+                        "quantity": 1,
+                        "price": 25788,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    },
+                    {
+                        "itemIndex": 11,
+                        "quantity": 3,
+                        "price": 72495,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    },
+                    {
+                        "itemIndex": 12,
+                        "quantity": 1,
+                        "price": 29740,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    },
+                    {
+                        "itemIndex": 13,
+                        "quantity": 1,
+                        "price": 67428,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    },
+                    {
+                        "itemIndex": 14,
+                        "quantity": 1,
+                        "price": 44388,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    },
+                    {
+                        "itemIndex": 15,
+                        "quantity": 1,
+                        "price": 44388,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    }
+                ],
+                "courier": null,
+                "invoiceNumber": "1148642613992-01",
+                "invoiceValue": 6291638,
+                "invoiceUrl": null,
+                "issuanceDate": "2021-07-22T15:45:23.5220000+00:00",
+                "trackingNumber": null,
+                "invoiceKey": "",
+                "trackingUrl": null,
+                "embeddedInvoice": "",
+                "type": "Output",
+                "courierStatus": null,
+                "cfop": null,
+                "restitutions": {},
+                "volumes": null
+            }
+        ]
+    },
+    "sellers": [
+        {
+            "id": "arvitalav",
+            "name": "arvitalavv",
+            "logo": null,
+            "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?affiliateid=VVN&sc=1&an=arvitalav"
+        }
+    ],
+    "callCenterOperatorData": {
+        "id": "CallCenterOperatorAttachment",
+        "email": "gnespindola@vital.com.ar",
+        "userName": "gnespindola@vital.com.ar"
+    },
+    "followUpEmail": "4b40fccf9966465e892df86e5126ba30@ct.vtex.com.br",
+    "lastMessage": null,
+    "hostname": "arvital",
+    "invoiceData": {
+        "address": null,
+        "userPaymentInfo": null
+    },
+    "changesAttachment": null,
+    "openTextField": null,
+    "roundingError": 0,
+    "orderFormId": "2a31cb36e94e40c59335f4471dd020e8",
+    "commercialConditionData": null,
+    "isCompleted": true,
+    "customData": {
+        "customApps": [
+            {
+                "fields": {
+                    "orderId": "1148471743143-01",
+                    "orderFormId": "83e3a0c68db349c995a63312afdd36de"
+                },
+                "id": "origin",
+                "major": 1
+            },
+            {
+                "fields": {
+                    "lista": "0.1225",
+                    "tapa": "0.5714",
+                    "oferta": "0.3061"
+                },
+                "id": "semaforo",
+                "major": 1
+            }
+        ]
+    },
+    "storePreferencesData": {
+        "countryCode": "ARG",
+        "currencyCode": "ARS",
+        "currencyFormatInfo": {
+            "CurrencyDecimalDigits": 2,
+            "CurrencyDecimalSeparator": ",",
+            "CurrencyGroupSeparator": ".",
+            "CurrencyGroupSize": 3,
+            "StartsWithCurrencySymbol": true
+        },
+        "currencyLocale": 11274,
+        "currencySymbol": "$",
+        "timeZone": "Argentina Standard Time"
+    },
+    "allowCancellation": false,
+    "allowEdition": false,
+    "isCheckedIn": false,
+    "marketplace": null,
+    "authorizedDate": "2021-07-22T15:43:39.0878698+00:00",
+    "invoicedDate": "2021-07-22T15:45:31.4788350+00:00",
+    "cancelReason": null,
+    "itemMetadata": {
+        "Items": [
+            {
+                "Id": "114248",
+                "Seller": "1",
+                "Name": "Jabon Drive en polvo rosas y lilas x400gr",
+                "SkuName": "Jabon Drive en polvo rosas y lilas x400gr",
+                "ProductId": "114248",
+                "RefId": "0114248",
+                "Ean": "7791290790407",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/251276-55-55/114248.jpg?v=637620808398500000",
+                "DetailUrl": "/jabon-drive-en-polvo-rosas-y-lilas-x400gr-114248/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "101368",
+                "Seller": "1",
+                "Name": "Galletitas Chocolinas x250gr",
+                "SkuName": "Galletitas Chocolinas x250gr",
+                "ProductId": "101368",
+                "RefId": "0101368",
+                "Ean": "7790040111004",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/240360-55-55/101368.jpg?v=637601430639130000",
+                "DetailUrl": "/galletitas-chocolinas-x250gr-101368/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "100886",
+                "Seller": "1",
+                "Name": "Durazno S&P en mitad x820gr",
+                "SkuName": "Durazno S&P en mitad x820gr",
+                "ProductId": "100886",
+                "RefId": "0100886",
+                "Ean": "7798023690553",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/242705-55-55/100886.jpg?v=637601448943400000",
+                "DetailUrl": "/durazno-s-p-en-mitad-x820gr-100886/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "174987",
+                "Seller": "1",
+                "Name": "Yerba Playadito suave x500gr",
+                "SkuName": "Yerba Playadito suave x500gr",
+                "ProductId": "174987",
+                "RefId": "0174987",
+                "Ean": "7793704000911",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/238925-55-55/174987.jpg?v=637601419484470000",
+                "DetailUrl": "/yerba-playadito-suave-x500gr-174987/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "108820",
+                "Seller": "1",
+                "Name": "Gaseosa Crush naranja pet x2.25lt",
+                "SkuName": "Gaseosa Crush naranja pet x2.25lt",
+                "ProductId": "108820",
+                "RefId": "0108820",
+                "Ean": "7790895006951",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/232614-55-55/108820.jpg?v=637601369698800000",
+                "DetailUrl": "/gaseosa-crush-naranja-pet-x2-25lt-108820/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "108822",
+                "Seller": "1",
+                "Name": "Gaseosa Crush pet x2.25lt",
+                "SkuName": "Gaseosa Crush pet x2.25lt",
+                "ProductId": "108822",
+                "RefId": "0108822",
+                "Ean": "7790895007392",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/239255-55-55/108822.jpg?v=637601421892830000",
+                "DetailUrl": "/gaseosa-crush-pet-x2-25lt-108822/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "157745",
+                "Seller": "1",
+                "Name": "Aceite vegetal S&P aerosol x120gr",
+                "SkuName": "Aceite vegetal S&P aerosol x120gr",
+                "ProductId": "157745",
+                "RefId": "0157745",
+                "Ean": "7798023696937",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/251544-55-55/157745.jpg?v=637620811590700000",
+                "DetailUrl": "/aceite-vegetal-s-p-aerosol-x120gr-157745/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "148325",
+                "Seller": "1",
+                "Name": "Lavandina Vim en gel original x700cc",
+                "SkuName": "Lavandina Vim en gel original x700cc",
+                "ProductId": "148325",
+                "RefId": "0148325",
+                "Ean": "7791290786394",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/245405-55-55/148325.jpg?v=637601470393930000",
+                "DetailUrl": "/lavandina-vim-en-gel-original-x700cc-148325/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "152550",
+                "Seller": "1",
+                "Name": "Lavandina Vim en gel lavanda x700cc",
+                "SkuName": "Lavandina Vim en gel lavanda x700cc",
+                "ProductId": "152550",
+                "RefId": "0152550",
+                "Ean": "7791290786400",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/236033-55-55/152550.jpg?v=637601396974900000",
+                "DetailUrl": "/lavandina-vim-en-gel-lavanda-x700cc-152550/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "103500",
+                "Seller": "1",
+                "Name": "Suavizante Comfort Classic doy pack x900cc",
+                "SkuName": "Suavizante Comfort Classic doy pack x900cc",
+                "ProductId": "103500",
+                "RefId": "0103500",
+                "Ean": "7791290010444",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/251484-55-55/103500.jpg?v=637620810928130000",
+                "DetailUrl": "/suavizante-comfort-classic-doy-pack-x900cc-103500/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "103840",
+                "Seller": "1",
+                "Name": "Esponja Mortimer de fibra cuadriculada",
+                "SkuName": "Esponja Mortimer de fibra cuadriculada",
+                "ProductId": "103840",
+                "RefId": "0103840",
+                "Ean": "7793253038106",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/251144-55-55/103840.jpg?v=637620807062100000",
+                "DetailUrl": "/esponja-mortimer-de-fibra-cuadriculada-103840/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "152561",
+                "Seller": "1",
+                "Name": "Rollo de cocina Sussex Maxi 100px3u",
+                "SkuName": "Rollo de cocina Sussex Maxi 100px3u",
+                "ProductId": "152561",
+                "RefId": "0152561",
+                "Ean": "7790250056980",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/245957-55-55/152561.jpg?v=637601474745230000",
+                "DetailUrl": "/rollo-de-cocina-sussex-maxi-100px3u-152561/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "152549",
+                "Seller": "1",
+                "Name": "Limpiador Cif antibacterial baño/cocina doy pack x450cc",
+                "SkuName": "Limpiador Cif antibacterial baño/cocina doy pack x450cc",
+                "ProductId": "152549",
+                "RefId": "0152549",
+                "Ean": "7791290007543",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/241481-55-55/152549.jpg?v=637601439519870000",
+                "DetailUrl": "/limpiador-cif-antibacterial-ba%C3%B1o-cocina-doy-pack-x450cc-152549/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "168784",
+                "Seller": "1",
+                "Name": "Limpiador Procenex fragancia vainilla x900cc",
+                "SkuName": "Limpiador Procenex fragancia vainilla x900cc",
+                "ProductId": "168784",
+                "RefId": "0168784",
+                "Ean": "7791130962476",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/242346-55-55/168784.jpg?v=637601446387930000",
+                "DetailUrl": "/limpiador-procenex-fragancia-vainilla-x900cc-168784/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "153093",
+                "Seller": "1",
+                "Name": "Limpiador Bonux bosque/pino x900cc",
+                "SkuName": "Limpiador Bonux bosque/pino x900cc",
+                "ProductId": "153093",
+                "RefId": "0153093",
+                "Ean": "7798023696173",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/234278-55-55/153093.jpg?v=637601383326900000",
+                "DetailUrl": "/limpiador-bonux-bosque-pino-x900cc-153093/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "153091",
+                "Seller": "1",
+                "Name": "Limpiador Bonux lavanda x900cc",
+                "SkuName": "Limpiador Bonux lavanda x900cc",
+                "ProductId": "153091",
+                "RefId": "0153091",
+                "Ean": "7798023696159",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/243170-55-55/153091.jpg?v=637601452771170000",
+                "DetailUrl": "/limpiador-bonux-lavanda-x900cc-153091/p",
+                "AssemblyOptions": []
+            }
+        ]
+    },
+    "subscriptionData": null,
+    "taxData": null,
+    "checkedInPickupPointId": null,
+    "cancellationData": null
+}

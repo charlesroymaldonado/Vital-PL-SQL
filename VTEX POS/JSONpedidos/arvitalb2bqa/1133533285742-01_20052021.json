@@ -1,0 +1,552 @@
+{
+    "orderId": "1133533285742-01",
+    "sequence": "500023",
+    "marketplaceOrderId": "",
+    "marketplaceServicesEndpoint": "http://oms.vtexinternal.com.br/api/oms?an=arvitalb2bqa",
+    "sellerOrderId": "00-1133533285742-01",
+    "origin": "Marketplace",
+    "affiliateId": "",
+    "salesChannel": "1",
+    "merchantName": null,
+    "status": "ready-for-handling",
+    "statusDescription": "Pronto para o manuseio",
+    "value": 752261,
+    "creationDate": "2021-05-20T16:54:44.3866247+00:00",
+    "lastChange": "2021-05-20T17:25:03.9060012+00:00",
+    "orderGroup": "1133533285742",
+    "totals": [
+        {
+            "id": "Items",
+            "name": "Total de los items",
+            "value": 835848
+        },
+        {
+            "id": "Discounts",
+            "name": "Total de descuentos",
+            "value": -83587
+        },
+        {
+            "id": "Shipping",
+            "name": "Costo total del envío",
+            "value": 0
+        },
+        {
+            "id": "Tax",
+            "name": "Costo total del cambio",
+            "value": 0
+        }
+    ],
+    "items": [
+        {
+            "uniqueId": "C82C9039DE644D0CBE65EF04AC09569A",
+            "id": "2",
+            "productId": "2",
+            "ean": "001",
+            "lockId": "00-1133533285742-01",
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 5,
+            "seller": "1",
+            "name": "ACEITE GIRASOL CAÑUELAS X900CC",
+            "refId": null,
+            "price": 13234,
+            "listPrice": 13234,
+            "manualPrice": null,
+            "priceTags": [
+                {
+                    "name": "DISCOUNT@MARKETPLACE",
+                    "value": -79405,
+                    "isPercentual": false,
+                    "identifier": "9bfebbcd-0a78-435f-be68-2f088ecbe8e4",
+                    "rawValue": -794.05,
+                    "rate": null,
+                    "jurisCode": null,
+                    "jurisType": null,
+                    "jurisName": null
+                }
+            ],
+            "imageUrl": "https://arvitalb2bqa.vteximg.com.br/arquivos/ids/155395-55-55/116783.jpg?v=637565927689200000",
+            "detailUrl": "/aceite-girasol-ca%C3%B1uelas-x900cc/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "2",
+            "priceValidUntil": null,
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "CAÑUELAS",
+                "brandId": "2000020",
+                "categoriesIds": "/2/4/5/",
+                "categories": [
+                    {
+                        "id": 5,
+                        "name": "Aceites"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Aceites y Condimentos"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "137,138",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 1.0000,
+                    "length": 1.0000,
+                    "weight": 1.0000,
+                    "width": 1.0000
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "un",
+            "unitMultiplier": 12.0000,
+            "sellingPrice": 142927,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": "",
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": 13234
+        },
+        {
+            "uniqueId": "3CB225E7CDD94228B855AAC6799DF381",
+            "id": "13",
+            "productId": "12",
+            "ean": "011",
+            "lockId": "00-1133533285742-01",
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 3,
+            "seller": "1",
+            "name": "VINO ABEL MICHEL TORINO SUCESION TINTO X1.125LT",
+            "refId": "0155291",
+            "price": 13936,
+            "listPrice": 13936,
+            "manualPrice": null,
+            "priceTags": [
+                {
+                    "name": "DISCOUNT@MARKETPLACE",
+                    "value": -4182,
+                    "isPercentual": false,
+                    "identifier": "7c4d1eec-7119-42d6-b7b2-52798b63d112",
+                    "rawValue": -41.82,
+                    "rate": null,
+                    "jurisCode": null,
+                    "jurisType": null,
+                    "jurisName": null
+                }
+            ],
+            "imageUrl": "https://arvitalb2bqa.vteximg.com.br/arquivos/ids/155405-55-55/155291.jpg?v=637565971650300000",
+            "detailUrl": "/vino-abel-michel-torino-sucesion-tinto-x1-125lt/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "13",
+            "priceValidUntil": null,
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "ABEL MICHEL TORINO",
+                "brandId": "2000010",
+                "categoriesIds": "/6/7/8/",
+                "categories": [
+                    {
+                        "id": 8,
+                        "name": "Vinos"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Bebidas con Alcohol"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Bebidas"
+                    }
+                ],
+                "productClusterId": "137,139",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 0.0002,
+                    "height": 1.0000,
+                    "length": 1.0000,
+                    "weight": 1.0000,
+                    "width": 1.0000
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "un",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 12542,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": "",
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": 13936
+        }
+    ],
+    "marketplaceItems": [],
+    "clientProfileData": {
+        "id": "clientProfileData",
+        "email": "e779344a0d594b98acb15a9a2309f6d9@ct.vtex.com.br",
+        "firstName": "Victor",
+        "lastName": "Benavidez",
+        "documentType": "dni",
+        "document": "23598345",
+        "phone": "+5491153207589",
+        "corporateName": null,
+        "tradeName": null,
+        "corporateDocument": null,
+        "stateInscription": null,
+        "corporatePhone": null,
+        "isCorporate": false,
+        "userProfileId": "406471ee-9ab7-4abc-bebd-6be600a2c0b8",
+        "customerClass": null
+    },
+    "giftRegistryData": null,
+    "marketingData": null,
+    "ratesAndBenefitsData": {
+        "id": "ratesAndBenefitsData",
+        "rateAndBenefitsIdentifiers": [
+            {
+                "description": null,
+                "featured": true,
+                "id": "9bfebbcd-0a78-435f-be68-2f088ecbe8e4",
+                "name": "aceites 10%",
+                "matchedParameters": {
+                    "progressiveDiscount@Marketing": "2"
+                },
+                "additionalInfo": null
+            },
+            {
+                "description": null,
+                "featured": true,
+                "id": "7c4d1eec-7119-42d6-b7b2-52798b63d112",
+                "name": "Vinos10",
+                "matchedParameters": {
+                    "productCluster@CatalogSystem": "139|inclusive"
+                },
+                "additionalInfo": {
+                    "Cucarda": "desde 3 bultos"
+                }
+            }
+        ]
+    },
+    "shippingData": {
+        "id": "shippingData",
+        "address": {
+            "addressType": "residential",
+            "receiverName": "Victor Benavidez",
+            "addressId": "4863780068580",
+            "postalCode": "1427",
+            "city": "Ciudad Autónoma de Buenos Aires",
+            "state": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+            "country": "ARG",
+            "street": "Mercedes",
+            "number": "1034",
+            "neighborhood": null,
+            "complement": null,
+            "reference": null,
+            "geoCoordinates": [
+                -58.381557464599609,
+                -34.603683471679688
+            ]
+        },
+        "logisticsInfo": [
+            {
+                "itemIndex": 0,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-24T16:54:58.5513809+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 5,
+                        "warehouseId": "1",
+                        "accountCarrierName": "arvitalb2bqa"
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "4863780068580",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 1,
+                "selectedSla": "Normal",
+                "lockTTL": "13d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-24T16:54:58.5513809+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "13d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 3,
+                        "warehouseId": "1",
+                        "accountCarrierName": "arvitalb2bqa"
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "4863780068580",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            }
+        ],
+        "trackingHints": null,
+        "selectedAddresses": [
+            {
+                "addressId": "4863780068580",
+                "addressType": "residential",
+                "receiverName": "Victor Benavidez",
+                "street": "Mercedes",
+                "number": "1034",
+                "complement": null,
+                "neighborhood": null,
+                "postalCode": "1427",
+                "city": "Ciudad Autónoma de Buenos Aires",
+                "state": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+                "country": "ARG",
+                "reference": null,
+                "geoCoordinates": [
+                    -58.381557464599609,
+                    -34.603683471679688
+                ]
+            }
+        ]
+    },
+    "paymentData": {
+        "giftCards": [],
+        "transactions": [
+            {
+                "isActive": true,
+                "transactionId": "57032DFC67C0458DA5E285005F18D1FF",
+                "merchantName": "ARVITALB2BQA",
+                "payments": [
+                    {
+                        "id": "C26A8E1EB8FE4F73AC55F08D6F5E2E81",
+                        "paymentSystem": "201",
+                        "paymentSystemName": "Pago a convenir",
+                        "value": 752261,
+                        "installments": 1,
+                        "referenceValue": 752261,
+                        "cardHolder": null,
+                        "cardNumber": null,
+                        "firstDigits": null,
+                        "lastDigits": null,
+                        "cvv2": null,
+                        "expireMonth": null,
+                        "expireYear": null,
+                        "url": null,
+                        "giftCardId": null,
+                        "giftCardName": null,
+                        "giftCardCaption": null,
+                        "redemptionCode": null,
+                        "group": "promissory",
+                        "tid": null,
+                        "dueDate": null,
+                        "connectorResponses": {},
+                        "giftCardProvider": null,
+                        "giftCardAsDiscount": null,
+                        "koinUrl": null,
+                        "accountId": null,
+                        "parentAccountId": null,
+                        "bankIssuedInvoiceIdentificationNumber": null,
+                        "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                        "bankIssuedInvoiceBarCodeNumber": null,
+                        "bankIssuedInvoiceBarCodeType": null,
+                        "billingAddress": null
+                    }
+                ]
+            }
+        ]
+    },
+    "packageAttachment": {
+        "packages": []
+    },
+    "sellers": [
+        {
+            "id": "1",
+            "name": "MAYCAR S.A.",
+            "logo": "",
+            "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?sc=1&an=arvitalb2bqa"
+        }
+    ],
+    "callCenterOperatorData": null,
+    "followUpEmail": "12f44d52908c43caab4195f5913882f1@ct.vtex.com.br",
+    "lastMessage": null,
+    "hostname": "arvitalb2bqa",
+    "invoiceData": null,
+    "changesAttachment": null,
+    "openTextField": null,
+    "roundingError": 0,
+    "orderFormId": "590e6eb689794ed49eaffc972e434386",
+    "commercialConditionData": null,
+    "isCompleted": true,
+    "customData": null,
+    "storePreferencesData": {
+        "countryCode": "ARG",
+        "currencyCode": "ARS",
+        "currencyFormatInfo": {
+            "CurrencyDecimalDigits": 2,
+            "CurrencyDecimalSeparator": ",",
+            "CurrencyGroupSeparator": ".",
+            "CurrencyGroupSize": 3,
+            "StartsWithCurrencySymbol": true
+        },
+        "currencyLocale": 11274,
+        "currencySymbol": "$",
+        "timeZone": "Argentina Standard Time"
+    },
+    "allowCancellation": true,
+    "allowEdition": false,
+    "isCheckedIn": false,
+    "marketplace": {
+        "baseURL": "http://oms.vtexinternal.com.br/api/oms?an=arvitalb2bqa",
+        "isCertified": null,
+        "name": "arvitalb2bqa"
+    },
+    "authorizedDate": "2021-05-20T16:54:50.5137983+00:00",
+    "invoicedDate": null,
+    "cancelReason": null,
+    "itemMetadata": {
+        "Items": [
+            {
+                "Id": "2",
+                "Seller": "1",
+                "Name": "ACEITE GIRASOL CAÑUELAS X900CC",
+                "SkuName": "ACEITE GIRASOL CAÑUELAS X900CC",
+                "ProductId": "2",
+                "RefId": null,
+                "Ean": "001",
+                "ImageUrl": "http://arvitalb2bqa.vteximg.com.br/arquivos/ids/155395-55-55/116783.jpg?v=637565927689200000",
+                "DetailUrl": "/aceite-girasol-ca%C3%B1uelas-x900cc/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "13",
+                "Seller": "1",
+                "Name": "VINO ABEL MICHEL TORINO SUCESION TINTO X1.125LT",
+                "SkuName": "VINO ABEL MICHEL TORINO SUCESION TINTO X1.125LT",
+                "ProductId": "12",
+                "RefId": "0155291",
+                "Ean": "011",
+                "ImageUrl": "http://arvitalb2bqa.vteximg.com.br/arquivos/ids/155405-55-55/155291.jpg?v=637565971650300000",
+                "DetailUrl": "/vino-abel-michel-torino-sucesion-tinto-x1-125lt/p",
+                "AssemblyOptions": []
+            }
+        ]
+    },
+    "subscriptionData": null,
+    "taxData": null,
+    "checkedInPickupPointId": null,
+    "cancellationData": null
+}

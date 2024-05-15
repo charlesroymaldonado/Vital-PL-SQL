@@ -1,0 +1,25 @@
+select d.identidadreal, count () cant
+from pedidos p,
+documentos d
+--solo pedidos vtex
+where p.icorigen=4
+--ultimos 45 dias
+and p.dtaplicacion>=trunc(sysdate-45)
+--no contar padres
+and p.icestadosistema<>0
+and p.iddoctrx=d.iddoctrx
+--solo clientes que no tienen pedidos de VM
+and d.identidadreal not in
+( select distinct d.identidadreal
+from pedidos p,
+documentos d
+--solo pedidos VM
+where p.icorigen=3
+--ultimos 45 dias
+and p.dtaplicacion>=trunc(sysdate-45)
+--no contar padres
+and p.icestadosistema<>0
+and p.iddoctrx=d.iddoctrx)
+group by d.identidadreal
+-- mas de 3 pedidos
+having count () >4;

@@ -1,0 +1,691 @@
+{
+    "orderId": "1141460711253-01",
+    "sequence": "500644",
+    "marketplaceOrderId": "",
+    "marketplaceServicesEndpoint": null,
+    "sellerOrderId": "VLH-1141460711253-01",
+    "origin": "Marketplace",
+    "affiliateId": "",
+    "salesChannel": "1",
+    "merchantName": null,
+    "status": "invoiced",
+    "statusDescription": "Faturado",
+    "value": 498906,
+    "creationDate": "2021-06-22T18:11:52.0626651+00:00",
+    "lastChange": "2021-06-22T18:12:58.0194131+00:00",
+    "orderGroup": "1141460711253",
+    "totals": [
+        {
+            "id": "Items",
+            "name": "Total de los items",
+            "value": 539220
+        },
+        {
+            "id": "Discounts",
+            "name": "Total de descuentos",
+            "value": -40314
+        },
+        {
+            "id": "Shipping",
+            "name": "Costo total del envío",
+            "value": 0
+        },
+        {
+            "id": "Tax",
+            "name": "Costo total del cambio",
+            "value": 0
+        }
+    ],
+    "items": [
+        {
+            "uniqueId": "295A94988CA446B1BB5F1B54E4EC6D34",
+            "id": "155305",
+            "productId": "155305",
+            "ean": "7790740502430",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalqalh",
+            "name": "Acondicionador PLUSBELLE proteccion x1lt",
+            "refId": "0155305",
+            "price": 11338,
+            "listPrice": 11338,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvitalqa.vteximg.com.br/arquivos/ids/211503-55-55/155305.jpg?v=637589602462500000",
+            "detailUrl": "/acondicionador-plusbelle-proteccion-x1lt-155305/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "155305",
+            "priceValidUntil": "2022-06-22T18:07:20.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "PLUSBELLE",
+                "brandId": "2000996",
+                "categoriesIds": "/20014/30077/40386/",
+                "categories": [
+                    {
+                        "id": 40386,
+                        "name": "Acondicionador"
+                    },
+                    {
+                        "id": 30077,
+                        "name": "Cuidado Del Cabello"
+                    },
+                    {
+                        "id": 20014,
+                        "name": "Perfumeria"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 12.0000,
+            "sellingPrice": 136056,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 136056,
+                        "quantity": 1
+                    }
+                ],
+                "calculatedSellingPrice": 136056,
+                "total": 136056
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": "08b40cef-0d57-4f50-bf1e-506e018a4baa",
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "91204500A42B49C8B265863185F66EC4",
+            "id": "114501",
+            "productId": "114501",
+            "ean": "7791113000911",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 6,
+            "seller": "arvitalqalh",
+            "name": "Mermelada EMETH frutilla frasco x454gr",
+            "refId": "0114501",
+            "price": 11199,
+            "listPrice": 11199,
+            "manualPrice": null,
+            "priceTags": [
+                {
+                    "name": "discount@price-aab04966-7fbe-4741-ba69-9d728dad6a40#e6168418-5ce0-490a-92e5-e6e44e98ae13",
+                    "value": -40314,
+                    "isPercentual": false,
+                    "identifier": "aab04966-7fbe-4741-ba69-9d728dad6a40",
+                    "rawValue": -403.14,
+                    "rate": null,
+                    "jurisCode": null,
+                    "jurisType": null,
+                    "jurisName": null
+                }
+            ],
+            "imageUrl": "https://arvitalqa.vteximg.com.br/arquivos/ids/213036-55-55/114501.jpg?v=637589625679630000",
+            "detailUrl": "/mermelada-emeth-frutilla-frasco-x454gr-114501/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "114501",
+            "priceValidUntil": "2022-06-22T18:11:11.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "EMETH",
+                "brandId": "2000425",
+                "categoriesIds": "/20002/30011/40055/",
+                "categories": [
+                    {
+                        "id": 40055,
+                        "name": "Mermeladas Y Dulces"
+                    },
+                    {
+                        "id": 30011,
+                        "name": "Desayuno Y Merienda"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "162",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 6.0000,
+            "sellingPrice": 60475,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinition": {
+                "sellingPrices": [
+                    {
+                        "value": 60475,
+                        "quantity": 6
+                    }
+                ],
+                "calculatedSellingPrice": 60475,
+                "total": 362850
+            },
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": "08b40cef-0d57-4f50-bf1e-506e018a4baa",
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        }
+    ],
+    "marketplaceItems": [],
+    "clientProfileData": {
+        "id": "clientProfileData",
+        "email": "6a32047a366a4b1ca4ecb0082d7fb520@ct.vtex.com.br",
+        "firstName": "LIN XIUMEI",
+        "lastName": "LIN XIUMEI",
+        "documentType": "dni",
+        "document": "12345678",
+        "phone": "+541112345678",
+        "corporateName": "LIN XIUMEI",
+        "tradeName": "ANTES WENG ZIXIAN",
+        "corporateDocument": "27954556447",
+        "stateInscription": null,
+        "corporatePhone": null,
+        "isCorporate": true,
+        "userProfileId": "515b3ffb-6d5a-4f51-b1ba-458bbec8a127",
+        "customerClass": "idVendedorLH2"
+    },
+    "giftRegistryData": null,
+    "marketingData": {
+        "id": "marketingData",
+        "utmSource": null,
+        "utmPartner": null,
+        "utmMedium": null,
+        "utmCampaign": null,
+        "coupon": null,
+        "utmiCampaign": null,
+        "utmipage": null,
+        "utmiPart": null,
+        "marketingTags": [
+            "vtexSocialSelling"
+        ]
+    },
+    "ratesAndBenefitsData": {
+        "id": "ratesAndBenefitsData",
+        "rateAndBenefitsIdentifiers": [
+            {
+                "description": "desde 12  UNIDADES",
+                "featured": false,
+                "id": "aab04966-7fbe-4741-ba69-9d728dad6a40",
+                "name": "D2B Mermel. EMETH frasco varios x454gr 10% de desc",
+                "matchedParameters": {
+                    "progressiveDiscount@Marketing": "114501"
+                },
+                "additionalInfo": {
+                    "Cucarda": "-10% ",
+                    "CdPromo": "179990",
+                    "Skus": "114498,114499,114501,132745,153548,153550"
+                }
+            }
+        ]
+    },
+    "shippingData": {
+        "id": "shippingData",
+        "address": {
+            "addressType": "residential",
+            "receiverName": "LIN XIUMEI LIN XIUMEI",
+            "addressId": "LOMA HERMOSA BUENOS AIRES hola hola prueba  1254",
+            "postalCode": "1657",
+            "city": "LOMA HERMOSA",
+            "state": "BUENOS AIRES",
+            "country": "ARG",
+            "street": "hola hola prueba",
+            "number": "1254",
+            "neighborhood": "BUENOS AIRES, SAN ISIDRO",
+            "complement": "PB",
+            "reference": "2        3",
+            "geoCoordinates": [
+                -58.617446899414063,
+                -34.566440582275391
+            ]
+        },
+        "logisticsInfo": [
+            {
+                "itemIndex": 0,
+                "selectedSla": "Normal",
+                "lockTTL": "15d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-06-25T18:12:06.4252820+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1657)",
+                        "name": "Retiro en Sucursal (1657)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1657",
+                                "postalCode": "1657",
+                                "city": "Loma Hermosa",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Avenida Bernabé Márquez",
+                                "number": "969",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.5938,
+                                    -34.5708
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Loma Hermosa",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "15d",
+                        "pickupPointId": "arvitalqalh_1657",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "15d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1401",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "LOMA HERMOSA BUENOS AIRES hola hola prueba  1254",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 1,
+                "selectedSla": "Normal",
+                "lockTTL": "15d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-06-25T18:12:06.4252820+00:00",
+                "slas": [
+                    {
+                        "id": "Retiro en Sucursal (1657)",
+                        "name": "Retiro en Sucursal (1657)",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "pickup-in-point",
+                        "pickupStoreInfo": {
+                            "additionalInfo": "",
+                            "address": {
+                                "addressType": "pickup",
+                                "receiverName": null,
+                                "addressId": "1657",
+                                "postalCode": "1657",
+                                "city": "Loma Hermosa",
+                                "state": "Buenos Aires",
+                                "country": "ARG",
+                                "street": "Avenida Bernabé Márquez",
+                                "number": "969",
+                                "neighborhood": null,
+                                "complement": null,
+                                "reference": null,
+                                "geoCoordinates": [
+                                    -58.5938,
+                                    -34.5708
+                                ]
+                            },
+                            "dockId": null,
+                            "friendlyName": "Loma Hermosa",
+                            "isPickupStore": true
+                        },
+                        "polygonName": null,
+                        "lockTTL": "15d",
+                        "pickupPointId": "arvitalqalh_1657",
+                        "transitTime": "3bd"
+                    },
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "15d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 6,
+                        "warehouseId": "1401",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "LOMA HERMOSA BUENOS AIRES hola hola prueba  1254",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            }
+        ],
+        "trackingHints": null,
+        "selectedAddresses": [
+            {
+                "addressId": "LOMA HERMOSA BUENOS AIRES hola hola prueba  1254",
+                "addressType": "residential",
+                "receiverName": "LIN XIUMEI LIN XIUMEI",
+                "street": "hola hola prueba",
+                "number": "1254",
+                "complement": "PB",
+                "neighborhood": "BUENOS AIRES, SAN ISIDRO",
+                "postalCode": "1657",
+                "city": "LOMA HERMOSA",
+                "state": "BUENOS AIRES",
+                "country": "ARG",
+                "reference": "2        3",
+                "geoCoordinates": [
+                    -58.617446899414063,
+                    -34.566440582275391
+                ]
+            }
+        ]
+    },
+    "paymentData": {
+        "giftCards": [],
+        "transactions": [
+            {
+                "isActive": true,
+                "transactionId": "A6657ACF2DBF4CD4A6CC221434DB2DEC",
+                "merchantName": "ARVITALQA",
+                "payments": [
+                    {
+                        "id": "DCB8B4DC81744E089668CE705D0E643F",
+                        "paymentSystem": "201",
+                        "paymentSystemName": "Pago a convenir",
+                        "value": 498906,
+                        "installments": 1,
+                        "referenceValue": 498906,
+                        "cardHolder": null,
+                        "cardNumber": null,
+                        "firstDigits": null,
+                        "lastDigits": null,
+                        "cvv2": null,
+                        "expireMonth": null,
+                        "expireYear": null,
+                        "url": null,
+                        "giftCardId": null,
+                        "giftCardName": null,
+                        "giftCardCaption": null,
+                        "redemptionCode": null,
+                        "group": "promissory",
+                        "tid": null,
+                        "dueDate": null,
+                        "connectorResponses": {},
+                        "giftCardProvider": null,
+                        "giftCardAsDiscount": null,
+                        "koinUrl": null,
+                        "accountId": null,
+                        "parentAccountId": null,
+                        "bankIssuedInvoiceIdentificationNumber": null,
+                        "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                        "bankIssuedInvoiceBarCodeNumber": null,
+                        "bankIssuedInvoiceBarCodeType": null,
+                        "billingAddress": null
+                    }
+                ]
+            }
+        ]
+    },
+    "packageAttachment": {
+        "packages": [
+            {
+                "items": [
+                    {
+                        "itemIndex": 0,
+                        "quantity": 1,
+                        "price": 136056,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    },
+                    {
+                        "itemIndex": 1,
+                        "quantity": 6,
+                        "price": 60475,
+                        "description": null,
+                        "unitMultiplier": 0.0
+                    }
+                ],
+                "courier": null,
+                "invoiceNumber": "1141460711253-01",
+                "invoiceValue": 498906,
+                "invoiceUrl": null,
+                "issuanceDate": "2021-06-22T18:07:35.9970000+00:00",
+                "trackingNumber": null,
+                "invoiceKey": "",
+                "trackingUrl": null,
+                "embeddedInvoice": "",
+                "type": "Output",
+                "courierStatus": null,
+                "cfop": null,
+                "restitutions": {},
+                "volumes": null
+            }
+        ]
+    },
+    "sellers": [
+        {
+            "id": "arvitalqalh",
+            "name": "arvitalqalhv",
+            "logo": null,
+            "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?affiliateid=VLH&sc=1&an=arvitalqalh"
+        }
+    ],
+    "callCenterOperatorData": {
+        "id": "CallCenterOperatorAttachment",
+        "email": "vendedorlomahermosa2@gmail.com",
+        "userName": "vendedorlomahermosa2@gmail.com"
+    },
+    "followUpEmail": "26e4a84a7cd0443fb475afb6aabe3fae@ct.vtex.com.br",
+    "lastMessage": null,
+    "hostname": "arvitalqa",
+    "invoiceData": {
+        "address": null,
+        "userPaymentInfo": null
+    },
+    "changesAttachment": null,
+    "openTextField": null,
+    "roundingError": 0,
+    "orderFormId": "c4ec100244d9489abc5b2ba15dd1aa63",
+    "commercialConditionData": null,
+    "isCompleted": true,
+    "customData": {
+        "customApps": [
+            {
+                "fields": {
+                    "orderId": "1141461821011-01",
+                    "orderFormId": "3c82eb11de74491e8b9407d34266860b"
+                },
+                "id": "origin",
+                "major": 1
+            },
+            {
+                "fields": {
+                    "lista": "0.1429",
+                    "tapa": "0.0000",
+                    "oferta": "0.8571"
+                },
+                "id": "semaforo",
+                "major": 1
+            }
+        ]
+    },
+    "storePreferencesData": {
+        "countryCode": "ARG",
+        "currencyCode": "ARS",
+        "currencyFormatInfo": {
+            "CurrencyDecimalDigits": 2,
+            "CurrencyDecimalSeparator": ",",
+            "CurrencyGroupSeparator": ".",
+            "CurrencyGroupSize": 3,
+            "StartsWithCurrencySymbol": true
+        },
+        "currencyLocale": 11274,
+        "currencySymbol": "$",
+        "timeZone": "Argentina Standard Time"
+    },
+    "allowCancellation": false,
+    "allowEdition": false,
+    "isCheckedIn": false,
+    "marketplace": null,
+    "authorizedDate": "2021-06-22T18:11:56.3367429+00:00",
+    "invoicedDate": "2021-06-22T18:12:52.5294159+00:00",
+    "cancelReason": null,
+    "itemMetadata": {
+        "Items": [
+            {
+                "Id": "155305",
+                "Seller": "1",
+                "Name": "Acondicionador PLUSBELLE proteccion x1lt",
+                "SkuName": "Acondicionador PLUSBELLE proteccion x1lt",
+                "ProductId": "155305",
+                "RefId": "0155305",
+                "Ean": "7790740502430",
+                "ImageUrl": "http://arvitalqa.vteximg.com.br/arquivos/ids/211503-55-55/155305.jpg?v=637589602462500000",
+                "DetailUrl": "/acondicionador-plusbelle-proteccion-x1lt-155305/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "114501",
+                "Seller": "1",
+                "Name": "Mermelada EMETH frutilla frasco x454gr",
+                "SkuName": "Mermelada EMETH frutilla frasco x454gr",
+                "ProductId": "114501",
+                "RefId": "0114501",
+                "Ean": "7791113000911",
+                "ImageUrl": "http://arvitalqa.vteximg.com.br/arquivos/ids/213036-55-55/114501.jpg?v=637589625679630000",
+                "DetailUrl": "/mermelada-emeth-frutilla-frasco-x454gr-114501/p",
+                "AssemblyOptions": []
+            }
+        ]
+    },
+    "subscriptionData": null,
+    "taxData": null,
+    "checkedInPickupPointId": null,
+    "cancellationData": null
+}

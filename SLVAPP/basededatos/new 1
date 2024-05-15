@@ -1,0 +1,81 @@
+/**************************************************************************************************
+   * %v 05/11/2019 - ChM función para extraer de cada sucursal los datos de las tablas detallemovmateriales
+   * y tblimpdocumentodetalles
+   ***************************************************************************************************/
+FUNCTION GetDetalleSucursales(p_movmateriales documentos.idmovmateriales%type,
+                              p_codsucursal   documentos.cdsucursal%type,
+                              P_ESTADO        NUMBER)RETURN NUMBER IS
+
+  v_Modulo VARCHAR2(100) := 'PKG_DUPLICADOS.GetDetalleSucursales';
+  v_DBLink sucursales.servidor%TYPE;
+  V_P      NUMBER :=1;
+BEGIN
+  v_DBLink := GetDBLink(p_codsucursal);
+  if pkg_replica_suc.GetActiva(p_codsucursal) = 0 then
+    RETURN - 1; --La replica no está activa o hay error de enlace
+  end if;
+
+  IF P_ESTADO = 1 OR P_ESTADO = 0 THEN                              --si no existe en detallemovmateriales inserta
+     V_P:= SetDetallemovmaterialesSucur(v_DBLink, p_movmateriales); --INSERTA MOVMATERIALESDETALLE
+     IF V_P <> 1 THEN
+        RETURN V_P;
+     END IF;
+  END IF;
+ IF P_ESTADO = 0 THEN                                               --si no existe en impdocumentodetalle inserta
+   V_P:= SettblimpdocumentoDetalleSucur(v_DBLink, p_movmateriales); --INSERTA tblimpdocumentodetalle
+   RETURN V_P;
+ END IF;
+   RETURN V_P;
+EXCEPTION
+  WHEN OTHERS THEN
+    n_pkg_vitalpos_log_general.write(2,
+                                     'Modulo: ' || v_Modulo || '  Error: ' ||
+                                     SQLERRM);
+    RETURN -1;
+END GetDetalleSucursales;
+   /**************************************************************************************************
+   *
+   * %v 05/11/2019 - ChM función para extraer de cada sucursal los datos de las tablas detallemovmateriales
+   * e insertar en detallemovmateriales de AC.
+   ***************************************************************************************************/
+FUNCTION SetDetallemovmaterialesSucur(v_DBLink  sucursales.servidor%TYPE,
+                                       p_movmateriales  documentos.idmovmateriales%type) RETURN NUMBER IS
+
+  v_Modulo                             VARCHAR2(100) := 'PKG_DUPLICADOS.SetDetallemovmaterialesSucur';
+  v_sql                                varchar2(500);
+
+BEGIN
+    v_sql := 'INSERT INTO DETALLEMOVMATERIALES SELECT DMM.* FROM DETALLEMOVMATERIALES@'||v_DBLink|| ' DMM
+                     WHERE DMM.IDMOVMATERIALES='''||p_movmateriales||'''';
+
+    EXECUTE IMMEDIATE V_SQL;
+    RETURN 1;
+EXCEPTION
+  WHEN OTHERS THEN
+    n_pkg_vitalpos_log_general.write(2,
+                                     'Modulo: ' || v_Modulo || 'SUCURSAL: ' ||
+                                     v_DBLink || '  Error: ' || SQLERRM);
+    RETURN -1;
+END SetDetallemovmaterialesSucur;
+/**************************************************************************************************
+   * %v 05/11/2019 - ChM función para extraer de cada sucursal los datos de las tablas detallemovmateriales
+   * e insertar en detallemovmateriales de AC.
+   ***************************************************************************************************/
+FUNCTION SettblimpdocumentoDetalleSucur(v_DBLink  sucursales.servidor%TYPE,
+                                          p_movmateriales documentos.idmovmateriales%type) RETURN NUMBER IS
+
+  v_Modulo                 VARCHAR2(100) := 'PKG_DUPLICADOS.SettblimpdocumentoDetalleSucur';
+  v_sql         varchar2(500);
+
+BEGIN
+  v_sql := 'INSERT INTO tblimpdocumentodetalle SELECT IMP.* FROM tblimpdocumentodetalle@'||v_DBLink||' IMP
+                     WHERE IMP.IDMOVMATERIALES='''||p_movmateriales||'''';
+  EXECUTE IMMEDIATE V_SQL;
+  RETURN 1;
+EXCEPTION
+  WHEN OTHERS THEN
+    n_pkg_vitalpos_log_general.write(2,
+                                     'Modulo: ' || v_Modulo || 'SUCURSAL: ' ||
+                                     v_DBLink || '  Error: ' || SQLERRM);
+       RETURN -1;
+END SettblimpdocumentoDetalleSucur;

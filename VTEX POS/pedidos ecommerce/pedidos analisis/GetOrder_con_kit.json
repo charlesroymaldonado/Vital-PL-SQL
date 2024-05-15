@@ -1,0 +1,571 @@
+{
+    "orderId": "1104273193646-01",
+    "sequence": "500046",
+    "marketplaceOrderId": "",
+    "marketplaceServicesEndpoint": null,
+    "sellerOrderId": "VTR-1104273193646-01",
+    "origin": "Marketplace",
+    "affiliateId": "",
+    "salesChannel": "1",
+    "merchantName": null,
+    "status": "payment-approved",
+    "statusDescription": "Pagamento Aprovado",
+    "value": 303194,
+    "creationDate": "2021-01-18T18:53:13.5617903+00:00",
+    "lastChange": "2021-01-18T18:53:29.5120039+00:00",
+    "orderGroup": "1104273193646",
+    "totals": [
+        {
+            "id": "Items",
+            "name": "Total de los items",
+            "value": 303194
+        },
+        {
+            "id": "Discounts",
+            "name": "Total de descuentos",
+            "value": 0
+        },
+        {
+            "id": "Shipping",
+            "name": "Costo total del envío",
+            "value": 0
+        },
+        {
+            "id": "Tax",
+            "name": "Costo total del cambio",
+            "value": 0
+        }
+    ],
+    "items": [
+        {El Primer ITEM es el BULTO
+            "uniqueId": "3E76876E144542C3BFFC71D681E3EA3F",
+            "id": "174204", ID de SKU Bulto en este caso
+            "productId": "100001", ID del producto
+            "ean": "123456",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalqatr",
+            "name": "Aceite Maiz ARCOR x 900cc Bulto",
+            "refId": "123456",
+            "price": 50000, Precio del sku
+            "listPrice": 50000, 
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvitalqa.vteximg.com.br/arquivos/ids/172816-55-55/caja_de_envio_200x150x150_mm_en_paquetes_de_20_unidades_30.jpg?v=637459928327030000",
+            "detailUrl": "/aceite-maiz-arcor-x-900cc-100001/p",
+            "components": [  En este campo nos devuelve todos los datos relacionados a la configuracion del kit.
+                {
+                    "uniqueId": "9082105DE2C946FEA44CD9A999398324",
+                    "id": "100001", ID del SKU Padre o Unidad
+                    "productId": null,
+                    "ean": "17790580160804",
+                    "lockId": null,
+                    "itemAttachment": {
+                        "content": {},
+                        "name": null
+                    },
+                    "attachments": [],
+                    "quantity": 1, Cantidad 
+                    "seller": null,
+                    "name": "Aceite Maiz ARCOR x 900cc",
+                    "refId": "0100001",
+                    "price": 50000, Precio
+                    "listPrice": null,
+                    "manualPrice": null,
+                    "priceTags": [],
+                    "imageUrl": null,
+                    "detailUrl": null,
+                    "components": [],
+                    "bundleItems": [],
+                    "params": [],
+                    "offerings": [],
+                    "sellerSku": "100001",
+                    "priceValidUntil": null,
+                    "commission": 0,
+                    "tax": 0,
+                    "preSaleDate": null,
+                    "additionalInfo": {
+                        "brandName": null,
+                        "brandId": null,
+                        "categoriesIds": null,
+                        "categories": null,
+                        "productClusterId": null,
+                        "commercialConditionId": null,
+                        "dimension": {
+                            "cubicweight": 1.0000,
+                            "height": 0.0200,
+                            "length": 0.0200,
+                            "weight": 0.0200,
+                            "width": 0.0200
+                        },
+                        "offeringInfo": null,
+                        "offeringType": null,
+                        "offeringTypeId": null
+                    },
+                    "measurementUnit": "un",
+                    "unitMultiplier": 1.0,
+                    "sellingPrice": 50000,
+                    "isGift": false,
+                    "shippingPrice": null,
+                    "rewardValue": 0,
+                    "freightCommission": 0,
+                    "priceDefinitions": null,
+                    "taxCode": null,
+                    "parentItemIndex": null,
+                    "parentAssemblyBinding": null,
+                    "callCenterOperator": null,
+                    "serialNumbers": null,
+                    "assemblies": [],
+                    "costPrice": null
+                }
+            ],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "174204",
+            "priceValidUntil": "2022-01-18T18:52:12.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "ARCOR",
+                "brandId": "2000006",
+                "categoriesIds": "/20002/30007/",
+                "categories": [
+                    {
+                        "id": 30007,
+                        "name": "ACEITES Y CONDIMENTOS"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "ALMACEN"
+                    }
+                ],
+                "productClusterId": "153",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 1.0000,
+                    "length": 1.0000,
+                    "weight": 0.1200,
+                    "width": 1.0000
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "un",
+            "unitMultiplier": 6.0000, Este campo de multiplicador con el valor configurado en el sku bulto que define la cantidad de sku padre del bulto
+            "sellingPrice": 300000,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        { Segundo ITEM el cual es el de Unidad
+            "uniqueId": "27D3D9E5479C413494765FEC25E6B41E",
+            "id": "100001", ID de SKU 
+            "productId": "100001", ID de Producto
+            "ean": "17790580160804",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 1,
+            "seller": "arvitalqatr",
+            "name": "Aceite Maiz ARCOR x 900cc",
+            "refId": "0100001",
+            "price": 3194,
+            "listPrice": 3194,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvitalqa.vteximg.com.br/arquivos/ids/168174-55-55/100001.jpg?v=637442727594330000",
+            "detailUrl": "/aceite-maiz-arcor-x-900cc-100001/p",
+            "components": [], y este campo esta vacio debido a que este producto se vende por unidad y no tiene kit.
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "100001",
+            "priceValidUntil": "2022-01-18T18:52:20.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "ARCOR",
+                "brandId": "2000006",
+                "categoriesIds": "/20002/30007/",
+                "categories": [
+                    {
+                        "id": 30007,
+                        "name": "ACEITES Y CONDIMENTOS"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "ALMACEN"
+                    }
+                ],
+                "productClusterId": "153",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 1.0000, Multiplicador en 1. ya que se vende por unidad. 
+            "sellingPrice": 3194,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        }
+    ],
+    "marketplaceItems": [],
+    "clientProfileData": {
+        "id": "clientProfileData",
+        "email": "3b638dc3488e4941ac50e7d057888e34@ct.vtex.com.br",
+        "firstName": "Cliente BB",
+        "lastName": "test api",
+        "documentType": "dni",
+        "document": "31765883",
+        "phone": "+542215663440",
+        "corporateName": "Nombre razon social",
+        "tradeName": "nombre comercial",
+        "corporateDocument": "20202020202",
+        "stateInscription": "true",
+        "corporatePhone": "+5491112345678",
+        "isCorporate": true,
+        "userProfileId": "b2d535dc-d083-4b71-890d-14ff99b00acf",
+        "customerClass": null
+    },
+    "giftRegistryData": null,
+    "marketingData": {
+        "id": "marketingData",
+        "utmSource": null,
+        "utmPartner": null,
+        "utmMedium": null,
+        "utmCampaign": null,
+        "coupon": null,
+        "utmiCampaign": null,
+        "utmipage": null,
+        "utmiPart": null,
+        "marketingTags": [
+            "vtexSocialSelling"
+        ]
+    },
+    "ratesAndBenefitsData": {
+        "id": "ratesAndBenefitsData",
+        "rateAndBenefitsIdentifiers": []
+    },
+    "shippingData": {
+        "id": "shippingData",
+        "address": {
+            "addressType": "residential",
+            "receiverName": "Cliente BB test api",
+            "addressId": "1458663736825",
+            "postalCode": "1427",
+            "city": "Ciudad Autónoma de Buenos Aires",
+            "state": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+            "country": "ARG",
+            "street": "Av Triunvirato",
+            "number": "3749",
+            "neighborhood": null,
+            "complement": null,
+            "reference": null,
+            "geoCoordinates": [
+                -58.381557464599609,
+                -34.603683471679688
+            ]
+        },
+        "logisticsInfo": [
+            {
+                "itemIndex": 0,
+                "selectedSla": "Normal",
+                "lockTTL": "10d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-01-21T18:53:28.5269459+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "10d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1001",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "1458663736825",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 1,
+                "selectedSla": "Normal",
+                "lockTTL": "10d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-01-21T18:53:28.5269459+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "10d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 1,
+                        "warehouseId": "1001",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "1458663736825",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            }
+        ],
+        "trackingHints": null,
+        "selectedAddresses": [
+            {
+                "addressId": "1458663736825",
+                "addressType": "residential",
+                "receiverName": "Cliente BB test api",
+                "street": "Av Triunvirato",
+                "number": "3749",
+                "complement": null,
+                "neighborhood": null,
+                "postalCode": "1427",
+                "city": "Ciudad Autónoma de Buenos Aires",
+                "state": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+                "country": "ARG",
+                "reference": null,
+                "geoCoordinates": [
+                    -58.381557464599609,
+                    -34.603683471679688
+                ]
+            }
+        ]
+    },
+    "paymentData": {
+        "giftCards": [],
+        "transactions": [
+            {
+                "isActive": true,
+                "transactionId": "B06D47DDCADD42CBA6C610156245806D",
+                "merchantName": "ARVITALQA",
+                "payments": [
+                    {
+                        "id": "7302C237F8AE4F44B0396B8CB0655A70",
+                        "paymentSystem": "17",
+                        "paymentSystemName": "Promissory",
+                        "value": 303194,
+                        "installments": 1,
+                        "referenceValue": 303194,
+                        "cardHolder": null,
+                        "cardNumber": null,
+                        "firstDigits": null,
+                        "lastDigits": null,
+                        "cvv2": null,
+                        "expireMonth": null,
+                        "expireYear": null,
+                        "url": null,
+                        "giftCardId": null,
+                        "giftCardName": null,
+                        "giftCardCaption": null,
+                        "redemptionCode": null,
+                        "group": "promissory",
+                        "tid": null,
+                        "dueDate": null,
+                        "connectorResponses": {},
+                        "giftCardProvider": null,
+                        "giftCardAsDiscount": null,
+                        "koinUrl": null,
+                        "accountId": null,
+                        "parentAccountId": null,
+                        "bankIssuedInvoiceIdentificationNumber": null,
+                        "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                        "bankIssuedInvoiceBarCodeNumber": null,
+                        "bankIssuedInvoiceBarCodeType": null,
+                        "billingAddress": null
+                    }
+                ]
+            }
+        ]
+    },
+    "packageAttachment": {
+        "packages": []
+    },
+    "sellers": [
+        {
+            "id": "arvitalqatr",
+            "name": "arvitalqatr01",
+            "logo": null,
+            "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?affiliateid=VTR&sc=1&an=arvitalqatr"
+        }
+    ],
+    "callCenterOperatorData": null,
+    "followUpEmail": "3f237e2331e74bb386405e58ecc507ee@ct.vtex.com.br",
+    "lastMessage": null,
+    "hostname": "arvitalqa",
+    "invoiceData": null,
+    "changesAttachment": null,
+    "openTextField": null,
+    "roundingError": 0,
+    "orderFormId": "765ae077216d4425ba9274890ae0dc6b",
+    "commercialConditionData": null,
+    "isCompleted": true,
+    "customData": null,
+    "storePreferencesData": {
+        "countryCode": "ARG",
+        "currencyCode": "ARS",
+        "currencyFormatInfo": {
+            "CurrencyDecimalDigits": 2,
+            "CurrencyDecimalSeparator": ",",
+            "CurrencyGroupSeparator": ".",
+            "CurrencyGroupSize": 3,
+            "StartsWithCurrencySymbol": true
+        },
+        "currencyLocale": 11274,
+        "currencySymbol": "$",
+        "timeZone": "Argentina Standard Time"
+    },
+    "allowCancellation": true,
+    "allowEdition": false,
+    "isCheckedIn": false,
+    "marketplace": null,
+    "authorizedDate": "2021-01-18T18:53:18.5434643+00:00",
+    "invoicedDate": null,
+    "cancelReason": null,
+    "itemMetadata": {
+        "Items": [
+            {
+                "Id": "174204",
+                "Seller": "1",
+                "Name": "Aceite Maiz ARCOR x 900cc Bulto",
+                "SkuName": "Bulto",
+                "ProductId": "100001",
+                "RefId": "123456",
+                "Ean": "123456",
+                "ImageUrl": "http://arvitalqa.vteximg.com.br/arquivos/ids/172816-55-55/caja_de_envio_200x150x150_mm_en_paquetes_de_20_unidades_30.jpg?v=637459928327030000",
+                "DetailUrl": "/aceite-maiz-arcor-x-900cc-100001/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "100001",
+                "Seller": "1",
+                "Name": "Aceite Maiz ARCOR x 900cc",
+                "SkuName": "Aceite Maiz ARCOR x 900cc",
+                "ProductId": "100001",
+                "RefId": "0100001",
+                "Ean": "17790580160804",
+                "ImageUrl": "http://arvitalqa.vteximg.com.br/arquivos/ids/168174-55-55/100001.jpg?v=637442727594330000",
+                "DetailUrl": "/aceite-maiz-arcor-x-900cc-100001/p",
+                "AssemblyOptions": []
+            }
+        ]
+    },
+    "subscriptionData": null,
+    "taxData": null,
+    "checkedInPickupPointId": null,
+    "cancellationData": null
+}

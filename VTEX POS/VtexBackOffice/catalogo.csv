@@ -1,0 +1,410 @@
+﻿20001;Aire Libre;30005;Piletas;40030;Textil Pileta
+20001;Aire Libre;30002;Deportes Y Fitnes;40011;Caminadora
+20001;Aire Libre;30003;Jardineria;40019;Herramientas De Jardin
+20001;Aire Libre;30002;Deportes Y Fitnes;40009;Barra Fitnes
+20001;Aire Libre;30004;Parrilla;40025;Parrillas
+20001;Aire Libre;30006;Rodados;40032;Monopatin
+20001;Aire Libre;30002;Deportes Y Fitnes;40007;Banco Fitnes
+20001;Aire Libre;30001;Camping;40002;Bolsas De Dormir
+20001;Aire Libre;30002;Deportes Y Fitnes;40017;Pelotas
+20001;Aire Libre;30004;Parrilla;40026;Utensilios De Parrilla
+20001;Aire Libre;30002;Deportes Y Fitnes;40012;Colchoneta Fitnes
+20001;Aire Libre;30003;Jardineria;40023;Tierra Fertil
+20001;Aire Libre;30003;Jardineria;40020;Jardin Y Macetas
+20001;Aire Libre;30001;Camping;40003;Carpas
+20001;Aire Libre;30001;Camping;40006;Muebles De Camping
+20001;Aire Libre;30002;Deportes Y Fitnes;40013;Disco Fitnes
+20001;Aire Libre;30001;Camping;40005;Conservadoras Y Luncheras
+20001;Aire Libre;30002;Deportes Y Fitnes;40015;Infladores
+20001;Aire Libre;30005;Piletas;40028;Mantenimiento
+20001;Aire Libre;30003;Jardineria;40022;Riego
+20001;Aire Libre;30002;Deportes Y Fitnes;40018;Soga De Saltar
+20001;Aire Libre;30005;Piletas;40027;Juegos Y Accesorios
+20001;Aire Libre;30002;Deportes Y Fitnes;40014;Eliptico
+20001;Aire Libre;30002;Deportes Y Fitnes;40016;Mancuernas Fitnes
+20001;Aire Libre;30002;Deportes Y Fitnes;40010;Botellas Deportivas
+20001;Aire Libre;30004;Parrilla;40024;Carbon, Leña Y Encendido
+20001;Aire Libre;30003;Jardineria;40021;Maquinarias De Jardin
+20001;Aire Libre;30006;Rodados;40031;Bicicletas
+20001;Aire Libre;30002;Deportes Y Fitnes;40008;Banda Elastica Fitnes
+20001;Aire Libre;30005;Piletas;40029;Piletas
+20001;Aire Libre;30001;Camping;40004;Colchones Inflables
+20001;Aire Libre;30001;Camping;40001;Almohadas De Viaje
+20002;Almacen;30012;Enlatados  Y Conservas;40059;Conservas De Carne
+20002;Almacen;30011;Desayuno Y Merienda;40056;Tes
+20002;Almacen;30016;Pastas;40075;Pastas Listas
+20002;Almacen;30018;Snacks;40083;Mani
+20002;Almacen;30008;Aderezos Y Salsas;40038;Aderezos
+20002;Almacen;30018;Snacks;40081;Frutos Secos
+20002;Almacen;30018;Snacks;40086;Palitos De Maiz
+20002;Almacen;30010;Caldos,Sopas Y Puré;40043;Caldos
+20002;Almacen;30010;Caldos,Sopas Y Puré;40045;Saborizantes
+20002;Almacen;30012;Enlatados  Y Conservas;40058;Aceitunas
+20002;Almacen;30010;Caldos,Sopas Y Puré;40044;Pures
+20002;Almacen;30018;Snacks;40088;Varios
+20002;Almacen;30009;Arroz Y Legumbres;40042;Semillas
+20002;Almacen;30015;Panificados;40072;Pre-Pizza
+20002;Almacen;30009;Arroz Y Legumbres;40040;Arroz
+20002;Almacen;30016;Pastas;40074;Ñoquis Y Lasagna
+20002;Almacen;30018;Snacks;40082;Galletitas Y Tostadas Copetin
+20002;Almacen;30011;Desayuno Y Merienda;40048;Avenas
+20002;Almacen;30013;Harinas;40065;Almidon
+20002;Almacen;30017;Postres Y Reposteria;40078;Premezclas De Postres
+20002;Almacen;30012;Enlatados  Y Conservas;40061;Conservas De Pescado
+20002;Almacen;30012;Enlatados  Y Conservas;40060;Conservas De Frutas
+20002;Almacen;30012;Enlatados  Y Conservas;40064;Tomates Y Salsas
+20002;Almacen;30013;Harinas;40066;Harinas
+20002;Almacen;30007;Aceites Y Condimentos;40037;Vinagres
+20002;Almacen;30013;Harinas;40067;Premezclas
+20002;Almacen;30016;Pastas;40076;Pastas Rellenas
+20002;Almacen;30011;Desayuno Y Merienda;40050;Budines Y Bizcochuelos
+20002;Almacen;30007;Aceites Y Condimentos;40035;Jugos De Limon
+20002;Almacen;30010;Caldos,Sopas Y Puré;40046;Salsas Preparadas
+20002;Almacen;30011;Desayuno Y Merienda;40053;Cereales Y Granola
+20002;Almacen;30014;Pan Rallado Y Rebozador;40068;Pan Rallado
+20002;Almacen;30015;Panificados;40071;Pan
+20002;Almacen;30017;Postres Y Reposteria;40079;Premezclas Horneables
+20002;Almacen;30011;Desayuno Y Merienda;40055;Mermeladas Y Dulces
+20002;Almacen;30010;Caldos,Sopas Y Puré;40047;Sopas
+20002;Almacen;30018;Snacks;40084;Nachos
+20002;Almacen;30012;Enlatados  Y Conservas;40062;Conservas Vegetales
+20002;Almacen;30014;Pan Rallado Y Rebozador;40069;Rebozador
+20002;Almacen;30011;Desayuno Y Merienda;40049;Azucar Y Edulcorante
+20002;Almacen;30009;Arroz Y Legumbres;40041;Legumbres
+20002;Almacen;30008;Aderezos Y Salsas;40039;Salsas Frias
+20002;Almacen;30011;Desayuno Y Merienda;40054;Galletitas, Tostadas Y Grisines
+20002;Almacen;30007;Aceites Y Condimentos;40033;Aceites
+20002;Almacen;30017;Postres Y Reposteria;40080;Reposteria
+20002;Almacen;30018;Snacks;40085;Palitos
+20002;Almacen;30015;Panificados;40070;Facturas
+20002;Almacen;30018;Snacks;40087;Papas Fritas
+20002;Almacen;30012;Enlatados  Y Conservas;40063;Encurtidos
+20002;Almacen;30011;Desayuno Y Merienda;40052;Café
+20002;Almacen;30016;Pastas;40077;Pastas Secas
+20002;Almacen;30011;Desayuno Y Merienda;40057;Yerbas
+20002;Almacen;30011;Desayuno Y Merienda;40051;Cacaos
+20002;Almacen;30007;Aceites Y Condimentos;40034;Especias
+20002;Almacen;30015;Panificados;40073;Tortillas
+20002;Almacen;30007;Aceites Y Condimentos;40036;Sales
+20003;Bazar Y Hogar;30020;Cocina;40100;Horno Y Reposteria
+20003;Bazar Y Hogar;30022;Dormitorio;40119;Almohadones Silla
+20003;Bazar Y Hogar;30020;Cocina;40108;Termos Y Mates
+20003;Bazar Y Hogar;30021;Decoración;40111;Cajas Y Baules
+20003;Bazar Y Hogar;30021;Decoración;40112;Ceramicas
+20003;Bazar Y Hogar;30021;Decoración;40113;Decoracion Pared
+20003;Bazar Y Hogar;30025;Organización Del Hogar;40131;Cestos De Residuos
+20003;Bazar Y Hogar;30019;Baño;40090;Alfombras De Baño
+20003;Bazar Y Hogar;30024;Muebles;40128;Muebles De Interior
+20003;Bazar Y Hogar;30019;Baño;40092;Cortinas De Baño
+20003;Bazar Y Hogar;30025;Organización Del Hogar;40132;Cestos Y Canastos Para Ropa
+20003;Bazar Y Hogar;30020;Cocina;40101;Manoplas Y Delantales
+20003;Bazar Y Hogar;30025;Organización Del Hogar;40134;Organizacion Hogar
+20003;Bazar Y Hogar;30022;Dormitorio;40122;Sabanas
+20003;Bazar Y Hogar;30024;Muebles;40127;Muebles De Exterior
+20003;Bazar Y Hogar;30023;Indumentaria;40126;Traje De Baño
+20003;Bazar Y Hogar;30020;Cocina;40099;Hermeticos
+20003;Bazar Y Hogar;30020;Cocina;40104;Ollas,Cacerolas Y Sartenes
+20003;Bazar Y Hogar;30026;Valijas;40135;Plastica
+20003;Bazar Y Hogar;30022;Dormitorio;40118;Almohadas Y Almohadones
+20003;Bazar Y Hogar;30020;Cocina;40106;Pavas,Jarros Y Cafeteras
+20003;Bazar Y Hogar;30026;Valijas;40136;Tela
+20003;Bazar Y Hogar;30025;Organización Del Hogar;40130;Carros De Compras
+20003;Bazar Y Hogar;30022;Dormitorio;40120;Cubrecamas Y Acolchados
+20003;Bazar Y Hogar;30022;Dormitorio;40121;Frazadas Y Mantas
+20003;Bazar Y Hogar;30023;Indumentaria;40125;Remeras
+20003;Bazar Y Hogar;30020;Cocina;40102;Manteles E Individuales
+20003;Bazar Y Hogar;30020;Cocina;40105;Pavas, Jarros Y Cafeteras
+20003;Bazar Y Hogar;30025;Organización Del Hogar;40129;Bolsas De Compras
+20003;Bazar Y Hogar;30025;Organización Del Hogar;40133;Lavarropas Y Planchado
+20003;Bazar Y Hogar;30020;Cocina;40107;Repasadores
+20003;Bazar Y Hogar;30020;Cocina;40095;Bandejas Y Copetineros
+20003;Bazar Y Hogar;30020;Cocina;40098;Frascos, Tarros Y Latas
+20003;Bazar Y Hogar;30019;Baño;40093;Toallas Y Toallones
+20003;Bazar Y Hogar;30019;Baño;40089;Accesorios Para Baño
+20003;Bazar Y Hogar;30020;Cocina;40096;Cuchillas  Y Tablas
+20003;Bazar Y Hogar;30021;Decoración;40116;Velas Y Aromaterapia
+20003;Bazar Y Hogar;30022;Dormitorio;40117;Alfombras Y Felpudos
+20003;Bazar Y Hogar;30019;Baño;40091;Botiquin Primeros Auxilios
+20003;Bazar Y Hogar;30023;Indumentaria;40123;Camperas
+20003;Bazar Y Hogar;30020;Cocina;40097;Descartables
+20003;Bazar Y Hogar;30020;Cocina;40109;Utensilios De Cocina
+20003;Bazar Y Hogar;30020;Cocina;40103;Ollas, Cacerolas Y Sartenes
+20003;Bazar Y Hogar;30023;Indumentaria;40124;Medias Y Ropa Interior
+20003;Bazar Y Hogar;30020;Cocina;40110;Vajilla
+20003;Bazar Y Hogar;30020;Cocina;40094;Accesorios De Cocina
+20003;Bazar Y Hogar;30021;Decoración;40114;Plantas,Flores Y Floreros
+20003;Bazar Y Hogar;30021;Decoración;40115;Varios Deco
+20004;Bebes Y Niños;30030;Jugueteria;40155;Juegos De Salón
+20004;Bebes Y Niños;30032;Pañales;40170;Toallas Humedas
+20004;Bebes Y Niños;30029;Cuidado Del Bebe Y La Mamá;40144;Colonias Bebe
+20004;Bebes Y Niños;30029;Cuidado Del Bebe Y La Mamá;40149;Shampoo Para Bebe
+20004;Bebes Y Niños;30031;Librería;40168;Papeleria
+20004;Bebes Y Niños;30028;Comida Para Bebe;40138;Cereal Infantil
+20004;Bebes Y Niños;30030;Jugueteria;40157;Juguetes
+20004;Bebes Y Niños;30029;Cuidado Del Bebe Y La Mamá;40148;Oleo Calcareo
+20004;Bebes Y Niños;30029;Cuidado Del Bebe Y La Mamá;40150;Talcos Y Fécula
+20004;Bebes Y Niños;30031;Librería;40163;Adhesivos Libreria
+20004;Bebes Y Niños;30029;Cuidado Del Bebe Y La Mamá;40142;Apositos Y Protectores Mamarios
+20004;Bebes Y Niños;30030;Jugueteria;40158;Mesas Y Sillas Infantiles
+20004;Bebes Y Niños;30030;Jugueteria;40160;Peluches
+20004;Bebes Y Niños;30030;Jugueteria;40152;Autos Y Vehículos
+20004;Bebes Y Niños;30029;Cuidado Del Bebe Y La Mamá;40145;Cremas Y Aceites De Bebe
+20004;Bebes Y Niños;30029;Cuidado Del Bebe Y La Mamá;40146;Hisopos
+20004;Bebes Y Niños;30029;Cuidado Del Bebe Y La Mamá;40147;Jabones
+20004;Bebes Y Niños;30031;Librería;40167;Mochilas Y Cartucheras
+20004;Bebes Y Niños;30031;Librería;40166;Escritura
+20004;Bebes Y Niños;30031;Librería;40164;Cuadernos Y Carpetas
+20004;Bebes Y Niños;30028;Comida Para Bebe;40139;Leches Infantiles
+20004;Bebes Y Niños;30029;Cuidado Del Bebe Y La Mamá;40141;Acondicionador Para Bebe
+20004;Bebes Y Niños;30027;Cochecitos, Butacas Y Sillitas;40137;Cochecitos De Bebe
+20004;Bebes Y Niños;30029;Cuidado Del Bebe Y La Mamá;40140;Accesorios Bebes
+20004;Bebes Y Niños;30029;Cuidado Del Bebe Y La Mamá;40143;Chupetes Y Mamaderas
+20004;Bebes Y Niños;30030;Jugueteria;40151;Autos Y Vehiculos
+20004;Bebes Y Niños;30031;Librería;40165;Elementos Escolares
+20004;Bebes Y Niños;30030;Jugueteria;40156;Jueguetes
+20004;Bebes Y Niños;30030;Jugueteria;40154;Juegos De Rol
+20004;Bebes Y Niños;30030;Jugueteria;40159;Muñecos Y Muñecas
+20004;Bebes Y Niños;30030;Jugueteria;40162;Vehiculos Infantiles
+20004;Bebes Y Niños;30030;Jugueteria;40153;Juegos De Mesa
+20004;Bebes Y Niños;30032;Pañales;40169;Pañales De Bebe
+20004;Bebes Y Niños;30030;Jugueteria;40161;Primera Infancia
+20005;Bebidas;30033;Bebidas Con Alcohol;40177;Vinos
+20005;Bebidas;30033;Bebidas Con Alcohol;40172;Bebidas Blancas
+20005;Bebidas;30033;Bebidas Con Alcohol;40176;Sidras
+20005;Bebidas;30034;Bebidas Sin Alcohol;40183;Isotonicas
+20005;Bebidas;30033;Bebidas Con Alcohol;40173;Cervezas
+20005;Bebidas;30034;Bebidas Sin Alcohol;40181;Energizantes
+20005;Bebidas;30033;Bebidas Con Alcohol;40178;Whisky
+20005;Bebidas;30034;Bebidas Sin Alcohol;40180;Amargos
+20005;Bebidas;30033;Bebidas Con Alcohol;40174;Champagne
+20005;Bebidas;30034;Bebidas Sin Alcohol;40184;Jugos De Fruta
+20005;Bebidas;30034;Bebidas Sin Alcohol;40179;Aguas Y Sodas
+20005;Bebidas;30034;Bebidas Sin Alcohol;40182;Gaseosas
+20005;Bebidas;30034;Bebidas Sin Alcohol;40185;Sidras Sin Alcohol
+20005;Bebidas;30033;Bebidas Con Alcohol;40171;Aperitivos
+20005;Bebidas;30033;Bebidas Con Alcohol;40175;Licores
+20006;Congelados;30035;Congelados;40193;Vegetales Congelados
+20006;Congelados;30035;Congelados;40192;Rebozados Congelados
+20006;Congelados;30035;Congelados;40191;Pescados Y Mariscos Congelados
+20006;Congelados;30036;Helados;40194;Baldes
+20006;Congelados;30035;Congelados;40190;Papas Congeladas
+20006;Congelados;30036;Helados;40199;Postres Helados
+20006;Congelados;30035;Congelados;40186;Comidas Congeladas
+20006;Congelados;30036;Helados;40200;Potes
+20006;Congelados;30036;Helados;40196;Bombones Helado
+20006;Congelados;30036;Helados;40198;Helado Palito
+20006;Congelados;30035;Congelados;40189;Panificados Congelados
+20006;Congelados;30036;Helados;40195;Barritas
+20006;Congelados;30035;Congelados;40188;Hamburguesas Y Medallones
+20006;Congelados;30036;Helados;40197;Conos
+20006;Congelados;30035;Congelados;40187;Frutas Congeladas
+20007;Electro;30040;Heladeras, Cocinas, Lavarropas Y Lavavajillas;40214;Freezers
+20007;Electro;30042;Pequeños Electrodomesticos;40239;Pavas Electricas
+20007;Electro;30040;Heladeras, Cocinas, Lavarropas Y Lavavajillas;40215;Heladeras
+20007;Electro;30037;Celulares;40201;Celulares
+20007;Electro;30042;Pequeños Electrodomesticos;40231;Freidoras
+20007;Electro;30042;Pequeños Electrodomesticos;40244;Sartenes Electricas
+20007;Electro;30042;Pequeños Electrodomesticos;40230;Exprimidores
+20007;Electro;30042;Pequeños Electrodomesticos;40246;Vaporieras
+20007;Electro;30040;Heladeras, Cocinas, Lavarropas Y Lavavajillas;40217;Lavavajillas
+20007;Electro;30042;Pequeños Electrodomesticos;40243;Sandwicheras
+20007;Electro;30040;Heladeras, Cocinas, Lavarropas Y Lavavajillas;40218;Secarropas
+20007;Electro;30042;Pequeños Electrodomesticos;40234;Jugueras
+20007;Electro;30044;Tv, Audio Y Video;40249;Soportes De Tv
+20007;Electro;30039;Cuidado Personal Y Salud;40208;Humidificadores
+20007;Electro;30040;Heladeras, Cocinas, Lavarropas Y Lavavajillas;40216;Lavarropas
+20007;Electro;30038;Climatizacion;40202;Aires Acondicionados
+20007;Electro;30042;Pequeños Electrodomesticos;40229;Cortadoras De Fiambre
+20007;Electro;30039;Cuidado Personal Y Salud;40209;Planchitas Y Rizadores
+20007;Electro;30042;Pequeños Electrodomesticos;40245;Tostadoras
+20007;Electro;30044;Tv, Audio Y Video;40250;Televisores
+20007;Electro;30039;Cuidado Personal Y Salud;40211;Termometros
+20007;Electro;30044;Tv, Audio Y Video;40248;Audio
+20007;Electro;30042;Pequeños Electrodomesticos;40240;Picadoras
+20007;Electro;30041;Informatica;40221;Mouse
+20007;Electro;30042;Pequeños Electrodomesticos;40238;Multiprocesadoras
+20007;Electro;30042;Pequeños Electrodomesticos;40233;Horno De Pan
+20007;Electro;30042;Pequeños Electrodomesticos;40242;Ralladores Electricos
+20007;Electro;30042;Pequeños Electrodomesticos;40236;Microondas
+20007;Electro;30042;Pequeños Electrodomesticos;40235;Licuadoras
+20007;Electro;30038;Climatizacion;40203;Calefacción
+20007;Electro;30040;Heladeras, Cocinas, Lavarropas Y Lavavajillas;40213;Cocina
+20007;Electro;30042;Pequeños Electrodomesticos;40232;Hornitos Electricos
+20007;Electro;30043;Termotanques Y Calefones;40247;Termotanque
+20007;Electro;30040;Heladeras, Cocinas, Lavarropas Y Lavavajillas;40212;Anafe
+20007;Electro;30041;Informatica;40222;Parlantes
+20007;Electro;30038;Climatizacion;40204;Ventilacion
+20007;Electro;30042;Pequeños Electrodomesticos;40226;Aspiradoras
+20007;Electro;30039;Cuidado Personal Y Salud;40210;Secadores
+20007;Electro;30042;Pequeños Electrodomesticos;40237;Mixer
+20007;Electro;30039;Cuidado Personal Y Salud;40206;Balanzas
+20007;Electro;30042;Pequeños Electrodomesticos;40227;Batidoras
+20007;Electro;30042;Pequeños Electrodomesticos;40241;Planchas
+20007;Electro;30039;Cuidado Personal Y Salud;40205;Afeitadoras
+20007;Electro;30041;Informatica;40223;Tablets
+20007;Electro;30041;Informatica;40225;Tripodes
+20007;Electro;30039;Cuidado Personal Y Salud;40207;Cortadores De Cabello
+20007;Electro;30041;Informatica;40224;Teclados
+20007;Electro;30041;Informatica;40219;Cargadores
+20007;Electro;30042;Pequeños Electrodomesticos;40228;Cafeteras
+20007;Electro;30041;Informatica;40220;Computadoras
+20008;Ferreteria Y Automotor;30047;Ferreteria;40257;Adhesivos
+20008;Ferreteria Y Automotor;30047;Ferreteria;40258;Escaleras
+20008;Ferreteria Y Automotor;30047;Ferreteria;40260;Lubricantes
+20008;Ferreteria Y Automotor;30047;Ferreteria;40261;Seguridad
+20008;Ferreteria Y Automotor;30045;Automotor;40252;Aditivos Y Lubricantes
+20008;Ferreteria Y Automotor;30046;Electricidad;40254;Alargues Y Zapatillas
+20008;Ferreteria Y Automotor;30048;Iluminación;40262;Artefactos De Iluminacion
+20008;Ferreteria Y Automotor;30046;Electricidad;40255;Pilas  Y Cargadores
+20008;Ferreteria Y Automotor;30045;Automotor;40253;Cosmetica Automotor
+20008;Ferreteria Y Automotor;30047;Ferreteria;40259;Herramientas
+20008;Ferreteria Y Automotor;30048;Iluminación;40263;Linternas Y Luces De Emergencia
+20008;Ferreteria Y Automotor;30045;Automotor;40251;Accesorios Automotor
+20008;Ferreteria Y Automotor;30046;Electricidad;40256;Tubos Y Lamparitas
+20009;Fiestas;30049;Navidad;40265;Arboles De Navidad
+20009;Fiestas;30049;Navidad;40266;Bolsas De Navidad
+20009;Fiestas;30049;Navidad;40270;Pascuas
+20009;Fiestas;30049;Navidad;40267;Cajas Navideñas
+20009;Fiestas;30049;Navidad;40269;Luces Navidad
+20009;Fiestas;30049;Navidad;40264;Adornos De Navidad
+20009;Fiestas;30049;Navidad;40268;Fiestas
+20010;Frescos;30050;Carniceria;40274;Embutidos
+20010;Frescos;30054;Lacteos;40293;Quesos Crema Y Untables
+20010;Frescos;30050;Carniceria;40271;Carnes De Cerdo
+20010;Frescos;30052;Fiambreria;40280;Fiambres
+20010;Frescos;30052;Fiambreria;40283;Quesos Especiales
+20010;Frescos;30055;Pastas Frescas Y Tapas;40297;Tapas
+20010;Frescos;30054;Lacteos;40291;Mantecas Y Margarinas
+20010;Frescos;30054;Lacteos;40290;Levaduras
+20010;Frescos;30052;Fiambreria;40284;Quesos Rallados
+20010;Frescos;30050;Carniceria;40277;Pollos
+20010;Frescos;30054;Lacteos;40294;Quesos Ricotta
+20010;Frescos;30050;Carniceria;40275;Grasas Animales
+20010;Frescos;30052;Fiambreria;40285;Quesos Semiduros
+20010;Frescos;30054;Lacteos;40295;Yogures
+20010;Frescos;30050;Carniceria;40276;Huevos
+20010;Frescos;30052;Fiambreria;40286;Salchichas
+20010;Frescos;30050;Carniceria;40272;Carnes Especiales
+20010;Frescos;30050;Carniceria;40278;Sustitutos Carnicos
+20010;Frescos;30053;Fruteria;40287;Frutas Frescas
+20010;Frescos;30054;Lacteos;40289;Leches
+20010;Frescos;30052;Fiambreria;40281;Quesos Blandos
+20010;Frescos;30055;Pastas Frescas Y Tapas;40296;Pastas Frescas
+20010;Frescos;30051;Comidas Frescas;40279;Comidas Elaboradas
+20010;Frescos;30052;Fiambreria;40282;Quesos Duros
+20010;Frescos;30054;Lacteos;40288;Cremas Lacteas
+20010;Frescos;30054;Lacteos;40292;Postres
+20010;Frescos;30050;Carniceria;40273;Carnes Vacunas
+20011;Kiosco;30059;Golosinas;40303;Chicles
+20011;Kiosco;30059;Golosinas;40308;Obleas Y Galletitas Bañadas
+20011;Kiosco;30059;Golosinas;40307;Masticables
+20011;Kiosco;30059;Golosinas;40304;Chupetines
+20011;Kiosco;30056;Carnaval Y Cotillon;40298;Carnaval Y Cotillon
+20011;Kiosco;30058;Cigarrillos;40301;Cigarrillos
+20011;Kiosco;30059;Golosinas;40306;Malvaviscos
+20011;Kiosco;30059;Golosinas;40305;Gomitas
+20011;Kiosco;30059;Golosinas;40302;Caramelos
+20011;Kiosco;30059;Golosinas;40309;Pastillas
+20011;Kiosco;30057;Chocolate Y Alfajores;40299;Alfajores
+20011;Kiosco;30057;Chocolate Y Alfajores;40300;Chocolates
+20012;Limpieza;30060;Accesorios De Limpieza;40317;Trapos
+20012;Limpieza;30070;Papeles;40365;Papel Higienico
+20012;Limpieza;30063;Desodorantes De Ambiente;40332;Aromatizantes
+20012;Limpieza;30063;Desodorantes De Ambiente;40334;Desinfectantes
+20012;Limpieza;30069;Limpieza De Pisos Y Superficies;40358;Limpiadores De Piso
+20012;Limpieza;30064;Fosforos Y Velas;40338;Palillos
+20012;Limpieza;30062;Cuidado Del Calzado;40330;Tintas
+20012;Limpieza;30064;Fosforos Y Velas;40335;Encendedores
+20012;Limpieza;30065;Insecticidas;40343;Moscas Y Mosquitos
+20012;Limpieza;30069;Limpieza De Pisos Y Superficies;40355;Limpia Metales
+20012;Limpieza;30064;Fosforos Y Velas;40339;Velas
+20012;Limpieza;30060;Accesorios De Limpieza;40314;Cepillos, Esponjas Y Guantes
+20012;Limpieza;30061;Cuidado De La Ropa;40319;Jabones Para La Ropa
+20012;Limpieza;30070;Papeles;40367;Rollos De Cocina
+20012;Limpieza;30062;Cuidado Del Calzado;40325;Cremas Para Calzado
+20012;Limpieza;30070;Papeles;40363;Papel Aluminio
+20012;Limpieza;30069;Limpieza De Pisos Y Superficies;40356;Limpia Vidrios Y Multiusos
+20012;Limpieza;30065;Insecticidas;40345;Pulgas
+20012;Limpieza;30069;Limpieza De Pisos Y Superficies;40357;Limpiadores Cremosos
+20012;Limpieza;30060;Accesorios De Limpieza;40315;Escobas Y Palas
+20012;Limpieza;30070;Papeles;40368;Servilletas De Papel
+20012;Limpieza;30069;Limpieza De Pisos Y Superficies;40361;Toalla Desinfectante
+20012;Limpieza;30065;Insecticidas;40346;Repelentes
+20012;Limpieza;30066;Lavandinas;40348;Lavandinas Liquidas
+20012;Limpieza;30066;Lavandinas;40347;Lavandinas En Gel
+20012;Limpieza;30068;Limpieza De Cocina;40353;Limpiadores De Cocina
+20012;Limpieza;30062;Cuidado Del Calzado;40323;Accesorios Calzado
+20012;Limpieza;30065;Insecticidas;40342;Hormigas
+20012;Limpieza;30060;Accesorios De Limpieza;40310;Baldes Y Mopas
+20012;Limpieza;30064;Fosforos Y Velas;40337;Fosforos
+20012;Limpieza;30060;Accesorios De Limpieza;40312;Broches Y Sopapas
+20012;Limpieza;30070;Papeles;40362;Pañuelos Descartables
+20012;Limpieza;30063;Desodorantes De Ambiente;40333;Concentrados
+20012;Limpieza;30062;Cuidado Del Calzado;40326;Lavazapatillas
+20012;Limpieza;30067;Limpieza De Baño;40350;Limpieza De Inodoro
+20012;Limpieza;30063;Desodorantes De Ambiente;40331;Antihumedad
+20012;Limpieza;30065;Insecticidas;40341;Cucarachas
+20012;Limpieza;30062;Cuidado Del Calzado;40328;Pomadas
+20012;Limpieza;30061;Cuidado De La Ropa;40318;Aprestos
+20012;Limpieza;30068;Limpieza De Cocina;40352;Detergentes
+20012;Limpieza;30061;Cuidado De La Ropa;40322;Suavizantes
+20012;Limpieza;30064;Fosforos Y Velas;40336;Filtros De Cafe
+20012;Limpieza;30070;Papeles;40364;Papel Film
+20012;Limpieza;30065;Insecticidas;40344;Polillas
+20012;Limpieza;30069;Limpieza De Pisos Y Superficies;40360;Superficies Delicadas
+20012;Limpieza;30062;Cuidado Del Calzado;40324;Autobrillos
+20012;Limpieza;30060;Accesorios De Limpieza;40311;Bolsas
+20012;Limpieza;30065;Insecticidas;40340;Casa Y Jardin
+20012;Limpieza;30069;Limpieza De Pisos Y Superficies;40354;Ceras Y Autobrillos
+20012;Limpieza;30067;Limpieza De Baño;40349;Desinfectantes De Baño
+20012;Limpieza;30062;Cuidado Del Calzado;40327;Limpiadores De Gamuza
+20012;Limpieza;30060;Accesorios De Limpieza;40313;Cabos
+20012;Limpieza;30069;Limpieza De Pisos Y Superficies;40359;Lustramuebles
+20012;Limpieza;30068;Limpieza De Cocina;40351;Destapacañerias
+20012;Limpieza;30061;Cuidado De La Ropa;40320;Perfumantes
+20012;Limpieza;30060;Accesorios De Limpieza;40316;Secadores Y Limpiavidrios
+20012;Limpieza;30070;Papeles;40366;Papel Manteca
+20012;Limpieza;30061;Cuidado De La Ropa;40321;Quitamanchas
+20012;Limpieza;30062;Cuidado Del Calzado;40329;Revividores
+20013;Mascotas;30072;Alimentos Para Mascotas;40372;Alimento  Para Perro
+20013;Mascotas;30071;Accesorios;40371;Piedras Sanitarias
+20013;Mascotas;30071;Accesorios;40370;Paseo Y Recreacion
+20013;Mascotas;30071;Accesorios;40369;Comederos
+20013;Mascotas;30072;Alimentos Para Mascotas;40373;Alimento Para Gato
+20014;Perfumeria;30078;Cuidado Oral;40394;Hilos Dentales
+20014;Perfumeria;30079;Cuidado Personal;40397;Desodorantes Corporales
+20014;Perfumeria;30080;Farmacia;40406;Apositos Adhesivos
+20014;Perfumeria;30080;Farmacia;40407;Azufre
+20014;Perfumeria;30073;Colonias Y Perfumes;40375;Colonias
+20014;Perfumeria;30077;Cuidado Del Cabello;40387;Coloracion
+20014;Perfumeria;30077;Cuidado Del Cabello;40389;Shampoo
+20014;Perfumeria;30079;Cuidado Personal;40395;Barbijos Y Mascaras
+20014;Perfumeria;30080;Farmacia;40409;Ortopedia
+20014;Perfumeria;30075;Cuidado De La Piel;40381;Cremas Faciales
+20014;Perfumeria;30080;Farmacia;40410;Toallas Antibacteriales
+20014;Perfumeria;30077;Cuidado Del Cabello;40386;Acondicionador
+20014;Perfumeria;30073;Colonias Y Perfumes;40374;Bodysplash
+20014;Perfumeria;30077;Cuidado Del Cabello;40390;Tratamientos
+20014;Perfumeria;30078;Cuidado Oral;40392;Cremas Dentales
+20014;Perfumeria;30074;Cosmetica;40378;Cuidado De Uñas
+20014;Perfumeria;30074;Cosmetica;40379;Maquillaje
+20014;Perfumeria;30080;Farmacia;40408;Bienestar Sexual
+20014;Perfumeria;30079;Cuidado Personal;40396;Depilacion
+20014;Perfumeria;30076;Cuidado Del Adulto;40383;Pañales Para Adulto
+20014;Perfumeria;30073;Colonias Y Perfumes;40376;Perfumes
+20014;Perfumeria;30079;Cuidado Personal;40399;Jabones Y Geles De Ducha
+20014;Perfumeria;30074;Cosmetica;40377;Accesorios De Belleza
+20014;Perfumeria;30079;Cuidado Personal;40398;Desodorantes Y Antitranspirantes
+20014;Perfumeria;30079;Cuidado Personal;40401;Proteccion Femenina
+20014;Perfumeria;30078;Cuidado Oral;40393;Enjuagues Bucales
+20014;Perfumeria;30077;Cuidado Del Cabello;40388;Geles Y Fijadores
+20014;Perfumeria;30076;Cuidado Del Adulto;40385;Toallas Incontinencia
+20014;Perfumeria;30079;Cuidado Personal;40400;Maquinas De Afeitar
+20014;Perfumeria;30080;Farmacia;40404;Alcoholes
+20014;Perfumeria;30078;Cuidado Oral;40391;Cepillos Dentales
+20014;Perfumeria;30080;Farmacia;40403;Accesorios Farmacia
+20014;Perfumeria;30080;Farmacia;40405;Algodones E Hisopos
+20014;Perfumeria;30075;Cuidado De La Piel;40382;Proteccion Solar
+20014;Perfumeria;30075;Cuidado De La Piel;40380;Cremas Corporales
+20014;Perfumeria;30079;Cuidado Personal;40402;Talcos Y Desodorantes Pedicos
+20014;Perfumeria;30076;Cuidado Del Adulto;40384;Ropa Interior

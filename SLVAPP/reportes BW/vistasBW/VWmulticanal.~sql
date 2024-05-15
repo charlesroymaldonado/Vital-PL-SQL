@@ -1,0 +1,25 @@
+create or replace view view_slvmulticanal as
+  select cm.idconsolidadom pedido, 
+                 ta.cdtipo cdtipotarea,
+                 ta.idtarea,                                  
+                 'MC' id_canal,
+                 cm.dtinsert dtinicio,
+                 cm.dtupdate dtfin,
+                 cm.cdsucursal ||'- '||su.dssucursal sucursal,
+                 cmd.cdarticulo,
+                 nvl((SELECT to_number(trim(ua.vlcontador),'999999999999.99')
+                  FROM UnidadesArticulo ua
+                 WHERE ua.CDArticulo = cmd.cdarticulo
+                   AND ua.CDUnidad = 'BTO'
+                   AND ROWNUM = 1),1) UxB,
+                 cmd.qtunidadmedidabase qtsolictada,    
+                 nvl(cmd.qtunidadmedidabasepicking,0) qtpicking                   
+            from tblslvconsolidadom           cm,
+                 tblslvconsolidadomdet        cmd,                
+                 sucursales                   su,
+                 tblslvtarea                  ta
+           where cm.idconsolidadom = cmd.idconsolidadom    
+             and cm.cdsucursal = su.cdsucursal
+             and cm.idconsolidadom = ta.idconsolidadom(+)
+           --  and cm.idconsolidadom = &ped       
+order by PEDIDO  ;        

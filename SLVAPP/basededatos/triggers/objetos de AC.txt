@@ -1,0 +1,5 @@
+select * from tblslvconsolidadom;
+select * from TBLSLVCONSOLIDADOPEDIDO;
+select * from TBLSLVCONSOLIDADOPEDIDORel;
+select * from tblslvtarea;
+select * from tblslvremito;

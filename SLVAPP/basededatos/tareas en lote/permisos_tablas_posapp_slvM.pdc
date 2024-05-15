@@ -1,0 +1,11 @@
+-- Grant/Revoke object privileges 
+grant references on ARTICULOS to SLVAPP with grant option;
+grant references on PERSONAS to SLVAPP with grant option;
+grant references on ENTIDADES to SLVAPP with grant option;
+grant references on PEDIDOS to SLVAPP with grant option;
+
+grant select on PERMISOS to slvapp;
+grant select on TBLLOG_GENERAL to slvapp;
+
+grant select on TBLINFOCOMISIONISTA to SLVAPP with grant option;
+create or replace synonym TBLINFOCOMISIONISTA  for POSAPP.TBLINFOCOMISIONISTA;

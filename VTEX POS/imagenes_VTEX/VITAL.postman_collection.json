@@ -1,0 +1,51 @@
+{
+	"variables": [],
+	"info": {
+		"name": "VITAL",
+		"_postman_id": "ba1f1d21-d24c-66a2-3432-9905ab6742ab",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get_images",
+			"request": {
+				"url": "https://supermayoristavital.com.ar/api/v1/get_images",
+				"method": "POST",
+				"header": [
+					{
+						"key": "date_from",
+						"value": "2022-06-01",
+						"description": "2022-06-30",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "date_from",
+							"value": "2018-01-01",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "date_to",
+							"value": "2022-12-30",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

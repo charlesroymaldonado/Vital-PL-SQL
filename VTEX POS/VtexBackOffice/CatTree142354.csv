@@ -1,0 +1,434 @@
+Id«Name«FatherCategoryId«Title«Description«Keywords«IsActive«LomadeeCampaignCode«AdWordsRemarketingCode«ShowInStoreFront«ShowBrandFilter«ActiveStoreFrontLink«GlobalCategoryId«StockKeepingUnitSelectionMode«Score«LinkId«HasChildren
+20001«Aire Libre««Aire Libre«Aire Libre«Aire, Libre, 20001«True«««True«True«True«2271«SPECIFICATION«2500«Aire-Libre«True
+20002«Almacen««Almacen«Almacen«Almacen, 20002«True«««True«True«True«2271«SPECIFICATION«50000«Almacen«True
+20003«Bazar Y Hogar««Bazar Y Hogar«Bazar Y Hogar«Bazar, Y, Hogar, 20003«True«««True«True«True«2271«SPECIFICATION«10000«Bazar-Y-Hogar«True
+20004«Bebes Y Ni§os««Bebes Y Ni§os«Bebes Y Ni§os«Bebes, Y, Ni§os, 20004«True«««True«True«True«2271«SPECIFICATION«30000«Bebes-Y-Ninos«True
+20005«Bebidas««Bebidas«Bebidas«Bebidas, 20005«True«««True«True«True«2271«SPECIFICATION«45000«Bebidas«True
+20007«Electro««Electro«Electro«Electro, 20007«True«««True«True«True«2271«SPECIFICATION«15000«Electro«True
+20008«Ferreteria Y Automotor««Ferreteria Y Automotor«Ferreteria Y Automotor«Ferreteria, Y, Automotor, 20008«True«««True«True«True«2271«SPECIFICATION«5000«Ferreteria-Y-Automotor«True
+20009«Fiestas««Fiestas«Fiestas«Fiestas, 20009«True«««True«True«True«2271«SPECIFICATION«20009«Fiestas«True
+20011«Kiosco««Kiosco«Kiosco«Kiosco, 20011«True«««True«True«True«2271«SPECIFICATION«1«Kiosco«True
+20012«Limpieza««Limpieza«Limpieza«Limpieza, 20012«True«««True«True«True«2271«SPECIFICATION«40000«Limpieza«True
+20013«Mascotas««Mascotas«Mascotas«Mascotas, 20013«True«««True«True«True«2271«SPECIFICATION«20000«Mascotas«True
+20014«Perfumeria««Perfumeria«Perfumeria«Perfumeria, 20014«True«««True«True«True«2271«SPECIFICATION«35000«Perfumeria«True
+30001«Camping«20001«Camping«Camping«Camping,30001«True«««True«True«True«2271«SPECIFICATION«40000«Camping«True
+30002«Deportes Y Fitnes«20001«Deportes Y Fitnes«Deportes Y Fitnes«Deportes, Y, Fitnes,30002«True«««True«True«True«2271«SPECIFICATION«37000«Deportes-Y-Fitnes«True
+30003«Jardineria«20001«Jardineria«Jardineria«Jardineria,30003«True«««True«True«True«2271«SPECIFICATION«38000«Jardineria«True
+30004«Parrilla«20001«Parrilla«Parrilla«Parrilla,30004«True«««True«True«True«2271«SPECIFICATION«39000«Parrilla«True
+30005«Piletas«20001«Piletas«Piletas«Piletas,30005«True«««True«True«True«2271«SPECIFICATION«30005«Piletas«True
+30006«Rodados«20001«Rodados«Rodados«Rodados,30006«True«««True«True«True«2271«SPECIFICATION«36000«Rodados«True
+30007«Aceites Y Condimentos«20002«Aceites Y Condimentos«Aceites Y Condimentos«Aceites, Y, Condimentos,30007«True«««True«True«True«2271«SPECIFICATION«49000«Aceites-Y-Condimentos«True
+30008«Aderezos Y Salsas«20002«Aderezos Y Salsas«Aderezos Y Salsas«Aderezos, Y, Salsas,30008«True«««True«True«True«2271«SPECIFICATION«48000«Aderezos-Y-Salsas«True
+30009«Arroz Y Legumbres«20002«Arroz Y Legumbres«Arroz Y Legumbres«Arroz, Y, Legumbres,30009«True«««True«True«True«2271«SPECIFICATION«47000«Arroz-Y-Legumbres«True
+30010«Caldos,Sopas Y PurÇ«20002«Caldos,Sopas Y PurÇ«Caldos,Sopas Y PurÇ«Caldos,Sopas, Y, PurÇ,30010«True«««True«True«True«2271«SPECIFICATION«46000«CaldosSopas-Y-Pure«True
+30011«Desayuno Y Merienda«20002«Desayuno Y Merienda«Desayuno Y Merienda«Desayuno, Y, Merienda,30011«True«««True«True«True«2271«SPECIFICATION«40000«Desayuno-Y-Merienda«True
+30012«Enlatados  Y Conservas«20002«Enlatados  Y Conservas«Enlatados  Y Conservas«Enlatados,  Y, Conservas,30012«True«««True«True«True«2271«SPECIFICATION«44000«Enlatados--Y-Conservas«True
+30013«Harinas«20002«Harinas«Harinas«Harinas,30013«True«««True«True«True«2271«SPECIFICATION«43000«Harinas«True
+30014«Pan Rallado Y Rebozador«20002«Pan Rallado Y Rebozador«Pan Rallado Y Rebozador«Pan, Rallado, Y, Rebozador,30014«True«««True«True«True«2271«SPECIFICATION«42000«Pan-Rallado-Y-Rebozador«True
+30015«Panificados«20002«Panificados«Panificados«Panificados,30015«True«««True«True«True«2271«SPECIFICATION«30015«Panificados«True
+30016«Pastas«20002«Pastas«Pastas«Pastas,30016«True«««True«True«True«2271«SPECIFICATION«45000«Pastas«True
+30017«Postres Y Reposteria«20002«Postres Y Reposteria«Postres Y Reposteria«Postres, Y, Reposteria,30017«True«««True«True«True«2271«SPECIFICATION«39000«Postres-Y-Reposteria«True
+30018«Snacks«20002«Snacks«Snacks«Snacks,30018«True«««True«True«True«2271«SPECIFICATION«38000«Snacks«True
+30019«Ba§o«20003«Ba§o«Ba§o«Ba§o,30019«True«««True«True«True«2271«SPECIFICATION«39000«Bano«True
+30020«Cocina«20003«Cocina«Cocina«Cocina,30020«True«««True«True«True«2271«SPECIFICATION«40000«Cocina«True
+30021«Decoraci¢n«20003«Decoraci¢n«Decoraci¢n«Decoraci¢n,30021«True«««True«True«True«2271«SPECIFICATION«38000«Decoracion«True
+30022«Dormitorio«20003«Dormitorio«Dormitorio«Dormitorio,30022«True«««True«True«True«2271«SPECIFICATION«38000«Dormitorio«True
+30023«Indumentaria«20003«Indumentaria«Indumentaria«Indumentaria,30023«True«««True«True«True«2271«SPECIFICATION«36000«Indumentaria«True
+30024«Muebles«20003«Muebles«Muebles«Muebles,30024«True«««True«True«True«2271«SPECIFICATION«36000«Muebles«True
+30025«Organizaci¢n Del Hogar«20003«Organizaci¢n Del Hogar«Organizaci¢n Del Hogar«Organizaci¢n, Del, Hogar,30025«True«««True«True«True«2271«SPECIFICATION«37000«Organizacion-Del-Hogar«True
+30026«Valijas«20003«Valijas«Valijas«Valijas,30026«True«««True«True«True«2271«SPECIFICATION«36000«Valijas«True
+30027«Cochecitos, Butacas Y Sillitas«20004«Cochecitos, Butacas Y Sillitas«Cochecitos, Butacas Y Sillitas«Cochecitos, Butacas, Y, Sillitas,30027«True«««True«True«True«2271«SPECIFICATION«40000«Cochecitos-Butacas-Y-Sillitas«True
+30028«Comida Para Bebe«20004«Comida Para Bebe«Comida Para Bebe«Comida, Para, Bebe,30028«True«««True«True«True«2271«SPECIFICATION«40000«Comida-Para-Bebe«True
+30029«Cuidado Del Bebe Y La Mam†«20004«Cuidado Del Bebe Y La Mam†«Cuidado Del Bebe Y La Mam†«Cuidado, Del, Bebe, Y, La, Mam†,30029«True«««True«True«True«2271«SPECIFICATION«40000«Cuidado-Del-Bebe-Y-La-Mama«True
+30030«Jugueteria«20004«Jugueteria«Jugueteria«Jugueteria,30030«True«««True«True«True«2271«SPECIFICATION«1«Jugueteria«True
+30031«Librer°a«20004«Librer°a«Librer°a«Librer°a,30031«True«««True«True«True«2271«SPECIFICATION«1«Libreria«True
+30032«Pa§ales«20004«Pa§ales«Pa§ales«Pa§ales,30032«True«««True«True«True«2271«SPECIFICATION«48000«Panales«True
+30033«Bebidas Con Alcohol«20005«Bebidas Con Alcohol«Bebidas Con Alcohol«Bebidas, Con, Alcohol,30033«True«««True«True«True«2271«SPECIFICATION«48000«Bebidas-Con-Alcohol«True
+30034«Bebidas Sin Alcohol«20005«Bebidas Sin Alcohol«Bebidas Sin Alcohol«Bebidas, Sin, Alcohol,30034«True«««True«True«True«2271«SPECIFICATION«49000«Bebidas-Sin-Alcohol«True
+30037«Celulares«20007«Celulares«Celulares«Celulares,30037«True«««True«True«True«2271«SPECIFICATION«40000«Celulares«True
+30038«Climatizacion«20007«Climatizacion«Climatizacion«Climatizacion,30038«True«««True«True«True«2271«SPECIFICATION«40000«Climatizacion«True
+30039«Cuidado Personal Y Salud«20007«Cuidado Personal Y Salud«Cuidado Personal Y Salud«Cuidado, Personal, Y, Salud,30039«True«««True«True«True«2271«SPECIFICATION«40000«Cuidado-Personal-Y-Salud«True
+30040«Heladeras Cocinas Lavarropas Y Lavavajillas«20007«Heladeras, Cocinas, Lavarropas Y Lavavajillas«Heladeras, Cocinas, Lavarropas Y Lavavajillas«Heladeras, Cocinas, Lavarropas, Y, Lavavajillas,30040«True«««True«True«True«2271«SPECIFICATION«30000«Heladeras-Cocinas-Lavarropas-Y-Lavavajillas«True
+30041«Informatica«20007«Informatica«Informatica«Informatica,30041«True«««True«True«True«2271«SPECIFICATION«30000«Informatica«True
+30042«Peque§os Electrodomesticos«20007«Peque§os Electrodomesticos«Peque§os Electrodomesticos«Peque§os, Electrodomesticos,30042«True«««True«True«True«2271«SPECIFICATION«40000«Pequenos-Electrodomesticos«True
+30043«Termotanques Y Calefones«20007«Termotanques Y Calefones«Termotanques Y Calefones«Termotanques, Y, Calefones,30043«True«««True«True«True«2271«SPECIFICATION«40000«Termotanques-Y-Calefones«True
+30044«Tv, Audio Y Video«20007«Tv, Audio Y Video«Tv, Audio Y Video«Tv, Audio, Y, Video,30044«True«««True«True«True«2271«SPECIFICATION«40000«Tv-Audio-Y-Video«True
+30049«Navidad«20009«Navidad«Navidad«Navidad,30049«True«««True«True«True«2271«SPECIFICATION«30049«Navidad«True
+30056«Carnaval Y Cotillon«20011«Carnaval Y Cotillon«Carnaval Y Cotillon«Carnaval, Y, Cotillon,30056«True«««True«True«True«2271«SPECIFICATION«30056«Carnaval-Y-Cotillon«True
+30057«Chocolate Y Alfajores«20011«Chocolate Y Alfajores«Chocolate Y Alfajores«Chocolate, Y, Alfajores,30057«True«««True«True«True«2271«SPECIFICATION«40000«Chocolate-Y-Alfajores«True
+30058«Cigarrillos«20011«Cigarrillos«Cigarrillos«Cigarrillos,30058«True«««True«True«True«2271«SPECIFICATION«30058«Cigarrillos«True
+30059«Golosinas«20011«Golosinas«Golosinas«Golosinas,30059«True«««True«True«True«2271«SPECIFICATION«39000«Golosinas«True
+30060«Accesorios De Limpieza«20012«Accesorios De Limpieza«Accesorios De Limpieza«Accesorios, De, Limpieza,30060«True«««True«True«True«2271«SPECIFICATION«42000«Accesorios-De-Limpieza«True
+30061«Cuidado De La Ropa«20012«Cuidado De La Ropa«Cuidado De La Ropa«Cuidado, De, La, Ropa,30061«True«««True«True«True«2271«SPECIFICATION«48000«Cuidado-De-La-Ropa«True
+30062«Cuidado Del Calzado«20012«Cuidado Del Calzado«Cuidado Del Calzado«Cuidado, Del, Calzado,30062«True«««True«True«True«2271«SPECIFICATION«40000«Cuidado-Del-Calzado«True
+30063«Desodorantes De Ambiente«20012«Desodorantes De Ambiente«Desodorantes De Ambiente«Desodorantes, De, Ambiente,30063«True«««True«True«True«2271«SPECIFICATION«43000«Desodorantes-De-Ambiente«True
+30064«Fosforos Y Velas«20012«Fosforos Y Velas«Fosforos Y Velas«Fosforos, Y, Velas,30064«True«««True«True«True«2271«SPECIFICATION«40000«Fosforos-Y-Velas«True
+30065«Insecticidas«20012«Insecticidas«Insecticidas«Insecticidas,30065«True«««True«True«True«2271«SPECIFICATION«41000«Insecticidas«True
+30066«Lavandinas«20012«Lavandinas«Lavandinas«Lavandinas,30066«True«««True«True«True«2271«SPECIFICATION«49000«Lavandinas«True
+30067«Limpieza De Ba§o«20012«Limpieza De Ba§o«Limpieza De Ba§o«Limpieza, De, Ba§o,30067«True«««True«True«True«2271«SPECIFICATION«45000«Limpieza-De-Bano«True
+30068«Limpieza De Cocina«20012«Limpieza De Cocina«Limpieza De Cocina«Limpieza, De, Cocina,30068«True«««True«True«True«2271«SPECIFICATION«47000«Limpieza-De-Cocina«True
+30069«Limpieza De Pisos Y Superficies«20012«Limpieza De Pisos Y Superficies«Limpieza De Pisos Y Superficies«Limpieza, De, Pisos, Y, Superficies,30069«True«««True«True«True«2271«SPECIFICATION«44000«Limpieza-De-Pisos-Y-Superficies«True
+30070«Papeles«20012«Papeles«Papeles«Papeles,30070«True«««True«True«True«2271«SPECIFICATION«46000«Papeles«True
+30071«Accesorios«20013«Accesorios«Accesorios«Accesorios,30071«True«««True«True«True«2271«SPECIFICATION«35000«Accesorios«True
+30072«Alimentos Para Mascotas«20013«Alimentos Para Mascotas«Alimentos Para Mascotas«Alimentos, Para, Mascotas,30072«True«««True«True«True«2271«SPECIFICATION«40000«Alimentos-Para-Mascotas«True
+30073«Colonias Y Perfumes«20014«Colonias Y Perfumes«Colonias Y Perfumes«Colonias, Y, Perfumes,30073«True«««True«True«True«2271«SPECIFICATION«43000«Colonias-Y-Perfumes«True
+30074«Cosmetica«20014«Cosmetica«Cosmetica«Cosmetica,30074«True«««True«True«True«2271«SPECIFICATION«42000«Cosmetica«True
+30075«Cuidado De La Piel«20014«Cuidado De La Piel«Cuidado De La Piel«Cuidado, De, La, Piel,30075«True«««True«True«True«2271«SPECIFICATION«45000«Cuidado-De-La-Piel«True
+30076«Cuidado Del Adulto«20014«Cuidado Del Adulto«Cuidado Del Adulto«Cuidado, Del, Adulto,30076«True«««True«True«True«2271«SPECIFICATION«44000«Cuidado-Del-Adulto«True
+30077«Cuidado Del Cabello«20014«Cuidado Del Cabello«Cuidado Del Cabello«Cuidado, Del, Cabello,30077«True«««True«True«True«2271«SPECIFICATION«49000«Cuidado-Del-Cabello«True
+30078«Cuidado Oral«20014«Cuidado Oral«Cuidado Oral«Cuidado, Oral,30078«True«««True«True«True«2271«SPECIFICATION«48000«Cuidado-Oral«True
+30079«Cuidado Personal«20014«Cuidado Personal«Cuidado Personal«Cuidado, Personal,30079«True«««True«True«True«2271«SPECIFICATION«47000«Cuidado-Personal«True
+30080«Farmacia«20014«Farmacia«Farmacia«Farmacia,30080«True«««True«True«True«2271«SPECIFICATION«46000«Farmacia«True
+40001«Almohadas De Viaje«30001«Almohadas De Viaje«Almohadas De Viaje«Almohadas, De, Viaje,40001«True«««True«True«True«2271«SPECIFICATION«29400«Almohadas-De-Viaje«False
+40002«Bolsas De Dormir«30001«Bolsas De Dormir«Bolsas De Dormir«Bolsas, De, Dormir,40002«True«««True«True«True«2271«SPECIFICATION«29500«Bolsas-De-Dormir«False
+40003«Carpas«30001«Carpas«Carpas«Carpas,40003«True«««True«True«True«2271«SPECIFICATION«29600«Carpas«False
+40004«Colchones Inflables«30001«Colchones Inflables«Colchones Inflables«Colchones, Inflables,40004«True«««True«True«True«2271«SPECIFICATION«29700«Colchones-Inflables«False
+40005«Conservadoras Y Luncheras«30001«Conservadoras Y Luncheras«Conservadoras Y Luncheras«Conservadoras, Y, Luncheras,40005«True«««True«True«True«2271«SPECIFICATION«30000«Conservadoras-Y-Luncheras«False
+40006«Muebles De Camping«30001«Muebles De Camping«Muebles De Camping«Muebles, De, Camping,40006«True«««True«True«True«2271«SPECIFICATION«29800«Muebles-De-Camping«False
+40007«Banco Fitnes«30002«Banco Fitnes«Banco Fitnes«Banco, Fitnes,40007«True«««True«True«True«2271«SPECIFICATION«27500«Banco-Fitnes«False
+40008«Banda Elastica Fitnes«30002«Banda Elastica Fitnes«Banda Elastica Fitnes«Banda, Elastica, Fitnes,40008«True«««True«True«True«2271«SPECIFICATION«27600«Banda-Elastica-Fitnes«False
+40009«Barra Fitnes«30002«Barra Fitnes«Barra Fitnes«Barra, Fitnes,40009«True«««True«True«True«2271«SPECIFICATION«27700«Barra-Fitnes«False
+40010«Botellas Deportivas«30002«Botellas Deportivas«Botellas Deportivas«Botellas, Deportivas,40010«True«««True«True«True«2271«SPECIFICATION«29900«Botellas-Deportivas«False
+40011«Caminadora«30002«Caminadora«Caminadora«Caminadora,40011«True«««True«True«True«2271«SPECIFICATION«27800«Caminadora«False
+40012«Colchoneta Fitnes«30002«Colchoneta Fitnes«Colchoneta Fitnes«Colchoneta, Fitnes,40012«True«««True«True«True«2271«SPECIFICATION«27900«Colchoneta-Fitnes«False
+40013«Disco Fitnes«30002«Disco Fitnes«Disco Fitnes«Disco, Fitnes,40013«True«««True«True«True«2271«SPECIFICATION«28000«Disco-Fitnes«False
+40014«Eliptico«30002«Eliptico«Eliptico«Eliptico,40014«True«««True«True«True«2271«SPECIFICATION«28100«Eliptico«False
+40015«Infladores«30002«Infladores«Infladores«Infladores,40015«True«««True«True«True«2271«SPECIFICATION«28200«Infladores«False
+40016«Mancuernas Fitnes«30002«Mancuernas Fitnes«Mancuernas Fitnes«Mancuernas, Fitnes,40016«True«««True«True«True«2271«SPECIFICATION«28300«Mancuernas-Fitnes«False
+40017«Pelotas«30002«Pelotas«Pelotas«Pelotas,40017«True«««True«True«True«2271«SPECIFICATION«28400«Pelotas«False
+40018«Soga De Saltar«30002«Soga De Saltar«Soga De Saltar«Soga, De, Saltar,40018«True«««True«True«True«2271«SPECIFICATION«28500«Soga-De-Saltar«False
+40019«Herramientas De Jardin«30003«Herramientas De Jardin«Herramientas De Jardin«Herramientas, De, Jardin,40019«True«««True«True«True«2271«SPECIFICATION«28600«Herramientas-De-Jardin«False
+40020«Jardin Y Macetas«30003«Jardin Y Macetas«Jardin Y Macetas«Jardin, Y, Macetas,40020«True«««True«True«True«2271«SPECIFICATION«28700«Jardin-Y-Macetas«False
+40021«Maquinarias De Jardin«30003«Maquinarias De Jardin«Maquinarias De Jardin«Maquinarias, De, Jardin,40021«True«««True«True«True«2271«SPECIFICATION«28800«Maquinarias-De-Jardin«False
+40022«Riego«30003«Riego«Riego«Riego,40022«True«««True«True«True«2271«SPECIFICATION«28900«Riego«False
+40023«Tierra Fertil«30003«Tierra Fertil«Tierra Fertil«Tierra, Fertil,40023«True«««True«True«True«2271«SPECIFICATION«29000«Tierra-Fertil«False
+40024«Carbon, Le§a Y Encendido«30004«Carbon, Le§a Y Encendido«Carbon, Le§a Y Encendido«Carbon,, Le§a, Y, Encendido,40024«True«««True«True«True«2271«SPECIFICATION«29100«Carbon-Lena-Y-Encendido«False
+40025«Parrillas«30004«Parrillas«Parrillas«Parrillas,40025«True«««True«True«True«2271«SPECIFICATION«29200«Parrillas«False
+40026«Utensilios De Parrilla«30004«Utensilios De Parrilla«Utensilios De Parrilla«Utensilios, De, Parrilla,40026«True«««True«True«True«2271«SPECIFICATION«29300«Utensilios-De-Parrilla«False
+40027«Juegos Y Accesorios«30005«Juegos Y Accesorios«Juegos Y Accesorios«Juegos, Y, Accesorios,40027«True«««True«True«True«2271«SPECIFICATION«40027«Juegos-Y-Accesorios«False
+40028«Mantenimiento«30005«Mantenimiento«Mantenimiento«Mantenimiento,40028«True«««True«True«True«2271«SPECIFICATION«40028«Mantenimiento«False
+40029«Piletas«30005«Piletas«Piletas«Piletas,40029«True«««True«True«True«2271«SPECIFICATION«40029«Piletas«False
+40030«Textil Pileta«30005«Textil Pileta«Textil Pileta«Textil, Pileta,40030«True«««True«True«True«2271«SPECIFICATION«40030«Textil-Pileta«False
+40031«Bicicletas«30006«Bicicletas«Bicicletas«Bicicletas,40031«True«««True«True«True«2271«SPECIFICATION«27300«Bicicletas«False
+40032«Monopatin«30006«Monopatin«Monopatin«Monopatin,40032«True«««True«True«True«2271«SPECIFICATION«27400«Monopatin«False
+40033«Aceites«30007«Aceites«Aceites«Aceites,40033«True«««True«True«True«2271«SPECIFICATION«39900«Aceites«False
+40034«Especias«30007«Especias«Especias«Especias,40034«True«««True«True«True«2271«SPECIFICATION«39700«Especias«False
+40035«Jugos De Limon«30007«Jugos De Limon«Jugos De Limon«Jugos, De, Limon,40035«True«««True«True«True«2271«SPECIFICATION«39600«Jugos-De-Limon«False
+40036«Sales«30007«Sales«Sales«Sales,40036«True«««True«True«True«2271«SPECIFICATION«39800«Sales«False
+40037«Vinagres«30007«Vinagres«Vinagres«Vinagres,40037«True«««True«True«True«2271«SPECIFICATION«39500«Vinagres«False
+40038«Aderezos«30008«Aderezos«Aderezos«Aderezos,40038«True«««True«True«True«2271«SPECIFICATION«39400«Aderezos«False
+40039«Salsas Frias«30008«Salsas Frias«Salsas Frias«Salsas, Frias,40039«True«««True«True«True«2271«SPECIFICATION«39300«Salsas-Frias«False
+40040«Arroz«30009«Arroz«Arroz«Arroz,40040«True«««True«True«True«2271«SPECIFICATION«39200«Arroz«False
+40041«Legumbres«30009«Legumbres«Legumbres«Legumbres,40041«True«««True«True«True«2271«SPECIFICATION«39100«Legumbres«False
+40042«Semillas«30009«Semillas«Semillas«Semillas,40042«True«««True«True«True«2271«SPECIFICATION«39000«Semillas«False
+40043«Caldos«30010«Caldos«Caldos«Caldos,40043«True«««True«True«True«2271«SPECIFICATION«38900«Caldos«False
+40044«Pures«30010«Pures«Pures«Pures,40044«True«««True«True«True«2271«SPECIFICATION«38800«Pures«False
+40045«Saborizantes«30010«Saborizantes«Saborizantes«Saborizantes,40045«True«««True«True«True«2271«SPECIFICATION«38700«Saborizantes«False
+40046«Salsas Preparadas«30010«Salsas Preparadas«Salsas Preparadas«Salsas, Preparadas,40046«True«««True«True«True«2271«SPECIFICATION«38600«Salsas-Preparadas«False
+40047«Sopas«30010«Sopas«Sopas«Sopas,40047«True«««True«True«True«2271«SPECIFICATION«38500«Sopas«False
+40048«Avenas«30011«Avenas«Avenas«Avenas,40048«True«««True«True«True«2271«SPECIFICATION«37500«Avenas«False
+40049«Azucar Y Edulcorante«30011«Azucar Y Edulcorante«Azucar Y Edulcorante«Azucar, Y, Edulcorante,40049«True«««True«True«True«2271«SPECIFICATION«38300«Azucar-Y-Edulcorante«False
+40050«Budines Y Bizcochuelos«30011«Budines Y Bizcochuelos«Budines Y Bizcochuelos«Budines, Y, Bizcochuelos,40050«True«««True«True«True«2271«SPECIFICATION«37600«Budines-Y-Bizcochuelos«False
+40051«Cacaos«30011«Cacaos«Cacaos«Cacaos,40051«True«««True«True«True«2271«SPECIFICATION«38000«Cacaos«False
+40052«CafÇ«30011«CafÇ«CafÇ«CafÇ,40052«True«««True«True«True«2271«SPECIFICATION«38200«Cafe«False
+40053«Cereales Y Granola«30011«Cereales Y Granola«Cereales Y Granola«Cereales, Y, Granola,40053«True«««True«True«True«2271«SPECIFICATION«37900«Cereales-Y-Granola«False
+40054«Galletitas, Tostadas Y Grisines«30011«Galletitas, Tostadas Y Grisines«Galletitas, Tostadas Y Grisines«Galletitas,, Tostadas, Y, Grisines,40054«True«««True«True«True«2271«SPECIFICATION«37800«Galletitas-Tostadas-Y-Grisines«False
+40055«Mermeladas Y Dulces«30011«Mermeladas Y Dulces«Mermeladas Y Dulces«Mermeladas, Y, Dulces,40055«True«««True«True«True«2271«SPECIFICATION«37700«Mermeladas-Y-Dulces«False
+40056«Tes«30011«Tes«Tes«Tes,40056«True«««True«True«True«2271«SPECIFICATION«38100«Tes«False
+40057«Yerbas«30011«Yerbas«Yerbas«Yerbas,40057«True«««True«True«True«2271«SPECIFICATION«38400«Yerbas«False
+40058«Aceitunas«30012«Aceitunas«Aceitunas«Aceitunas,40058«True«««True«True«True«2271«SPECIFICATION«36900«Aceitunas«False
+40059«Conservas De Carne«30012«Conservas De Carne«Conservas De Carne«Conservas, De, Carne,40059«True«««True«True«True«2271«SPECIFICATION«37000«Conservas-De-Carne«False
+40060«Conservas De Frutas«30012«Conservas De Frutas«Conservas De Frutas«Conservas, De, Frutas,40060«True«««True«True«True«2271«SPECIFICATION«37100«Conservas-De-Frutas«False
+40061«Conservas De Pescado«30012«Conservas De Pescado«Conservas De Pescado«Conservas, De, Pescado,40061«True«««True«True«True«2271«SPECIFICATION«37300«Conservas-De-Pescado«False
+40062«Conservas Vegetales«30012«Conservas Vegetales«Conservas Vegetales«Conservas, Vegetales,40062«True«««True«True«True«2271«SPECIFICATION«37200«Conservas-Vegetales«False
+40063«Encurtidos«30012«Encurtidos«Encurtidos«Encurtidos,40063«True«««True«True«True«2271«SPECIFICATION«36800«Encurtidos«False
+40064«Tomates Y Salsas«30012«Tomates Y Salsas«Tomates Y Salsas«Tomates, Y, Salsas,40064«True«««True«True«True«2271«SPECIFICATION«37400«Tomates-Y-Salsas«False
+40065«Almidon«30013«Almidon«Almidon«Almidon,40065«True«««True«True«True«2271«SPECIFICATION«36500«Almidon«False
+40066«Harinas«30013«Harinas«Harinas«Harinas,40066«True«««True«True«True«2271«SPECIFICATION«36700«Harinas«False
+40067«Premezclas«30013«Premezclas«Premezclas«Premezclas,40067«True«««True«True«True«2271«SPECIFICATION«36600«Premezclas«False
+40068«Pan Rallado«30014«Pan Rallado«Pan Rallado«Pan, Rallado,40068«True«««True«True«True«2271«SPECIFICATION«36300«Pan-Rallado«False
+40069«Rebozador«30014«Rebozador«Rebozador«Rebozador,40069«True«««True«True«True«2271«SPECIFICATION«36200«Rebozador«False
+40070«Facturas«30015«Facturas«Facturas«Facturas,40070«True«««True«True«True«2271«SPECIFICATION«40070«Facturas«False
+40071«Pan«30015«Pan«Pan«Pan,40071«True«««True«True«True«2271«SPECIFICATION«40071«Pan«False
+40072«Pre-Pizza«30015«Pre-Pizza«Pre-Pizza«Pre-Pizza,40072«True«««True«True«True«2271«SPECIFICATION«40072«Pre-Pizza«False
+40073«Tortillas«30015«Tortillas«Tortillas«Tortillas,40073«True«««True«True«True«2271«SPECIFICATION«40073«Tortillas«False
+40074«•oquis Y Lasagna«30016«•oquis Y Lasagna«•oquis Y Lasagna«•oquis, Y, Lasagna,40074«True«««True«True«True«2271«SPECIFICATION«35400«noquis-Y-Lasagna«False
+40075«Pastas Listas«30016«Pastas Listas«Pastas Listas«Pastas, Listas,40075«True«««True«True«True«2271«SPECIFICATION«35500«Pastas-Listas«False
+40076«Pastas Rellenas«30016«Pastas Rellenas«Pastas Rellenas«Pastas, Rellenas,40076«True«««True«True«True«2271«SPECIFICATION«35600«Pastas-Rellenas«False
+40077«Pastas Secas«30016«Pastas Secas«Pastas Secas«Pastas, Secas,40077«True«««True«True«True«2271«SPECIFICATION«35700«Pastas-Secas«False
+40078«Premezclas De Postres«30017«Premezclas De Postres«Premezclas De Postres«Premezclas, De, Postres,40078«True«««True«True«True«2271«SPECIFICATION«35300«Premezclas-De-Postres«False
+40079«Premezclas Horneables«30017«Premezclas Horneables«Premezclas Horneables«Premezclas, Horneables,40079«True«««True«True«True«2271«SPECIFICATION«35200«Premezclas-Horneables«False
+40080«Reposteria«30017«Reposteria«Reposteria«Reposteria,40080«True«««True«True«True«2271«SPECIFICATION«35100«Reposteria«False
+40081«Frutos Secos«30018«Frutos Secos«Frutos Secos«Frutos, Secos,40081«True«««True«True«True«2271«SPECIFICATION«34300«Frutos-Secos«False
+40082«Galletitas Y Tostadas Copetin«30018«Galletitas Y Tostadas Copetin«Galletitas Y Tostadas Copetin«Galletitas, Y, Tostadas, Copetin,40082«True«««True«True«True«2271«SPECIFICATION«34400«Galletitas-Y-Tostadas-Copetin«False
+40083«Mani«30018«Mani«Mani«Mani,40083«True«««True«True«True«2271«SPECIFICATION«34700«Mani«False
+40084«Nachos«30018«Nachos«Nachos«Nachos,40084«True«««True«True«True«2271«SPECIFICATION«34600«Nachos«False
+40085«Palitos«30018«Palitos«Palitos«Palitos,40085«True«««True«True«True«2271«SPECIFICATION«34500«Palitos«False
+40086«Palitos De Maiz«30018«Palitos De Maiz«Palitos De Maiz«Palitos, De, Maiz,40086«True«««True«True«True«2271«SPECIFICATION«34800«Palitos-De-Maiz«False
+40087«Papas Fritas«30018«Papas Fritas«Papas Fritas«Papas, Fritas,40087«True«««True«True«True«2271«SPECIFICATION«34900«Papas-Fritas«False
+40088«Varios«30018«Varios«Varios«Varios,40088«True«««True«True«True«2271«SPECIFICATION«34200«Varios«False
+40089«Accesorios Para Ba§o«30019«Accesorios Para Ba§o«Accesorios Para Ba§o«Accesorios, Para, Ba§o,40089«True«««True«True«True«2271«SPECIFICATION«32200«Accesorios-Para-Bano«False
+40090«Alfombras De Ba§o«30019«Alfombras De Ba§o«Alfombras De Ba§o«Alfombras, De, Ba§o,40090«True«««True«True«True«2271«SPECIFICATION«32300«Alfombras-De-Bano«False
+40091«Botiquin Primeros Auxilios«30019«Botiquin Primeros Auxilios«Botiquin Primeros Auxilios«Botiquin, Primeros, Auxilios,40091«True«««True«True«True«2271«SPECIFICATION«32400«Botiquin-Primeros-Auxilios«False
+40092«Cortinas De Ba§o«30019«Cortinas De Ba§o«Cortinas De Ba§o«Cortinas, De, Ba§o,40092«True«««True«True«True«2271«SPECIFICATION«32500«Cortinas-De-Bano«False
+40093«Toallas Y Toallones«30019«Toallas Y Toallones«Toallas Y Toallones«Toallas, Y, Toallones,40093«True«««True«True«True«2271«SPECIFICATION«32600«Toallas-Y-Toallones«False
+40094«Accesorios De Cocina«30020«Accesorios De Cocina«Accesorios De Cocina«Accesorios, De, Cocina,40094«True«««True«True«True«2271«SPECIFICATION«33300«Accesorios-De-Cocina«False
+40095«Bandejas Y Copetineros«30020«Bandejas Y Copetineros«Bandejas Y Copetineros«Bandejas, Y, Copetineros,40095«True«««True«True«True«2271«SPECIFICATION«33400«Bandejas-Y-Copetineros«False
+40096«Cuchillas  Y Tablas«30020«Cuchillas  Y Tablas«Cuchillas  Y Tablas«Cuchillas, , Y, Tablas,40096«True«««True«True«True«2271«SPECIFICATION«33500«Cuchillas--Y-Tablas«False
+40097«Descartables«30020«Descartables«Descartables«Descartables,40097«True«««True«True«True«2271«SPECIFICATION«33600«Descartables«False
+40098«Frascos, Tarros Y Latas«30020«Frascos, Tarros Y Latas«Frascos, Tarros Y Latas«Frascos,, Tarros, Y, Latas,40098«True«««True«True«True«2271«SPECIFICATION«33700«Frascos-Tarros-Y-Latas«False
+40099«Hermeticos«30020«Hermeticos«Hermeticos«Hermeticos,40099«True«««True«True«True«2271«SPECIFICATION«33800«Hermeticos«False
+40100«Horno Y Reposteria«30020«Horno Y Reposteria«Horno Y Reposteria«Horno, Y, Reposteria,40100«True«««True«True«True«2271«SPECIFICATION«33900«Horno-Y-Reposteria«False
+40101«Manoplas Y Delantales«30020«Manoplas Y Delantales«Manoplas Y Delantales«Manoplas, Y, Delantales,40101«True«««True«True«True«2271«SPECIFICATION«34000«Manoplas-Y-Delantales«False
+40102«Manteles E Individuales«30020«Manteles E Individuales«Manteles E Individuales«Manteles, E, Individuales,40102«True«««True«True«True«2271«SPECIFICATION«34100«Manteles-E-Individuales«False
+40103«Ollas, Cacerolas Y Sartenes«30020«Ollas, Cacerolas Y Sartenes«Ollas, Cacerolas Y Sartenes«Ollas,, Cacerolas, Y, Sartenes,40103«True«««True«True«True«2271«SPECIFICATION«40103«Ollas-Cacerolas-Y-Sartenes«False
+40104«Ollas,Cacerolas Y Sartenes«30020«Ollas,Cacerolas Y Sartenes«Ollas,Cacerolas Y Sartenes«Ollas,Cacerolas, Y, Sartenes,40104«True«««True«True«True«2271«SPECIFICATION«35000«OllasCacerolas-Y-Sartenes«False
+40105«Pavas, Jarros Y Cafeteras«30020«Pavas, Jarros Y Cafeteras«Pavas, Jarros Y Cafeteras«Pavas,, Jarros, Y, Cafeteras,40105«True«««True«True«True«2271«SPECIFICATION«34400«Pavas-Jarros-Y-Cafeteras«False
+40106«Pavas,Jarros Y Cafeteras«30020«Pavas,Jarros Y Cafeteras«Pavas,Jarros Y Cafeteras«Pavas,Jarros, Y, Cafeteras,40106«True«««True«True«True«2271«SPECIFICATION«34500«PavasJarros-Y-Cafeteras«False
+40107«Repasadores«30020«Repasadores«Repasadores«Repasadores,40107«True«««True«True«True«2271«SPECIFICATION«34600«Repasadores«False
+40108«Termos Y Mates«30020«Termos Y Mates«Termos Y Mates«Termos, Y, Mates,40108«True«««True«True«True«2271«SPECIFICATION«34700«Termos-Y-Mates«False
+40109«Utensilios De Cocina«30020«Utensilios De Cocina«Utensilios De Cocina«Utensilios, De, Cocina,40109«True«««True«True«True«2271«SPECIFICATION«34800«Utensilios-De-Cocina«False
+40110«Vajilla«30020«Vajilla«Vajilla«Vajilla,40110«True«««True«True«True«2271«SPECIFICATION«30700«Vajilla«False
+40111«Cajas Y Baules«30021«Cajas Y Baules«Cajas Y Baules«Cajas, Y, Baules,40111«True«««True«True«True«2271«SPECIFICATION«30800«Cajas-Y-Baules«False
+40112«Ceramicas«30021«Ceramicas«Ceramicas«Ceramicas,40112«True«««True«True«True«2271«SPECIFICATION«30900«Ceramicas«False
+40113«Decoracion Pared«30021«Decoracion Pared«Decoracion Pared«Decoracion, Pared,40113«True«««True«True«True«2271«SPECIFICATION«31000«Decoracion-Pared«False
+40114«Plantas,Flores Y Floreros«30021«Plantas,Flores Y Floreros«Plantas,Flores Y Floreros«Plantas,Flores, Y, Floreros,40114«True«««True«True«True«2271«SPECIFICATION«31100«PlantasFlores-Y-Floreros«False
+40115«Varios Deco«30021«Varios Deco«Varios Deco«Varios, Deco,40115«True«««True«True«True«2271«SPECIFICATION«31200«Varios-Deco«False
+40116«Velas Y Aromaterapia«30021«Velas Y Aromaterapia«Velas Y Aromaterapia«Velas, Y, Aromaterapia,40116«True«««True«True«True«2271«SPECIFICATION«31300«Velas-Y-Aromaterapia«False
+40117«Alfombras Y Felpudos«30022«Alfombras Y Felpudos«Alfombras Y Felpudos«Alfombras, Y, Felpudos,40117«True«««True«True«True«2271«SPECIFICATION«31400«Alfombras-Y-Felpudos«False
+40118«Almohadas Y Almohadones«30022«Almohadas Y Almohadones«Almohadas Y Almohadones«Almohadas, Y, Almohadones,40118«True«««True«True«True«2271«SPECIFICATION«31500«Almohadas-Y-Almohadones«False
+40119«Almohadones Silla«30022«Almohadones Silla«Almohadones Silla«Almohadones, Silla,40119«True«««True«True«True«2271«SPECIFICATION«31600«Almohadones-Silla«False
+40120«Cubrecamas Y Acolchados«30022«Cubrecamas Y Acolchados«Cubrecamas Y Acolchados«Cubrecamas, Y, Acolchados,40120«True«««True«True«True«2271«SPECIFICATION«31700«Cubrecamas-Y-Acolchados«False
+40121«Frazadas Y Mantas«30022«Frazadas Y Mantas«Frazadas Y Mantas«Frazadas, Y, Mantas,40121«True«««True«True«True«2271«SPECIFICATION«31800«Frazadas-Y-Mantas«False
+40122«Sabanas«30022«Sabanas«Sabanas«Sabanas,40122«True«««True«True«True«2271«SPECIFICATION«31900«Sabanas«False
+40123«Camperas«30023«Camperas«Camperas«Camperas,40123«True«««True«True«True«2271«SPECIFICATION«30300«Camperas«False
+40124«Medias Y Ropa Interior«30023«Medias Y Ropa Interior«Medias Y Ropa Interior«Medias, Y, Ropa, Interior,40124«True«««True«True«True«2271«SPECIFICATION«30400«Medias-Y-Ropa-Interior«False
+40125«Remeras«30023«Remeras«Remeras«Remeras,40125«True«««True«True«True«2271«SPECIFICATION«30500«Remeras«False
+40126«Traje De Ba§o«30023«Traje De Ba§o«Traje De Ba§o«Traje, De, Ba§o,40126«True«««True«True«True«2271«SPECIFICATION«30600«Traje-De-Bano«False
+40127«Muebles De Exterior«30024«Muebles De Exterior«Muebles De Exterior«Muebles, De, Exterior,40127«True«««True«True«True«2271«SPECIFICATION«32000«Muebles-De-Exterior«False
+40128«Muebles De Interior«30024«Muebles De Interior«Muebles De Interior«Muebles, De, Interior,40128«True«««True«True«True«2271«SPECIFICATION«32100«Muebles-De-Interior«False
+40129«Bolsas De Compras«30025«Bolsas De Compras«Bolsas De Compras«Bolsas, De, Compras,40129«True«««True«True«True«2271«SPECIFICATION«32800«Bolsas-De-Compras«False
+40130«Carros De Compras«30025«Carros De Compras«Carros De Compras«Carros, De, Compras,40130«True«««True«True«True«2271«SPECIFICATION«32900«Carros-De-Compras«False
+40131«Cestos De Residuos«30025«Cestos De Residuos«Cestos De Residuos«Cestos, De, Residuos,40131«True«««True«True«True«2271«SPECIFICATION«33000«Cestos-De-Residuos«False
+40132«Cestos Y Canastos Para Ropa«30025«Cestos Y Canastos Para Ropa«Cestos Y Canastos Para Ropa«Cestos, Y, Canastos, Para, Ropa,40132«True«««True«True«True«2271«SPECIFICATION«33100«Cestos-Y-Canastos-Para-Ropa«False
+40133«Lavarropas Y Planchado«30025«Lavarropas Y Planchado«Lavarropas Y Planchado«Lavarropas, Y, Planchado,40133«True«««True«True«True«2271«SPECIFICATION«33200«Lavarropas-Y-Planchado«False
+40134«Organizacion Hogar«30025«Organizacion Hogar«Organizacion Hogar«Organizacion, Hogar,40134«True«««True«True«True«2271«SPECIFICATION«32700«Organizacion-Hogar«False
+40135«Plastica«30026«Plastica«Plastica«Plastica,40135«True«««True«True«True«2271«SPECIFICATION«30100«Plastica«False
+40136«Tela«30026«Tela«Tela«Tela,40136«True«««True«True«True«2271«SPECIFICATION«30200«Tela«False
+40137«Cochecitos De Bebe«30027«Cochecitos De Bebe«Cochecitos De Bebe«Cochecitos, De, Bebe,40137«True«««True«True«True«2271«SPECIFICATION«38400«Cochecitos-De-Bebe«False
+40138«Cereal Infantil«30028«Cereal Infantil«Cereal Infantil«Cereal, Infantil,40138«True«««True«True«True«2271«SPECIFICATION«39400«Cereal-Infantil«False
+40139«Leches Infantiles«30028«Leches Infantiles«Leches Infantiles«Leches, Infantiles,40139«True«««True«True«True«2271«SPECIFICATION«39700«Leches-Infantiles«False
+40140«Accesorios Bebes«30029«Accesorios Bebes«Accesorios Bebes«Accesorios, Bebes,40140«True«««True«True«True«2271«SPECIFICATION«38800«Accesorios-Bebes«False
+40141«Acondicionador Para Bebe«30029«Acondicionador Para Bebe«Acondicionador Para Bebe«Acondicionador, Para, Bebe,40141«True«««True«True«True«2271«SPECIFICATION«39200«Acondicionador-Para-Bebe«False
+40142«Apositos Y Protectores Mamarios«30029«Apositos Y Protectores Mamarios«Apositos Y Protectores Mamarios«Apositos, Y, Protectores, Mamarios,40142«True«««True«True«True«2271«SPECIFICATION«38700«Apositos-Y-Protectores-Mamarios«False
+40143«Chupetes Y Mamaderas«30029«Chupetes Y Mamaderas«Chupetes Y Mamaderas«Chupetes, Y, Mamaderas,40143«True«««True«True«True«2271«SPECIFICATION«38600«Chupetes-Y-Mamaderas«False
+40144«Colonias Bebe«30029«Colonias Bebe«Colonias Bebe«Colonias, Bebe,40144«True«««True«True«True«2271«SPECIFICATION«38500«Colonias-Bebe«False
+40145«Cremas Y Aceites De Bebe«30029«Cremas Y Aceites De Bebe«Cremas Y Aceites De Bebe«Cremas, Y, Aceites, De, Bebe,40145«True«««True«True«True«2271«SPECIFICATION«39000«Cremas-Y-Aceites-De-Bebe«False
+40146«Hisopos«30029«Hisopos«Hisopos«Hisopos,40146«True«««True«True«True«2271«SPECIFICATION«38900«Hisopos«False
+40147«Jabones«30029«Jabones«Jabones«Jabones,40147«True«««True«True«True«2271«SPECIFICATION«39100«Jabones«False
+40148«Oleo Calcareo«30029«Oleo Calcareo«Oleo Calcareo«Oleo, Calcareo,40148«True«««True«True«True«2271«SPECIFICATION«39600«Oleo-Calcareo«False
+40149«Shampoo Para Bebe«30029«Shampoo Para Bebe«Shampoo Para Bebe«Shampoo, Para, Bebe,40149«True«««True«True«True«2271«SPECIFICATION«39300«Shampoo-Para-Bebe«False
+40150«Talcos Y FÇcula«30029«Talcos Y FÇcula«Talcos Y FÇcula«Talcos, Y, FÇcula,40150«True«««True«True«True«2271«SPECIFICATION«39500«Talcos-Y-Fecula«False
+40151«Autos Y Vehiculos«30030«Autos Y Vehiculos«Autos Y Vehiculos«Autos, Y, Vehiculos,40151«True«««True«True«True«2271«SPECIFICATION«1«Autos-Y-Vehiculos«False
+40152«Autos Y Veh°culos«30030«Autos Y Veh°culos«Autos Y Veh°culos«Autos, Y, Veh°culos,40152«True«««True«True«True«2271«SPECIFICATION«1«Autos-Y-Vehiculos«False
+40153«Juegos De Mesa«30030«Juegos De Mesa«Juegos De Mesa«Juegos, De, Mesa,40153«True«««True«True«True«2271«SPECIFICATION«1«Juegos-De-Mesa«False
+40154«Juegos De Rol«30030«Juegos De Rol«Juegos De Rol«Juegos, De, Rol,40154«True«««True«True«True«2271«SPECIFICATION«1«Juegos-De-Rol«False
+40155«Juegos De Sal¢n«30030«Juegos De Sal¢n«Juegos De Sal¢n«Juegos, De, Sal¢n,40155«True«««True«True«True«2271«SPECIFICATION«1«Juegos-De-Salon«False
+40156«Jueguetes«30030«Jueguetes«Jueguetes«Jueguetes,40156«True«««True«True«True«2271«SPECIFICATION«1«Jueguetes«False
+40157«Juguetes«30030«Juguetes«Juguetes«Juguetes,40157«True«««True«True«True«2271«SPECIFICATION«1«Juguetes«False
+40158«Mesas Y Sillas Infantiles«30030«Mesas Y Sillas Infantiles«Mesas Y Sillas Infantiles«Mesas, Y, Sillas, Infantiles,40158«True«««True«True«True«2271«SPECIFICATION«1«Mesas-Y-Sillas-Infantiles«False
+40159«Mu§ecos Y Mu§ecas«30030«Mu§ecos Y Mu§ecas«Mu§ecos Y Mu§ecas«Mu§ecos, Y, Mu§ecas,40159«True«««True«True«True«2271«SPECIFICATION«1«Munecos-Y-Munecas«False
+40160«Peluches«30030«Peluches«Peluches«Peluches,40160«True«««True«True«True«2271«SPECIFICATION«1«Peluches«False
+40161«Primera Infancia«30030«Primera Infancia«Primera Infancia«Primera, Infancia,40161«True«««True«True«True«2271«SPECIFICATION«1«Primera-Infancia«False
+40162«Vehiculos Infantiles«30030«Vehiculos Infantiles«Vehiculos Infantiles«Vehiculos, Infantiles,40162«True«««True«True«True«2271«SPECIFICATION«1«Vehiculos-Infantiles«False
+40163«Adhesivos Libreria«30031«Adhesivos Libreria«Adhesivos Libreria«Adhesivos, Libreria,40163«True«««True«True«True«2271«SPECIFICATION«1«Adhesivos-Libreria«False
+40164«Cuadernos Y Carpetas«30031«Cuadernos Y Carpetas«Cuadernos Y Carpetas«Cuadernos, Y, Carpetas,40164«True«««True«True«True«2271«SPECIFICATION«1«Cuadernos-Y-Carpetas«False
+40165«Elementos Escolares«30031«Elementos Escolares«Elementos Escolares«Elementos, Escolares,40165«True«««True«True«True«2271«SPECIFICATION«1«Elementos-Escolares«False
+40166«Escritura«30031«Escritura«Escritura«Escritura,40166«True«««True«True«True«2271«SPECIFICATION«1«Escritura«False
+40167«Mochilas Y Cartucheras«30031«Mochilas Y Cartucheras«Mochilas Y Cartucheras«Mochilas, Y, Cartucheras,40167«True«««True«True«True«2271«SPECIFICATION«1«Mochilas-Y-Cartucheras«False
+40168«Papeleria«30031«Papeleria«Papeleria«Papeleria,40168«True«««True«True«True«2271«SPECIFICATION«1«Papeleria«False
+40169«Pa§ales De Bebe«30032«Pa§ales De Bebe«Pa§ales De Bebe«Pa§ales, De, Bebe,40169«True«««True«True«True«2271«SPECIFICATION«39900«Panales-De-Bebe«False
+40170«Toallas Humedas«30032«Toallas Humedas«Toallas Humedas«Toallas, Humedas,40170«True«««True«True«True«2271«SPECIFICATION«39800«Toallas-Humedas«False
+40171«Aperitivos«30033«Aperitivos«Aperitivos«Aperitivos,40171«True«««True«True«True«2271«SPECIFICATION«39400«Aperitivos«False
+40172«Bebidas Blancas«30033«Bebidas Blancas«Bebidas Blancas«Bebidas, Blancas,40172«True«««True«True«True«2271«SPECIFICATION«39300«Bebidas-Blancas«False
+40173«Cervezas«30033«Cervezas«Cervezas«Cervezas,40173«True«««True«True«True«2271«SPECIFICATION«39700«Cervezas«False
+40174«Champagne«30033«Champagne«Champagne«Champagne,40174«True«««True«True«True«2271«SPECIFICATION«39000«Champagne«False
+40175«Licores«30033«Licores«Licores«Licores,40175«True«««True«True«True«2271«SPECIFICATION«38700«Licores«False
+40176«Sidras«30033«Sidras«Sidras«Sidras,40176«True«««True«True«True«2271«SPECIFICATION«38900«Sidras«False
+40177«Vinos«30033«Vinos«Vinos«Vinos,40177«True«««True«True«True«2271«SPECIFICATION«39600«Vinos«False
+40178«Whisky«30033«Whisky«Whisky«Whisky,40178«True«««True«True«True«2271«SPECIFICATION«38600«Whisky«False
+40179«Aguas Y Sodas«30034«Aguas Y Sodas«Aguas Y Sodas«Aguas, Y, Sodas,40179«True«««True«True«True«2271«SPECIFICATION«39900«Aguas-Y-Sodas«False
+40180«Amargos«30034«Amargos«Amargos«Amargos,40180«True«««True«True«True«2271«SPECIFICATION«39200«Amargos«False
+40181«Energizantes«30034«Energizantes«Energizantes«Energizantes,40181«True«««True«True«True«2271«SPECIFICATION«39100«Energizantes«False
+40182«Gaseosas«30034«Gaseosas«Gaseosas«Gaseosas,40182«True«««True«True«True«2271«SPECIFICATION«39800«Gaseosas«False
+40183«Isotonicas«30034«Isotonicas«Isotonicas«Isotonicas,40183«True«««True«True«True«2271«SPECIFICATION«30000«Isotonicas«False
+40184«Jugos De Fruta«30034«Jugos De Fruta«Jugos De Fruta«Jugos, De, Fruta,40184«True«««True«True«True«2271«SPECIFICATION«39500«Jugos-De-Fruta«False
+40185«Sidras Sin Alcohol«30034«Sidras Sin Alcohol«Sidras Sin Alcohol«Sidras, Sin, Alcohol,40185«True«««True«True«True«2271«SPECIFICATION«38800«Sidras-Sin-Alcohol«False
+40201«Celulares«30037«Celulares«Celulares«Celulares,40201«True«««True«True«True«2271«SPECIFICATION«35000«Celulares«False
+40202«Aires Acondicionados«30038«Aires Acondicionados«Aires Acondicionados«Aires, Acondicionados,40202«True«««True«True«True«2271«SPECIFICATION«39700«Aires-Acondicionados«False
+40203«Calefacci¢n«30038«Calefacci¢n«Calefacci¢n«Calefacci¢n,40203«True«««True«True«True«2271«SPECIFICATION«39600«Calefaccion«False
+40204«Ventilacion«30038«Ventilacion«Ventilacion«Ventilacion,40204«True«««True«True«True«2271«SPECIFICATION«39000«Ventilacion«False
+40205«Afeitadoras«30039«Afeitadoras«Afeitadoras«Afeitadoras,40205«True«««True«True«True«2271«SPECIFICATION«39100«Afeitadoras«False
+40206«Balanzas«30039«Balanzas«Balanzas«Balanzas,40206«True«««True«True«True«2271«SPECIFICATION«35100«Balanzas«False
+40207«Cortadores De Cabello«30039«Cortadores De Cabello«Cortadores De Cabello«Cortadores, De, Cabello,40207«True«««True«True«True«2271«SPECIFICATION«35200«Cortadores-De-Cabello«False
+40208«Humidificadores«30039«Humidificadores«Humidificadores«Humidificadores,40208«True«««True«True«True«2271«SPECIFICATION«35300«Humidificadores«False
+40209«Planchitas Y Rizadores«30039«Planchitas Y Rizadores«Planchitas Y Rizadores«Planchitas, Y, Rizadores,40209«True«««True«True«True«2271«SPECIFICATION«39200«Planchitas-Y-Rizadores«False
+40210«Secadores«30039«Secadores«Secadores«Secadores,40210«True«««True«True«True«2271«SPECIFICATION«35400«Secadores«False
+40211«Termometros«30039«Termometros«Termometros«Termometros,40211«True«««True«True«True«2271«SPECIFICATION«35500«Termometros«False
+40212«Anafe«30040«Anafe«Anafe«Anafe,40212«True«««True«True«True«2271«SPECIFICATION«35600«Anafe«False
+40213«Cocina«30040«Cocina«Cocina«Cocina,40213«True«««True«True«True«2271«SPECIFICATION«35700«Cocina«False
+40214«Freezers«30040«Freezers«Freezers«Freezers,40214«True«««True«True«True«2271«SPECIFICATION«35800«Freezers«False
+40215«Heladeras«30040«Heladeras«Heladeras«Heladeras,40215«True«««True«True«True«2271«SPECIFICATION«35900«Heladeras«False
+40216«Lavarropas«30040«Lavarropas«Lavarropas«Lavarropas,40216«True«««True«True«True«2271«SPECIFICATION«36000«Lavarropas«False
+40217«Lavavajillas«30040«Lavavajillas«Lavavajillas«Lavavajillas,40217«True«««True«True«True«2271«SPECIFICATION«36100«Lavavajillas«False
+40218«Secarropas«30040«Secarropas«Secarropas«Secarropas,40218«True«««True«True«True«2271«SPECIFICATION«36200«Secarropas«False
+40219«Cargadores«30041«Cargadores«Cargadores«Cargadores,40219«True«««True«True«True«2271«SPECIFICATION«36300«Cargadores«False
+40220«Computadoras«30041«Computadoras«Computadoras«Computadoras,40220«True«««True«True«True«2271«SPECIFICATION«36400«Computadoras«False
+40221«Mouse«30041«Mouse«Mouse«Mouse,40221«True«««True«True«True«2271«SPECIFICATION«36500«Mouse«False
+40222«Parlantes«30041«Parlantes«Parlantes«Parlantes,40222«True«««True«True«True«2271«SPECIFICATION«36600«Parlantes«False
+40223«Tablets«30041«Tablets«Tablets«Tablets,40223«True«««True«True«True«2271«SPECIFICATION«36700«Tablets«False
+40224«Teclados«30041«Teclados«Teclados«Teclados,40224«True«««True«True«True«2271«SPECIFICATION«36800«Teclados«False
+40225«Tripodes«30041«Tripodes«Tripodes«Tripodes,40225«True«««True«True«True«2271«SPECIFICATION«36900«Tripodes«False
+40226«Aspiradoras«30042«Aspiradoras«Aspiradoras«Aspiradoras,40226«True«««True«True«True«2271«SPECIFICATION«37000«Aspiradoras«False
+40227«Batidoras«30042«Batidoras«Batidoras«Batidoras,40227«True«««True«True«True«2271«SPECIFICATION«37100«Batidoras«False
+40228«Cafeteras«30042«Cafeteras«Cafeteras«Cafeteras,40228«True«««True«True«True«2271«SPECIFICATION«37200«Cafeteras«False
+40229«Cortadoras De Fiambre«30042«Cortadoras De Fiambre«Cortadoras De Fiambre«Cortadoras, De, Fiambre,40229«True«««True«True«True«2271«SPECIFICATION«37300«Cortadoras-De-Fiambre«False
+40230«Exprimidores«30042«Exprimidores«Exprimidores«Exprimidores,40230«True«««True«True«True«2271«SPECIFICATION«37400«Exprimidores«False
+40231«Freidoras«30042«Freidoras«Freidoras«Freidoras,40231«True«««True«True«True«2271«SPECIFICATION«37500«Freidoras«False
+40232«Hornitos Electricos«30042«Hornitos Electricos«Hornitos Electricos«Hornitos, Electricos,40232«True«««True«True«True«2271«SPECIFICATION«37600«Hornitos-Electricos«False
+40233«Horno De Pan«30042«Horno De Pan«Horno De Pan«Horno, De, Pan,40233«True«««True«True«True«2271«SPECIFICATION«37700«Horno-De-Pan«False
+40234«Jugueras«30042«Jugueras«Jugueras«Jugueras,40234«True«««True«True«True«2271«SPECIFICATION«37800«Jugueras«False
+40235«Licuadoras«30042«Licuadoras«Licuadoras«Licuadoras,40235«True«««True«True«True«2271«SPECIFICATION«37900«Licuadoras«False
+40236«Microondas«30042«Microondas«Microondas«Microondas,40236«True«««True«True«True«2271«SPECIFICATION«38000«Microondas«False
+40237«Mixer«30042«Mixer«Mixer«Mixer,40237«True«««True«True«True«2271«SPECIFICATION«38100«Mixer«False
+40238«Multiprocesadoras«30042«Multiprocesadoras«Multiprocesadoras«Multiprocesadoras,40238«True«««True«True«True«2271«SPECIFICATION«38200«Multiprocesadoras«False
+40239«Pavas Electricas«30042«Pavas Electricas«Pavas Electricas«Pavas, Electricas,40239«True«««True«True«True«2271«SPECIFICATION«39500«Pavas-Electricas«False
+40240«Picadoras«30042«Picadoras«Picadoras«Picadoras,40240«True«««True«True«True«2271«SPECIFICATION«38300«Picadoras«False
+40241«Planchas«30042«Planchas«Planchas«Planchas,40241«True«««True«True«True«2271«SPECIFICATION«39400«Planchas«False
+40242«Ralladores Electricos«30042«Ralladores Electricos«Ralladores Electricos«Ralladores, Electricos,40242«True«««True«True«True«2271«SPECIFICATION«38400«Ralladores-Electricos«False
+40243«Sandwicheras«30042«Sandwicheras«Sandwicheras«Sandwicheras,40243«True«««True«True«True«2271«SPECIFICATION«38500«Sandwicheras«False
+40244«Sartenes Electricas«30042«Sartenes Electricas«Sartenes Electricas«Sartenes, Electricas,40244«True«««True«True«True«2271«SPECIFICATION«38600«Sartenes-Electricas«False
+40245«Tostadoras«30042«Tostadoras«Tostadoras«Tostadoras,40245«True«««True«True«True«2271«SPECIFICATION«38700«Tostadoras«False
+40246«Vaporieras«30042«Vaporieras«Vaporieras«Vaporieras,40246«True«««True«True«True«2271«SPECIFICATION«38800«Vaporieras«False
+40247«Termotanque«30043«Termotanque«Termotanque«Termotanque,40247«True«««True«True«True«2271«SPECIFICATION«38900«Termotanque«False
+40248«Audio«30044«Audio«Audio«Audio,40248«True«««True«True«True«2271«SPECIFICATION«39300«Audio«False
+40249«Soportes De Tv«30044«Soportes De Tv«Soportes De Tv«Soportes, De, Tv,40249«True«««True«True«True«2271«SPECIFICATION«39800«Soportes-De-Tv«False
+40250«Televisores«30044«Televisores«Televisores«Televisores,40250«True«««True«True«True«2271«SPECIFICATION«39900«Televisores«False
+40264«Adornos De Navidad«30049«Adornos De Navidad«Adornos De Navidad«Adornos, De, Navidad,40264«True«««True«True«True«2271«SPECIFICATION«40264«Adornos-De-Navidad«False
+40270«Pascuas«30049«Pascuas«Pascuas«Pascuas,40270«True«««True«True«True«2271«SPECIFICATION«40270«Pascuas«False
+40284«Quesos Rallados«30007«Quesos Rallados«Quesos Rallados«Quesos, Rallados,40284«True«««False«True«True«2271«SPECIFICATION«40284«Quesos-Rallados«False
+40298«Carnaval Y Cotillon«30056«Carnaval Y Cotillon«Carnaval Y Cotillon«Carnaval, Y, Cotillon,40298«True«««True«True«True«2271«SPECIFICATION«40298«Carnaval-Y-Cotillon«False
+40299«Alfajores«30057«Alfajores«Alfajores«Alfajores,40299«True«««True«True«True«2271«SPECIFICATION«39800«Alfajores«False
+40300«Chocolates«30057«Chocolates«Chocolates«Chocolates,40300«True«««True«True«True«2271«SPECIFICATION«39900«Chocolates«False
+40301«Cigarrillos«30058«Cigarrillos«Cigarrillos«Cigarrillos,40301«True«««True«True«True«2271«SPECIFICATION«40301«Cigarrillos«False
+40302«Caramelos«30059«Caramelos«Caramelos«Caramelos,40302«True«««True«True«True«2271«SPECIFICATION«39500«Caramelos«False
+40303«Chicles«30059«Chicles«Chicles«Chicles,40303«True«««True«True«True«2271«SPECIFICATION«39700«Chicles«False
+40304«Chupetines«30059«Chupetines«Chupetines«Chupetines,40304«True«««True«True«True«2271«SPECIFICATION«39000«Chupetines«False
+40305«Gomitas«30059«Gomitas«Gomitas«Gomitas,40305«True«««True«True«True«2271«SPECIFICATION«39100«Gomitas«False
+40306«Malvaviscos«30059«Malvaviscos«Malvaviscos«Malvaviscos,40306«True«««True«True«True«2271«SPECIFICATION«39200«Malvaviscos«False
+40307«Masticables«30059«Masticables«Masticables«Masticables,40307«True«««True«True«True«2271«SPECIFICATION«39300«Masticables«False
+40308«Obleas Y Galletitas Ba§adas«30059«Obleas Y Galletitas Ba§adas«Obleas Y Galletitas Ba§adas«Obleas, Y, Galletitas, Ba§adas,40308«True«««True«True«True«2271«SPECIFICATION«39600«Obleas-Y-Galletitas-Banadas«False
+40309«Pastillas«30059«Pastillas«Pastillas«Pastillas,40309«True«««True«True«True«2271«SPECIFICATION«39400«Pastillas«False
+40310«Baldes Y Mopas«30060«Baldes Y Mopas«Baldes Y Mopas«Baldes, Y, Mopas,40310«True«««True«True«True«2271«SPECIFICATION«37300«Baldes-Y-Mopas«False
+40311«Bolsas«30060«Bolsas«Bolsas«Bolsas,40311«True«««True«True«True«2271«SPECIFICATION«38500«Bolsas«False
+40312«Broches Y Sopapas«30060«Broches Y Sopapas«Broches Y Sopapas«Broches, Y, Sopapas,40312«True«««True«True«True«2271«SPECIFICATION«34100«Broches-Y-Sopapas«False
+40313«Cabos«30060«Cabos«Cabos«Cabos,40313«True«««True«True«True«2271«SPECIFICATION«34200«Cabos«False
+40314«Cepillos, Esponjas Y Guantes«30060«Cepillos, Esponjas Y Guantes«Cepillos, Esponjas Y Guantes«Cepillos,, Esponjas, Y, Guantes,40314«True«««True«True«True«2271«SPECIFICATION«39000«Cepillos-Esponjas-Y-Guantes«False
+40315«Escobas Y Palas«30060«Escobas Y Palas«Escobas Y Palas«Escobas, Y, Palas,40315«True«««True«True«True«2271«SPECIFICATION«36700«Escobas-Y-Palas«False
+40316«Secadores Y Limpiavidrios«30060«Secadores Y Limpiavidrios«Secadores Y Limpiavidrios«Secadores, Y, Limpiavidrios,40316«True«««True«True«True«2271«SPECIFICATION«37600«Secadores-Y-Limpiavidrios«False
+40317«Trapos«30060«Trapos«Trapos«Trapos,40317«True«««True«True«True«2271«SPECIFICATION«38000«Trapos«False
+40318«Aprestos«30061«Aprestos«Aprestos«Aprestos,40318«True«««True«True«True«2271«SPECIFICATION«39300«Aprestos«False
+40319«Jabones Para La Ropa«30061«Jabones Para La Ropa«Jabones Para La Ropa«Jabones, Para, La, Ropa,40319«True«««True«True«True«2271«SPECIFICATION«39700«Jabones-Para-La-Ropa«False
+40320«Perfumantes«30061«Perfumantes«Perfumantes«Perfumantes,40320«True«««True«True«True«2271«SPECIFICATION«39500«Perfumantes«False
+40321«Quitamanchas«30061«Quitamanchas«Quitamanchas«Quitamanchas,40321«True«««True«True«True«2271«SPECIFICATION«39400«Quitamanchas«False
+40322«Suavizantes«30061«Suavizantes«Suavizantes«Suavizantes,40322«True«««True«True«True«2271«SPECIFICATION«39600«Suavizantes«False
+40323«Accesorios Calzado«30062«Accesorios Calzado«Accesorios Calzado«Accesorios, Calzado,40323«True«««True«True«True«2271«SPECIFICATION«34300«Accesorios-Calzado«False
+40324«Autobrillos«30062«Autobrillos«Autobrillos«Autobrillos,40324«True«««True«True«True«2271«SPECIFICATION«34400«Autobrillos«False
+40325«Cremas Para Calzado«30062«Cremas Para Calzado«Cremas Para Calzado«Cremas, Para, Calzado,40325«True«««True«True«True«2271«SPECIFICATION«34500«Cremas-Para-Calzado«False
+40326«Lavazapatillas«30062«Lavazapatillas«Lavazapatillas«Lavazapatillas,40326«True«««True«True«True«2271«SPECIFICATION«34600«Lavazapatillas«False
+40327«Limpiadores De Gamuza«30062«Limpiadores De Gamuza«Limpiadores De Gamuza«Limpiadores, De, Gamuza,40327«True«««True«True«True«2271«SPECIFICATION«34700«Limpiadores-De-Gamuza«False
+40328«Pomadas«30062«Pomadas«Pomadas«Pomadas,40328«True«««True«True«True«2271«SPECIFICATION«34800«Pomadas«False
+40329«Revividores«30062«Revividores«Revividores«Revividores,40329«True«««True«True«True«2271«SPECIFICATION«34900«Revividores«False
+40330«Tintas«30062«Tintas«Tintas«Tintas,40330«True«««True«True«True«2271«SPECIFICATION«35000«Tintas«False
+40331«Antihumedad«30063«Antihumedad«Antihumedad«Antihumedad,40331«True«««True«True«True«2271«SPECIFICATION«38200«Antihumedad«False
+40332«Aromatizantes«30063«Aromatizantes«Aromatizantes«Aromatizantes,40332«True«««True«True«True«2271«SPECIFICATION«38400«Aromatizantes«False
+40333«Concentrados«30063«Concentrados«Concentrados«Concentrados,40333«True«««True«True«True«2271«SPECIFICATION«38300«Concentrados«False
+40334«Desinfectantes«30063«Desinfectantes«Desinfectantes«Desinfectantes,40334«True«««True«True«True«2271«SPECIFICATION«38100«Desinfectantes«False
+40335«Encendedores«30064«Encendedores«Encendedores«Encendedores,40335«True«««True«True«True«2271«SPECIFICATION«35100«Encendedores«False
+40336«Filtros De Cafe«30064«Filtros De Cafe«Filtros De Cafe«Filtros, De, Cafe,40336«True«««True«True«True«2271«SPECIFICATION«35200«Filtros-De-Cafe«False
+40337«Fosforos«30064«Fosforos«Fosforos«Fosforos,40337«True«««True«True«True«2271«SPECIFICATION«35300«Fosforos«False
+40338«Palillos«30064«Palillos«Palillos«Palillos,40338«True«««True«True«True«2271«SPECIFICATION«35400«Palillos«False
+40339«Velas«30064«Velas«Velas«Velas,40339«True«««True«True«True«2271«SPECIFICATION«35500«Velas«False
+40340«Casa Y Jardin«30065«Casa Y Jardin«Casa Y Jardin«Casa, Y, Jardin,40340«True«««True«True«True«2271«SPECIFICATION«35600«Casa-Y-Jardin«False
+40341«Cucarachas«30065«Cucarachas«Cucarachas«Cucarachas,40341«True«««True«True«True«2271«SPECIFICATION«35700«Cucarachas«False
+40342«Hormigas«30065«Hormigas«Hormigas«Hormigas,40342«True«««True«True«True«2271«SPECIFICATION«35800«Hormigas«False
+40343«Moscas Y Mosquitos«30065«Moscas Y Mosquitos«Moscas Y Mosquitos«Moscas, Y, Mosquitos,40343«True«««True«True«True«2271«SPECIFICATION«35900«Moscas-Y-Mosquitos«False
+40344«Polillas«30065«Polillas«Polillas«Polillas,40344«True«««True«True«True«2271«SPECIFICATION«36000«Polillas«False
+40345«Pulgas«30065«Pulgas«Pulgas«Pulgas,40345«True«««True«True«True«2271«SPECIFICATION«36100«Pulgas«False
+40346«Repelentes«30065«Repelentes«Repelentes«Repelentes,40346«True«««True«True«True«2271«SPECIFICATION«36200«Repelentes«False
+40347«Lavandinas En Gel«30066«Lavandinas En Gel«Lavandinas En Gel«Lavandinas, En, Gel,40347«True«««True«True«True«2271«SPECIFICATION«39900«Lavandinas-En-Gel«False
+40348«Lavandinas Liquidas«30066«Lavandinas Liquidas«Lavandinas Liquidas«Lavandinas, Liquidas,40348«True«««True«True«True«2271«SPECIFICATION«39800«Lavandinas-Liquidas«False
+40349«Desinfectantes De Ba§o«30067«Desinfectantes De Ba§o«Desinfectantes De Ba§o«Desinfectantes, De, Ba§o,40349«True«««True«True«True«2271«SPECIFICATION«37900«Desinfectantes-De-Bano«False
+40350«Limpieza De Inodoro«30067«Limpieza De Inodoro«Limpieza De Inodoro«Limpieza, De, Inodoro,40350«True«««True«True«True«2271«SPECIFICATION«37800«Limpieza-De-Inodoro«False
+40351«Destapaca§erias«30068«Destapaca§erias«Destapaca§erias«Destapaca§erias,40351«True«««True«True«True«2271«SPECIFICATION«38900«Destapacanerias«False
+40352«Detergentes«30068«Detergentes«Detergentes«Detergentes,40352«True«««True«True«True«2271«SPECIFICATION«39200«Detergentes«False
+40353«Limpiadores De Cocina«30068«Limpiadores De Cocina«Limpiadores De Cocina«Limpiadores, De, Cocina,40353«True«««True«True«True«2271«SPECIFICATION«39100«Limpiadores-De-Cocina«False
+40354«Ceras Y Autobrillos«30069«Ceras Y Autobrillos«Ceras Y Autobrillos«Ceras, Y, Autobrillos,40354«True«««True«True«True«2271«SPECIFICATION«36800«Ceras-Y-Autobrillos«False
+40355«Limpia Metales«30069«Limpia Metales«Limpia Metales«Limpia, Metales,40355«True«««True«True«True«2271«SPECIFICATION«36900«Limpia-Metales«False
+40356«Limpia Vidrios Y Multiusos«30069«Limpia Vidrios Y Multiusos«Limpia Vidrios Y Multiusos«Limpia, Vidrios, Y, Multiusos,40356«True«««True«True«True«2271«SPECIFICATION«37500«Limpia-Vidrios-Y-Multiusos«False
+40357«Limpiadores Cremosos«30069«Limpiadores Cremosos«Limpiadores Cremosos«Limpiadores, Cremosos,40357«True«««True«True«True«2271«SPECIFICATION«37700«Limpiadores-Cremosos«False
+40358«Limpiadores De Piso«30069«Limpiadores De Piso«Limpiadores De Piso«Limpiadores, De, Piso,40358«True«««True«True«True«2271«SPECIFICATION«37400«Limpiadores-De-Piso«False
+40359«Lustramuebles«30069«Lustramuebles«Lustramuebles«Lustramuebles,40359«True«««True«True«True«2271«SPECIFICATION«37200«Lustramuebles«False
+40360«Superficies Delicadas«30069«Superficies Delicadas«Superficies Delicadas«Superficies, Delicadas,40360«True«««True«True«True«2271«SPECIFICATION«37100«Superficies-Delicadas«False
+40361«Toalla Desinfectante«30069«Toalla Desinfectante«Toalla Desinfectante«Toalla, Desinfectante,40361«True«««True«True«True«2271«SPECIFICATION«37000«Toalla-Desinfectante«False
+40362«Pa§uelos Descartables«30070«Pa§uelos Descartables«Pa§uelos Descartables«Pa§uelos, Descartables,40362«True«««True«True«True«2271«SPECIFICATION«36300«Panuelos-Descartables«False
+40363«Papel Aluminio«30070«Papel Aluminio«Papel Aluminio«Papel, Aluminio,40363«True«««True«True«True«2271«SPECIFICATION«36400«Papel-Aluminio«False
+40364«Papel Film«30070«Papel Film«Papel Film«Papel, Film,40364«True«««True«True«True«2271«SPECIFICATION«36500«Papel-Film«False
+40365«Papel Higienico«30070«Papel Higienico«Papel Higienico«Papel, Higienico,40365«True«««True«True«True«2271«SPECIFICATION«38800«Papel-Higienico«False
+40366«Papel Manteca«30070«Papel Manteca«Papel Manteca«Papel, Manteca,40366«True«««True«True«True«2271«SPECIFICATION«36600«Papel-Manteca«False
+40367«Rollos De Cocina«30070«Rollos De Cocina«Rollos De Cocina«Rollos, De, Cocina,40367«True«««True«True«True«2271«SPECIFICATION«38700«Rollos-De-Cocina«False
+40368«Servilletas De Papel«30070«Servilletas De Papel«Servilletas De Papel«Servilletas, De, Papel,40368«True«««True«True«True«2271«SPECIFICATION«38600«Servilletas-De-Papel«False
+40369«Comederos«30071«Comederos«Comederos«Comederos,40369«True«««True«True«True«2271«SPECIFICATION«35600«Comederos«False
+40370«Paseo Y Recreacion«30071«Paseo Y Recreacion«Paseo Y Recreacion«Paseo, Y, Recreacion,40370«True«««True«True«True«2271«SPECIFICATION«35700«Paseo-Y-Recreacion«False
+40371«Piedras Sanitarias«30071«Piedras Sanitarias«Piedras Sanitarias«Piedras, Sanitarias,40371«True«««True«True«True«2271«SPECIFICATION«35800«Piedras-Sanitarias«False
+40372«Alimento  Para Perro«30072«Alimento  Para Perro«Alimento  Para Perro«Alimento, , Para, Perro,40372«True«««True«True«True«2271«SPECIFICATION«35900«Alimento--Para-Perro«False
+40373«Alimento Para Gato«30072«Alimento Para Gato«Alimento Para Gato«Alimento, Para, Gato,40373«True«««True«True«True«2271«SPECIFICATION«36000«Alimento-Para-Gato«False
+40374«Bodysplash«30073«Bodysplash«Bodysplash«Bodysplash,40374«True«««True«True«True«2271«SPECIFICATION«36800«Bodysplash«False
+40375«Colonias«30073«Colonias«Colonias«Colonias,40375«True«««True«True«True«2271«SPECIFICATION«37000«Colonias«False
+40376«Perfumes«30073«Perfumes«Perfumes«Perfumes,40376«True«««True«True«True«2271«SPECIFICATION«37100«Perfumes«False
+40377«Accesorios De Belleza«30074«Accesorios De Belleza«Accesorios De Belleza«Accesorios, De, Belleza,40377«True«««True«True«True«2271«SPECIFICATION«36300«Accesorios-De-Belleza«False
+40378«Cuidado De U§as«30074«Cuidado De U§as«Cuidado De U§as«Cuidado, De, U§as,40378«True«««True«True«True«2271«SPECIFICATION«37200«Cuidado-De-Unas«False
+40379«Maquillaje«30074«Maquillaje«Maquillaje«Maquillaje,40379«True«««True«True«True«2271«SPECIFICATION«36700«Maquillaje«False
+40380«Cremas Corporales«30075«Cremas Corporales«Cremas Corporales«Cremas, Corporales,40380«True«««True«True«True«2271«SPECIFICATION«37800«Cremas-Corporales«False
+40381«Cremas Faciales«30075«Cremas Faciales«Cremas Faciales«Cremas, Faciales,40381«True«««True«True«True«2271«SPECIFICATION«37700«Cremas-Faciales«False
+40382«Proteccion Solar«30075«Proteccion Solar«Proteccion Solar«Proteccion, Solar,40382«True«««True«True«True«2271«SPECIFICATION«37600«Proteccion-Solar«False
+40383«Pa§ales Para Adulto«30076«Pa§ales Para Adulto«Pa§ales Para Adulto«Pa§ales, Para, Adulto,40383«True«««True«True«True«2271«SPECIFICATION«37500«Panales-Para-Adulto«False
+40384«Ropa Interior«30076«Ropa Interior«Ropa Interior«Ropa, Interior,40384«True«««True«True«True«2271«SPECIFICATION«37300«Ropa-Interior«False
+40385«Toallas Incontinencia«30076«Toallas Incontinencia«Toallas Incontinencia«Toallas, Incontinencia,40385«True«««True«True«True«2271«SPECIFICATION«37400«Toallas-Incontinencia«False
+40386«Acondicionador«30077«Acondicionador«Acondicionador«Acondicionador,40386«True«««True«True«True«2271«SPECIFICATION«39800«Acondicionador«False
+40387«Coloracion«30077«Coloracion«Coloracion«Coloracion,40387«True«««True«True«True«2271«SPECIFICATION«39700«Coloracion«False
+40388«Geles Y Fijadores«30077«Geles Y Fijadores«Geles Y Fijadores«Geles, Y, Fijadores,40388«True«««True«True«True«2271«SPECIFICATION«39600«Geles-Y-Fijadores«False
+40389«Shampoo«30077«Shampoo«Shampoo«Shampoo,40389«True«««True«True«True«2271«SPECIFICATION«39900«Shampoo«False
+40390«Tratamientos«30077«Tratamientos«Tratamientos«Tratamientos,40390«True«««True«True«True«2271«SPECIFICATION«39500«Tratamientos«False
+40391«Cepillos Dentales«30078«Cepillos Dentales«Cepillos Dentales«Cepillos, Dentales,40391«True«««True«True«True«2271«SPECIFICATION«39000«Cepillos-Dentales«False
+40392«Cremas Dentales«30078«Cremas Dentales«Cremas Dentales«Cremas, Dentales,40392«True«««True«True«True«2271«SPECIFICATION«39300«Cremas-Dentales«False
+40393«Enjuagues Bucales«30078«Enjuagues Bucales«Enjuagues Bucales«Enjuagues, Bucales,40393«True«««True«True«True«2271«SPECIFICATION«39100«Enjuagues-Bucales«False
+40394«Hilos Dentales«30078«Hilos Dentales«Hilos Dentales«Hilos, Dentales,40394«True«««True«True«True«2271«SPECIFICATION«39200«Hilos-Dentales«False
+40395«Barbijos Y Mascaras«30079«Barbijos Y Mascaras«Barbijos Y Mascaras«Barbijos, Y, Mascaras,40395«True«««True«True«True«2271«SPECIFICATION«38200«Barbijos-Y-Mascaras«False
+40396«Depilacion«30079«Depilacion«Depilacion«Depilacion,40396«True«««True«True«True«2271«SPECIFICATION«36900«Depilacion«False
+40397«Desodorantes Corporales«30079«Desodorantes Corporales«Desodorantes Corporales«Desodorantes, Corporales,40397«True«««True«True«True«2271«SPECIFICATION«38800«Desodorantes-Corporales«False
+40398«Desodorantes Y Antitranspirantes«30079«Desodorantes Y Antitranspirantes«Desodorantes Y Antitranspirantes«Desodorantes, Y, Antitranspirantes,40398«True«««True«True«True«2271«SPECIFICATION«38900«Desodorantes-Y-Antitranspirantes«False
+40399«Jabones Y Geles De Ducha«30079«Jabones Y Geles De Ducha«Jabones Y Geles De Ducha«Jabones, Y, Geles, De, Ducha,40399«True«««True«True«True«2271«SPECIFICATION«39400«Jabones-Y-Geles-De-Ducha«False
+40400«Maquinas De Afeitar«30079«Maquinas De Afeitar«Maquinas De Afeitar«Maquinas, De, Afeitar,40400«True«««True«True«True«2271«SPECIFICATION«38600«Maquinas-De-Afeitar«False
+40401«Proteccion Femenina«30079«Proteccion Femenina«Proteccion Femenina«Proteccion, Femenina,40401«True«««True«True«True«2271«SPECIFICATION«38500«Proteccion-Femenina«False
+40402«Talcos Y Desodorantes Pedicos«30079«Talcos Y Desodorantes Pedicos«Talcos Y Desodorantes Pedicos«Talcos, Y, Desodorantes, Pedicos,40402«True«««True«True«True«2271«SPECIFICATION«38700«Talcos-Y-Desodorantes-Pedicos«False
+40403«Accesorios Farmacia«30080«Accesorios Farmacia«Accesorios Farmacia«Accesorios, Farmacia,40403«True«««True«True«True«2271«SPECIFICATION«37900«Accesorios-Farmacia«False
+40404«Alcoholes«30080«Alcoholes«Alcoholes«Alcoholes,40404«True«««True«True«True«2271«SPECIFICATION«38300«Alcoholes«False
+40405«Algodones E Hisopos«30080«Algodones E Hisopos«Algodones E Hisopos«Algodones, E, Hisopos,40405«True«««True«True«True«2271«SPECIFICATION«38400«Algodones-E-Hisopos«False
+40406«Apositos Adhesivos«30080«Apositos Adhesivos«Apositos Adhesivos«Apositos, Adhesivos,40406«True«««True«True«True«2271«SPECIFICATION«38000«Apositos-Adhesivos«False
+40407«Azufre«30080«Azufre«Azufre«Azufre,40407«True«««True«True«True«2271«SPECIFICATION«36400«Azufre«False
+40408«Bienestar Sexual«30080«Bienestar Sexual«Bienestar Sexual«Bienestar, Sexual,40408«True«««True«True«True«2271«SPECIFICATION«36500«Bienestar-Sexual«False
+40409«Ortopedia«30080«Ortopedia«Ortopedia«Ortopedia,40409«True«««True«True«True«2271«SPECIFICATION«36600«Ortopedia«False
+40410«Toallas Antibacteriales«30080«Toallas Antibacteriales«Toallas Antibacteriales«Toallas, Antibacteriales,40410«True«««True«True«True«2271«SPECIFICATION«38100«Toallas-Antibacteriales«False
+40412«Pruebas UV«20013«Pruebas UV«««True«««True«True«True«2271«SPECIFICATION««Pruebas-UV«False
+40900«Leche«30011«leche«leche«Leche,40900«True«««True«True«True«2271«SPECIFICATION«38400«Yerbas«False

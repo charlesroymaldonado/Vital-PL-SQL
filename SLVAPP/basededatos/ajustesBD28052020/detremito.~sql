@@ -1,0 +1,7 @@
+
+ALTER TABLE tblslvRemitoDet DROP CONSTRAINT UK_Remito_Articulo;
+
+-- Reference: FK_Remito_RemitoDet (table: tblslvRemitoDet)
+ALTER TABLE tblslvRemitoDet ADD CONSTRAINT FK_Remito_RemitoDet
+    FOREIGN KEY (idRemito)
+    REFERENCES tblslvRemito (idRemito);

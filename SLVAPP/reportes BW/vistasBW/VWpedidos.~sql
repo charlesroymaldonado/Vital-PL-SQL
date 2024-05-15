@@ -1,0 +1,31 @@
+create or replace view VIEW_DW_SLVPEDIDOSFACTURADOS as
+   select nvl2(cp.idconsolidadocomi,50, 25) cdtipotarea,
+               nvl2(cp.idconsolidadocomi,cp.idconsolidadocomi, cp.idconsolidadopedido) pedido,
+               cp.dtinsert dtinicio,
+               cp.dtupdate dtfin,
+               cp.id_canal,
+               cp.cdsucursal,
+               nvl2(dp.cdpromo,1,0) icpromo,
+               dp.cdarticulo,
+               pkg_slv_articulo.getuxbarticulo(dp.cdarticulo,decode(nvl(dp.qtpiezas,0),0,'BTO','KG'))UxB,
+               dp.qtunidadmedidabase qtsolicitada,
+               dm.qtunidadmedidabase qtfacturada,
+               (SELECT t.stock            
+                FROM tblctrlstockart t
+                WHERE t.cdarticulo = dp.cdarticulo) qtStock
+          from tblslvconsolidadopedido          cp,              
+               tblslvconsolidadopedidorel       cprel,
+               pedidos                          pe,
+               detallepedidos                   dp,               
+               movmateriales                    mm,
+               Detallemovmateriales             dm      
+         where cp.idconsolidadopedido = cprel.idconsolidadopedido          
+           and cprel.idpedido = pe.idpedido           
+           and pe.idpedido = mm.idpedido
+           and pe.idpedido = dp.idpedido  
+           and mm.idmovmateriales = dm.idmovmateriales
+           and dp.cdarticulo = dm.cdarticulo 
+           --excluyo linea de promo
+           and dp.icresppromo = 0  
+         -- and cp.idconsolidadopedido = &p_idconsolidado
+   

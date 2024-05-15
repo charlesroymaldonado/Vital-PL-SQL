@@ -1,0 +1,14 @@
+tablas:
+
+tblslvpedfaltanterel
+tblslvconsolidadopedidorel
+
+Paquetes:
+
+PKG_SLV_CONSOLIDAM
+
+
+
+
+
+

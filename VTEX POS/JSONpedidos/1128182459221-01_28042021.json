@@ -1,0 +1,2885 @@
+{
+    "orderId": "1128182459221-01",
+    "sequence": "500066",
+    "marketplaceOrderId": "",
+    "marketplaceServicesEndpoint": null,
+    "sellerOrderId": "VVN-1128182459221-01",
+    "origin": "Marketplace",
+    "affiliateId": "",
+    "salesChannel": "1",
+    "merchantName": null,
+    "status": "payment-approved",
+    "statusDescription": "Pagamento Aprovado",
+    "value": 4615349,
+    "creationDate": "2021-04-28T09:40:59.4671532+00:00",
+    "lastChange": "2021-04-28T09:41:16.0239778+00:00",
+    "orderGroup": "1128182459221",
+    "totals": [
+        {
+            "id": "Items",
+            "name": "Total de los items",
+            "value": 4615349
+        },
+        {
+            "id": "Discounts",
+            "name": "Total de descuentos",
+            "value": 0
+        },
+        {
+            "id": "Shipping",
+            "name": "Costo total del envío",
+            "value": 0
+        },
+        {
+            "id": "Tax",
+            "name": "Costo total del cambio",
+            "value": 0
+        }
+    ],
+    "items": [
+        {
+            "uniqueId": "CA549B6A6A834F04A75E9CF1D378AD9E",
+            "id": "113819",
+            "productId": "113819",
+            "ean": "7792931000022",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 24,
+            "seller": "arvitalav",
+            "name": "Agua mineral Glaciar x1.5lt",
+            "refId": "0113819",
+            "price": 6631,
+            "listPrice": 6631,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/200386-55-55/113819.jpg?v=637539749456030000",
+            "detailUrl": "/agua-mineral-glaciar-x1-5lt-113819/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "113819",
+            "priceValidUntil": "2022-04-28T09:40:26.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "GLACIAR",
+                "brandId": "20542",
+                "categoriesIds": "/20005/30034/40179/",
+                "categories": [
+                    {
+                        "id": 40179,
+                        "name": "Aguas Y Sodas"
+                    },
+                    {
+                        "id": 30034,
+                        "name": "Bebidas Sin Alcohol"
+                    },
+                    {
+                        "id": 20005,
+                        "name": "Bebidas"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 6631,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "5EB9C05C11594F81925D6D09E26397DC",
+            "id": "119263",
+            "productId": "119263",
+            "ean": "7792799000011",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 24,
+            "seller": "arvitalav",
+            "name": "Agua mineral Eco de los Andes x500cc",
+            "refId": "0119263",
+            "price": 5360,
+            "listPrice": 5360,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/199743-55-55/119263.jpg?v=637539745200130000",
+            "detailUrl": "/agua-mineral-eco-de-los-andes-x500cc-119263/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "119263",
+            "priceValidUntil": "2022-04-28T09:40:26.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "ECO D/ANDES",
+                "brandId": "20404",
+                "categoriesIds": "/20005/30034/40179/",
+                "categories": [
+                    {
+                        "id": 40179,
+                        "name": "Aguas Y Sodas"
+                    },
+                    {
+                        "id": 30034,
+                        "name": "Bebidas Sin Alcohol"
+                    },
+                    {
+                        "id": 20005,
+                        "name": "Bebidas"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 5360,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "AA28BDF69243481894C2B932DFC26CA5",
+            "id": "102729",
+            "productId": "102729",
+            "ean": "7790895002748",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 24,
+            "seller": "arvitalav",
+            "name": "Gaseosa Coca Cola lata x354/310cc",
+            "refId": "0102729",
+            "price": 5335,
+            "listPrice": 5335,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/159046-55-55/102729.jpg?v=637521499559300000",
+            "detailUrl": "/gaseosa-coca-cola-lata-x354-310cc-102729/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "102729",
+            "priceValidUntil": "2022-04-28T09:40:26.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "COCA COLA",
+                "brandId": "20274",
+                "categoriesIds": "/20005/30034/40182/",
+                "categories": [
+                    {
+                        "id": 40182,
+                        "name": "Gaseosas"
+                    },
+                    {
+                        "id": 30034,
+                        "name": "Bebidas Sin Alcohol"
+                    },
+                    {
+                        "id": 20005,
+                        "name": "Bebidas"
+                    }
+                ],
+                "productClusterId": "148",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 5335,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "11578F73FFD74B41B1702EC75BAB2A34",
+            "id": "100360",
+            "productId": "100360",
+            "ean": "7792540260138",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 100,
+            "seller": "arvitalav",
+            "name": "Azucar Ledesma x1kg",
+            "refId": "0100360",
+            "price": 6291,
+            "listPrice": 6291,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/166922-55-55/100360.jpg?v=637521646557300000",
+            "detailUrl": "/azucar-ledesma-x1kg-100360/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "100360",
+            "priceValidUntil": "2022-04-28T09:40:26.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "LEDESMA",
+                "brandId": "20724",
+                "categoriesIds": "/20002/30011/40049/",
+                "categories": [
+                    {
+                        "id": 40049,
+                        "name": "Azucar Y Edulcorante"
+                    },
+                    {
+                        "id": 30011,
+                        "name": "Desayuno Y Merienda"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 6291,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "13999428920945AB98906A4E8F095A58",
+            "id": "154191",
+            "productId": "154191",
+            "ean": "7793253001360",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 24,
+            "seller": "arvitalav",
+            "name": "Lavandina Ayudin multisuperficies original x2lt",
+            "refId": "0154191",
+            "price": 8666,
+            "listPrice": 9629,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/199522-55-55/154191.jpg?v=637539743553730000",
+            "detailUrl": "/lavandina-ayudin-multisuperficies-original-x2lt-154191/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "154191",
+            "priceValidUntil": "2022-04-28T09:40:26.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "AYUDIN",
+                "brandId": "20095",
+                "categoriesIds": "/20012/30066/40348/",
+                "categories": [
+                    {
+                        "id": 40348,
+                        "name": "Lavandinas Liquidas"
+                    },
+                    {
+                        "id": 30066,
+                        "name": "Lavandinas"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "138,147,153",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 8666,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "56104E404DFD4CE383004B3BE7BC847D",
+            "id": "120079",
+            "productId": "120079",
+            "ean": "7793344904150",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 24,
+            "seller": "arvitalav",
+            "name": "Papel higienico Elegante blanco hoja simple 30mt x6u",
+            "refId": "0120079",
+            "price": 10598,
+            "listPrice": 10598,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/168080-55-55/120079.jpg?v=637521668885530000",
+            "detailUrl": "/papel-higienico-elegante-blanco-hoja-simple-30mt-x6u-120079/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "120079",
+            "priceValidUntil": "2022-04-28T09:40:26.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "ELEGANTE",
+                "brandId": "20415",
+                "categoriesIds": "/20012/30070/40365/",
+                "categories": [
+                    {
+                        "id": 40365,
+                        "name": "Papel Higienico"
+                    },
+                    {
+                        "id": 30070,
+                        "name": "Papeles"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 10598,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "6203B07D8A704D5D8914B0E423FF78E3",
+            "id": "102849",
+            "productId": "102849",
+            "ean": "7790070507358",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 24,
+            "seller": "arvitalav",
+            "name": "Jugo de limon Minerva pet x1lt",
+            "refId": "0102849",
+            "price": 27056,
+            "listPrice": 27056,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/201120-55-55/102849.jpg?v=637539754605830000",
+            "detailUrl": "/jugo-de-limon-minerva-pet-x1lt-102849/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "102849",
+            "priceValidUntil": "2022-04-28T09:40:26.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "MINERVA",
+                "brandId": "20849",
+                "categoriesIds": "/20002/30007/40035/",
+                "categories": [
+                    {
+                        "id": 40035,
+                        "name": "Jugos De Limon"
+                    },
+                    {
+                        "id": 30007,
+                        "name": "Aceites Y Condimentos"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 27056,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "298969DE245842D68A79052A672EB018",
+            "id": "151066",
+            "productId": "151066",
+            "ean": "7790070507228",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 30,
+            "seller": "arvitalav",
+            "name": "Harina Blancaflor leudante x1kg",
+            "refId": "0151066",
+            "price": 6324,
+            "listPrice": 6324,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/161110-55-55/151066.jpg?v=637521538976970000",
+            "detailUrl": "/harina-blancaflor-leudante-x1kg-151066/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "151066",
+            "priceValidUntil": "2022-04-28T09:40:26.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "BLANCAFLOR",
+                "brandId": "20141",
+                "categoriesIds": "/20002/30013/40066/",
+                "categories": [
+                    {
+                        "id": 40066,
+                        "name": "Harinas"
+                    },
+                    {
+                        "id": 30013,
+                        "name": "Harinas"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "155",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 6324,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "C6CD3D3FDC97401C8A42B19E97CAB224",
+            "id": "149908",
+            "productId": "149908",
+            "ean": "7790070318879",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 12,
+            "seller": "arvitalav",
+            "name": "Semola Vitina clasica x500gr",
+            "refId": "0149908",
+            "price": 12939,
+            "listPrice": 12939,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/165763-55-55/149908.jpg?v=637521626124770000",
+            "detailUrl": "/semola-vitina-clasica-x500gr-149908/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "149908",
+            "priceValidUntil": "2022-04-28T09:40:26.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "VITINA",
+                "brandId": "21392",
+                "categoriesIds": "/20002/30013/40066/",
+                "categories": [
+                    {
+                        "id": 40066,
+                        "name": "Harinas"
+                    },
+                    {
+                        "id": 30013,
+                        "name": "Harinas"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "155",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 12939,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "C4EB2D6FE7344325AAF9AA845A38EC65",
+            "id": "175935",
+            "productId": "175935",
+            "ean": "7798342715210",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 32,
+            "seller": "arvitalav",
+            "name": "Rollo de cocina Bonux gigante 200p x1u",
+            "refId": "0175935",
+            "price": 8099,
+            "listPrice": 8099,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/162066-55-55/175935.jpg?v=637521558235100000",
+            "detailUrl": "/rollo-de-cocina-bonux-gigante-200p-x1u-175935/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "175935",
+            "priceValidUntil": "2021-05-02T03:00:00.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "BONUX",
+                "brandId": "20160",
+                "categoriesIds": "/20012/30070/40367/",
+                "categories": [
+                    {
+                        "id": 40367,
+                        "name": "Rollos De Cocina"
+                    },
+                    {
+                        "id": 30070,
+                        "name": "Papeles"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "138,144,147",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 8099,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "2A09271D7148428A8B895D5E7C4EE52D",
+            "id": "173400",
+            "productId": "173400",
+            "ean": "7791290789326",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 2,
+            "seller": "arvitalav",
+            "name": "Limpia vidrios Cif multiuso x5lt",
+            "refId": "0173400",
+            "price": 66065,
+            "listPrice": 66065,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/197269-55-55/173400.jpg?v=637538876676370000",
+            "detailUrl": "/limpia-vidrios-cif-multiuso-x5lt-173400/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "173400",
+            "priceValidUntil": "2022-04-28T09:40:26.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "CIF",
+                "brandId": "20258",
+                "categoriesIds": "/20012/30069/40356/",
+                "categories": [
+                    {
+                        "id": 40356,
+                        "name": "Limpia Vidrios Y Multiusos"
+                    },
+                    {
+                        "id": 30069,
+                        "name": "Limpieza De Pisos Y Superficie"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 66065,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "574B619213D34A83A044CE77359AB562",
+            "id": "166467",
+            "productId": "166467",
+            "ean": "7798023690836",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 25,
+            "seller": "arvitalav",
+            "name": "Esponja acero Bonux 16gr x1u",
+            "refId": "0166467",
+            "price": 2287,
+            "listPrice": 2287,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/187509-55-55/166467.jpg?v=637535813654500000",
+            "detailUrl": "/esponja-acero-bonux-16gr-x1u-166467/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "166467",
+            "priceValidUntil": "2022-04-28T09:40:26.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "BONUX",
+                "brandId": "20160",
+                "categoriesIds": "/20012/30060/40314/",
+                "categories": [
+                    {
+                        "id": 40314,
+                        "name": "Cepillos Esponjas Y Guantes"
+                    },
+                    {
+                        "id": 30060,
+                        "name": "Accesorios De Limpieza"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "144",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 2287,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "F4B1A212D4674670AE031282140107A2",
+            "id": "125125",
+            "productId": "125125",
+            "ean": "7613034745187",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 2,
+            "seller": "arvitalav",
+            "name": "Cafe instantaneo Dolca Suave doy pack x1kg",
+            "refId": "0125125",
+            "price": 105580,
+            "listPrice": 105580,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/186941-55-55/125125.jpg?v=637535784271570000",
+            "detailUrl": "/cafe-instantaneo-dolca-suave-doy-pack-x1kg-125125/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "125125",
+            "priceValidUntil": "2022-04-28T09:40:26.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "DOLCA",
+                "brandId": "20363",
+                "categoriesIds": "/20002/30011/40052/",
+                "categories": [
+                    {
+                        "id": 40052,
+                        "name": "Café"
+                    },
+                    {
+                        "id": 30011,
+                        "name": "Desayuno Y Merienda"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 105580,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "B90638615EBC4AD9B3E4B1D1D0204D35",
+            "id": "100455",
+            "productId": "100455",
+            "ean": "7790070936479",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 24,
+            "seller": "arvitalav",
+            "name": "Cafe instantaneo Arlistan frasco x170gr",
+            "refId": "0100455",
+            "price": 25420,
+            "listPrice": 25420,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/192028-55-55/100455.jpg?v=637535854552400000",
+            "detailUrl": "/cafe-instantaneo-arlistan-frasco-x170gr-100455/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "100455",
+            "priceValidUntil": "2022-04-28T09:40:26.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "ARLISTAN",
+                "brandId": "20080",
+                "categoriesIds": "/20002/30011/40052/",
+                "categories": [
+                    {
+                        "id": 40052,
+                        "name": "Café"
+                    },
+                    {
+                        "id": 30011,
+                        "name": "Desayuno Y Merienda"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "152,155",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 25420,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "4141FD6A39ED4488ACA7DF0D9A17FA00",
+            "id": "173265",
+            "productId": "173265",
+            "ean": "7792378001637",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 3,
+            "seller": "arvitalav",
+            "name": "Alcohol en gel M.F. x 5lt",
+            "refId": "0173265",
+            "price": 122261,
+            "listPrice": 122261,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/179772-55-55/173265.jpg?v=637535360738600000",
+            "detailUrl": "/alcohol-en-gel-m-f--x-5lt-173265/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "173265",
+            "priceValidUntil": "2022-04-28T09:40:26.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "M.F.",
+                "brandId": "20769",
+                "categoriesIds": "/20014/30080/40404/",
+                "categories": [
+                    {
+                        "id": 40404,
+                        "name": "Alcoholes"
+                    },
+                    {
+                        "id": 30080,
+                        "name": "Farmacia"
+                    },
+                    {
+                        "id": 20014,
+                        "name": "Perfumeria"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "un",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 122261,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "7E90201BB90042DBAA4D1ED88FBCA414",
+            "id": "151949",
+            "productId": "151949",
+            "ean": "7791274000584",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 3,
+            "seller": "arvitalav",
+            "name": "Jabon liquido Algabo flores mix con valvula x300ml",
+            "refId": "0151949",
+            "price": 10405,
+            "listPrice": 10405,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/190083-55-55/151949.jpg?v=637535836818500000",
+            "detailUrl": "/jabon-liquido-algabo-flores-mix-con-valvula-x300ml-151949/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "151949",
+            "priceValidUntil": "2022-04-28T09:40:26.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "ALGABO",
+                "brandId": "20043",
+                "categoriesIds": "/20014/30079/40399/",
+                "categories": [
+                    {
+                        "id": 40399,
+                        "name": "Jabones Y Geles De Ducha"
+                    },
+                    {
+                        "id": 30079,
+                        "name": "Cuidado Personal"
+                    },
+                    {
+                        "id": 20014,
+                        "name": "Perfumeria"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 10405,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "7F6B6DABDC694AC3BBD925FB230350FC",
+            "id": "176531",
+            "productId": "176531",
+            "ean": "7798024450163",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 10,
+            "seller": "arvitalav",
+            "name": "Rejilla Mister Trapo auto doble",
+            "refId": "0176531",
+            "price": 20133,
+            "listPrice": 20133,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/197912-55-55/176531.jpg?v=637538880623400000",
+            "detailUrl": "/rejilla-mister-trapo-auto-doble-176531/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "176531",
+            "priceValidUntil": "2022-04-28T09:40:26.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "MISTER TRAPO",
+                "brandId": "20856",
+                "categoriesIds": "/20012/30060/40317/",
+                "categories": [
+                    {
+                        "id": 40317,
+                        "name": "Trapos"
+                    },
+                    {
+                        "id": 30060,
+                        "name": "Accesorios De Limpieza"
+                    },
+                    {
+                        "id": 20012,
+                        "name": "Limpieza"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 1.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "UN",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 20133,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        },
+        {
+            "uniqueId": "C688DADD363D4F0DB72C6DEB5531039C",
+            "id": "175570",
+            "productId": "175570",
+            "ean": "7792180138712",
+            "lockId": null,
+            "itemAttachment": {
+                "content": {},
+                "name": null
+            },
+            "attachments": [],
+            "quantity": 12,
+            "seller": "arvitalav",
+            "name": "Aceite girasol Pureza alto omega 9 x900ml",
+            "refId": "0175570",
+            "price": 20393,
+            "listPrice": 20393,
+            "manualPrice": null,
+            "priceTags": [],
+            "imageUrl": "https://arvital.vteximg.com.br/arquivos/ids/165720-55-55/175570.jpg?v=637521625171700000",
+            "detailUrl": "/aceite-girasol-pureza-alto-omega-9-x900ml-175570/p",
+            "components": [],
+            "bundleItems": [],
+            "params": [],
+            "offerings": [],
+            "sellerSku": "175570",
+            "priceValidUntil": "2022-04-28T09:40:26.0000000+00:00",
+            "commission": 0,
+            "tax": 0,
+            "preSaleDate": null,
+            "additionalInfo": {
+                "brandName": "PUREZA",
+                "brandId": "21074",
+                "categoriesIds": "/20002/30007/40033/",
+                "categories": [
+                    {
+                        "id": 40033,
+                        "name": "Aceites"
+                    },
+                    {
+                        "id": 30007,
+                        "name": "Aceites Y Condimentos"
+                    },
+                    {
+                        "id": 20002,
+                        "name": "Almacen"
+                    }
+                ],
+                "productClusterId": "",
+                "commercialConditionId": "1",
+                "dimension": {
+                    "cubicweight": 0.0000,
+                    "height": 0.0200,
+                    "length": 0.0200,
+                    "weight": 0.0200,
+                    "width": 0.0200
+                },
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+            },
+            "measurementUnit": "un",
+            "unitMultiplier": 1.0000,
+            "sellingPrice": 20393,
+            "isGift": false,
+            "shippingPrice": null,
+            "rewardValue": 0,
+            "freightCommission": 0,
+            "priceDefinitions": null,
+            "taxCode": null,
+            "parentItemIndex": null,
+            "parentAssemblyBinding": null,
+            "callCenterOperator": null,
+            "serialNumbers": null,
+            "assemblies": [],
+            "costPrice": null
+        }
+    ],
+    "marketplaceItems": [],
+    "clientProfileData": {
+        "id": "clientProfileData",
+        "email": "6bfd3799b9544b90863b114557b50723@ct.vtex.com.br",
+        "firstName": "Diego",
+        "lastName": "Acosta",
+        "documentType": "dni",
+        "document": "26916812",
+        "phone": "+5491144455373",
+        "corporateName": null,
+        "tradeName": null,
+        "corporateDocument": null,
+        "stateInscription": null,
+        "corporatePhone": null,
+        "isCorporate": false,
+        "userProfileId": "3458a3bb-4a2b-4b57-a446-564468c0bcc1",
+        "customerClass": null
+    },
+    "giftRegistryData": null,
+    "marketingData": {
+        "id": "marketingData",
+        "utmSource": null,
+        "utmPartner": null,
+        "utmMedium": null,
+        "utmCampaign": null,
+        "coupon": null,
+        "utmiCampaign": null,
+        "utmipage": null,
+        "utmiPart": null,
+        "marketingTags": [
+            "vtexSocialSelling"
+        ]
+    },
+    "ratesAndBenefitsData": {
+        "id": "ratesAndBenefitsData",
+        "rateAndBenefitsIdentifiers": []
+    },
+    "shippingData": {
+        "id": "shippingData",
+        "address": {
+            "addressType": "residential",
+            "receiverName": "Diego Acosta",
+            "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+            "postalCode": "1870",
+            "city": "AVELLANEDA",
+            "state": "BUENOS AIRES",
+            "country": "ARG",
+            "street": "luis maria campos",
+            "number": "1569",
+            "neighborhood": "CABA, CIUDAD AUTONOMA BUENOS AIRES",
+            "complement": "PB",
+            "reference": "2        1",
+            "geoCoordinates": [
+                -58.351322174072266,
+                -34.667774200439453
+            ]
+        },
+        "logisticsInfo": [
+            {
+                "itemIndex": 0,
+                "selectedSla": "Normal",
+                "lockTTL": "14d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-01T11:00:00.0000000+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "14d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 24,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 1,
+                "selectedSla": "Normal",
+                "lockTTL": "14d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-01T11:00:00.0000000+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "14d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 24,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 2,
+                "selectedSla": "Normal",
+                "lockTTL": "14d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-01T11:00:00.0000000+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "14d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 24,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 3,
+                "selectedSla": "Normal",
+                "lockTTL": "14d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-01T11:00:00.0000000+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "14d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 100,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 4,
+                "selectedSla": "Normal",
+                "lockTTL": "14d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-01T11:00:00.0000000+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "14d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 24,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 5,
+                "selectedSla": "Normal",
+                "lockTTL": "14d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-01T11:00:00.0000000+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "14d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 24,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 6,
+                "selectedSla": "Normal",
+                "lockTTL": "14d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-01T11:00:00.0000000+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "14d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 24,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 7,
+                "selectedSla": "Normal",
+                "lockTTL": "14d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-01T11:00:00.0000000+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "14d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 30,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 8,
+                "selectedSla": "Normal",
+                "lockTTL": "14d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-01T11:00:00.0000000+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "14d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 12,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 9,
+                "selectedSla": "Normal",
+                "lockTTL": "14d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-01T11:00:00.0000000+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "14d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 32,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 10,
+                "selectedSla": "Normal",
+                "lockTTL": "14d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-01T11:00:00.0000000+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "14d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 2,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 11,
+                "selectedSla": "Normal",
+                "lockTTL": "14d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-01T11:00:00.0000000+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "14d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 25,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 12,
+                "selectedSla": "Normal",
+                "lockTTL": "14d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-01T11:00:00.0000000+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "14d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 2,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 13,
+                "selectedSla": "Normal",
+                "lockTTL": "14d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-01T11:00:00.0000000+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "14d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 24,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 14,
+                "selectedSla": "Normal",
+                "lockTTL": "14d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-01T11:00:00.0000000+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "14d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 3,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 15,
+                "selectedSla": "Normal",
+                "lockTTL": "14d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-01T11:00:00.0000000+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "14d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 3,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 16,
+                "selectedSla": "Normal",
+                "lockTTL": "14d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-01T11:00:00.0000000+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "14d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 10,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            },
+            {
+                "itemIndex": 17,
+                "selectedSla": "Normal",
+                "lockTTL": "14d",
+                "price": 0,
+                "listPrice": 0,
+                "sellingPrice": 0,
+                "deliveryWindow": null,
+                "deliveryCompany": "Transportadora",
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": "2021-05-01T11:00:00.0000000+00:00",
+                "slas": [
+                    {
+                        "id": "Normal",
+                        "name": "Normal",
+                        "shippingEstimate": "3bd",
+                        "deliveryWindow": null,
+                        "price": 0,
+                        "deliveryChannel": "delivery",
+                        "pickupStoreInfo": {
+                            "additionalInfo": null,
+                            "address": null,
+                            "dockId": null,
+                            "friendlyName": null,
+                            "isPickupStore": false
+                        },
+                        "polygonName": null,
+                        "lockTTL": "14d",
+                        "pickupPointId": null,
+                        "transitTime": "3bd"
+                    }
+                ],
+                "shipsTo": [
+                    "ARG"
+                ],
+                "deliveryIds": [
+                    {
+                        "courierId": "1",
+                        "courierName": "Transportadora",
+                        "dockId": "1",
+                        "quantity": 12,
+                        "warehouseId": "1601",
+                        "accountCarrierName": null
+                    }
+                ],
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                    "additionalInfo": null,
+                    "address": null,
+                    "dockId": null,
+                    "friendlyName": null,
+                    "isPickupStore": false
+                },
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "polygonName": null,
+                "pickupPointId": null,
+                "transitTime": "3bd"
+            }
+        ],
+        "trackingHints": null,
+        "selectedAddresses": [
+            {
+                "addressId": "AVELLANEDA BUENOS AIRES luis maria campos 1569",
+                "addressType": "residential",
+                "receiverName": "Diego Acosta",
+                "street": "luis maria campos",
+                "number": "1569",
+                "complement": "PB",
+                "neighborhood": "CABA, CIUDAD AUTONOMA BUENOS AIRES",
+                "postalCode": "1870",
+                "city": "AVELLANEDA",
+                "state": "BUENOS AIRES",
+                "country": "ARG",
+                "reference": "2        1",
+                "geoCoordinates": [
+                    -58.351322174072266,
+                    -34.667774200439453
+                ]
+            }
+        ]
+    },
+    "paymentData": {
+        "giftCards": [],
+        "transactions": [
+            {
+                "isActive": true,
+                "transactionId": "FD15983A4FD144A094620472A41BFDAA",
+                "merchantName": "ARVITAL",
+                "payments": [
+                    {
+                        "id": "FD5EADD9C4F14E3089B21A1346592013",
+                        "paymentSystem": "201",
+                        "paymentSystemName": "Pago a convenir",
+                        "value": 4615349,
+                        "installments": 1,
+                        "referenceValue": 4615349,
+                        "cardHolder": null,
+                        "cardNumber": null,
+                        "firstDigits": null,
+                        "lastDigits": null,
+                        "cvv2": null,
+                        "expireMonth": null,
+                        "expireYear": null,
+                        "url": null,
+                        "giftCardId": null,
+                        "giftCardName": null,
+                        "giftCardCaption": null,
+                        "redemptionCode": null,
+                        "group": "promissory",
+                        "tid": null,
+                        "dueDate": null,
+                        "connectorResponses": {},
+                        "giftCardProvider": null,
+                        "giftCardAsDiscount": null,
+                        "koinUrl": null,
+                        "accountId": null,
+                        "parentAccountId": null,
+                        "bankIssuedInvoiceIdentificationNumber": null,
+                        "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                        "bankIssuedInvoiceBarCodeNumber": null,
+                        "bankIssuedInvoiceBarCodeType": null,
+                        "billingAddress": null
+                    }
+                ]
+            }
+        ]
+    },
+    "packageAttachment": {
+        "packages": []
+    },
+    "sellers": [
+        {
+            "id": "arvitalav",
+            "name": "arvitalavv",
+            "logo": null,
+            "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?affiliateid=VVN&sc=1&an=arvitalav"
+        }
+    ],
+    "callCenterOperatorData": null,
+    "followUpEmail": "587bbb10263f4bf6a04208a6e83dddf8@ct.vtex.com.br",
+    "lastMessage": null,
+    "hostname": "arvital",
+    "invoiceData": null,
+    "changesAttachment": null,
+    "openTextField": null,
+    "roundingError": 0,
+    "orderFormId": "11858234ca024f4c8a96d56140d49233",
+    "commercialConditionData": null,
+    "isCompleted": true,
+    "customData": {
+        "customApps": [
+            {
+                "fields": {
+                    "value": "C068C79EF2C7201AE053100000D8B56A"
+                },
+                "id": "id_cuenta",
+                "major": 1
+            },
+            {
+                "fields": {
+                    "lista": "0.8596",
+                    "tapa": "0.0000",
+                    "oferta": "0.1404"
+                },
+                "id": "semaforo",
+                "major": 1
+            }
+        ]
+    },
+    "storePreferencesData": {
+        "countryCode": "ARG",
+        "currencyCode": "ARS",
+        "currencyFormatInfo": {
+            "CurrencyDecimalDigits": 2,
+            "CurrencyDecimalSeparator": ",",
+            "CurrencyGroupSeparator": ".",
+            "CurrencyGroupSize": 3,
+            "StartsWithCurrencySymbol": true
+        },
+        "currencyLocale": 11274,
+        "currencySymbol": "$",
+        "timeZone": "Argentina Standard Time"
+    },
+    "allowCancellation": true,
+    "allowEdition": false,
+    "isCheckedIn": false,
+    "marketplace": null,
+    "authorizedDate": "2021-04-28T09:41:06.9689658+00:00",
+    "invoicedDate": null,
+    "cancelReason": null,
+    "itemMetadata": {
+        "Items": [
+            {
+                "Id": "113819",
+                "Seller": "1",
+                "Name": "Agua mineral Glaciar x1.5lt",
+                "SkuName": "Agua mineral Glaciar x1.5lt",
+                "ProductId": "113819",
+                "RefId": "0113819",
+                "Ean": "7792931000022",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/200386-55-55/113819.jpg?v=637539749456030000",
+                "DetailUrl": "/agua-mineral-glaciar-x1-5lt-113819/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "119263",
+                "Seller": "1",
+                "Name": "Agua mineral Eco de los Andes x500cc",
+                "SkuName": "Agua mineral Eco de los Andes x500cc",
+                "ProductId": "119263",
+                "RefId": "0119263",
+                "Ean": "7792799000011",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/199743-55-55/119263.jpg?v=637539745200130000",
+                "DetailUrl": "/agua-mineral-eco-de-los-andes-x500cc-119263/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "102729",
+                "Seller": "1",
+                "Name": "Gaseosa Coca Cola lata x354/310cc",
+                "SkuName": "Gaseosa Coca Cola lata x354/310cc",
+                "ProductId": "102729",
+                "RefId": "0102729",
+                "Ean": "7790895002748",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/159046-55-55/102729.jpg?v=637521499559300000",
+                "DetailUrl": "/gaseosa-coca-cola-lata-x354-310cc-102729/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "100360",
+                "Seller": "1",
+                "Name": "Azucar Ledesma x1kg",
+                "SkuName": "Azucar Ledesma x1kg",
+                "ProductId": "100360",
+                "RefId": "0100360",
+                "Ean": "7792540260138",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/166922-55-55/100360.jpg?v=637521646557300000",
+                "DetailUrl": "/azucar-ledesma-x1kg-100360/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "154191",
+                "Seller": "1",
+                "Name": "Lavandina Ayudin multisuperficies original x2lt",
+                "SkuName": "Lavandina Ayudin multisuperficies original x2lt",
+                "ProductId": "154191",
+                "RefId": "0154191",
+                "Ean": "7793253001360",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/199522-55-55/154191.jpg?v=637539743553730000",
+                "DetailUrl": "/lavandina-ayudin-multisuperficies-original-x2lt-154191/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "120079",
+                "Seller": "1",
+                "Name": "Papel higienico Elegante blanco hoja simple 30mt x6u",
+                "SkuName": "Papel higienico Elegante blanco hoja simple 30mt x6u",
+                "ProductId": "120079",
+                "RefId": "0120079",
+                "Ean": "7793344904150",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/168080-55-55/120079.jpg?v=637521668885530000",
+                "DetailUrl": "/papel-higienico-elegante-blanco-hoja-simple-30mt-x6u-120079/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "102849",
+                "Seller": "1",
+                "Name": "Jugo de limon Minerva pet x1lt",
+                "SkuName": "Jugo de limon Minerva pet x1lt",
+                "ProductId": "102849",
+                "RefId": "0102849",
+                "Ean": "7790070507358",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/201120-55-55/102849.jpg?v=637539754605830000",
+                "DetailUrl": "/jugo-de-limon-minerva-pet-x1lt-102849/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "151066",
+                "Seller": "1",
+                "Name": "Harina Blancaflor leudante x1kg",
+                "SkuName": "Harina Blancaflor leudante x1kg",
+                "ProductId": "151066",
+                "RefId": "0151066",
+                "Ean": "7790070507228",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/161110-55-55/151066.jpg?v=637521538976970000",
+                "DetailUrl": "/harina-blancaflor-leudante-x1kg-151066/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "149908",
+                "Seller": "1",
+                "Name": "Semola Vitina clasica x500gr",
+                "SkuName": "Semola Vitina clasica x500gr",
+                "ProductId": "149908",
+                "RefId": "0149908",
+                "Ean": "7790070318879",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/165763-55-55/149908.jpg?v=637521626124770000",
+                "DetailUrl": "/semola-vitina-clasica-x500gr-149908/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "175935",
+                "Seller": "1",
+                "Name": "Rollo de cocina Bonux gigante 200p x1u",
+                "SkuName": "Rollo de cocina Bonux gigante 200p x1u",
+                "ProductId": "175935",
+                "RefId": "0175935",
+                "Ean": "7798342715210",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/162066-55-55/175935.jpg?v=637521558235100000",
+                "DetailUrl": "/rollo-de-cocina-bonux-gigante-200p-x1u-175935/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "173400",
+                "Seller": "1",
+                "Name": "Limpia vidrios Cif multiuso x5lt",
+                "SkuName": "Limpia vidrios Cif multiuso x5lt",
+                "ProductId": "173400",
+                "RefId": "0173400",
+                "Ean": "7791290789326",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/197269-55-55/173400.jpg?v=637538876676370000",
+                "DetailUrl": "/limpia-vidrios-cif-multiuso-x5lt-173400/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "166467",
+                "Seller": "1",
+                "Name": "Esponja acero Bonux 16gr x1u",
+                "SkuName": "Esponja acero Bonux 16gr x1u",
+                "ProductId": "166467",
+                "RefId": "0166467",
+                "Ean": "7798023690836",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/187509-55-55/166467.jpg?v=637535813654500000",
+                "DetailUrl": "/esponja-acero-bonux-16gr-x1u-166467/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "125125",
+                "Seller": "1",
+                "Name": "Cafe instantaneo Dolca Suave doy pack x1kg",
+                "SkuName": "Cafe instantaneo Dolca Suave doy pack x1kg",
+                "ProductId": "125125",
+                "RefId": "0125125",
+                "Ean": "7613034745187",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/186941-55-55/125125.jpg?v=637535784271570000",
+                "DetailUrl": "/cafe-instantaneo-dolca-suave-doy-pack-x1kg-125125/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "100455",
+                "Seller": "1",
+                "Name": "Cafe instantaneo Arlistan frasco x170gr",
+                "SkuName": "Cafe instantaneo Arlistan frasco x170gr",
+                "ProductId": "100455",
+                "RefId": "0100455",
+                "Ean": "7790070936479",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/192028-55-55/100455.jpg?v=637535854552400000",
+                "DetailUrl": "/cafe-instantaneo-arlistan-frasco-x170gr-100455/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "173265",
+                "Seller": "1",
+                "Name": "Alcohol en gel M.F. x 5lt",
+                "SkuName": "Alcohol en gel M.F. x 5lt",
+                "ProductId": "173265",
+                "RefId": "0173265",
+                "Ean": "7792378001637",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/179772-55-55/173265.jpg?v=637535360738600000",
+                "DetailUrl": "/alcohol-en-gel-m-f--x-5lt-173265/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "151949",
+                "Seller": "1",
+                "Name": "Jabon liquido Algabo flores mix con valvula x300ml",
+                "SkuName": "Jabon liquido Algabo flores mix con valvula x300ml",
+                "ProductId": "151949",
+                "RefId": "0151949",
+                "Ean": "7791274000584",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/190083-55-55/151949.jpg?v=637535836818500000",
+                "DetailUrl": "/jabon-liquido-algabo-flores-mix-con-valvula-x300ml-151949/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "176531",
+                "Seller": "1",
+                "Name": "Rejilla Mister Trapo auto doble",
+                "SkuName": "Rejilla Mister Trapo auto doble",
+                "ProductId": "176531",
+                "RefId": "0176531",
+                "Ean": "7798024450163",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/197912-55-55/176531.jpg?v=637538880623400000",
+                "DetailUrl": "/rejilla-mister-trapo-auto-doble-176531/p",
+                "AssemblyOptions": []
+            },
+            {
+                "Id": "175570",
+                "Seller": "1",
+                "Name": "Aceite girasol Pureza alto omega 9 x900ml",
+                "SkuName": "Aceite girasol Pureza alto omega 9 x900ml",
+                "ProductId": "175570",
+                "RefId": "0175570",
+                "Ean": "7792180138712",
+                "ImageUrl": "http://arvital.vteximg.com.br/arquivos/ids/165720-55-55/175570.jpg?v=637521625171700000",
+                "DetailUrl": "/aceite-girasol-pureza-alto-omega-9-x900ml-175570/p",
+                "AssemblyOptions": []
+            }
+        ]
+    },
+    "subscriptionData": null,
+    "taxData": null,
+    "checkedInPickupPointId": null,
+    "cancellationData": null
+}

@@ -1,0 +1,28 @@
+Vistas LETRA:
+
+SUCDEV:
+
+V_LETRA_ENTREGA
+V_LETRA_GUIA_REMITO
+V_LETRA_GUIA_ESTADO
+
+ACDEV:
+
+V_LETRA_PEDIDO
+V_LETRA_PEDIDO_CONTINGENCIA
+
+Triggers LETRA: 
+
+SUCDEV:
+
+trg_rep_consolidadom
+trg_rep_tblslvremito
+trg_rep_tblslvtarea
+trg_rep_tblslvpedfaltanterel
+trg_rep_consolidadopedido
+trg_rep_consolidadopedidorel
+
+
+
+
+

@@ -1,0 +1,40 @@
+Vistas DW para crear en ACDEV y AC:
+
+SLVAPP.SUCDEV:
+
+VIEW_DW_SLVCONTROLREMITO
+VIEW_DW_SLVMULTICANAL
+VIEW_DW_SLVPEDIDOSFACTURADOS
+VIEW_DW_SLVTAREAS
+
+
+POSAPP.SUCDEV:
+
+DW_PEDIDOS_V2
+DW_PEDIDOSDETALLE_V2
+DW_PEDIDOS_GEN_CO
+DW_PEDIDOSDETALLE_GEN_CO
+
+Triggers necesarios para replicas en AC y ACDEV de las vistas creadas para DW: 
+
+SUCDEV:
+
+trg_rep_consolidadom
+trg_rep_consolidadomdet
+trg_rep_consolidadopedido
+trg_rep_consolidadopedidorel
+trg_rep_tblslvpedfaltanterel
+trg_rep_tblslvremito
+trg_rep_tblslvcontrolremito
+trg_rep_tblslvcontrolremitodet
+trg_rep_tblslvtarea
+trg_rep_tblslvtareadet
+trg_rep_pedgeneradoxfaltante
+
+
+Tablas a pasar de SUCDEV a AC y ACDEV:
+
+tblslvTipoTarea
+
+
+
